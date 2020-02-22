@@ -87,7 +87,7 @@ class ExtensionInstallPrompt {
   class Prompt {
    public:
     explicit Prompt(PromptType type);
-    ~Prompt();
+    virtual ~Prompt();
 
     void AddPermissions(const extensions::PermissionMessages& permissions);
     void SetIsShowingDetails(DetailsType type,
@@ -101,7 +101,7 @@ class ExtensionInstallPrompt {
     PromptType type() const { return type_; }
 
     // Getters for UI element labels.
-    base::string16 GetDialogTitle() const;
+    virtual base::string16 GetDialogTitle() const;
     int GetDialogButtons() const;
     // Returns the empty string when there should be no "accept" button.
     base::string16 GetAcceptButtonLabel() const;
@@ -164,6 +164,7 @@ class ExtensionInstallPrompt {
 
    private:
     friend class base::RefCountedThreadSafe<Prompt>;
+    friend class BravePrompt;
 
     struct InstallPromptPermissions {
       InstallPromptPermissions();

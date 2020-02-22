@@ -1,234 +1,234 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="fi">
-<translation id="1065672644894730302">Asetuksiasi ei voi lukea. Kaikkia toimintoja ei voi välttämättä käyttää eikä asetuksiin tehtäviä muutoksia tallenneta.</translation>
-<translation id="1104942323762546749">Chromium yrittää viedä salasanojasi tiedostoon. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
-<translation id="1115445892567829615">Chromium ei voinut synkronoida tietoja. Päivitä synkronoinnin tunnuslause.</translation>
-<translation id="113122355610423240">Chromium on oletusselaimesi.</translation>
-<translation id="1185134272377778587">Tietoja Chromiumista</translation>
-<translation id="1396446129537741364">Chromium yrittää näyttää salasanat.</translation>
-<translation id="1414495520565016063">Olet kirjautunut Chromiumiin!</translation>
-<translation id="151962892725702025">Chromium-käyttöjärjestelmä ei voi synkronoida tietoja, koska synkronointi ei ole käytettävissä verkkotunnuksessasi.</translation>
-<translation id="1524282610922162960">Jaa Chromium-välilehti</translation>
-<translation id="1607715478322902680">{COUNT,plural, =0{Ylläpitäjä vaatii Chromiumin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön.}=1{Ylläpitäjä vaatii Chromiumin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön. Incognito-ikkunaasi ei avata uudelleen.}other{Ylläpitäjä vaatii Chromiumin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön. # incognito-ikkunaasi ei avata uudelleen.}}</translation>
-<translation id="1708666629004767631">Chromiumista on saatavilla uusi, turvallisempi versio.</translation>
-<translation id="1774152462503052664">Jätä Chromium käyntiin taustalle</translation>
-<translation id="1779356040007214683">Paransimme Chromiumin turvallisuutta poistamalla käytöstä sovelluksia, joita ei löydy kohteesta <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> ja jotka on voitu lisätä ilman lupaasi.</translation>
-<translation id="1808667845054772817">Asenna Chromium uudelleen</translation>
-<translation id="1881322772814446296">Olet kirjautumassa sisään hallinnoidulla tilillä ja antamassa tilin järjestelmänvalvojalle oikeuden hallita Chromium-profiiliasi. Chromium-tietosi, kuten sovelluksesi, kirjanmerkkisi, historiasi, salasanasi ja muut asetuksesi, yhdistetään pysyvästi käyttäjätiliin <ph name="USER_NAME" />. Voit poistaa nämä tiedot Google-tilien Hallintapaneelissa, mutta et voi liittää tietoja toiseen tiliin. Halutessasi voit luoda uuden profiilin, jolloin aiemmat Chromium-tietosi pysyvät erillään. <ph name="LEARN_MORE" /></translation>
-<translation id="1911763535808217981">Poistamalla tämän käytöstä voit kirjautua Google-sivustoille, esim. Gmailiin, kirjautumatta Chromiumiin.</translation>
-<translation id="1929939181775079593">Chromium ei vastaa. Käynnistetäänkö uudelleen?</translation>
-<translation id="1966382378801805537">Chromium ei voi tunnistaa tai asettaa oletusselainta.</translation>
-<translation id="2008474315282236005">Tämä poistaa yhden kohteen pysyvästi laitteelta. Jos haluat palauttaa tiedot myöhemmin, kirjaudu Chromiumiin käyttäjänä <ph name="USER_EMAIL" />.</translation>
-<translation id="2119636228670142020">Tietoja &amp;Chromium-käyttöjärjestelmästä</translation>
-<translation id="2241627712206172106">Jos käytät jaettua tietokonetta, kaverisi ja perheenjäsenesi voivat selata verkkoa omista profiileistaan käsin ja muokata Chromiumista juuri itselleen sopivan.</translation>
-<translation id="2347108572062610441">Tämä laajennus on vaihtanut Chromiumin aloitussivun.</translation>
-<translation id="2396765026452590966">Laajennus <ph name="EXTENSION_NAME" /> on vaihtanut Chromiumin aloitussivun.</translation>
-<translation id="2483889755041906834">Chromiumissa</translation>
-<translation id="2485422356828889247">Poista</translation>
-<translation id="2527042973354814951">Käynnistä Chromium uudelleen, jotta <ph name="PLUGIN_NAME" /> voidaan ottaa käyttöön.</translation>
-<translation id="2535480412977113886">Chromium-käyttöjärjestelmä ei voi synkronoida tietoja, sillä tilin kirjautumistiedot ovat vanhentuneet.</translation>
-<translation id="2560420686485554789">Chromium tarvitsee tallennustilan käyttöoikeuden tiedostojen lataamiseen.</translation>
-<translation id="2572494885440352020">Chromium Helper</translation>
-<translation id="2587578672395088481">Chromium-käyttöjärjestelmä täytyy käynnistää uudelleen, jotta päivitys voidaan ottaa käyttöön.</translation>
-<translation id="2647554856022461007">Chromium voi käyttää verkkopalveluita selauskokemuksesi parantamiseen. Voit halutessasi poistaa nämä palvelut käytöstä. <ph name="BEGIN_LINK" />Lisätietoja<ph name="END_LINK" /></translation>
-<translation id="2648074677641340862">Asennuksessa ilmeni käyttöjärjestelmävirhe. Lataa Chromium uudelleen.</translation>
-<translation id="2711502716910134313">Chromium-välilehti</translation>
-<translation id="2718390899429598676">Chromium lisää suojausta salaamalla tietosi.</translation>
-<translation id="2770231113462710648">Vaihda oletusselaimeksi:</translation>
-<translation id="2799223571221894425">Käynnistä uudelleen</translation>
-<translation id="2838154144102149890">Päivittämistä varten Chromium on suljettava tällä tietokoneella. Tämän takia muut tietokoneelle kirjautuneet voivat menettää tallentamattomat muutokset.</translation>
-<translation id="2847479871509788944">Poista Chromiumista…</translation>
-<translation id="2886012850691518054">Valinnainen: Lähetä Googlelle automaattisesti käyttötilastoja ja virheraportteja Chromiumin kehittämiseksi.</translation>
-<translation id="2910007522516064972">Tietoja &amp;Chromiumista</translation>
-<translation id="2977470724722393594">Chromium on ajan tasalla.</translation>
-<translation id="3032787606318309379">Lisätään Chromiumiin...</translation>
-<translation id="3068515742935458733">Auta parantamaan Chromiumia lähettämällä kaatumisilmoitukset ja <ph name="UMA_LINK" /> Googlelle</translation>
-<translation id="3103660991484857065">Asennusohjelma ei pystynyt purkamaan arkistotiedostoa. Lataa Chromium uudelleen.</translation>
-<translation id="3130323860337406239">Chromium käyttää mikrofoniasi.</translation>
-<translation id="3155163173539279776">Käynnistä Chromium uudelleen</translation>
-<translation id="3179665906251668410">Avaa linkki Chromiumin inco&amp;gnito-ikkunassa</translation>
-<translation id="3190315855212034486">Hups! Chromium kaatui. Käynnistetäänkö uudelleen?</translation>
-<translation id="3229526316128325841">Chromium yrittää viedä salasanojasi tiedostoon.</translation>
-<translation id="3258596308407688501">Chromium ei voi lukea tietohakemistoaan ja kirjoittaa siihen:
-
-<ph name="USER_DATA_DIRECTORY" /></translation>
-<translation id="328888136576916638">Googlen sovellusliittymän avaimet puuttuvat. Jotkin Chromiumin toiminnoista poistetaan käytöstä.</translation>
-<translation id="3296368748942286671">Jätä taustasovellukset käyntiin, kun Chromium suljetaan</translation>
-<translation id="331951419404882060">Chromium-käyttöjärjestelmä ei voi synkronoida tietoja kirjautumisvirheen vuoksi.</translation>
-<translation id="3340978935015468852">asetuksissa</translation>
-<translation id="3474745554856756813">Tämä poistaa <ph name="ITEMS_COUNT" /> kohdetta pysyvästi laitteelta. Jos haluat palauttaa tiedot myöhemmin, kirjaudu Chromiumiin käyttäjänä <ph name="USER_EMAIL" />.</translation>
-<translation id="3509308970982693815">Sulje kaikki Chromium-ikkunat ja yritä uudelleen.</translation>
-<translation id="352783484088404971">Poista Chromiumista…</translation>
-<translation id="3575459661164320785">Tietokoneellasi on haitallinen ohjelmisto. Chromium voi poistaa sen, palauttaa asetuksesi ja poistaa laajennukset käytöstä, jotta selaimesi toimii taas normaalisti.</translation>
-<translation id="358997566136285270">Chromium-logo</translation>
-<translation id="3639635944603682591">Käyttäjän selaustiedot poistetaan tältä laitteelta. Jos haluat palauttaa tiedot myöhemmin, kirjaudu Chromiumiin käyttäjänä <ph name="USER_EMAIL" />.</translation>
-<translation id="364817392622123556">{COUNT,plural, =0{Uusi Chromium-päivitys on saatavilla, ja se otetaan käyttöön uudelleenkäynnistyksen jälkeen.}=1{Uusi Chromium-päivitys on saatavilla, ja se otetaan käyttöön uudelleenkäynnistyksen jälkeen. Incognito-ikkunaasi ei avata uudelleen.}other{Uusi Chromium-päivitys on saatavilla, ja se otetaan käyttöön uudelleenkäynnistyksen jälkeen. # incognito-ikkunaasi ei avata uudelleen.}}</translation>
-<translation id="370962675267501463">{COUNT,plural, =0{Ylläpitäjä pyytää Chromiumin uudelleenkäynnistystä, jotta tämä päivitys voidaan ottaa käyttöön.}=1{Ylläpitäjä pyytää Chromiumin uudelleenkäynnistystä, jotta tämä päivitys voidaan ottaa käyttöön. Incognito-ikkunaasi ei avata uudelleen.}other{Ylläpitäjä pyytää Chromiumin uudelleenkäynnistystä, jotta tämä päivitys voidaan ottaa käyttöön. # incognito-ikkunaasi ei avata uudelleen.}}</translation>
-<translation id="3713809861844741608">Avaa linkki uudella Chromiumin välilehdellä</translation>
-<translation id="3728336900324680424">Chromium käyttää Drivea antaakseen ehdotuksia osoitepalkissa</translation>
-<translation id="378917192836375108">Chromiumin avulla voit soittaa Skypellä puhelinnumeroon klikkaamalla sitä verkossa!</translation>
-<translation id="3848258323044014972"><ph name="PAGE_TITLE" /> - Chromium</translation>
-<translation id="388648406173476553">Yksilöi ja ylläpidä Chromiumia. Toimenpiteitä vaaditaan. Katso lisätiedot klikkaamalla.</translation>
-<translation id="3889543394854987837">Avaa Chromium klikkaamalla nimeäsi ja aloita selaaminen.</translation>
-<translation id="4036079820698952681">Auta parantamaan Chromiumia ilmoittamalla <ph name="BEGIN_LINK" />nykyiset asetukset<ph name="END_LINK" />.</translation>
-<translation id="4050175100176540509">Uusimmassa versiossa on käytettävissä tärkeitä turvallisuusparannuksia ja uusia ominaisuuksia.</translation>
-<translation id="421369550622382712">Löydät hienoja sovelluksia, pelejä, laajennuksia ja teemoja Chromiumille.</translation>
-<translation id="4216212958613226427">Chromium-käyttöliittymä näytetään tällä kielellä</translation>
-<translation id="4230135487732243613">Linkitetäänkö Chromium-tiedot tähän tiliin?</translation>
-<translation id="4271805377592243930">Ohjeita Chromiumin käyttöön</translation>
-<translation id="4285930937574705105">Asennus epäonnistui tuntemattoman virheen takia. Jos Chromium on tällä hetkellä käynnissä, sulje se ja yritä uudelleen.</translation>
-<translation id="4407044323746248786">Suljetaanko Chromium silti?</translation>
-<translation id="4415566066719264597">Jätä Chromium käyntiin taustalle</translation>
-<translation id="4423735387467980091">Chromiumin muokkaus ja hallinta</translation>
-<translation id="4567424176335768812">Olet kirjautunut Chromeen tilillä <ph name="USER_EMAIL_ADDRESS" />. Nyt voit käyttää kirjanmerkkejäsi, historiaa ja muita asetuksia kaikilla laitteilla, joihin olet kirjautunut.</translation>
-<translation id="459535195905078186">Chromium-sovellukset</translation>
-<translation id="4621240073146040695">Melkein valmista. Viimeistele päivitys käynnistämällä Chromium uudelleen.</translation>
-<translation id="4661006601577405669">Chromiumin tulevat versiot asennetaan automaattisesti.</translation>
-<translation id="4677944499843243528">Profiili näyttäisi olevan toisen Chromium-prosessin (<ph name="PROCESS_ID" />) käytössä toisella tietokoneella (<ph name="HOST_NAME" />). Chromium on lukinnut profiilin, jotta se ei vioitu. Jos olet varma, että mikään toinen prosessi ei käytä tätä profiilia, voit poistaa profiilin lukituksen ja käynnistää Chromiumin uudelleen.</translation>
-<translation id="469338717132742108">Ohjeita Chromium-käyttöjärjestelmän käyttöön</translation>
-<translation id="4708774505295300557">Joku on jo kirjautunut tällä tietokoneella Chromiumiin käyttäjätilillä <ph name="ACCOUNT_EMAIL_LAST" />. Luo uusi Chromium-käyttäjä, jos haluat pitää tiedot erillään.</translation>
-<translation id="4746050847053251315">Suljetaanko Chromium silti?</translation>
-<translation id="4748217263233248895">Chromiumin tärkeä tietoturvapäivitys on asennettu. Käynnistä selain uudelleen – palautamme avoimet välilehdet.</translation>
-<translation id="479167709087336770">Tämä käyttää samaa oikeinkirjoituksen tarkistusta kuin Google Haku. Selaimeen kirjoittamasi teksti lähetetään Googlelle. Voit muuttaa tätä milloin tahansa asetuksista.</translation>
-<translation id="4888717733111232871">Chromiumin saapuvien yhteyksien sääntö, joka sallii mDNS-liikenteen.</translation>
-<translation id="4943838377383847465">Chromium on käynnissä taustalla</translation>
-<translation id="4987820182225656817">Vierailijat voivat käyttää Chromiumia jälkiä jättämättä.</translation>
-<translation id="4994636714258228724">Lisää itsesi Chromiumiin</translation>
-<translation id="5277894862589591112">Ota muutokset käyttöön käynnistämällä Chromium uudelleen</translation>
-<translation id="5358375970380395591">Olet kirjautumassa sisään hallinnoidulla tilillä ja antamassa tilin järjestelmänvalvojalle oikeuden hallita Chromium-profiiliasi. Chromium-tietosi, kuten sovelluksesi, kirjanmerkkisi, historiasi, salasanasi ja muut asetuksesi, yhdistetään pysyvästi käyttäjätiliin <ph name="USER_NAME" />. Voit poistaa nämä tiedot Google-tilien Hallintapaneelissa, mutta et voi liittää tietoja toiseen tiliin. <ph name="LEARN_MORE" /></translation>
-<translation id="5386450000063123300">Päivitetään Chromiumia (<ph name="PROGRESS_PERCENT" />)</translation>
-<translation id="538767207339317086">Salli Chromium-kirjautuminen</translation>
-<translation id="5398878173008909840">Chromiumista on saatavilla uusi versio.</translation>
-<translation id="5416696090975899932">Chromium ei voi näyttää tulostusesikatselua, koska PDF-katseluohjelma puuttuu.</translation>
-<translation id="5427571867875391349">Aseta Chromium oletusselaimeksi</translation>
-<translation id="5438241569118040789"><ph name="PAGE_TITLE" /> – Chromium Beta</translation>
-<translation id="5479196819031988440">Chromium-käyttöjärjestelmä ei voi avata tätä sivua.</translation>
-<translation id="5480860683791598150">Chromium tarvitsee oikeuden käyttää sijaintiasi, jotta se voidaan jakaa tämän sivuston kanssa.</translation>
-<translation id="549669000822060376">Odota hetki, Chromium asentaa uusimpia järjestelmäpäivityksiä.</translation>
-<translation id="5623402015214259806">{0,plural, =0{Chromium-päivitys on saatavilla}=1{Chromium-päivitys on saatavilla}other{Chromium-päivitys on ollut saatavilla # vuorokauden ajan}}</translation>
-<translation id="5631814766731275228">Chromiumin nimi ja kuva</translation>
-<translation id="5634636535844844681">Chromium edellyttää Windows 7:ää tai uudempaa versiota.</translation>
-<translation id="5653831366781983928">Käynnistä Chromium uudelleen nyt</translation>
-<translation id="5680901439334282664">Kirjaudu sisään Chromiumiin</translation>
-<translation id="5698481217667032250">Näytä Chromium tällä kielellä</translation>
-<translation id="5820394555380036790">Chromium-käyttöjärjestelmä</translation>
-<translation id="5862307444128926510">Tervetuloa Chromiumiin</translation>
-<translation id="5895138241574237353">Käynnistä uudelleen</translation>
-<translation id="5987687638152509985">Aloita synkronointi päivittämällä Chromium.</translation>
-<translation id="6013050204643758987">Toinen <ph name="BEGIN_LINK_CROS_OSS" />avoimen lähdekoodin ohjelmisto<ph name="END_LINK_CROS_OSS" /> tukee Chromium-käyttöjärjestelmää, kuten myös <ph name="BEGIN_LINK_LINUX_OSS" />Linuxia (beta)<ph name="END_LINK_LINUX_OSS" />.</translation>
-<translation id="6055895534982063517">Chromiumista on saatavilla uusi versio, joka on entistäkin nopeampi.</translation>
-<translation id="6063093106622310249">&amp;Avaa Chromiumissa</translation>
-<translation id="6072279588547424923"><ph name="EXTENSION_NAME" /> on lisätty Chromiumiin</translation>
-<translation id="608189560609172163">Chromium ei voinut synkronoida tietoja kirjautumisvirheen vuoksi.</translation>
-<translation id="6096348254544841612">Muokkaa ja hallinnoi Chromiumia. Päivitys on saatavilla.</translation>
-<translation id="6120345080069858279">Chromium tallentaa tämän salasanan Google-tilillesi. Sinun ei tarvitse muistaa sitä.</translation>
-<translation id="6129621093834146363"><ph name="FILE_NAME" /> on vaarallinen, joten Chromium on estänyt sen.</translation>
-<translation id="6212496753309875659">Tälle tietokoneelle on jo asennettu Chromiumin uudempi versio. Jos Chromium ei toimi, poista sen asennus ja yritä uudelleen.</translation>
-<translation id="6219195342503754812">{0,plural, =0{Chromium käynnistetään uudelleen nyt}=1{Chromium käynnistetään uudelleen 1 sekunnin kuluttua}other{Chromium käynnistetään uudelleen # sekunnin kuluttua}}</translation>
-<translation id="6248213926982192922">Tee Chromiumista oletusselain</translation>
-<translation id="6268381023930128611">Kirjaudutaanko ulos?</translation>
-<translation id="6295779123002464101"><ph name="FILE_NAME" /> voi olla vaarallinen, joten Chromium on estänyt sen.</translation>
-<translation id="6309712487085796862">Chromium käyttää kameraasi.</translation>
-<translation id="6333502561965082103">Toinen Chromium-prosessi on jo käynnissä. Yritä myöhemmin uudelleen.</translation>
-<translation id="6334986366598267305">Nyt voit helpommin käyttää Chromiumia Google-tililläsi ja jaetuilla tietokoneilla.</translation>
-<translation id="6373523479360886564">Haluatko varmasti poistaa Chromiumin asennuksen?</translation>
-<translation id="6400072781405947421">Chromium ei välttämättä toimi oikein, koska Mac OS X 10.9 ei enää tue sitä.</translation>
-<translation id="6403826409255603130">Chromium on selain, jolla verkkosivut ja sovellukset toimivat salamannopeasti. Se on nopea, vakaa ja helppokäyttöinen. Chromiumin sisäänrakennettu haittaohjelma- ja tietojenkalastelusuojaus tekevät verkkoselauksesta turvallisempaa.</translation>
-<translation id="6434250628340475518">Chromium-käyttöjärjestelmä</translation>
-<translation id="6457450909262716557">{SECONDS,plural, =1{Chromium käynnistyy uudelleen 1 sekunnin kuluttua}other{Chromium käynnistyy uudelleen # sekunnin kuluttua}}</translation>
-<translation id="6475912303565314141">Määrittää myös Chromiumin aloitussivun.</translation>
-<translation id="6510925080656968729">Poista Chromium</translation>
-<translation id="6570579332384693436">Chromium lähettää kenttiin kirjoittamasi tekstin Googlelle oikeinkirjoitusvirheiden korjaamiseksi.</translation>
-<translation id="6598877126913850652">Siirry Chromiumin ilmoitusasetuksiin</translation>
-<translation id="6676384891291319759">Käytä internetiä</translation>
-<translation id="6717134281241384636">Profiiliasi ei voi käyttää, sillä se on peräisin Chromiumin uudemmasta versiosta.
-
-Kaikki ominaisuudet eivät ehkä ole käytettävissä. Määritä jokin muu profiilihakemisto tai käytä Chromiumin uudempaa versiota.</translation>
-<translation id="6734080038664603509">Päivitä &amp;Chromium</translation>
-<translation id="6734291798041940871">Chromium on jo asennettuna kaikille tietokoneen käyttäjille.</translation>
-<translation id="6847869444787758381">Chromium ilmoittaa sinulle, jos salasanasi ovat vaarantuneet</translation>
-<translation id="6857782730669500492">Chromium – <ph name="PAGE_TITLE" /></translation>
-<translation id="6863361426438995919">Google Pay (kopioitu Chromiumiin)</translation>
-<translation id="6868056391275687737">Chromiumin muita kopioita on käynnissä. Sulje ne päivittämistä varten.</translation>
-<translation id="6893813176749746474">Chromium on päivitetty, mutta et ole käyttänyt sitä ainakaan 30 päivään.</translation>
-<translation id="6964305034639999644">Avaa linkki Chromiumin inco&amp;gnito-ikkunassa</translation>
-<translation id="6990124437352146030">Chromium tarvitsee oikeuden käyttää mikrofoniasi tällä sivustolla.</translation>
-<translation id="705851970750939768">Päivitä Chromium</translation>
-<translation id="7066436765290594559">Chromium-käyttöjärjestelmä ei voi synkronoida tietoja. Päivitä synkronoinnin tunnuslause.</translation>
-<translation id="7067091210845072982">Jos kuvalla ei ole hyödyllistä kuvausta, Chromium yrittää luoda sellaisen. Kuvat lähetetään Googlelle kuvausten luomista varten.</translation>
-<translation id="7196312274710523067">Chromiumin käynnistäminen epäonnistui. Yritä uudelleen.</translation>
-<translation id="7205698830395646142">Piilota Chromium-valikossa</translation>
-<translation id="7223968959479464213">Tehtävänhallinta - Chromium</translation>
-<translation id="731644333568559921">Päivitä &amp;Chromium-käyttöjärjestelmä</translation>
-<translation id="731795002583552498">Päivitetään Chromiumia.</translation>
-<translation id="7318036098707714271">Asetustiedostosi on virheellinen.
-
-Chromium ei voi palauttaa asetuksiasi.</translation>
-<translation id="7337881442233988129">Chromium</translation>
+<translation id="939305735877869636">Dissenter</translation>
+<translation id="6373767849825830651">Dissenter on selain, jolla verkkosivut ja sovellukset toimivat salamannopeasti. Se on nopea, vakaa ja helppokäyttöinen. Dissenterin sisäänrakennettu haittaohjelma- ja tietojenkalastelusuojaus tekevät verkkoselauksesta turvallisempaa.</translation>
+<translation id="680297041157509674">Dissenter-käyttöjärjestelmä</translation>
+<translation id="4847979153841887006">Dissenter-logo</translation>
 <translation id="7339898014177206373">Uusi ikkuna</translation>
-<translation id="734373864078049451">Tämä on verkkosi, kirjanmerkkiesi ja muun Chromium-sisältösi koti.</translation>
-<translation id="7349591376906416160">Järjestelmänvalvojasi on määrittänyt Chromiumin avaamaan osoitteen <ph name="TARGET_URL_HOSTNAME" /> selaimella <ph name="ALTERNATIVE_BROWSER_NAME" />.</translation>
-<translation id="7448255348454382571">Käynnistä Chromium OS uudelleen</translation>
-<translation id="7449453770951226939"><ph name="PAGE_TITLE" /> – Chromium Dev</translation>
-<translation id="7451052299415159299">Chromium tarvitsee oikeuden käyttää kameraasi tällä sivustolla.</translation>
-<translation id="7483335560992089831">Chromiumista ei voi asentaa versiota, joka on tällä hetkellä käynnissä. Sulje Chromium ja yritä uudelleen.</translation>
-<translation id="751093125041325477">Chromiumin tulevat versiot asennetaan automaattisesti. Kun lataus on valmis, Chromium käynnistyy uudelleen ja voit aloittaa käytön.</translation>
-<translation id="753534427205733210">{0,plural, =1{Chromium käynnistetään uudelleen 1 minuutin kuluttua}other{Chromium käynnistetään uudelleen # minuutin kuluttua}}</translation>
-<translation id="7549178288319965365">Tietoja Chromium-käyttöjärjestelmästä</translation>
-<translation id="7561906087460245826">Poista data myös Chromiumista (<ph name="URL" />)</translation>
-<translation id="7585853947355360626">Jos asetus ei näy tällä sivulla, siirry <ph name="LINK_BEGIN" />
-    Chromium-käyttöjärjestelmän asetuksiin<ph name="LINK_END" />.</translation>
-<translation id="761356813943268536">Chromium käyttää kameraasi ja mikrofoniasi.</translation>
-<translation id="7617377681829253106">Chromium on nyt entistä parempi</translation>
-<translation id="7686590090926151193">Chromium ei ole oletusselain.</translation>
-<translation id="7689606757190482937">Voit synkronoida Chromiumin ja tehdä siitä yksilöllisemmän kaikilla laitteilla.</translation>
-<translation id="7729447699958282447">Chromium ei voinut synkronoida tietoja, koska synkronointi ei ole käytettävissä verkkotunnuksessasi.</translation>
-<translation id="7745317241717453663">Tämä poistaa selaustiedot pysyvästi laitteelta. Jos haluat palauttaa tiedot myöhemmin, kirjaudu Chromiumiin käyttäjänä <ph name="USER_EMAIL" />.</translation>
+<translation id="5935964611177478118">Kirjaudu sisään Dissenteriin</translation>
+<translation id="5516268345616100622">Tehtävänhallinta - Dissenter</translation>
+<translation id="7918740962659365265">Auta parantamaan Dissenteria lähettämällä kaatumisilmoitukset ja <ph name="UMA_LINK"/> Gab AI Inclle</translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - Dissenter</translation>
+<translation id="7830723774663008396">Dissenter – <ph name="PAGE_TITLE"/></translation>
+<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> – Dissenter Beta</translation>
+<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> – Dissenter Dev</translation>
+<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> – Dissenter Canary</translation>
+<translation id="8992261409816268381">The Dissenter Authors</translation>
+<translation id="8121009781989288430">Copyright <ph name="YEAR"/> The Dissenter Authors. Kaikki oikeudet pidätetään.</translation>
+<translation id="2310890394934209120">Dissenter-käyttöjärjestelmän ovat tehneet mahdolliseksi muut <ph name="BEGIN_LINK_CROS_OSS"/>avoimen lähdekoodin ohjelmistot<ph name="END_LINK_CROS_OSS"/>.</translation>
+<translation id="8160794320557846790">Toinen <ph name="BEGIN_LINK_CROS_OSS"/>avoimen lähdekoodin ohjelmisto<ph name="END_LINK_CROS_OSS"/> tukee Dissenter-käyttöjärjestelmää, kuten myös <ph name="BEGIN_LINK_LINUX_OSS"/>Linuxia (beta)<ph name="END_LINK_LINUX_OSS"/>.</translation>
+<translation id="6913582816347128893">Dissenter ei välttämättä toimi oikein, koska Mac OS X 10.9 ei enää tue sitä.</translation>
+<translation id="7977787072794666032">Dissenter ei välttämättä toimi oikein, koska se ei enää tue Windows XP:tä tai Windows Vistaa.</translation>
+<translation id="189297655255130768">Dissenter ei vastaa. Käynnistetäänkö uudelleen?</translation>
+<translation id="8703492925273919597">Sulje kaikki Dissenter-ikkunat ja yritä uudelleen.</translation>
+<translation id="335632367599648646">Haluatko varmasti poistaa Dissenterin asennuksen?</translation>
+<translation id="5590013613412457132">Poista Dissenter</translation>
+<translation id="5019879183386042809">Tee Dissenterista oletusselain</translation>
+<translation id="5063987220091207247">Dissenter-käyttöjärjestelmä ei voi avata tätä sivua.</translation>
+<translation id="4065288863231444640">Jätä Dissenter käyntiin taustalle</translation>
+<translation id="6797402139308059782">Jätä Dissenter käyntiin taustalle</translation>
+<translation id="2585240446624043880">Dissenter ei voi lukea tietohakemistoaan ja kirjoittaa siihen:
+
+<ph name="USER_DATA_DIRECTORY"/></translation>
+<translation id="8417700129970341035">Valinnainen: Lähetä Gab AI Inclle automaattisesti käyttötilastoja ja virheraportteja Dissenterin kehittämiseksi.</translation>
+<translation id="1489465648257900784">Profiiliasi ei voi käyttää, sillä se on peräisin Dissenterin uudemmasta versiosta.
+
+Kaikki ominaisuudet eivät ehkä ole käytettävissä. Määritä jokin muu profiilihakemisto tai käytä Dissenterin uudempaa versiota.</translation>
+<translation id="1065672644894730302">Asetuksiasi ei voi lukea. Kaikkia toimintoja ei voi välttämättä käyttää eikä asetuksiin tehtäviä muutoksia tallenneta.</translation>
+<translation id="3403365884036456766">Asetustiedostosi on virheellinen.
+
+Dissenter ei voi palauttaa asetuksiasi.</translation>
+<translation id="1477146545787277177">Hups! Dissenter kaatui. Käynnistetäänkö uudelleen?</translation>
+<translation id="5785919770853225148">Dissenter tallentaa tämän salasanan Gab AI Inc-tilillesi. Sinun ei tarvitse muistaa sitä.</translation>
+<translation id="8211837073776713955">Dissenter ilmoittaa sinulle, jos salasanasi ovat vaarantuneet</translation>
+<translation id="113959764510199339">Dissenter yrittää näyttää salasanat.</translation>
+<translation id="7503098128120083822">Dissenter yrittää viedä salasanojasi tiedostoon.</translation>
+<translation id="8285294305439559616">Dissenter yrittää näyttää salasanat. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
+<translation id="5918095577778020936">Dissenter yrittää viedä salasanojasi tiedostoon. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
+<translation id="8320964054148936490">Tälle tietokoneelle on jo asennettu Dissenterin uudempi versio. Jos Dissenter ei toimi, poista sen asennus ja yritä uudelleen.</translation>
+<translation id="7691786510374174420">Asennus epäonnistui tuntemattoman virheen takia. Jos Dissenter on tällä hetkellä käynnissä, sulje se ja yritä uudelleen.</translation>
+<translation id="2619516027171717873">Dissenterista ei voi asentaa versiota, joka on tällä hetkellä käynnissä. Sulje Dissenter ja yritä uudelleen.</translation>
+<translation id="6283840329609797763">Asennus epäonnistui määrittelemättömän virheen vuoksi. Lataa Dissenter uudelleen.</translation>
+<translation id="95624393026532554">Dissenter edellyttää Windows 7:ää tai uudempaa versiota.</translation>
+<translation id="7387051847644272380">Asennuksessa ilmeni käyttöjärjestelmävirhe. Lataa Dissenter uudelleen.</translation>
+<translation id="1819119299840995223">Toinen Dissenter-prosessi on jo käynnissä. Yritä myöhemmin uudelleen.</translation>
 <translation id="7747138024166251722">Asennusohjelma ei pystynyt luomaan väliaikaista hakemistoa. Tarkista, että käytettävissä on riittävästi levytilaa ja että sinulla on oikeus asentaa ohjelmia.</translation>
-<translation id="7773960292263897147">Varoitus: Chromium ei voi estää laajennuksia tallentamasta selaushistoriaasi. Poista tämä valinta, jos haluat poistaa tämän laajennuksen käytöstä incognito-tilassa.</translation>
-<translation id="7790626492778995050"><ph name="PAGE_TITLE" /> – Chromium Canary</translation>
-<translation id="7827169012280634081">Tyhjennä evästeet ja sivustodata, kun suljet Chromiumin</translation>
-<translation id="7867198900892795913">Chromiumia ei voitu päivittää uusimpaan versioon, joten sinulta puuttuu joitakin uusia ominaisuuksia ja tietoturvakorjauksia.</translation>
-<translation id="7898472181347242998">Tarkista <ph name="LINK_BEGIN" />Chromium-käyttöjärjestelmän asetuksista<ph name="LINK_END" />, onko laitteesi ajan tasalla</translation>
-<translation id="7937630085815544518">Chromiumiin kirjautunut käyttäjä: <ph name="USER_EMAIL_ADDRESS" />. Kirjaudu uudelleen sisään samalla tilillä.</translation>
-<translation id="7975919845073681630">Tämä on Chromiumin toissijainen asennus, eikä sitä voi asettaa oletusselaimeksi.</translation>
-<translation id="7979877361127045932">Piilota Chromium-valikossa</translation>
-<translation id="8013436988911883588">Kun Chromiumilla on käyttöoikeus, sivustot voivat pyytää sitä sinulta.</translation>
-<translation id="81770708095080097">Tämä tiedosto on vaarallinen, joten Chromium on estänyt sen.</translation>
-<translation id="8248265253516264921">Jos kuvalla ei ole hyödyllistä kuvausta, Chromium yrittää luoda sellaisen. Kuvat lähetetään Googlelle kuvausten luomista varten. Voit milloin tahansa poistaa tämän käytöstä asetuksissa.</translation>
-<translation id="8290862415967981663">Tämä tiedosto voi olla vaarallinen, joten Chromium on estänyt sen.</translation>
-<translation id="8330519371938183845">Kirjaudu sisään, niin voit synkronoida Chromiumin ja tehdä siitä yksilöllisemmän kaikilla laitteilla.</translation>
-<translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> käytti aiemmin Chromiumia</translation>
-<translation id="8417404458978023919">{0,plural, =1{Käynnistä Chromium uudelleen vuorokauden kuluessa}other{Käynnistä Chromium uudelleen # vuorokauden kuluessa}}</translation>
-<translation id="8453117565092476964">Asennusarkisto on virheellinen. Lataa Chromium uudelleen.</translation>
-<translation id="8493179195440786826">Chromium on vanhentunut</translation>
-<translation id="8586442755830160949">Copyright <ph name="YEAR" /> The Chromium Authors. Kaikki oikeudet pidätetään.</translation>
-<translation id="8619360774459241877">Käynnistetään Chromiumia…</translation>
-<translation id="8621669128220841554">Asennus epäonnistui määrittelemättömän virheen vuoksi. Lataa Chromium uudelleen.</translation>
-<translation id="8682540261359803721">Jos asetus ei näy tällä sivulla, siirry <ph name="LINK_BEGIN" />
-    Chromiumin selainasetuksiin<ph name="LINK_END" />.</translation>
-<translation id="8697124171261953979">Määrittää myös Chromiumin ja omnibox-hakujen aloitussivun.</translation>
-<translation id="8704119203788522458">Tämä on oma Chromiumisi</translation>
-<translation id="8739167630197873875">Tyhjennät evästeet, kun suljet Chromiumin. Jos haluat jatkaa synkronointia, vaihda <ph name="COOKIE_SETTINGS_LINK" />.</translation>
-<translation id="8748383401829947534">Lopeta kaikki Chromium-kopiot</translation>
-<translation id="8796602469536043152">Chromium tarvitsee oikeuden käyttää kameraasi ja mikrofoniasi tällä sivustolla.</translation>
-<translation id="8803635938069941624">Chromium-käyttöjärjestelmän käyttöehdot</translation>
-<translation id="8821041990367117597">Chromium ei voinut synkronoida tietoja, sillä tilin kirjautumistiedot ovat vanhentuneet.</translation>
+<translation id="7365690458036015383">Asennusohjelma ei pystynyt purkamaan arkistotiedostoa. Lataa Dissenter uudelleen.</translation>
+<translation id="6914496861676471566">Asennusarkisto on virheellinen. Lataa Dissenter uudelleen.</translation>
 <translation id="8862326446509486874">Sinulla ei ole käyttöoikeuksia järjestelmätason asennukseen. Kokeile asennusohjelman suorittamista uudelleen järjestelmänvalvojana.</translation>
-<translation id="8897323336392112261">Määrittää myös Chromiumin aloitussivun ja Etusivu-painikkeella avattavan sivun.</translation>
-<translation id="8907580949721785412">Chromium yrittää näyttää salasanat. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
-<translation id="8941642502866065432">Chromiumin päivitys epäonnistui</translation>
-<translation id="8974095189086268230">Chromium-käyttöjärjestelmän ovat tehneet mahdolliseksi muut <ph name="BEGIN_LINK_CROS_OSS" />avoimen lähdekoodin ohjelmistot<ph name="END_LINK_CROS_OSS" />.</translation>
-<translation id="9019929317751753759">Paransimme Chromiumin turvallisuutta poistamalla käytöstä sovelluksia, joita <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> ei tarjoa ja jotka on voitu lisätä ilman lupaasi.</translation>
-<translation id="9022552996538154597">Kirjaudu sisään Chromiumiin</translation>
-<translation id="9089354809943900324">Chromium on vanhentunut</translation>
-<translation id="9093206154853821181">{0,plural, =1{Chromium käynnistetään uudelleen tunnin kuluttua}other{Chromium käynnistetään uudelleen # tunnin kuluttua}}</translation>
-<translation id="91086099826398415">Avaa linkki uudella Chromiumin välilehdellä</translation>
+<translation id="6666624454809779082">Dissenter on jo asennettuna kaikille tietokoneen käyttäjille.</translation>
+<translation id="6676384891291319759">Käytä internetiä</translation>
 <translation id="911206726377975832">Poistetaanko myös selailutiedot?</translation>
-<translation id="9158494823179993217">Järjestelmänvalvojasi on määrittänyt Chromiumin avaamaan toisen selaimen, jolla <ph name="TARGET_URL_HOSTNAME" /> avataan.</translation>
-<translation id="9190841055450128916">Chromium (saapuva mDNS)</translation>
-<translation id="93478295209880648">Chromium ei välttämättä toimi oikein, koska se ei enää tue Windows XP:tä tai Windows Vistaa.</translation>
-<translation id="95514773681268843"><ph name="DOMAIN" /> edellyttää, että luet ja hyväksyt seuraavat käyttöehdot ennen tämän laitteen käyttöä. Nämä ehdot eivät laajenna, muokkaa tai rajoita Chromium-käyttöliittymän ehtoja.</translation>
-<translation id="985602178874221306">The Chromium Authors</translation>
+<translation id="2770231113462710648">Vaihda oletusselaimeksi:</translation>
+<translation id="2485422356828889247">Poista</translation>
+<translation id="3343095737966473035">Dissenter ei ole oletusselain.</translation>
+<translation id="5536657158619734169">Dissenterista on saatavilla uusi versio.</translation>
+<translation id="505042220086416644">Dissenterista on saatavilla uusi versio, joka on entistäkin nopeampi.</translation>
+<translation id="5616153642055197778">Dissenterista on saatavilla uusi, turvallisempi versio.</translation>
+<translation id="2301993384336631869">Dissenter on päivitetty, mutta et ole käyttänyt sitä ainakaan 30 päivään.</translation>
+<translation id="2106568569080763501">Dissenterin avulla voit soittaa Skypellä puhelinnumeroon klikkaamalla sitä verkossa!</translation>
+<translation id="5874882355102994015">Dissenter ei voi näyttää tulostusesikatselua, koska PDF-katseluohjelma puuttuu.</translation>
+<translation id="8880183781256147665">Lisätään Dissenteriin...</translation>
+<translation id="3561569806301739367"><ph name="FILE_NAME"/> voi olla vaarallinen, joten Dissenter on estänyt sen.</translation>
+<translation id="9067428552314418522">Tämä tiedosto on vaarallinen, joten Dissenter on estänyt sen.</translation>
+<translation id="4168372721886011198"><ph name="FILE_NAME"/> on vaarallinen, joten Dissenter on estänyt sen.</translation>
+<translation id="89367911614620585">Tämä tiedosto voi olla vaarallinen, joten Dissenter on estänyt sen.</translation>
+<translation id="9183662282810237335">Suljetaanko Dissenter silti?</translation>
+<translation id="3834935463915107022">Suljetaanko Dissenter silti?</translation>
+<translation id="8797356639448065696">Dissenter on käynnissä taustalla</translation>
+<translation id="2339258256897053758">Gab AI Incn sovellusliittymän avaimet puuttuvat. Jotkin Dissenterin toiminnoista poistetaan käytöstä.</translation>
+<translation id="7861579472672677409"><ph name="EXTENSION_NAME"/> on lisätty Dissenteriin</translation>
+<translation id="8516116288943000095">Poista data myös Dissenterista (<ph name="URL"/>)</translation>
+<translation id="4054452651944170004">Piilota Dissenter-valikossa</translation>
+<translation id="5660079256336839395">Piilota Dissenter-valikossa</translation>
+<translation id="6134859571175647580">Varoitus: Dissenter ei voi estää laajennuksia tallentamasta selaushistoriaasi. Poista tämä valinta, jos haluat poistaa tämän laajennuksen käytöstä incognito-tilassa.</translation>
+<translation id="777113543093865885">Poista Dissenterista…</translation>
+<translation id="6078442581074612226">Dissenterissa</translation>
+<translation id="1448049584457347995">Paransimme Dissenterin turvallisuutta poistamalla käytöstä sovelluksia, joita ei löydy kohteesta <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> ja jotka on voitu lisätä ilman lupaasi.</translation>
+<translation id="8848045066928358658">Paransimme Dissenterin turvallisuutta poistamalla käytöstä sovelluksia, joita <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> ei tarjoa ja jotka on voitu lisätä ilman lupaasi.</translation>
+<translation id="8148611988012584308">Dissenterin muokkaus ja hallinta</translation>
+<translation id="5849446944780602366">Muokkaa ja hallinnoi Dissenteria. Päivitys on saatavilla.</translation>
+<translation id="6315734375101223238">Yksilöi ja ylläpidä Dissenteria. Toimenpiteitä vaaditaan. Katso lisätiedot klikkaamalla.</translation>
+<translation id="9071554113102421877">&amp;Avaa Dissenterissa</translation>
+<translation id="2176825726964012531">Tietoja &amp;Dissenterista</translation>
+<translation id="5450493308072741203">Päivitä &amp;Dissenter</translation>
+<translation id="1421502046520299169">Tietoja &amp;Dissenter-käyttöjärjestelmästä</translation>
+<translation id="2534623228451928732">Päivitä &amp;Dissenter-käyttöjärjestelmä</translation>
+<translation id="8447483940522230788">Dissenter Helper</translation>
+<translation id="5477319665405831211">Voit synkronoida Dissenterin ja tehdä siitä yksilöllisemmän kaikilla laitteilla.</translation>
+<translation id="8132634101975074716">Olet kirjautunut Dissenteriin!</translation>
+<translation id="4567424176335768812">Olet kirjautunut Dissenteren tilillä <ph name="USER_EMAIL_ADDRESS"/>. Nyt voit käyttää kirjanmerkkejäsi, historiaa ja muita asetuksia kaikilla laitteilla, joihin olet kirjautunut.</translation>
+<translation id="2925193881330501265">Dissenteriin kirjautunut käyttäjä: <ph name="USER_EMAIL_ADDRESS"/>. Kirjaudu uudelleen sisään samalla tilillä.</translation>
+<translation id="847561904663814268">Joku on jo kirjautunut tällä tietokoneella Dissenteriin käyttäjätilillä <ph name="ACCOUNT_EMAIL_LAST"/>. Luo uusi Dissenter-käyttäjä, jos haluat pitää tiedot erillään.</translation>
+<translation id="1853997773668795891">Linkitetäänkö Dissenter-tiedot tähän tiliin?</translation>
+<translation id="1326766910007115955">Olet kirjautumassa sisään hallinnoidulla tilillä ja antamassa tilin järjestelmänvalvojalle oikeuden hallita Dissenter-profiiliasi. Dissenter-tietosi, kuten sovelluksesi, kirjanmerkkisi, historiasi, salasanasi ja muut asetuksesi, yhdistetään pysyvästi käyttäjätiliin <ph name="USER_NAME"/>. Voit poistaa nämä tiedot Gab AI Inc-tilien Hallintapaneelissa, mutta et voi liittää tietoja toiseen tiliin. <ph name="LEARN_MORE"/></translation>
+<translation id="650055380213106997">Olet kirjautumassa sisään hallinnoidulla tilillä ja antamassa tilin järjestelmänvalvojalle oikeuden hallita Dissenter-profiiliasi. Dissenter-tietosi, kuten sovelluksesi, kirjanmerkkisi, historiasi, salasanasi ja muut asetuksesi, yhdistetään pysyvästi käyttäjätiliin <ph name="USER_NAME"/>. Voit poistaa nämä tiedot Gab AI Inc-tilien Hallintapaneelissa, mutta et voi liittää tietoja toiseen tiliin. Halutessasi voit luoda uuden profiilin, jolloin aiemmat Dissenter-tietosi pysyvät erillään. <ph name="LEARN_MORE"/></translation>
+<translation id="2444257125841652328">Järjestelmänvalvojasi on määrittänyt Dissenterin avaamaan toisen selaimen, jolla <ph name="TARGET_URL_HOSTNAME"/> avataan.</translation>
+<translation id="5380963249588143069">Järjestelmänvalvojasi on määrittänyt Dissenterin avaamaan osoitteen <ph name="TARGET_URL_HOSTNAME"/> selaimella <ph name="ALTERNATIVE_BROWSER_NAME"/>.</translation>
+<translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> käytti aiemmin Dissenteria</translation>
+<translation id="1384923383737428730">Tietokoneellasi on haitallinen ohjelmisto. Dissenter voi poistaa sen, palauttaa asetuksesi ja poistaa laajennukset käytöstä, jotta selaimesi toimii taas normaalisti.</translation>
+<translation id="8919921662052966648">Dissenter ei voinut synkronoida tietoja. Päivitä synkronoinnin tunnuslause.</translation>
+<translation id="2262856633481902138">Dissenter ei voinut synkronoida tietoja, sillä tilin kirjautumistiedot ovat vanhentuneet.</translation>
+<translation id="5419189641394808652">Dissenter ei voinut synkronoida tietoja, koska synkronointi ei ole käytettävissä verkkotunnuksessasi.</translation>
+<translation id="2577755334620061182">Dissenter ei voinut synkronoida tietoja kirjautumisvirheen vuoksi.</translation>
+<translation id="8583885258305961947">Dissenter-käyttöjärjestelmä</translation>
+<translation id="3968006371075376562">Dissenter-käyttöjärjestelmä ei voi synkronoida tietoja. Päivitä synkronoinnin tunnuslause.</translation>
+<translation id="6746636977031158624">Dissenter-käyttöjärjestelmä ei voi synkronoida tietoja, sillä tilin kirjautumistiedot ovat vanhentuneet.</translation>
+<translation id="2999152167963026588">Dissenter-käyttöjärjestelmä ei voi synkronoida tietoja, koska synkronointi ei ole käytettävissä verkkotunnuksessasi.</translation>
+<translation id="1459786048951724030">Dissenter-käyttöjärjestelmä ei voi synkronoida tietoja kirjautumisvirheen vuoksi.</translation>
+<translation id="6813094029720377619">Tyhjennät evästeet, kun suljet Dissenterin. Jos haluat jatkaa synkronointia, vaihda <ph name="COOKIE_SETTINGS_LINK"/>.</translation>
+<translation id="3340978935015468852">asetuksissa</translation>
+<translation id="380197516434040304">Poista Dissenterista…</translation>
+<translation id="300669147395456190">Dissenter-sovellukset</translation>
+<translation id="3421950102518690868"><ph name="DOMAIN"/> edellyttää, että luet ja hyväksyt seuraavat käyttöehdot ennen tämän laitteen käyttöä. Nämä ehdot eivät laajenna, muokkaa tai rajoita Dissenter-käyttöliittymän ehtoja.</translation>
+<translation id="3293668930608086049">Dissenter käyttää kameraasi ja mikrofoniasi.</translation>
+<translation id="8919461291440820124">Dissenter käyttää mikrofoniasi.</translation>
+<translation id="3205074487970075628">Dissenter käyttää kameraasi.</translation>
+<translation id="8142245354207161805">Profiili näyttäisi olevan toisen Dissenter-prosessin (<ph name="PROCESS_ID"/>) käytössä toisella tietokoneella (<ph name="HOST_NAME"/>). Dissenter on lukinnut profiilin, jotta se ei vioitu. Jos olet varma, että mikään toinen prosessi ei käytä tätä profiilia, voit poistaa profiilin lukituksen ja käynnistää Dissenterin uudelleen.</translation>
+<translation id="239760341987199724">Aseta Dissenter oletusselaimeksi</translation>
+<translation id="669092380621816981">Käyttäjän selaustiedot poistetaan tältä laitteelta. Jos haluat palauttaa tiedot myöhemmin, kirjaudu Dissenteriin käyttäjänä <ph name="USER_EMAIL"/>.</translation>
+<translation id="2827121003398607864">Dissenter on nyt entistä parempi</translation>
+<translation id="7192666605334070839">Nyt voit helpommin käyttää Dissenteria Gab AI Inc-tililläsi ja jaetuilla tietokoneilla.</translation>
+<translation id="4100716194836114130">Tämä on oma Dissenterisi</translation>
+<translation id="3511996232906761537">Tämä on verkkosi, kirjanmerkkiesi ja muun Dissenter-sisältösi koti.</translation>
+<translation id="7406627712452599344">Vierailijat voivat käyttää Dissenteria jälkiä jättämättä.</translation>
+<translation id="5659384504794665581">Jos käytät jaettua tietokonetta, kaverisi ja perheenjäsenesi voivat selata verkkoa omista profiileistaan käsin ja muokata Dissenterista juuri itselleen sopivan.</translation>
+<translation id="7130675370997202556">Avaa Dissenter klikkaamalla nimeäsi ja aloita selaaminen.</translation>
+<translation id="5952898964075639679">Lisää itsesi Dissenteriin</translation>
+<translation id="3813272600615358652">Tämä laajennus on vaihtanut Dissenterin aloitussivun.</translation>
+<translation id="2576129394594491151">Laajennus <ph name="EXTENSION_NAME"/> on vaihtanut Dissenterin aloitussivun.</translation>
+<translation id="2675662665675552980">Määrittää myös Dissenterin aloitussivun.</translation>
+<translation id="3215652305414474626">Määrittää myös Dissenterin aloitussivun ja Etusivu-painikkeella avattavan sivun.</translation>
+<translation id="2433912322225810055">Määrittää myös Dissenterin ja omnibox-hakujen aloitussivun.</translation>
+<translation id="2871190378186459992">Löydät hienoja sovelluksia, pelejä, laajennuksia ja teemoja Dissenterille.</translation>
+<translation id="3350544518197210895">Dissenter (saapuva mDNS)</translation>
+<translation id="1912973375560256099">Dissenterin saapuvien yhteyksien sääntö, joka sallii mDNS-liikenteen.</translation>
+<translation id="8207657266087451193">Jos kuvalla ei ole hyödyllistä kuvausta, Dissenter yrittää luoda sellaisen. Kuvat lähetetään Gab AI Inclle kuvausten luomista varten. Voit milloin tahansa poistaa tämän käytöstä asetuksissa.</translation>
+<translation id="5499063270485366718">Jos kuvalla ei ole hyödyllistä kuvausta, Dissenter yrittää luoda sellaisen. Kuvat lähetetään Gab AI Inclle kuvausten luomista varten.</translation>
+<translation id="215320507915280336">Tämä käyttää samaa oikeinkirjoituksen tarkistusta kuin Gab AI Inc Haku. Selaimeen kirjoittamasi teksti lähetetään Gab AI Inclle. Voit muuttaa tätä milloin tahansa asetuksista.</translation>
+<translation id="1807774211756215222">Avaa linkki uudella Dissenterin välilehdellä</translation>
+<translation id="4624945300945265642">Avaa linkki Dissenterin inco&amp;gnito-ikkunassa</translation>
+<translation id="7863882214613921971">Avaa linkki uudella Dissenterin välilehdellä</translation>
+<translation id="6554952862405000915">Avaa linkki Dissenterin inco&amp;gnito-ikkunassa</translation>
+<translation id="4805806622840861220">Käynnistä Dissenter uudelleen</translation>
+<translation id="8274659559228306809">{COUNT,plural, =0{Uusi Dissenter-päivitys on saatavilla, ja se otetaan käyttöön uudelleenkäynnistyksen jälkeen.}=1{Uusi Dissenter-päivitys on saatavilla, ja se otetaan käyttöön uudelleenkäynnistyksen jälkeen. Incognito-ikkunaasi ei avata uudelleen.}other{Uusi Dissenter-päivitys on saatavilla, ja se otetaan käyttöön uudelleenkäynnistyksen jälkeen. # incognito-ikkunaasi ei avata uudelleen.}}</translation>
+<translation id="2799223571221894425">Käynnistä uudelleen</translation>
+<translation id="2522086024276534909">Käynnistä Dissenter OS uudelleen</translation>
+<translation id="8183252473547465084">Dissenter-käyttöjärjestelmä täytyy käynnistää uudelleen, jotta päivitys voidaan ottaa käyttöön.</translation>
+<translation id="5895138241574237353">Käynnistä uudelleen</translation>
+<translation id="8887390605192156061">Lopeta kaikki Dissenter-kopiot</translation>
+<translation id="1801551749768408825">Dissenterin muita kopioita on käynnissä. Sulje ne päivittämistä varten.</translation>
+<translation id="2632141563911437138">Päivittämistä varten Dissenter on suljettava tällä tietokoneella. Tämän takia muut tietokoneelle kirjautuneet voivat menettää tallentamattomat muutokset.</translation>
+<translation id="5875673934455379806">Asenna Dissenter uudelleen</translation>
+<translation id="2097604701283463988">Dissenter on vanhentunut</translation>
+<translation id="5173820533850252773">Dissenter on vanhentunut</translation>
+<translation id="6389268239133412586">Dissenterin päivitys epäonnistui</translation>
+<translation id="7963515534397191222">Dissenteria ei voitu päivittää uusimpaan versioon, joten sinulta puuttuu joitakin uusia ominaisuuksia ja tietoturvakorjauksia.</translation>
+<translation id="1705567146636171298">Päivitä Dissenter</translation>
+<translation id="3598551856834560515">Aloita synkronointi päivittämällä Dissenter.</translation>
+<translation id="4050175100176540509">Uusimmassa versiossa on käytettävissä tärkeitä turvallisuusparannuksia ja uusia ominaisuuksia.</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{Dissenter käynnistyy uudelleen 1 sekunnin kuluttua}other{Dissenter käynnistyy uudelleen # sekunnin kuluttua}}</translation>
+<translation id="5646769069113654257">Käynnistä Dissenter uudelleen nyt</translation>
+<translation id="8668413672647811944">Dissenterin tärkeä tietoturvapäivitys on asennettu. Käynnistä selain uudelleen – palautamme avoimet välilehdet.</translation>
+<translation id="6791166902140255175">Dissenter-välilehti</translation>
+<translation id="2555639463117073782">Käynnistä Dissenter uudelleen, jotta <ph name="PLUGIN_NAME"/> voidaan ottaa käyttöön.</translation>
+<translation id="2034072705932785495">Dissenter tarvitsee oikeuden käyttää kameraasi tällä sivustolla.</translation>
+<translation id="3335606533094650083">Dissenter tarvitsee oikeuden käyttää mikrofoniasi tällä sivustolla.</translation>
+<translation id="4831743161813926460">Dissenter tarvitsee oikeuden käyttää kameraasi ja mikrofoniasi tällä sivustolla.</translation>
+<translation id="696826782632239602">Dissenter tarvitsee oikeuden käyttää sijaintiasi, jotta se voidaan jakaa tämän sivuston kanssa.</translation>
+<translation id="7798069806040634998">Dissenter tarvitsee tallennustilan käyttöoikeuden tiedostojen lataamiseen.</translation>
+<translation id="7685904775439037072">Kun Dissenterilla on käyttöoikeus, sivustot voivat pyytää sitä sinulta.</translation>
+<translation id="1744365871163268756">Odota hetki, Dissenter asentaa uusimpia järjestelmäpäivityksiä.</translation>
+<translation id="8000338990735917615">Dissenterin tulevat versiot asennetaan automaattisesti.</translation>
+<translation id="2975476470948647918">Dissenterin tulevat versiot asennetaan automaattisesti. Kun lataus on valmis, Dissenter käynnistyy uudelleen ja voit aloittaa käytön.</translation>
+<translation id="7808415789955822133">Dissenter-käyttöjärjestelmän käyttöehdot</translation>
+<translation id="7207456302801184289">Tervetuloa Dissenteriin</translation>
+<translation id="3507835409099344374">Siirry Dissenterin ilmoitusasetuksiin</translation>
+<translation id="1026406809507858026">{0,plural, =0{Dissenter-päivitys on saatavilla}=1{Dissenter-päivitys on saatavilla}other{Dissenter-päivitys on ollut saatavilla # vuorokauden ajan}}</translation>
+<translation id="3829358914761176693">{COUNT,plural, =0{Ylläpitäjä pyytää Dissenterin uudelleenkäynnistystä, jotta tämä päivitys voidaan ottaa käyttöön.}=1{Ylläpitäjä pyytää Dissenterin uudelleenkäynnistystä, jotta tämä päivitys voidaan ottaa käyttöön. Incognito-ikkunaasi ei avata uudelleen.}other{Ylläpitäjä pyytää Dissenterin uudelleenkäynnistystä, jotta tämä päivitys voidaan ottaa käyttöön. # incognito-ikkunaasi ei avata uudelleen.}}</translation>
+<translation id="5337999052834672687">{0,plural, =1{Käynnistä Dissenter uudelleen vuorokauden kuluessa}other{Käynnistä Dissenter uudelleen # vuorokauden kuluessa}}</translation>
+<translation id="310518206836658214">{0,plural, =1{Dissenter käynnistetään uudelleen tunnin kuluttua}other{Dissenter käynnistetään uudelleen # tunnin kuluttua}}</translation>
+<translation id="3186363903915641692">{0,plural, =1{Dissenter käynnistetään uudelleen 1 minuutin kuluttua}other{Dissenter käynnistetään uudelleen # minuutin kuluttua}}</translation>
+<translation id="3574823187131579180">{0,plural, =0{Dissenter käynnistetään uudelleen nyt}=1{Dissenter käynnistetään uudelleen 1 sekunnin kuluttua}other{Dissenter käynnistetään uudelleen # sekunnin kuluttua}}</translation>
+<translation id="552349673358711446">{COUNT,plural, =0{Ylläpitäjä vaatii Dissenterin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön.}=1{Ylläpitäjä vaatii Dissenterin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön. Incognito-ikkunaasi ei avata uudelleen.}other{Ylläpitäjä vaatii Dissenterin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön. # incognito-ikkunaasi ei avata uudelleen.}}</translation>
+<translation id="3052349005266761501">Käynnistetään Dissenteria…</translation>
+<translation id="1197672524850678392">Dissenterin käynnistäminen epäonnistui. Yritä uudelleen.</translation>
+<translation id="5147525139567260139">Jaa Dissenter-välilehti</translation>
+<translation id="8541922081612557424">Tietoja Dissenterista</translation>
+<translation id="3262506503470845422">Ohjeita Dissenterin käyttöön</translation>
+<translation id="1864557848095568223">Päivitetään Dissenteria.</translation>
+<translation id="1786715389543715322">Päivitetään Dissenteria (<ph name="PROGRESS_PERCENT"/>)</translation>
+<translation id="2182657378556811785">Melkein valmista. Viimeistele päivitys käynnistämällä Dissenter uudelleen.</translation>
+<translation id="8208853227947884571">Dissenter on ajan tasalla.</translation>
+<translation id="6686872257969654608">Tietoja Dissenter-käyttöjärjestelmästä</translation>
+<translation id="7674116293463255181">Tarkista <ph name="LINK_BEGIN"/>Dissenter-käyttöjärjestelmän asetuksista<ph name="LINK_END"/>, onko laitteesi ajan tasalla</translation>
+<translation id="2280363356796735201">Ohjeita Dissenter-käyttöjärjestelmän käyttöön</translation>
+<translation id="38898988211673781">Tyhjennä evästeet ja sivustodata, kun suljet Dissenterin</translation>
+<translation id="5253815230176279256">Gab AI Inc Pay (kopioitu Dissenteriin)</translation>
+<translation id="5468853758063275923">Dissenter on oletusselaimesi.</translation>
+<translation id="1775322105159056176">Dissenter ei voi tunnistaa tai asettaa oletusselainta.</translation>
+<translation id="6915252145142862992">Tämä on Dissenterin toissijainen asennus, eikä sitä voi asettaa oletusselaimeksi.</translation>
+<translation id="6235873178214143377">Jos asetus ei näy tällä sivulla, siirry <ph name="LINK_BEGIN"/>
+    Dissenterin selainasetuksiin<ph name="LINK_END"/>.</translation>
+<translation id="4459296183696059108">Jos asetus ei näy tällä sivulla, siirry <ph name="LINK_BEGIN"/>
+    Dissenter-käyttöjärjestelmän asetuksiin<ph name="LINK_END"/>.</translation>
+<translation id="7977435741986383568">Dissenter voi käyttää verkkopalveluita selauskokemuksesi parantamiseen. Voit halutessasi poistaa nämä palvelut käytöstä. <ph name="BEGIN_LINK"/>Lisätietoja<ph name="END_LINK"/></translation>
+<translation id="2312399718665761438">Dissenter lähettää kenttiin kirjoittamasi tekstin Gab AI Inclle oikeinkirjoitusvirheiden korjaamiseksi.</translation>
+<translation id="8586264863973514035">Ota muutokset käyttöön käynnistämällä Dissenter uudelleen</translation>
+<translation id="7021823858304886493">Salli Dissenter-kirjautuminen</translation>
+<translation id="1649714546770135458">Poistamalla tämän käytöstä voit kirjautua Gab AI Inc-sivustoille, esim. Gmailiin, kirjautumatta Dissenteriin.</translation>
+<translation id="9220324636239049437">Tämä poistaa yhden kohteen pysyvästi laitteelta. Jos haluat palauttaa tiedot myöhemmin, kirjaudu Dissenteriin käyttäjänä <ph name="USER_EMAIL"/>.</translation>
+<translation id="5853262807109651878">Tämä poistaa <ph name="ITEMS_COUNT"/> kohdetta pysyvästi laitteelta. Jos haluat palauttaa tiedot myöhemmin, kirjaudu Dissenteriin käyttäjänä <ph name="USER_EMAIL"/>.</translation>
+<translation id="4784414698887946907">Tämä poistaa selaustiedot pysyvästi laitteelta. Jos haluat palauttaa tiedot myöhemmin, kirjaudu Dissenteriin käyttäjänä <ph name="USER_EMAIL"/>.</translation>
+<translation id="4518479204315969707">Dissenterin nimi ja kuva</translation>
+<translation id="82609232232243542">Kirjaudu Dissenteren</translation>
+<translation id="8372880274820509128">Dissenter lisää suojausta salaamalla tietosi.</translation>
+<translation id="7445061995866044926">Kirjaudutaanko ulos?</translation>
+<translation id="7453070689008684791">Dissenter käyttää Drivea antaakseen ehdotuksia osoitepalkissa</translation>
+<translation id="3360368475735266712">Kirjaudu sisään, niin voit synkronoida Dissenterin ja tehdä siitä yksilöllisemmän kaikilla laitteilla.</translation>
+<translation id="5757460455745382269">Dissenter-käyttöliittymä näytetään tällä kielellä</translation>
+<translation id="2335583906071111058">Näytä Dissenter tällä kielellä</translation>
+<translation id="8926637909431618259">Jätä taustasovellukset käyntiin, kun Dissenter suljetaan</translation>
+<translation id="6056473803837713617">Auta parantamaan Dissenteria ilmoittamalla <ph name="BEGIN_LINK"/>nykyiset asetukset<ph name="END_LINK"/>.</translation>
 </translationbundle>

@@ -377,11 +377,13 @@ public class FeatureUtilities {
      * @return Whether or not the bottom toolbar is enabled.
      */
     public static boolean isBottomToolbarEnabled() {
+/*
         // TODO(crbug.com/944228): TabGroupsAndroid and ChromeDuet are incompatible for now.
         return isFlagEnabled(BOTTOM_TOOLBAR_ENABLED_KEY, false)
                 && !DeviceFormFactor.isNonMultiDisplayContextOnTablet(
                         ContextUtils.getApplicationContext())
                 && (isDuetTabStripIntegrationAndroidEnabled() || !isTabGroupsAndroidEnabled());
+*/      return ChromePreferenceManager.getInstance().isBottomToolbarEnabled();
     }
 
     /**

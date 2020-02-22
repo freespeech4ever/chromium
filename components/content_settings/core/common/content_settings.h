@@ -76,6 +76,8 @@ struct RendererContentSettingRules {
   ContentSettingsForOneType client_hints_rules;
   ContentSettingsForOneType popup_redirect_rules;
   ContentSettingsForOneType mixed_content_rules;
+  ContentSettingsForOneType fingerprinting_rules;
+  ContentSettingsForOneType brave_shields_rules;
 };
 
 namespace content_settings {

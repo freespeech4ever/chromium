@@ -55,6 +55,9 @@ const GURL ManifestURL::GetManifestHomePageURL(const Extension* extension) {
 
 // static
 const GURL ManifestURL::GetWebStoreURL(const Extension* extension) {
+#if defined(BRAVE_CHROMIUM_BUILD)
+  return GURL::EmptyGURL();
+#endif
   bool use_webstore_url = UpdatesFromGallery(extension) &&
                           !SharedModuleInfo::IsSharedModule(extension);
   return use_webstore_url

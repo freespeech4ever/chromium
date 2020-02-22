@@ -81,6 +81,7 @@ scoped_refptr<RefcountedKeyedService>
 
   scoped_refptr<HostContentSettingsMap> settings_map(new HostContentSettingsMap(
       profile->GetPrefs(),
+      BRAVE_BUILD_SERVICE_INSTANCE_FOR
       profile->IsIncognitoProfile() || profile->IsGuestSession(),
       /*store_last_modified=*/true,
       base::FeatureList::IsEnabled(features::kPermissionDelegation)));

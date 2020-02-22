@@ -82,7 +82,12 @@ void TemplateURLServiceFactory::RegisterProfilePrefs(
 
 content::BrowserContext* TemplateURLServiceFactory::GetBrowserContextToUse(
     content::BrowserContext* context) const {
+#if defined(BRAVE_CHROMIUM_BUILD)
+  // To make different service for normal and incognito profile.
+  return chrome::GetBrowserContextOwnInstanceInIncognito(context);
+#else
   return chrome::GetBrowserContextRedirectedInIncognito(context);
+#endif
 }
 
 bool TemplateURLServiceFactory::ServiceIsNULLWhileTesting() const {

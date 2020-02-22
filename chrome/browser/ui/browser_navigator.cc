@@ -463,6 +463,7 @@ void Navigate(NavigateParams* params) {
     params->initiating_profile = source_browser->profile();
   DCHECK(params->initiating_profile);
 
+  BRAVE_ADJUST_NAVIGATE_PARAMS_FOR_URL
   if (!AdjustNavigateParamsForURL(params))
     return;
 
@@ -741,6 +742,7 @@ void Navigate(NavigateParams* params) {
 bool IsHostAllowedInIncognito(const GURL& url) {
   std::string scheme = url.scheme();
   base::StringPiece host = url.host_piece();
+  if (!IsHostAllowedInIncognitoBraveImpl(host)) return false;
   if (scheme == chrome::kChromeSearchScheme) {
     return host != chrome::kChromeUIThumbnailHost &&
            host != chrome::kChromeUIThumbnailHost2 &&

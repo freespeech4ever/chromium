@@ -19,6 +19,10 @@
 #include "ui/chromeos/resources/grit/ui_chromeos_resources_map.h"
 #endif
 
+#if defined(BRAVE_CHROMIUM_BUILD)
+#include "brave/grit/brave_theme_resources_map.h"
+#endif
+
 namespace {
 
 // A wrapper class that holds a map between resource strings and resource
@@ -49,6 +53,12 @@ class ThemeMap {
     for (size_t i = 0; i < kUiResourcesSize; ++i) {
       storage.emplace_back(kUiResources[i].name, kUiResources[i].value);
     }
+#if defined(BRAVE_CHROMIUM_BUILD)
+    for (size_t i = 0; i < kBraveThemeResourcesSize; ++i) {
+      storage.emplace_back(kBraveThemeResources[i].name,
+                           kBraveThemeResources[i].value);
+    }
+#endif
 #if defined(OS_CHROMEOS)
     for (size_t i = 0; i < kUiChromeosResourcesSize; ++i) {
       storage.emplace_back(kUiChromeosResources[i].name,

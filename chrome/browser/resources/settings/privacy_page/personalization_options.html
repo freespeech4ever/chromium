@@ -12,6 +12,9 @@
 <link rel="import" href="../route.html">
 <link rel="import" href="../settings_shared_css.html">
 <link rel="import" href="privacy_page_browser_proxy.html">
+<if expr="not _google_chrome">
+<link rel="import" href="../brave_privacy_page/brave_personalization_options.html">
+</if>
 
 <!--
  * Note: If a synced pref is added/removed from this file, the method
@@ -37,14 +40,19 @@
         label="$i18n{searchSuggestPref}"
         sub-label="$i18n{searchSuggestPrefDesc}">
     </settings-toggle-button>
+    <if expr="_google_chrome">
     <settings-toggle-button pref="{{prefs.alternate_error_pages.enabled}}"
         label="$i18n{linkDoctorPref}"
         sub-label="$i18n{linkDoctorPrefDesc}">
     </settings-toggle-button>
+    </if>
     <settings-toggle-button pref="{{prefs.safebrowsing.enabled}}"
         label="$i18n{safeBrowsingEnableProtection}"
         sub-label="$i18n{safeBrowsingEnableProtectionDesc}">
     </settings-toggle-button>
+    <if expr="not _google_chrome">
+      <settings-brave-personalization-options prefs="{{prefs}}"></settings-brave-personalization-options>
+    </if>
    <settings-toggle-button id="passwordsLeakDetectionCheckbox"
       pref="{{prefs.profile.password_manager_leak_detection}}"
       checked="[[getCheckedLeakDetection_(
@@ -56,6 +64,7 @@
       disabled="[[getDisabledLeakDetection_(
           userSignedIn_, prefs.*)]]">
     </settings-toggle-button>
+    <if expr="_google_chrome">
     <settings-toggle-button
         pref="{{prefs.safebrowsing.scout_reporting_enabled}}"
         checked="[[getCheckedExtendedSafeBrowsing_(prefs.*)]]"
@@ -63,6 +72,7 @@
         sub-label="$i18n{safeBrowsingEnableExtendedReportingDesc}"
         disabled="[[getDisabledExtendedSafeBrowsing_(prefs.*)]]">
     </settings-toggle-button>
+    </if>
 <if expr="_google_chrome">
 <if expr="chromeos">
     <settings-toggle-button pref="{{prefs.cros.metrics.reportingEnabled}}"
@@ -70,6 +80,8 @@
         sub-label="$i18n{enableLoggingDesc}">
     </settings-toggle-button>
 </if><!-- chromeos -->
+</if><!-- _google_chrome -->
+<if expr="_chromium">
 <if expr="not chromeos">
     <settings-toggle-button id="metricsReportingControl"
         pref="[[metricsReportingPref_]]" label="$i18n{enableLogging}"
@@ -83,7 +95,7 @@
       </template>
     </settings-toggle-button>
 </if><!-- not chromeos -->
-</if><!-- _google_chrome -->
+</if><!-- _chromium -->
     <template is="dom-if" if="[[unifiedConsentEnabled]]">
       <settings-toggle-button
           pref="{{prefs.url_keyed_anonymized_data_collection.enabled}}"

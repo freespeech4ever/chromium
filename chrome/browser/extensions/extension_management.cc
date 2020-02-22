@@ -17,6 +17,7 @@
 #include "base/syslog_logging.h"
 #include "base/trace_event/trace_event.h"
 #include "base/version.h"
+#include "brave/browser/extensions/brave_extension_management.h"
 #include "chrome/browser/extensions/extension_management_constants.h"
 #include "chrome/browser/extensions/extension_management_internal.h"
 #include "chrome/browser/extensions/external_policy_loader.h"
@@ -647,7 +648,7 @@ KeyedService* ExtensionManagementFactory::BuildServiceInstanceFor(
     content::BrowserContext* context) const {
   TRACE_EVENT0("browser,startup",
                "ExtensionManagementFactory::BuildServiceInstanceFor");
-  return new ExtensionManagement(Profile::FromBrowserContext(context));
+  return new BraveExtensionManagement(Profile::FromBrowserContext(context));
 }
 
 content::BrowserContext* ExtensionManagementFactory::GetBrowserContextToUse(

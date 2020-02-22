@@ -52,6 +52,7 @@ class ChromeLocationBarModelDelegate : public LocationBarModelDelegate {
   content::NavigationEntry* GetNavigationEntry() const;
 
  private:
+  friend class BraveLocationBarModelDelegate;
   // Returns the navigation controller used to retrieve the navigation entry
   // from which the states are retrieved. If this returns null, default values
   // are used.

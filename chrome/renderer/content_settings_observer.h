@@ -113,6 +113,7 @@ class ContentSettingsObserver
   }
 
  private:
+  friend class BraveContentSettingsObserver;
   FRIEND_TEST_ALL_PREFIXES(ContentSettingsObserverTest, WhitelistedSchemes);
   FRIEND_TEST_ALL_PREFIXES(ContentSettingsObserverBrowserTest,
                            ContentSettingsInterstitialPages);

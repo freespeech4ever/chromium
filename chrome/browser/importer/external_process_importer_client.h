@@ -86,6 +86,14 @@ class ExternalProcessImporterClient
   void OnAutofillFormDataImportGroup(
       const std::vector<ImporterAutofillFormDataEntry>&
           autofill_form_data_entry_group) override;
+  void OnCookiesImportStart(uint32_t total_cookies_count) override {}
+  void OnCookiesImportGroup(const std::vector<net::CanonicalCookie>& cookies_group) override {}
+  void OnStatsImportReady(const BraveStats& stats) override {}
+  void OnLedgerImportReady(const BraveLedger& ledger) override {}
+  void OnReferralImportReady(const BraveReferral& referral) override {}
+  void OnWindowsImportReady(const ImportedWindowState& window_state) override {}
+  void OnSettingsImportReady(
+      const SessionStoreSettings& settings) override {}
 
  protected:
   ~ExternalProcessImporterClient() override;

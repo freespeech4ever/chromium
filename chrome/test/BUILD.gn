@@ -747,6 +747,7 @@ if (!is_android) {
       "//v8",
     ]
 
+    deps += [ "//brave/test:brave_browser_tests_deps", ]
     # Runtime dependencies
     data_deps = [
       "//chrome/browser/resources/media/mei_preload:component",

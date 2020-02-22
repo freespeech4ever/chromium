@@ -435,7 +435,7 @@ void CookieManager::SetCookieHelper(const GURL& host,
 
   net::CanonicalCookie::CookieInclusionStatus status;
   std::unique_ptr<net::CanonicalCookie> cc(
-      net::CanonicalCookie::Create(new_host, value, base::Time::Now(),
+      net::CanonicalCookie::Create(BRAVE_SETCOOKIEHELPER, new_host, value, base::Time::Now(),
                                    base::nullopt /* server_time */, &status));
 
   if (!cc) {

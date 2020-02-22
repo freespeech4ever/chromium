@@ -159,9 +159,11 @@ int SOCKSConnectJob::DoSOCKSConnect() {
 
   // Add a SOCKS connection on top of the tcp socket.
   if (socks_params_->is_socks_v5()) {
-    socket_.reset(new SOCKS5ClientSocket(transport_connect_job_->PassSocket(),
-                                         socks_params_->destination(),
-                                         socks_params_->traffic_annotation()));
+    socket_.reset(new SOCKS5ClientSocketAuth(
+        transport_connect_job_->PassSocket(),
+        socks_params_->destination(),
+        socks_params_->traffic_annotation(),
+        socks_params_->transport_params()->destination()));
   } else {
     socket_.reset(new SOCKSClientSocket(
         transport_connect_job_->PassSocket(), socks_params_->destination(),

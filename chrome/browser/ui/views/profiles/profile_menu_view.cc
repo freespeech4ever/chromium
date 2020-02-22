@@ -1048,6 +1048,7 @@ void ProfileMenuView::AddOptionsView(bool display_lock,
   if (is_guest) {
     CreateAndAddButton(
         CreateVectorIcon(kCloseAllIcon),
+        BRAVE_ADDOPTIONSVIEW_ADD_TOR_EXIT_BUTTON_
         l10n_util::GetStringUTF16(IDS_PROFILES_EXIT_GUEST),
         base::BindRepeating(&ProfileMenuView::OnExitProfileButtonClicked,
                             base::Unretained(this)));

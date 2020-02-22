@@ -11,6 +11,17 @@
 
 namespace gcapi_internals {
 
+#if defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
+const wchar_t kChromeRegClientsKey[] =
+    L"Software\\GabAI\\Update\\Clients\\"
+    L"{0C12B489-0B55-4F8B-8EB7-640256ADBE54}";
+const wchar_t kChromeRegClientStateKey[] =
+    L"Software\\GabAI\\Update\\ClientState\\"
+    L"{0C12B489-0B55-4F8B-8EB7-640256ADBE54}";
+const wchar_t kChromeRegClientStateMediumKey[] =
+    L"Software\\GabAI\\Update\\ClientStateMedium\\"
+    L"{0C12B489-0B55-4F8B-8EB7-640256ADBE54}";
+#else
 const wchar_t kChromeRegClientsKey[] =
     L"Software\\Google\\Update\\Clients\\"
     L"{8A69D345-D564-463c-AFF1-A69D9E530F96}";
@@ -20,6 +31,7 @@ const wchar_t kChromeRegClientStateKey[] =
 const wchar_t kChromeRegClientStateMediumKey[] =
     L"Software\\Google\\Update\\ClientStateMedium\\"
     L"{8A69D345-D564-463c-AFF1-A69D9E530F96}";
+#endif
 
 // Mirror the strategy used by GoogleUpdateSettings::GetBrand.
 bool GetBrand(base::string16* value) {

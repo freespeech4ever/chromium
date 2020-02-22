@@ -164,6 +164,7 @@ bool ShouldShowPermission(
     HostContentSettingsMap* content_settings,
     content::WebContents* web_contents,
     TabSpecificContentSettings* tab_specific_content_settings) {
+  if (!BraveShouldShowPermission(info, web_contents)) return false;
   // Note |CONTENT_SETTINGS_TYPE_ADS| will show up regardless of its default
   // value when it has been activated on the current origin.
   if (info.type == CONTENT_SETTINGS_TYPE_ADS) {
@@ -204,9 +205,11 @@ bool ShouldShowPermission(
     return true;
   }
 
+#if !defined(BRAVE_CHROMIUM_BUILD)
   // Autoplay is Android-only at the moment.
   if (info.type == CONTENT_SETTINGS_TYPE_AUTOPLAY)
     return false;
+#endif
 
   // Display the Native File System write permission if the Native File System
   // API is currently being used.
@@ -1043,7 +1046,7 @@ void PageInfo::RecordPasswordReuseEvent() {
 std::vector<ContentSettingsType> PageInfo::GetAllPermissionsForTesting() {
   std::vector<ContentSettingsType> permission_list;
   for (size_t i = 0; i < base::size(kPermissionType); ++i) {
-#if !defined(OS_ANDROID)
+#if !defined(OS_ANDROID) && !defined(BRAVE_CHROMIUM_BUILD)
     if (kPermissionType[i] == CONTENT_SETTINGS_TYPE_AUTOPLAY)
       continue;
 #endif

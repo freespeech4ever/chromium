@@ -130,6 +130,7 @@ class PermissionManager : public KeyedService,
   void Shutdown() override;
 
  private:
+  friend class BravePermissionManager;
   friend class PermissionManagerTest;
   friend class GeolocationPermissionContextTests;
 

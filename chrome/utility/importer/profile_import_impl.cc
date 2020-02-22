@@ -8,11 +8,14 @@
 #include <utility>
 
 #include "base/bind.h"
+#include "base/command_line.h"
 #include "base/location.h"
 #include "base/memory/ref_counted.h"
 #include "base/single_thread_task_runner.h"
+#include "base/strings/utf_string_conversions.h"
 #include "base/threading/thread.h"
 #include "base/threading/thread_task_runner_handle.h"
+#include "brave/utility/importer/brave_external_process_importer_bridge.h"
 #include "build/build_config.h"
 #include "chrome/common/importer/profile_import.mojom.h"
 #include "chrome/utility/importer/external_process_importer_bridge.h"
@@ -56,6 +59,19 @@ void ProfileImportImpl::StartImport(
 
   items_to_import_ = items;
 
+  // Signal change to OSCrypt password for importing from Chrome/Chromium
+  base::CommandLine* command_line = base::CommandLine::ForCurrentProcess();
+  if (base::StartsWith(base::UTF16ToUTF8(source_profile.importer_name),
+                       "Chrome", base::CompareCase::SENSITIVE)) {
+    command_line->AppendSwitch("import-chrome");
+  } else if (base::StartsWith(base::UTF16ToUTF8(source_profile.importer_name),
+                              "Chromium", base::CompareCase::SENSITIVE)) {
+    command_line->AppendSwitch("import-chromium");
+  } else if (base::StartsWith(base::UTF16ToUTF8(source_profile.importer_name),
+                              "Brave", base::CompareCase::SENSITIVE)) {
+    command_line->AppendSwitch("import-brave");
+  }
+
   // Create worker thread in which importer runs.
   import_thread_.reset(new base::Thread("import_thread"));
 #if defined(OS_WIN)
@@ -65,7 +81,7 @@ void ProfileImportImpl::StartImport(
     NOTREACHED();
     ImporterCleanup();
   }
-  bridge_ = new ExternalProcessImporterBridge(
+  bridge_ = new BraveExternalProcessImporterBridge(
       localized_strings,
       mojo::SharedRemote<chrome::mojom::ProfileImportObserver>(
           std::move(observer)));

@@ -138,6 +138,10 @@ bool AutoplayPolicy::DocumentHasUserExceptionFlag(const Document& document) {
 // static
 bool AutoplayPolicy::DocumentShouldAutoplayMutedVideos(
     const Document& document) {
+#if defined(BRAVE_CHROMIUM_BUILD)
+  if (GetAutoplayPolicyForDocument(document) == AutoplayPolicy::Type::kUserGestureRequired)
+   return false;
+#endif
   return GetAutoplayPolicyForDocument(document) !=
          AutoplayPolicy::Type::kNoUserGestureRequired;
 }
@@ -307,6 +311,10 @@ bool AutoplayPolicy::IsGestureNeededForPlayback() const {
   if (!IsLockedPendingUserGesture())
     return false;
 
+#if defined(BRAVE_CHROMIUM_BUILD)
+  if (IsAutoplayAllowedPerSettings())
+    return false;
+#endif
   // We want to allow muted video to autoplay if:
   // - The element is allowed to autoplay muted;
   // - Autoplay is enabled in settings.

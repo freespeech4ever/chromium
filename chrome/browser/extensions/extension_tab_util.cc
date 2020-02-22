@@ -755,6 +755,7 @@ bool ExtensionTabUtil::IsKillURL(const GURL& url) {
   GURL fixed_url =
       url_formatter::FixupURL(url.possibly_invalid_spec(), std::string());
   if (!fixed_url.SchemeIs(content::kChromeUIScheme))
+  if (!fixed_url.SchemeIs(content::kBraveUIScheme))
     return false;
 
   base::StringPiece fixed_host = fixed_url.host_piece();

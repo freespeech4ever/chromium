@@ -13,6 +13,7 @@
 #include "base/strings/string_util.h"
 #include "base/strings/utf_string_conversions.h"
 #include "base/threading/thread_task_runner_handle.h"
+#include "brave/browser/extensions/brave_extension_install_prompt.h"
 #include "chrome/browser/extensions/extension_install_prompt_show_params.h"
 #include "chrome/browser/extensions/extension_util.h"
 #include "chrome/browser/extensions/permissions_updater.h"
@@ -509,7 +510,7 @@ void ExtensionInstallPrompt::ShowDialog(
     const SkBitmap* icon,
     const ShowDialogCallback& show_dialog_callback) {
   ShowDialog(done_callback, extension, icon,
-             std::make_unique<Prompt>(INSTALL_PROMPT), show_dialog_callback);
+             std::make_unique<BravePrompt>(INSTALL_PROMPT), show_dialog_callback);
 }
 
 void ExtensionInstallPrompt::ShowDialog(

@@ -29,6 +29,7 @@
 #include "third_party/blink/renderer/modules/webaudio/audio_buffer.h"
 
 #include <memory>
+#include "brave/renderer/brave_content_settings_observer_helper.h"
 #include "third_party/blink/renderer/modules/webaudio/audio_buffer_options.h"
 #include "third_party/blink/renderer/modules/webaudio/base_audio_context.h"
 #include "third_party/blink/renderer/platform/audio/audio_bus.h"
@@ -207,8 +208,13 @@ AudioBuffer::AudioBuffer(AudioBus* bus)
 }
 
 NotShared<DOMFloat32Array> AudioBuffer::getChannelData(
+    ScriptState* script_state,
     unsigned channel_index,
     ExceptionState& exception_state) {
+  LocalDOMWindow* window = LocalDOMWindow::From(script_state);
+  if (window && !AllowFingerprinting(window->GetFrame())) {
+    return NotShared<DOMFloat32Array>(nullptr);
+  }
   if (channel_index >= channels_.size()) {
     exception_state.ThrowDOMException(
         DOMExceptionCode::kIndexSizeError,
@@ -228,16 +234,22 @@ NotShared<DOMFloat32Array> AudioBuffer::getChannelData(unsigned channel_index) {
   return NotShared<DOMFloat32Array>(channels_[channel_index].Get());
 }
 
-void AudioBuffer::copyFromChannel(NotShared<DOMFloat32Array> destination,
+void AudioBuffer::copyFromChannel(ScriptState* script_state,
+                                  NotShared<DOMFloat32Array> destination,
                                   int32_t channel_number,
                                   ExceptionState& exception_state) {
-  return copyFromChannel(destination, channel_number, 0, exception_state);
+  return copyFromChannel(script_state, destination, channel_number, 0, exception_state);
 }
 
-void AudioBuffer::copyFromChannel(NotShared<DOMFloat32Array> destination,
+void AudioBuffer::copyFromChannel(ScriptState* script_state,
+                                  NotShared<DOMFloat32Array> destination,
                                   int32_t channel_number,
                                   uint32_t buffer_offset,
                                   ExceptionState& exception_state) {
+  LocalDOMWindow* window = LocalDOMWindow::From(script_state);
+  if (window && !AllowFingerprinting(window->GetFrame())) {
+    return;
+  }
   if (channel_number < 0 ||
       static_cast<uint32_t>(channel_number) >= channels_.size()) {
     exception_state.ThrowDOMException(

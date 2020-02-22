@@ -39,6 +39,7 @@ class ProfileMenuView : public ProfileMenuViewBase, public AvatarMenuObserver {
   void BuildMenu() override;
 
  private:
+  BRAVE_PROFILE_MENU_VIEW_H
   friend class ProfileMenuViewExtensionsTest;
 
   // ProfileMenuViewBase:
@@ -56,6 +57,7 @@ class ProfileMenuView : public ProfileMenuViewBase, public AvatarMenuObserver {
   void OnGuestProfileButtonClicked();
   void OnManageProfilesButtonClicked();
   void OnLockButtonClicked();
+  virtual
   void OnExitProfileButtonClicked();
   void OnSyncSettingsButtonClicked();
   void OnSyncErrorButtonClicked(sync_ui_util::AvatarSyncErrorType error);
@@ -98,6 +100,7 @@ class ProfileMenuView : public ProfileMenuViewBase, public AvatarMenuObserver {
   void AddGuestProfileView();
   void AddOptionsView(bool display_lock, AvatarMenu* avatar_menu);
   void AddSupervisedUserDisclaimerView();
+  virtual
   void AddAutofillHomeView();
 #if defined(GOOGLE_CHROME_BUILD)
   void AddManageGoogleAccountButton();
@@ -120,6 +123,7 @@ class ProfileMenuView : public ProfileMenuViewBase, public AvatarMenuObserver {
 
   // Adds a view showing the profile associated with |avatar_item| and an error
   // button below, when dice is enabled.
+  virtual
   void AddDiceSyncErrorView(const AvatarMenu::Item& avatar_item,
                             sync_ui_util::AvatarSyncErrorType error,
                             int button_string_id);

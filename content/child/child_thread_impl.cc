@@ -185,6 +185,9 @@ class SuicideOnChannelErrorFilter : public IPC::MessageFilter {
     __lsan_do_leak_check();
 #endif
 #else
+#if defined(OS_MACOSX)
+    CleanupTor();
+#endif // defined(OS_MACOSX)
     base::Process::TerminateCurrentProcessImmediately(0);
 #endif
   }

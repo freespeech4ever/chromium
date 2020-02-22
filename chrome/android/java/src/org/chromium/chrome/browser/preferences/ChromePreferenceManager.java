@@ -22,7 +22,7 @@ import java.util.Set;
 /**
  * ChromePreferenceManager stores and retrieves various values in Android shared preferences.
  */
-public class ChromePreferenceManager {
+public class ChromePreferenceManager extends BravePreferenceManager {
     // For new int values with a default of 0, just document the key and its usage, and call
     // #readInt and #writeInt directly.
     // For new boolean values, document the key and its usage, call #readBoolean and #writeBoolean

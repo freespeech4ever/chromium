@@ -234,6 +234,9 @@ void NetErrorTabHelper::InitializePref(WebContents* contents) {
 }
 
 bool NetErrorTabHelper::ProbesAllowed() const {
+#if defined(BRAVE_CHROMIUM_BUILD)
+  return false;
+#endif
   if (testing_state_ != TESTING_DEFAULT)
     return testing_state_ == TESTING_FORCE_ENABLED;
 

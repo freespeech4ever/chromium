@@ -28,6 +28,7 @@ PushClientChannel::PushClientChannel(
     : push_client_(std::move(push_client)),
       scheduling_hash_(0),
       sent_messages_count_(0) {
+  return; // feature disabled in Brave
   push_client_->AddObserver(this);
   notifier::Subscription subscription;
   subscription.channel = kChannelName;
@@ -43,6 +44,7 @@ PushClientChannel::~PushClientChannel() {
 
 void PushClientChannel::UpdateCredentials(const CoreAccountId& account_id,
                                           const std::string& token) {
+  return; // feature disabled in Brave
   net::NetworkTrafficAnnotationTag traffic_annotation =
       net::DefineNetworkTrafficAnnotation("puch_client_channel", R"(
         semantics {

@@ -32,7 +32,7 @@ class PrefsUtil {
   // Gets the list of whitelisted pref keys -- that is, those which correspond
   // to prefs that clients of the settingsPrivate API may retrieve and
   // manipulate.
-  const TypedPrefMap& GetWhitelistedKeys();
+  virtual const TypedPrefMap& GetWhitelistedKeys();
 
   // Returns the pref type for |pref_name| or PREF_TYPE_NONE if not in the
   // whitelist.

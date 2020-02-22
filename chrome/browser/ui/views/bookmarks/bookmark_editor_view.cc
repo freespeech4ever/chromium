@@ -491,7 +491,7 @@ BookmarkEditorView::CreateRootNode() {
       std::make_unique<EditorNode>(base::string16(), 0);
   const BookmarkNode* bb_root_node = bb_model_->root_node();
   CreateNodes(bb_root_node, root_node.get());
-  DCHECK_GE(root_node->children().size(), 2u);
+  DCHECK_GE(root_node->children().size(), 1u);
   DCHECK_LE(root_node->children().size(), 4u);
   DCHECK_EQ(BookmarkNode::BOOKMARK_BAR, bb_root_node->children()[0]->type());
   DCHECK_EQ(BookmarkNode::OTHER_NODE, bb_root_node->children()[1]->type());

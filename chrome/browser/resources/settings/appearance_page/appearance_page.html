@@ -22,6 +22,12 @@
 <link rel="import" href="../appearance_page/wallpaper_browser_proxy.html">
 </if>
 
+<if expr="not _google_chrome">
+<link rel="import" href="../brave_appearance_page/brave_appearance_page.html">
+<link rel="import" href="../default_brave_shields_page/default_brave_shields_page.html">
+<link rel="import" href="../social_blocking_page/social_blocking_page.html">
+</if>
+
 <dom-module id="settings-appearance-page">
   <template>
     <style include="settings-shared md-select iron-flex">
@@ -61,6 +67,9 @@
           </template>
         </cr-link-row>
         <div class="hr"></div>
+</if>
+<if expr="not _google_chrome">
+        <settings-brave-appearance-theme prefs="{{prefs}}"></settings-brave-appearance-theme>
 </if>
         <div class="settings-row continuation" id="themeRow"
             hidden="[[!pageVisibility.setTheme]]">
@@ -134,6 +143,9 @@
             </settings-radio-group>
           </div>
         </template>
+<if expr="not _google_chrome">
+            <settings-brave-appearance-toolbar prefs="{{prefs}}"></settings-brave-appearance-toolbar>
+</if>
         <settings-toggle-button hidden="[[!pageVisibility.bookmarksBar]]"
             pref="{{prefs.bookmark_bar.show_on_all_tabs}}"
             label="$i18n{showBookmarksBar}">

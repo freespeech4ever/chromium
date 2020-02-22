@@ -52,6 +52,7 @@ class AvatarToolbarButton : public ToolbarButton,
   void RemoveObserver(Observer* observer);
 
  private:
+  friend class BraveAvatarToolbarButton;
   FRIEND_TEST_ALL_PREFIXES(AvatarToolbarButtonTest,
                            HighlightMeetsMinimumContrast);
 

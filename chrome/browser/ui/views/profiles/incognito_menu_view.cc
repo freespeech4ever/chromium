@@ -63,6 +63,7 @@ void IncognitoMenuView::BuildMenu() {
                   IDS_INCOGNITO_WINDOW_COUNT_MESSAGE, incognito_window_count)
             : base::string16(),
         base::RepeatingClosure());
+    BRAVE_BUILDMENU_ADD_TOR_BUTTON
 
     AddMenuGroup();
     exit_button_ = CreateAndAddButton(

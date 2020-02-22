@@ -41,6 +41,7 @@ PACKAGE_FILTER = set([
     "libatk-bridge2.0-0",
     "libc6",
     "libcairo2",
+    "libcairo-gobject2",
     "libcups2",
     "libdbus-1-3",
     "libexpat1",
@@ -67,6 +68,7 @@ PACKAGE_FILTER = set([
     "libxrender1",
     "libxss1",
     "libxtst6",
+    "zlib1g",
 ])
 
 def create_temp_file_from_data(data):

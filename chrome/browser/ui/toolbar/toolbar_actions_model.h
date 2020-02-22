@@ -27,6 +27,7 @@ class PrefService;
 class Profile;
 class ExtensionsContainer;
 class ToolbarActionViewController;
+class BraveToolbarActionsModel;
 
 namespace extensions {
 class ExtensionActionManager;
@@ -45,6 +46,7 @@ class ToolbarActionsModel : public extensions::ExtensionActionAPI::Observer,
                             public extensions::ExtensionRegistryObserver,
                             public KeyedService {
  public:
+  friend class BraveToolbarActionsModel;
   using ActionId = std::string;
 
   // The different options for highlighting.
@@ -239,7 +241,7 @@ class ToolbarActionsModel : public extensions::ExtensionActionAPI::Observer,
   size_t FindNewPositionFromLastKnownGood(const ActionId& action_id);
 
   // Returns true if the given |extension| should be added to the toolbar.
-  bool ShouldAddExtension(const extensions::Extension* extension);
+  virtual bool ShouldAddExtension(const extensions::Extension* extension);
 
   // Adds or removes the given |extension| from the toolbar model.
   void AddExtension(const extensions::Extension* extension);

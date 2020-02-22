@@ -13,7 +13,11 @@
 namespace {
 
 constexpr base::FilePath::CharType kChromeExecutable[] =
+#if defined(BRAVE_CHROMIUM_BUILD)
+    FILE_PATH_LITERAL("dissenter.exe");
+#else
     FILE_PATH_LITERAL("chrome.exe");
+#endif
 
 constexpr base::FilePath::CharType kChromeProxyExecutable[] =
     FILE_PATH_LITERAL("chrome_proxy.exe");

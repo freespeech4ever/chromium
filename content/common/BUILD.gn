@@ -33,7 +33,7 @@ source_set("common") {
   # In addition, targets outside of the content component (shell and tests)
   # must not link to this because it will duplicate the code in the component
   # build.
-  visibility = [ "//content/*" ]
+  visibility = [ "//content/*", "//brave/content/*" ]
 
   sources = [
     "accessibility_messages.h",

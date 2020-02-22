@@ -138,4 +138,5 @@ class BottomToolbarCoordinator {
         }
         mThemeColorProvider.destroy();
     }
+    public void updateBookmarkButton(boolean isBookmarked, boolean editingAllowed) {if (mBrowsingModeCoordinator != null) {mBrowsingModeCoordinator.updateBookmarkButton(isBookmarked, editingAllowed);}}
 }

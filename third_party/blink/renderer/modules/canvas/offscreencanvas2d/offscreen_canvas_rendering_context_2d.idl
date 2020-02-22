@@ -60,10 +60,10 @@
     void stroke(Path2D path);
     void clip();
     void clip(Path2D path);
-    [HighEntropy, MeasureAs=OffscreenCanvasIsPointInPath] boolean isPointInPath(unrestricted double x, unrestricted double y, optional CanvasFillRule winding);
-    [HighEntropy, MeasureAs=OffscreenCanvasIsPointInPath] boolean isPointInPath(Path2D path, unrestricted double x, unrestricted double y, optional CanvasFillRule winding);
-    [HighEntropy, MeasureAs=OffscreenCanvasIsPointInStroke] boolean isPointInStroke(unrestricted double x, unrestricted double y);
-    [HighEntropy, MeasureAs=OffscreenCanvasIsPointInStroke] boolean isPointInStroke(Path2D path, unrestricted double x, unrestricted double y);
+    [CallWith=ScriptState, HighEntropy, MeasureAs=OffscreenCanvasIsPointInPath] boolean isPointInPath(unrestricted double x, unrestricted double y, optional CanvasFillRule winding);
+    [CallWith=ScriptState, HighEntropy, MeasureAs=OffscreenCanvasIsPointInPath] boolean isPointInPath(Path2D path, unrestricted double x, unrestricted double y, optional CanvasFillRule winding);
+    [CallWith=ScriptState, HighEntropy, MeasureAs=OffscreenCanvasIsPointInStroke] boolean isPointInStroke(unrestricted double x, unrestricted double y);
+    [CallWith=ScriptState, HighEntropy, MeasureAs=OffscreenCanvasIsPointInStroke] boolean isPointInStroke(Path2D path, unrestricted double x, unrestricted double y);
 
     // text (see also the CanvasDrawingStyles interface)
     void fillText(DOMString text, unrestricted double x, unrestricted double y, optional unrestricted double maxWidth);
@@ -78,7 +78,7 @@
     // pixel manipulation
     [RaisesException] ImageData createImageData(ImageData imagedata);
     [RaisesException] ImageData createImageData(long sw, long sh);
-    [HighEntropy, MeasureAs=OffscreenCanvasGetImageData, RaisesException] ImageData getImageData(long sx, long sy, long sw, long sh);
+    [CallWith=ScriptState, HighEntropy, MeasureAs=OffscreenCanvasGetImageData, RaisesException] ImageData getImageData(long sx, long sy, long sw, long sh);
     [RaisesException] void putImageData(ImageData imagedata, long dx, long dy);
     [RaisesException] void putImageData(ImageData imagedata, long dx, long dy, long dirtyX, long dirtyY, long dirtyWidth, long dirtyHeight);
 
@@ -96,7 +96,7 @@
 
     // dashed lines
     void setLineDash(sequence<unrestricted double> dash);
-    sequence<unrestricted double> getLineDash();
+    [CallWith=ScriptState] sequence<unrestricted double> getLineDash();
     attribute unrestricted double lineDashOffset;
 
     // text

@@ -425,7 +425,8 @@ void RestrictedCookieManager::SetCookieFromString(
   DCHECK_CALLED_ON_VALID_SEQUENCE(sequence_checker_);
 
   std::unique_ptr<net::CanonicalCookie> parsed_cookie =
-      net::CanonicalCookie::Create(url, cookie, base::Time::Now(),
+      net::CanonicalCookie::Create(BRAVE_SETCOOKIEFROMSTRING
+                                   url, cookie, base::Time::Now(),
                                    base::nullopt /* server_time */);
   if (!parsed_cookie) {
     std::move(callback).Run();

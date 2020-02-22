@@ -73,6 +73,7 @@ class RecentlyUsedFoldersComboModel : public ui::ComboboxModel,
   void MaybeChangeParent(const bookmarks::BookmarkNode* node,
                          int selected_index);
 
+  BRAVE_RECENTLY_USED_FOLDERS_COMBO_MODEL_H_
  private:
   // Returns the node at the specified |index|.
   const bookmarks::BookmarkNode* GetNodeAt(int index);

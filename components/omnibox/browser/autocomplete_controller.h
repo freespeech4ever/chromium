@@ -148,6 +148,7 @@ class AutocompleteController : public AutocompleteProviderListener,
   }
 
  private:
+  friend class BraveAutocompleteController;
   friend class AutocompleteProviderTest;
   FRIEND_TEST_ALL_PREFIXES(AutocompleteProviderTest,
                            RedundantKeywordsIgnoredInResult);

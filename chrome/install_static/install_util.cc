@@ -665,7 +665,7 @@ void GetExecutableVersionDetails(const std::wstring& exe_path,
 }
 
 version_info::Channel GetChromeChannel() {
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
+#if BUILDFLAG(GOOGLE_CHROME_BRANDING) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
   std::wstring channel_name(GetChromeChannelName());
   if (channel_name.empty()) {
     return version_info::Channel::STABLE;
@@ -676,7 +676,7 @@ version_info::Channel GetChromeChannel() {
   if (channel_name == L"dev") {
     return version_info::Channel::DEV;
   }
-  if (channel_name == L"canary") {
+  if (channel_name == L"nightly") {
     return version_info::Channel::CANARY;
   }
 #endif

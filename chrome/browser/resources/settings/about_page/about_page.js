@@ -69,7 +69,7 @@ Polymer({
       value: false,
     },
 
-    /** @private */
+    /** @private */    
     showCrostini: Boolean,
 
     /**
@@ -96,7 +96,7 @@ Polymer({
       type: Boolean,
       value: false,
     },
-
+    
     // <if expr="_google_chrome and is_macosx">
     /** @private {!PromoteUpdaterStatus} */
     promoteUpdaterStatus_: Object,
@@ -218,7 +218,6 @@ Polymer({
     if (!this.showOsSettings_) {
       return;
     }
-
     this.addEventListener('target-channel-changed', e => {
       this.targetChannel_ = e.detail;
     });
@@ -233,8 +232,8 @@ Polymer({
       this.regulatoryInfo_ = info;
     });
 
-    this.aboutBrowserProxy_.getEndOfLifeInfo().then(result => {
-      this.hasEndOfLife_ = !!result.hasEndOfLife;
+    this.aboutBrowserProxy_.getHasEndOfLife().then(result => {
+      this.hasEndOfLife_ = result;
     });
 
     this.aboutBrowserProxy_.getEnabledReleaseNotes().then(result => {
@@ -244,7 +243,6 @@ Polymer({
     this.aboutBrowserProxy_.checkInternetConnection().then(result => {
       this.hasInternetConnection_ = result;
     });
-
     // </if>
     // <if expr="not chromeos">
     this.startListening_();
@@ -340,14 +338,21 @@ Polymer({
     this.aboutBrowserProxy_.launchReleaseNotes();
   },
 
-  /** @private */
+  /** @private */  
   onHelpTap_: function() {
     this.aboutBrowserProxy_.openHelpPage();
   },
 
   /** @private */
   onRelaunchTap_: function() {
+    // <if expr="is_macosx">
+    // Sparkle framework's relaunch api is used.
+    this.lifetimeBrowserProxy_.relaunchOnMac();
+    // </if>
+
+    // <if expr="not is_macosx">
     this.lifetimeBrowserProxy_.relaunch();
+    // </if>
   },
 
   /** @private */
@@ -417,6 +422,7 @@ Polymer({
    * @private
    */
   getUpdateStatusMessage_: function() {
+    return 'Auto-updates are disabled.  Please check <a href="https://dissenter.com">dissenter.com</a> for the latest version.';
     switch (this.currentUpdateStatusEvent_.status) {
       case UpdateStatus.CHECKING:
       case UpdateStatus.NEED_PERMISSION_TO_UPDATE:
@@ -487,11 +493,12 @@ Polymer({
    * @private
    */
   getUpdateStatusIcon_: function() {
+    return 'cr20:domain';
     // <if expr="chromeos">
     // If Chrome OS has reached end of life, display a special icon and
     // ignore UpdateStatus.
     if (this.hasEndOfLife_) {
-      return 'os-settings:end-of-life';
+      return 'settings:end-of-life';
     }
     // </if>
 
@@ -632,20 +639,6 @@ Polymer({
         this.i18nAdvanced('aboutProductOsLicense');
   },
 
-  // <if expr="chromeos">
-  /**
-   * @return {string}
-   * @private
-   */
-  getUpdateOsSettingsLink_: function() {
-    // Note: This string contains raw HTML and thus requires i18nAdvanced().
-    // Since the i18n template syntax (e.g., $i18n{}) does not include an
-    // "advanced" version, it's not possible to inline this link directly in the
-    // HTML.
-    return this.i18nAdvanced('aboutUpdateOsSettingsLink');
-  },
-  // </if>
-
   /**
    * @param {boolean} enabled True if Crostini is enabled.
    * @private
@@ -676,7 +669,7 @@ Polymer({
    */
   shouldShowRegulatoryOrSafetyInfo_: function() {
     return this.showOsSettings_ &&
-        (this.shouldShowSafetyInfo_() || this.shouldShowRegulatoryInfo_());
+    (this.shouldShowSafetyInfo_() || this.shouldShowRegulatoryInfo_());
   },
 
   /** @private */

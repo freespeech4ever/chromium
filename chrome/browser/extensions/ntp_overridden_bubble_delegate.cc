@@ -88,6 +88,7 @@ void NtpOverriddenBubbleDelegate::MaybeAcknowledgeExistingNtpExtensions(
 
 bool NtpOverriddenBubbleDelegate::ShouldIncludeExtension(
     const extensions::Extension* extension) {
+return false;
   if (!extension_id_.empty() && extension_id_ != extension->id())
     return false;
 

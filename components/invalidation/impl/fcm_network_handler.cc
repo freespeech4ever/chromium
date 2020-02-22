@@ -122,6 +122,7 @@ std::unique_ptr<syncer::FCMNetworkHandler> FCMNetworkHandler::Create(
 }
 
 void FCMNetworkHandler::StartListening() {
+  return; // feature disabled in Brave
   if (IsListening()) {
     StopListening();
   }

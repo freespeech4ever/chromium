@@ -26,6 +26,7 @@ bool OSCrypt::DecryptString16(const std::string& ciphertext,
 
 bool OSCrypt::EncryptString(const std::string& plaintext,
                             std::string* ciphertext) {
+  if (IsEncryptionDisabled(plaintext, ciphertext)) { return true; }
   DATA_BLOB input;
   input.pbData = const_cast<BYTE*>(
       reinterpret_cast<const BYTE*>(plaintext.data()));
@@ -49,6 +50,7 @@ bool OSCrypt::EncryptString(const std::string& plaintext,
 
 bool OSCrypt::DecryptString(const std::string& ciphertext,
                             std::string* plaintext) {
+  if (IsEncryptionDisabled(ciphertext, plaintext)) { return true; }
   DATA_BLOB input;
   input.pbData = const_cast<BYTE*>(
       reinterpret_cast<const BYTE*>(ciphertext.data()));

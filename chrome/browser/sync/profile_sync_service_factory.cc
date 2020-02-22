@@ -275,7 +275,7 @@ KeyedService* ProfileSyncServiceFactory::BuildServiceInstanceFor(
   }
 
   auto pss =
-      std::make_unique<syncer::ProfileSyncService>(std::move(init_params));
+      BraveBuildServiceInstanceFor(profile, std::move(init_params));
   pss->Initialize();
 
   // Hook PSS into PersonalDataManager (a circular dependency).

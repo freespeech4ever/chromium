@@ -38,6 +38,7 @@ void MockBrowsingDataCookieHelper::DeleteCookie(
 void MockBrowsingDataCookieHelper::AddCookieSamples(
     const GURL& url, const std::string& cookie_line) {
   std::unique_ptr<net::CanonicalCookie> cc(net::CanonicalCookie::Create(
+      BRAVE_ADDCOOKIESAMPLES
       url, cookie_line, base::Time::Now(), base::nullopt /* server_time */));
 
   if (cc.get()) {

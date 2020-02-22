@@ -113,7 +113,7 @@ function updateCrashList(
       link.target = '_blank';
       link.textContent = loadTimeData.getString('bugLinkText');
       linkBlock.appendChild(link);
-      crashBlock.appendChild(linkBlock);
+      //crashBlock.appendChild(linkBlock); // feature disabled in Brave
     } else {
       if (crash.state == 'pending_user_requested')
         var textContentKey = 'crashUserRequested';

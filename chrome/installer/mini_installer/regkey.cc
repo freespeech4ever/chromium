@@ -90,7 +90,7 @@ LONG OpenClientsKey(HKEY root_key,
   StackString<MAX_PATH> clients_key;
   if (!clients_key.assign(kClientsKeyBase))
     return ERROR_BUFFER_OVERFLOW;
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
+#if BUILDFLAG(GOOGLE_CHROME_BRANDING) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
   if (!clients_key.append(app_guid))
     return ERROR_BUFFER_OVERFLOW;
 #endif
@@ -105,7 +105,7 @@ LONG OpenClientStateKey(HKEY root_key,
   StackString<MAX_PATH> client_state_key;
   if (!client_state_key.assign(kClientStateKeyBase))
     return ERROR_BUFFER_OVERFLOW;
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
+#if BUILDFLAG(GOOGLE_CHROME_BRANDING) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
   if (!client_state_key.append(app_guid))
     return ERROR_BUFFER_OVERFLOW;
 #endif

@@ -202,6 +202,7 @@ void ProcessUpdate(const sync_pb::SyncEntity& update,
   // change the ID now, after we're sure that the update can succeed.
   if (local_id != server_id) {
     DCHECK(!update.deleted());
+    BRAVE_PROCESS_UPDATE
     ChangeEntryIDAndUpdateChildren(trans, &target_entry, server_id);
     // When IDs change, versions become irrelevant.  Forcing BASE_VERSION
     // to zero would ensure that this update gets applied, but would indicate

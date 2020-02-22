@@ -10,6 +10,7 @@
 
 #include "base/metrics/histogram_functions.h"
 #include "base/numerics/checked_math.h"
+#include "brave/renderer/brave_content_settings_observer_helper.h"
 #include "third_party/blink/public/common/features.h"
 #include "third_party/blink/renderer/core/css/cssom/css_url_image_value.h"
 #include "third_party/blink/renderer/core/css/parser/css_parser.h"
@@ -344,7 +345,12 @@ void BaseRenderingContext2D::setShadowColor(const String& color_string) {
   ModifiableState().SetShadowColor(color.Rgb());
 }
 
-const Vector<double>& BaseRenderingContext2D::getLineDash() const {
+const Vector<double>& BaseRenderingContext2D::getLineDash(ScriptState* script_state) const {
+  static const Vector<double> emptyVector;
+  LocalDOMWindow* window = LocalDOMWindow::From(script_state);
+  if (window && !AllowFingerprinting(window->GetFrame())) {
+    return emptyVector;
+  }
   return GetState().LineDash();
 }
 
@@ -789,16 +795,26 @@ void BaseRenderingContext2D::clip(Path2D* dom_path,
   ClipInternal(dom_path->GetPath(), winding_rule_string);
 }
 
-bool BaseRenderingContext2D::isPointInPath(const double x,
-                                           const double y,
-                                           const String& winding_rule_string) {
-  return IsPointInPathInternal(path_, x, y, winding_rule_string);
-}
-
-bool BaseRenderingContext2D::isPointInPath(Path2D* dom_path,
+bool BaseRenderingContext2D::isPointInPath(ScriptState* script_state,
                                            const double x,
                                            const double y,
                                            const String& winding_rule_string) {
+  LocalDOMWindow* window = LocalDOMWindow::From(script_state);
+  if (window && !AllowFingerprinting(window->GetFrame())) {
+    return false;
+  }
+  return IsPointInPathInternal(path_, x, y, winding_rule_string);
+}
+
+bool BaseRenderingContext2D::isPointInPath(ScriptState* script_state,
+                                           Path2D* dom_path,
+                                           const double x,
+                                           const double y,
+                                           const String& winding_rule_string) {
+  LocalDOMWindow* window = LocalDOMWindow::From(script_state);
+  if (window && !AllowFingerprinting(window->GetFrame())) {
+    return false;
+  }
   return IsPointInPathInternal(dom_path->GetPath(), x, y, winding_rule_string);
 }
 
@@ -823,13 +839,23 @@ bool BaseRenderingContext2D::IsPointInPathInternal(
                        SkFillTypeToWindRule(ParseWinding(winding_rule_string)));
 }
 
-bool BaseRenderingContext2D::isPointInStroke(const double x, const double y) {
+bool BaseRenderingContext2D::isPointInStroke(ScriptState* script_state,
+                                             const double x, const double y) {
+  LocalDOMWindow* window = LocalDOMWindow::From(script_state);
+  if (window && !AllowFingerprinting(window->GetFrame())) {
+    return false;
+  }
   return IsPointInStrokeInternal(path_, x, y);
 }
 
-bool BaseRenderingContext2D::isPointInStroke(Path2D* dom_path,
+bool BaseRenderingContext2D::isPointInStroke(ScriptState* script_state,
+                                             Path2D* dom_path,
                                              const double x,
                                              const double y) {
+  LocalDOMWindow* window = LocalDOMWindow::From(script_state);
+  if (window && !AllowFingerprinting(window->GetFrame())) {
+    return false;
+  }
   return IsPointInStrokeInternal(dom_path->GetPath(), x, y);
 }
 
@@ -1533,11 +1559,16 @@ ImageData* BaseRenderingContext2D::createImageData(
 }
 
 ImageData* BaseRenderingContext2D::getImageData(
+    ScriptState* script_state,
     int sx,
     int sy,
     int sw,
     int sh,
     ExceptionState& exception_state) {
+  LocalDOMWindow* window = LocalDOMWindow::From(script_state);
+  if (window && !AllowFingerprinting(window->GetFrame())) {
+    return ImageData::CreateForTest(IntSize(0, 0));
+  }
   if (!base::CheckMul(sw, sh).IsValid<int>()) {
     exception_state.ThrowRangeError("Out of memory at ImageData creation");
     return nullptr;

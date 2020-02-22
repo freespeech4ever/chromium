@@ -50,7 +50,7 @@ class MODULES_EXPORT BaseRenderingContext2D : public GarbageCollectedMixin,
   double miterLimit() const;
   void setMiterLimit(double);
 
-  const Vector<double>& getLineDash() const;
+  const Vector<double>& getLineDash(ScriptState*) const;
   void setLineDash(const Vector<double>&);
 
   double lineDashOffset() const;
@@ -108,15 +108,17 @@ class MODULES_EXPORT BaseRenderingContext2D : public GarbageCollectedMixin,
   void clip(const String& winding = "nonzero");
   void clip(Path2D*, const String& winding = "nonzero");
 
-  bool isPointInPath(const double x,
-                     const double y,
-                     const String& winding = "nonzero");
-  bool isPointInPath(Path2D*,
+  bool isPointInPath(ScriptState*,
                      const double x,
                      const double y,
                      const String& winding = "nonzero");
-  bool isPointInStroke(const double x, const double y);
-  bool isPointInStroke(Path2D*, const double x, const double y);
+  bool isPointInPath(ScriptState*,
+                     Path2D*,
+                     const double x,
+                     const double y,
+                     const String& winding = "nonzero");
+  bool isPointInStroke(ScriptState*, const double x, const double y);
+  bool isPointInStroke(ScriptState*, Path2D*, const double x, const double y);
 
   void clearRect(double x, double y, double width, double height);
   void fillRect(double x, double y, double width, double height);
@@ -195,7 +197,7 @@ class MODULES_EXPORT BaseRenderingContext2D : public GarbageCollectedMixin,
 
   // For deferred canvases this will have the side effect of drawing recorded
   // commands in order to finalize the frame
-  ImageData* getImageData(int sx, int sy, int sw, int sh, ExceptionState&);
+  ImageData* getImageData(ScriptState*, int sx, int sy, int sw, int sh, ExceptionState&);
   void putImageData(ImageData*, int dx, int dy, ExceptionState&);
   void putImageData(ImageData*,
                     int dx,

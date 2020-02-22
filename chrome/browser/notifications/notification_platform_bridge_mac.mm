@@ -302,6 +302,7 @@ void NotificationPlatformBridgeMac::Display(
   } else {
     NSUserNotification* toast = [builder buildUserNotification];
     [notification_center_ deliverNotification:toast];
+    BRAVE_DISPLAY_
   }
 }
 

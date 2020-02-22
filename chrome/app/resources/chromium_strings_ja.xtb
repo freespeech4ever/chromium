@@ -1,234 +1,243 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="ja">
+<translation id="939305735877869636">Dissenter</translation>
+<translation id="2069994121511856876">Dissenter Nightly</translation>
+<translation id="4947625801334180582">Dissenter Beta</translation>
+<translation id="2566435362010629810">Dissenter Dev</translation>
+<translation id="6373767849825830651">Dissenter は、ウェブページやアプリケーションを高速に実行できるスピードと、高い安定性を兼ね備えた非常に使いやすいウェブブラウザです。不正なソフトウェアやフィッシングに対する保護機能が組み込まれており、ウェブを安全にブラウジングできます。</translation>
+<translation id="680297041157509674">Dissenter OS</translation>
+<translation id="4847979153841887006">Dissenter ロゴ</translation>
+<translation id="7339898014177206373">新しいウィンドウ</translation>
+<translation id="5935964611177478118">Dissenter にログイン</translation>
+<translation id="5516268345616100622">タスク マネージャ - Dissenter</translation>
+<translation id="7918740962659365265">障害レポートと<ph name="UMA_LINK"/>を Gab AI Inc に自動送信して Dissenter の機能向上に役立てる</translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - Dissenter</translation>
+<translation id="7830723774663008396">Dissenter - <ph name="PAGE_TITLE"/></translation>
+<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Dissenter Beta</translation>
+<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> - Dissenter Dev</translation>
+<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> - Dissenter Canary</translation>
+<translation id="8992261409816268381">Dissenter 開発者</translation>
+<translation id="8121009781989288430">Copyright <ph name="YEAR"/> The Dissenter Authors. All rights reserved.</translation>
+<translation id="2310890394934209120">Dissenter OS は、さらに追加の<ph name="BEGIN_LINK_CROS_OSS"/>オープンソース ソフトウェア<ph name="END_LINK_CROS_OSS"/>によって実現しました。</translation>
+<translation id="8160794320557846790">Dissenter OS も <ph name="BEGIN_LINK_LINUX_OSS"/>Linux（ベータ版）<ph name="END_LINK_LINUX_OSS"/>も追加の<ph name="BEGIN_LINK_CROS_OSS"/>オープンソース ソフトウェア<ph name="END_LINK_CROS_OSS"/>によって実現しました。</translation>
+<translation id="6913582816347128893">Mac OS X 10.9 はサポートされなくなったため、Dissenter は正常に機能しない可能性があります。</translation>
+<translation id="7977787072794666032">Windows XP と Windows Vista はサポートされなくなったため、Dissenter は正常に機能しない可能性があります</translation>
+<translation id="189297655255130768">Dissenter が応答しません。今すぐ再起動しますか？</translation>
+<translation id="8703492925273919597">すべての Dissenter ウィンドウを閉じてからもう一度お試しください。</translation>
+<translation id="335632367599648646">Dissenter をアンインストールしてもよろしいですか？</translation>
+<translation id="5590013613412457132">Dissenter をアンインストール</translation>
+<translation id="5019879183386042809">Dissenter を既定のブラウザにする</translation>
+<translation id="5063987220091207247">Dissenter OS ではこのページを開けません。</translation>
+<translation id="4065288863231444640">Dissenter をバックグラウンドで実行する</translation>
+<translation id="6797402139308059782">Dissenter をバックグラウンドで実行する</translation>
+<translation id="2585240446624043880">Dissenter はこのデータ ディレクトリへの読み書きを実行できません:
+
+<ph name="USER_DATA_DIRECTORY"/></translation>
+<translation id="8417700129970341035">オプション: 使用状況データと障害レポートを Gab AI Inc に自動送信して Dissenter の機能向上に役立てる。</translation>
+<translation id="1489465648257900784">バージョンが新しい Dissenter のプロフィールは使用できません。
+
+一部の機能が利用できない可能性があります。別の場所のプロフィールを指定するか、新しいバージョンの Dissenter をご使用ください。</translation>
 <translation id="1065672644894730302">ユーザー設定ファイルを読み込むことができません。一部の機能が利用できない可能性があります。また、設定への変更は保存されません。</translation>
-<translation id="1104942323762546749">Chromium からパスワードをエクスポートするための許可を求められています。許可するには Windows のパスワードを入力してください。</translation>
-<translation id="1115445892567829615">Chromium はデータを同期できませんでした。同期パスフレーズを更新してください。</translation>
-<translation id="113122355610423240">既定のブラウザは Chromium です</translation>
-<translation id="1185134272377778587">Chromium について</translation>
-<translation id="1396446129537741364">Chromium はパスワードを表示しようとしています。</translation>
-<translation id="1414495520565016063">Chromium にログインしました</translation>
-<translation id="151962892725702025">お使いのドメインでは同期を利用できないため、Chromium OS はデータを同期できませんでした。</translation>
-<translation id="1524282610922162960">Chromium タブの共有</translation>
-<translation id="1607715478322902680">{COUNT,plural, =0{管理者が、アップデートを適用するために Chromium を再起動するよう求めています}=1{管理者が、アップデートを適用するために Chromium を再起動するよう求めています。シークレット ウィンドウは、再起動後は自動的には開きません。}other{管理者が、アップデートを適用するために Chromium を再起動するよう求めています。現在開いている # 個のシークレット ウィンドウは、再起動後は自動的には開きません。}}</translation>
-<translation id="1708666629004767631">Chromium がさらに安全になりました。最新バージョンをぜひお試しください。</translation>
-<translation id="1774152462503052664">Chromium をバックグラウンドで実行する</translation>
-<translation id="1779356040007214683">Chromium をより安全にご利用いただくため、<ph name="IDS_EXTENSION_WEB_STORE_TITLE" />で提供していない一部の拡張機能を無効にしました。これらは知らないうちに追加された可能性があります。</translation>
-<translation id="1808667845054772817">Chromium を再インストール</translation>
-<translation id="1881322772814446296">現在、管理対象アカウントでログインしており、あなたの Chromium プロフィールを管理者が制御できる状態になっています。あなたの Chromium データ（アプリ、ブックマーク、履歴、パスワードなどの設定）は永続的に <ph name="USER_NAME" /> に関連付けられます。このデータは Google アカウントのダッシュボードを介して削除できますが、このデータを別のアカウントに関連付けることはできなくなります。新しいプロフィールを作成して、既存の Chromium データを別に保管することができます。<ph name="LEARN_MORE" /></translation>
-<translation id="1911763535808217981">この設定を無効にすると、Chromium にログインすることなく Gmail などの Google サイトにログインできます</translation>
-<translation id="1929939181775079593">Chromium が応答しません。今すぐ再起動しますか？</translation>
-<translation id="1966382378801805537">Chromium では既定のブラウザを判定または設定できません</translation>
-<translation id="2008474315282236005">このデバイスから 1 件の項目を削除します。後でデータを取得するには、<ph name="USER_EMAIL" /> として Chromium にログインしてください。</translation>
-<translation id="2119636228670142020">Chromium OS について(&amp;C)</translation>
-<translation id="2241627712206172106">パソコンを共有している場合、友だちや家族はそれぞれ Chromium を自分専用のブラウザとして自分用の設定をして使うことができます。</translation>
-<translation id="2347108572062610441">この拡張機能により、Chromium の起動時に表示されるページが変更されました。</translation>
-<translation id="2396765026452590966">拡張機能「<ph name="EXTENSION_NAME" />」により、Chromium の起動時に表示されるページが変更されました。</translation>
-<translation id="2483889755041906834">Chromium 内</translation>
-<translation id="2485422356828889247">アンインストール</translation>
-<translation id="2527042973354814951"><ph name="PLUGIN_NAME" /> を有効にするには Chromium を再起動してください</translation>
-<translation id="2535480412977113886">アカウントのログイン情報が最新ではないため、Chromium OS はデータを同期できませんでした。</translation>
-<translation id="2560420686485554789">ファイルをダウンロードするには、Chromium でストレージへのアクセスを許可する必要があります</translation>
-<translation id="2572494885440352020">Chromium Helper</translation>
-<translation id="2587578672395088481">アップデートを適用するには Chromium OS を再起動する必要があります。</translation>
-<translation id="2647554856022461007">Chromium は、より快適なブラウジングを提供する目的でウェブサービスを使用することがあります。これらのサービスは無効にすることもできます。<ph name="BEGIN_LINK" />詳細<ph name="END_LINK" /></translation>
-<translation id="2648074677641340862">インストール中にオペレーティング システム エラーが発生しました。Chromium をダウンロードし直してください。</translation>
-<translation id="2711502716910134313">Chromium タブ</translation>
-<translation id="2718390899429598676">セキュリティ強化のため、Chromium ではデータが暗号化されます。</translation>
-<translation id="2770231113462710648">既定のブラウザを変更:</translation>
-<translation id="2799223571221894425">再起動</translation>
-<translation id="2838154144102149890">更新するには、このパソコン上の Chromium を終了する必要があります。このパソコンにログインしているユーザーが他にいる場合、保存していない変更が失われる可能性があります。</translation>
-<translation id="2847479871509788944">Chromium から削除...</translation>
-<translation id="2886012850691518054">オプション: 使用状況データと障害レポートを Google に自動送信して Chromium の機能向上に役立てる。</translation>
-<translation id="2910007522516064972">Chromium について(&amp;C)</translation>
-<translation id="2977470724722393594">Chromium は最新版です</translation>
-<translation id="3032787606318309379">Chromium に追加...</translation>
-<translation id="3068515742935458733">障害レポートと<ph name="UMA_LINK" />を Google に自動送信して Chromium の機能向上に役立てる</translation>
-<translation id="3103660991484857065">インストーラ アーカイブを解凍できませんでした。Chromium をダウンロードし直してください。</translation>
-<translation id="3130323860337406239">Chromium がマイクを使用しています。</translation>
-<translation id="3155163173539279776">Chromium を再起動します</translation>
-<translation id="3179665906251668410">Chromium のシークレット ウインドウでリンクを開く(&amp;G)</translation>
-<translation id="3190315855212034486">エラー: Chromium で問題が発生しました。今すぐ再起動しますか？</translation>
-<translation id="3229526316128325841">Chromium からパスワードをエクスポートするための許可を求められています。</translation>
-<translation id="3258596308407688501">Chromium はこのデータ ディレクトリへの読み書きを実行できません:
-
-<ph name="USER_DATA_DIRECTORY" /></translation>
-<translation id="328888136576916638">Google API キーが欠落しています。Chromium の一部の機能は無効になります。</translation>
-<translation id="3296368748942286671">Chromium を閉じた際にバックグラウンド アプリの処理を続行する</translation>
-<translation id="331951419404882060">ログイン時にエラーが発生したため、Chromium OS はデータを同期できませんでした。</translation>
-<translation id="3340978935015468852">設定</translation>
-<translation id="3474745554856756813">このデバイスから <ph name="ITEMS_COUNT" /> 件の項目を削除します。後でデータを取得するには、<ph name="USER_EMAIL" /> として Chromium にログインしてください。</translation>
-<translation id="3509308970982693815">すべての Chromium ウィンドウを閉じてからもう一度お試しください。</translation>
-<translation id="352783484088404971">Chromium から削除...</translation>
-<translation id="3575459661164320785">お使いのパソコンに有害なソフトウェアが見つかりました。Chromium では、ブラウザを正常な動作に戻すためにこのソフトウェアを削除し、設定を復元して、拡張機能を無効化することができます。</translation>
-<translation id="358997566136285270">Chromium ロゴ</translation>
-<translation id="3639635944603682591">この操作を行うと、このユーザーの閲覧データがこのデバイスから削除されます。データを復元するには、<ph name="USER_EMAIL" /> として Chromium にログインしてください。</translation>
-<translation id="364817392622123556">{COUNT,plural, =0{Chromium の新しいアップデートを利用できます。再起動するとすぐにアップデートが適用されます。}=1{Chromium の新しいアップデートを利用できます。再起動するとすぐにアップデートが適用されます。シークレット ウィンドウは、再起動後は自動的には開きません。}other{Chromium の新しいアップデートを利用できます。再起動するとすぐにアップデートが適用されます。現在開いている # 個のシークレット ウィンドウは、再起動後は自動的には開きません。}}</translation>
-<translation id="370962675267501463">{COUNT,plural, =0{管理者が、このアップデートを適用するために Chromium を再起動するよう求めています}=1{管理者が、このアップデートを適用するために Chromium を再起動するよう求めています。シークレット ウィンドウは、再起動後は自動的には開きません。}other{管理者が、このアップデートを適用するために Chromium を再起動するよう求めています。現在開いている # 個のシークレット ウィンドウは、再起動後は自動的には開きません。}}</translation>
-<translation id="3713809861844741608">新しい Chromium タブでリンクを開く(&amp;T)</translation>
-<translation id="3728336900324680424">Chromium からお客様のドライブにアクセスして、アドレスバーに候補を表示します</translation>
-<translation id="378917192836375108">Chromium では、ウェブサイト上の電話番号をクリックするだけで Skype で通話を発信できます。</translation>
-<translation id="3848258323044014972"><ph name="PAGE_TITLE" /> - Chromium</translation>
-<translation id="388648406173476553">Chromium をカスタマイズ、制御します。確認の必要な項目があります。クリックして詳細をご覧ください。</translation>
-<translation id="3889543394854987837">Chromium を開いてブラウジングを始めるには、名前をクリックしてください。</translation>
-<translation id="4036079820698952681"><ph name="BEGIN_LINK" />現在の設定<ph name="END_LINK" />を送信して Chromium の品質向上にご協力ください</translation>
-<translation id="4050175100176540509">最新バージョンに更新すると、重要なセキュリティ更新と新機能が適用されます。</translation>
-<translation id="421369550622382712">Chromium の優れたアプリ、ゲーム、拡張機能、テーマをぜひご利用ください。</translation>
-<translation id="4216212958613226427">この言語が Chromium UI の表示に使用されます</translation>
-<translation id="4230135487732243613">Chromium データをこのアカウントにリンクしますか？</translation>
-<translation id="4271805377592243930">Chromium のヘルプを見る</translation>
-<translation id="4285930937574705105">原因不明のエラーによりインストールが失敗しました。実行中の Chromium を終了してからもう一度お試しください。</translation>
-<translation id="4407044323746248786">今すぐ Chromium を終了しますか？</translation>
-<translation id="4415566066719264597">Chromium をバックグラウンドで実行する</translation>
-<translation id="4423735387467980091">Chromium の設定</translation>
-<translation id="4567424176335768812"><ph name="USER_EMAIL_ADDRESS" /> としてログインしています。ログインしているすべてのデバイスで、ブックマーク、履歴、その他の設定にアクセスできます。</translation>
-<translation id="459535195905078186">Chromium アプリ</translation>
-<translation id="4621240073146040695">Chromium を再起動して更新を完了してください。</translation>
-<translation id="4661006601577405669">Chromium の今後のバージョンは自動的にインストールされます。</translation>
-<translation id="4677944499843243528">プロフィールは、別のコンピュータ（<ph name="HOST_NAME" />）の別の Chromium プロセス（<ph name="PROCESS_ID" />）で使用されているようです。Chromium はプロフィールが破損しないようにプロフィールをロックしています。他のプロセスがこのプロフィールを使用していないことが確実であれば、プロフィールのロックを解除して Chromium を再起動できます。</translation>
-<translation id="469338717132742108">Chromium OS のヘルプを見る</translation>
-<translation id="4708774505295300557">前回このパソコンで別のユーザー（<ph name="ACCOUNT_EMAIL_LAST" />）が Chromium にログインしました。情報を個別に保持するには、新しい Chromium ユーザーを作成してください。</translation>
-<translation id="4746050847053251315">今すぐ Chromium を終了しますか？</translation>
-<translation id="4748217263233248895">Chromium の特別なセキュリティ アップデートが適用されました。今すぐ再起動してください。タブは復元されます。</translation>
-<translation id="479167709087336770">Google 検索と同じスペルチェックが使用されます。ブラウザに入力したテキストは Google に送信されます。この動作はいつでも設定で変更できます。</translation>
-<translation id="4888717733111232871">mDNS トラフィックを許可する Chromium のインバウンド ルールです。</translation>
-<translation id="4943838377383847465">Chromium はバックグラウンド モードです。</translation>
-<translation id="4987820182225656817">ゲスト ユーザーは、記録を残さずに Chromium を使用できます。</translation>
-<translation id="4994636714258228724">Chromium に自分を追加</translation>
-<translation id="5277894862589591112">変更を適用するには Chromium を再起動してください</translation>
-<translation id="5358375970380395591">現在、管理対象アカウントでログインしており、あなたの Chromium プロフィールを管理者が制御できる状態になっています。あなたの Chromium データ（アプリ、ブックマーク、履歴、パスワードなどの設定）は永続的に <ph name="USER_NAME" /> に関連付けられます。このデータは Google アカウントのダッシュボードを介して削除できますが、このデータを別のアカウントに関連付けることはできなくなります。<ph name="LEARN_MORE" /></translation>
-<translation id="5386450000063123300">Chromium を更新しています（<ph name="PROGRESS_PERCENT" />）</translation>
-<translation id="538767207339317086">Chromium へのログインを許可する</translation>
-<translation id="5398878173008909840">Chromium の最新バージョンをぜひお試しください。</translation>
-<translation id="5416696090975899932">組み込みの PDF ビューアがない場合、Chromium では印刷プレビューを表示できません。</translation>
-<translation id="5427571867875391349">Chromium をデフォルト ブラウザに設定する</translation>
-<translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - Chromium Beta</translation>
-<translation id="5479196819031988440">Chromium OS ではこのページを開けません。</translation>
-<translation id="5480860683791598150">このサイトで現在地を共有するには、Chromium で位置情報の使用を許可する必要があります</translation>
-<translation id="549669000822060376">Chromium は最新のシステム アップデートをインストールしています。しばらくお待ちください。</translation>
-<translation id="5623402015214259806">{0,plural, =0{Chromium のアップデートが利用可能です}=1{Chromium のアップデートが利用可能です}other{Chromium のアップデートが利用可能になってから # 日経過しています}}</translation>
-<translation id="5631814766731275228">Chromium の名前と画像</translation>
-<translation id="5634636535844844681">Chromium のご利用には Windows 7 以上が必要です。</translation>
-<translation id="5653831366781983928">今すぐ Chromium を再起動してください</translation>
-<translation id="5680901439334282664">Chromium にログイン</translation>
-<translation id="5698481217667032250">Chromium をこの言語で表示</translation>
-<translation id="5820394555380036790">Chromium OS</translation>
-<translation id="5862307444128926510">Chromium へようこそ</translation>
-<translation id="5895138241574237353">再起動</translation>
-<translation id="5987687638152509985">同期を開始するには、Chromium を更新します</translation>
-<translation id="6013050204643758987">Chromium OS も <ph name="BEGIN_LINK_LINUX_OSS" />Linux（ベータ版）<ph name="END_LINK_LINUX_OSS" />も追加の<ph name="BEGIN_LINK_CROS_OSS" />オープンソース ソフトウェア<ph name="END_LINK_CROS_OSS" />によって実現しました。</translation>
-<translation id="6055895534982063517">Chromium がさらに速くなりました！最新バージョンをぜひお試しください。</translation>
-<translation id="6063093106622310249">Chromium で開く(&amp;O)</translation>
-<translation id="6072279588547424923">「<ph name="EXTENSION_NAME" />」が Chromium に追加されました</translation>
-<translation id="608189560609172163">ログイン時にエラーが発生したため、Chromium はデータを同期できませんでした。</translation>
-<translation id="6096348254544841612">Chromium をカスタマイズしてご活用ください。アップデートが利用可能です。</translation>
-<translation id="6120345080069858279">このパスワードは Google アカウントに保存されるため、覚えておく必要はありません。</translation>
-<translation id="6129621093834146363"><ph name="FILE_NAME" /> は危険なファイルであるため、Chromium でブロックしました。</translation>
-<translation id="6212496753309875659">新しいバージョンの Chromium が既にインストールされています。ソフトウェアが動作しない場合は、Chromium をアンインストールしてからもう一度お試しください。</translation>
-<translation id="6219195342503754812">{0,plural, =0{Chromium は今すぐ再起動されます}=1{Chromium は 1 秒後に再起動されます}other{Chromium は # 秒後に再起動されます}}</translation>
-<translation id="6248213926982192922">Chromium を既定のブラウザにする</translation>
-<translation id="6268381023930128611">Chromium からログアウトしますか？</translation>
-<translation id="6295779123002464101"><ph name="FILE_NAME" /> は危険なファイルの可能性があるため、Chromium でブロックしました。</translation>
-<translation id="6309712487085796862">Chromium がカメラを使用しています。</translation>
-<translation id="6333502561965082103">Chromium で別の処理が行われています。しばらくしてからもう一度お試しください。</translation>
-<translation id="6334986366598267305">共有パソコンの Chromium で Google アカウントが簡単に使用できるようになりました。</translation>
-<translation id="6373523479360886564">Chromium をアンインストールしてもよろしいですか？</translation>
-<translation id="6400072781405947421">Mac OS X 10.9 はサポートされなくなったため、Chromium は正常に機能しない可能性があります。</translation>
-<translation id="6403826409255603130">Chromium は、ウェブページやアプリケーションを高速に実行できるスピードと、高い安定性を兼ね備えた非常に使いやすいウェブブラウザです。不正なソフトウェアやフィッシングに対する保護機能が組み込まれており、ウェブを安全にブラウジングできます。</translation>
-<translation id="6434250628340475518">Chromium OS システム</translation>
-<translation id="6457450909262716557">{SECONDS,plural, =1{Chromium は 1 秒後に再起動します}other{Chromium は # 秒後に再起動します}}</translation>
-<translation id="6475912303565314141">この拡張機能では、Chromium の起動時に表示されるページも制御されます。</translation>
-<translation id="6510925080656968729">Chromium をアンインストール</translation>
-<translation id="6570579332384693436">スペルミスを修正するために、テキスト欄に入力したテキストが Chromium から Google に送信されます</translation>
-<translation id="6598877126913850652">Chromium の通知設定に移動</translation>
-<translation id="6676384891291319759">インターネットにアクセス</translation>
-<translation id="6717134281241384636">バージョンが新しい Chromium のプロフィールは使用できません。
-
-一部の機能が利用できない可能性があります。別の場所のプロフィールを指定するか、新しいバージョンの Chromium をご使用ください。</translation>
-<translation id="6734080038664603509">Chromium を更新(&amp;C)</translation>
-<translation id="6734291798041940871">Chromium は既にパソコンのすべてのユーザーに対してインストールされています。</translation>
-<translation id="6847869444787758381">Chromium では、特定のパスワードが侵害された事実の有無がわかります</translation>
-<translation id="6857782730669500492">Chromium - <ph name="PAGE_TITLE" /></translation>
-<translation id="6863361426438995919">Google Pay（Chromium にコピー）</translation>
-<translation id="6868056391275687737">Chromium の他のコピーが動作しています。更新するには他のコピーを終了してください。</translation>
-<translation id="6893813176749746474">Chromium が更新されましたが、30 日以上使用されていません。</translation>
-<translation id="6964305034639999644">Chromium のシークレット ウインドウでリンクを開く(&amp;G)</translation>
-<translation id="6990124437352146030">このサイトを利用するには、Chromium でマイクの使用を許可する必要があります</translation>
-<translation id="705851970750939768">Chromium を更新</translation>
-<translation id="7066436765290594559">Chromium OS はデータを同期できませんでした。同期パスフレーズを更新してください。</translation>
-<translation id="7067091210845072982">画像に有効な説明が設定されていない場合に、Chromium で説明を自動的に生成できるよう Google に画像が送信されます。</translation>
-<translation id="7196312274710523067">Chromium を起動できませんでした。もう一度お試しください。</translation>
-<translation id="7205698830395646142">Chromium メニューで非表示</translation>
-<translation id="7223968959479464213">タスク マネージャ - Chromium</translation>
-<translation id="731644333568559921">Chromium OS を更新(&amp;C)</translation>
-<translation id="731795002583552498">Chromium を更新しています</translation>
-<translation id="7318036098707714271">ユーザー設定ファイルが壊れているか無効です。
+<translation id="3403365884036456766">ユーザー設定ファイルが壊れているか無効です。
 
 設定を復元できません。</translation>
-<translation id="7337881442233988129">Chromium</translation>
-<translation id="7339898014177206373">新しいウィンドウ</translation>
-<translation id="734373864078049451">ウェブ、ブックマーク、その他の Chromium データを好みに設定できます。</translation>
-<translation id="7349591376906416160">システム管理者が、<ph name="TARGET_URL_HOSTNAME" /> へのアクセスに <ph name="ALTERNATIVE_BROWSER_NAME" /> を開くよう Chromium を設定しています。</translation>
-<translation id="7448255348454382571">Chromium OS を再起動してください</translation>
-<translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - Chromium Dev</translation>
-<translation id="7451052299415159299">このサイトを利用するには、Chromium でカメラの使用を許可する必要があります</translation>
-<translation id="7483335560992089831">実行中の Chromium と同じバージョンをインストールすることはできません。Chromium を閉じてからもう一度お試しください。</translation>
-<translation id="751093125041325477">Chromium の今後のバージョンは自動的にインストールされます。このダウンロードが完了すると Chromium が再起動し、すぐにお使いいただけます。</translation>
-<translation id="753534427205733210">{0,plural, =1{Chromium は 1 分後に再起動されます}other{Chromium は # 分後に再起動されます}}</translation>
-<translation id="7549178288319965365">Chromium OS について</translation>
-<translation id="7561906087460245826">Chromium のデータ（<ph name="URL" />）も消去する</translation>
-<translation id="7585853947355360626">このページに設定が表示されない場合は、<ph name="LINK_BEGIN" />
-      Chromium OS の設定<ph name="LINK_END" />を確認してください</translation>
-<translation id="761356813943268536">Chromium がカメラとマイクを使用しています。</translation>
-<translation id="7617377681829253106">進化する Chromium</translation>
-<translation id="7686590090926151193">Chromium はデフォルトのブラウザとして設定されていません</translation>
-<translation id="7689606757190482937">同期してカスタマイズした Chromium をどのデバイスでも使用できます</translation>
-<translation id="7729447699958282447">お使いのドメインでは同期を利用できないため、Chromium はデータを同期できませんでした。</translation>
-<translation id="7745317241717453663">このデバイスから閲覧データを削除します。後でデータを取得するには、<ph name="USER_EMAIL" /> として Chromium にログインしてください。</translation>
+<translation id="1477146545787277177">エラー: Dissenter で問題が発生しました。今すぐ再起動しますか？</translation>
+<translation id="5785919770853225148">このパスワードは Gab AI Inc アカウントに保存されるため、覚えておく必要はありません。</translation>
+<translation id="8211837073776713955">Dissenter では、特定のパスワードが侵害された事実の有無がわかります</translation>
+<translation id="113959764510199339">Dissenter はパスワードを表示しようとしています。</translation>
+<translation id="7503098128120083822">Dissenter からパスワードをエクスポートするための許可を求められています。</translation>
+<translation id="8285294305439559616">Dissenter でパスワードを表示しようとしています。続行するには、Windows のパスワードを入力してください。</translation>
+<translation id="5918095577778020936">Dissenter からパスワードをエクスポートするための許可を求められています。許可するには Windows のパスワードを入力してください。</translation>
+<translation id="8320964054148936490">新しいバージョンの Dissenter が既にインストールされています。ソフトウェアが動作しない場合は、Dissenter をアンインストールしてからもう一度お試しください。</translation>
+<translation id="7691786510374174420">原因不明のエラーによりインストールが失敗しました。実行中の Dissenter を終了してからもう一度お試しください。</translation>
+<translation id="2619516027171717873">実行中の Dissenter と同じバージョンをインストールすることはできません。Dissenter を閉じてからもう一度お試しください。</translation>
+<translation id="6283840329609797763">原因不明のエラーによりインストールに失敗しました。Dissenter をもう一度ダウンロードしてください。</translation>
+<translation id="95624393026532554">Dissenter のご利用には Windows 7 以上が必要です。</translation>
+<translation id="7387051847644272380">インストール中にオペレーティング システム エラーが発生しました。Dissenter をダウンロードし直してください。</translation>
+<translation id="1819119299840995223">Dissenter で別の処理が行われています。しばらくしてからもう一度お試しください。</translation>
 <translation id="7747138024166251722">インストーラーの一時ディレクトリを作成できませんでした。ディスクの空き領域とソフトウェアのインストール許可があることを確認してください。</translation>
-<translation id="7773960292263897147">警告: 拡張機能による閲覧履歴の記録を Chromium で停止することはできません。シークレット モードでこの拡張機能を無効にするには、このオプションの選択を解除してください。</translation>
-<translation id="7790626492778995050"><ph name="PAGE_TITLE" /> - Chromium Canary</translation>
-<translation id="7827169012280634081">Chromium の終了時に Cookie とサイトデータを削除する</translation>
-<translation id="7867198900892795913">Chromium を最新版に更新できませんでした。新しい機能とセキュリティ修正は適用されていません。</translation>
-<translation id="7898472181347242998">デバイスが最新の状態かどうか確認するには、<ph name="LINK_BEGIN" />Chromium OS の設定<ph name="LINK_END" />をご覧ください</translation>
-<translation id="7937630085815544518">Chromium に <ph name="USER_EMAIL_ADDRESS" /> としてログインしていました。再度ログインするには同じアカウントを使用してください。</translation>
-<translation id="7975919845073681630">この Chromium はセカンダリ インストールのため、既定のブラウザには設定できません。</translation>
-<translation id="7979877361127045932">Chromium メニューで非表示</translation>
-<translation id="8013436988911883588">Chromium にアクセスを許可すると、ウェブサイトからアクセスをリクエストできるようになります。</translation>
-<translation id="81770708095080097">このファイルは危険なファイルであるため、Chromium でブロックしました。</translation>
-<translation id="8248265253516264921">画像に有効な説明が設定されていない場合に、Chromium で説明を自動的に生成できるよう Google に画像が送信されます。この機能は設定でいつでも無効にできます。</translation>
-<translation id="8290862415967981663">このファイルは危険なファイルの可能性があるため、Chromium でブロックしました。</translation>
-<translation id="8330519371938183845">ログインすると、同期してカスタマイズした Chromium をどのデバイスでも使用できます</translation>
-<translation id="8340674089072921962">Chromium の前回の使用者は <ph name="USER_EMAIL_ADDRESS" /> です</translation>
-<translation id="8417404458978023919">{0,plural, =1{1 日以内に Chromium を再起動してください}other{# 日以内に Chromium を再起動してください}}</translation>
-<translation id="8453117565092476964">インストーラ アーカイブが壊れているか無効です。Chromium をダウンロードし直してください。</translation>
-<translation id="8493179195440786826">Chromium は古いバージョンです</translation>
-<translation id="8586442755830160949">Copyright <ph name="YEAR" /> The Chromium Authors. All rights reserved.</translation>
-<translation id="8619360774459241877">Chromium を起動しています...</translation>
-<translation id="8621669128220841554">原因不明のエラーによりインストールに失敗しました。Chromium をもう一度ダウンロードしてください。</translation>
-<translation id="8682540261359803721">このページに設定が表示されない場合は、<ph name="LINK_BEGIN" />
-      Chromium ブラウザの設定<ph name="LINK_END" />を確認してください</translation>
-<translation id="8697124171261953979">この拡張機能では、Chromium の起動時、またはアドレスバーからの検索時に表示されるページも制御されます。</translation>
-<translation id="8704119203788522458">自分好みに設定</translation>
-<translation id="8739167630197873875">Chromium の終了時に Cookie を削除するよう設定しています。同期を継続するにはこちらの<ph name="COOKIE_SETTINGS_LINK" />を変更してください。</translation>
-<translation id="8748383401829947534">Chromium のすべてのコピーを終了します。</translation>
-<translation id="8796602469536043152">このサイトを利用するには、Chromium でカメラとマイクの使用を許可する必要があります</translation>
-<translation id="8803635938069941624">Chromium OS 利用規約</translation>
-<translation id="8821041990367117597">アカウントのログイン情報が最新ではないため、Chromium はデータを同期できませんでした。</translation>
+<translation id="7365690458036015383">インストーラ アーカイブを解凍できませんでした。Dissenter をダウンロードし直してください。</translation>
+<translation id="6914496861676471566">インストーラ アーカイブが壊れているか無効です。Dissenter をダウンロードし直してください。</translation>
 <translation id="8862326446509486874">権限が不十分なためシステムレベルのインストールができません。管理者権限でインストールしてください。</translation>
-<translation id="8897323336392112261">この拡張機能では、Chromium の起動時、またはホーム ボタンのクリック時に表示されるページも制御されます。</translation>
-<translation id="8907580949721785412">Chromium でパスワードを表示しようとしています。続行するには、Windows のパスワードを入力してください。</translation>
-<translation id="8941642502866065432">Chromium を更新できません</translation>
-<translation id="8974095189086268230">Chromium OS は、さらに追加の<ph name="BEGIN_LINK_CROS_OSS" />オープンソース ソフトウェア<ph name="END_LINK_CROS_OSS" />によって実現しました。</translation>
-<translation id="9019929317751753759">Chromium をより安全にご利用いただくために、<ph name="IDS_EXTENSION_WEB_STORE_TITLE" />で提供していない次の拡張機能を無効にしました。これは知らないうちに追加された可能性があります。</translation>
-<translation id="9022552996538154597">Chromium にログイン</translation>
-<translation id="9089354809943900324">Chromium は古いバージョンです</translation>
-<translation id="9093206154853821181">{0,plural, =1{Chromium は 1 時間後に再起動されます}other{Chromium は # 時間後に再起動されます}}</translation>
-<translation id="91086099826398415">新しい Chromium タブでリンクを開く(&amp;T)</translation>
+<translation id="6666624454809779082">Dissenter は既にパソコンのすべてのユーザーに対してインストールされています。</translation>
+<translation id="6676384891291319759">インターネットにアクセス</translation>
 <translation id="911206726377975832">閲覧データも削除しますか？</translation>
-<translation id="9158494823179993217">システム管理者が、<ph name="TARGET_URL_HOSTNAME" /> へのアクセスに代替ブラウザを開くよう Chromium を設定しています。</translation>
-<translation id="9190841055450128916">Chromium（mDNS インバウンド）</translation>
-<translation id="93478295209880648">Windows XP と Windows Vista はサポートされなくなったため、Chromium は正常に機能しない可能性があります</translation>
-<translation id="95514773681268843"><ph name="DOMAIN" /> では、このデバイスを使用する前に下記の利用規約を確認しこれに同意していただく必要があります。これらの規約は Chromium OS 利用規約を拡張、変更、制限するものではありません。</translation>
-<translation id="985602178874221306">Chromium 開発者</translation>
+<translation id="2770231113462710648">既定のブラウザを変更:</translation>
+<translation id="2485422356828889247">アンインストール</translation>
+<translation id="3343095737966473035">Dissenter はデフォルトのブラウザとして設定されていません</translation>
+<translation id="5536657158619734169">Dissenter の最新バージョンをぜひお試しください。</translation>
+<translation id="505042220086416644">Dissenter がさらに速くなりました！最新バージョンをぜひお試しください。</translation>
+<translation id="5616153642055197778">Dissenter がさらに安全になりました。最新バージョンをぜひお試しください。</translation>
+<translation id="2301993384336631869">Dissenter が更新されましたが、30 日以上使用されていません。</translation>
+<translation id="2106568569080763501">Dissenter では、ウェブサイト上の電話番号をクリックするだけで Skype で通話を発信できます。</translation>
+<translation id="5874882355102994015">組み込みの PDF ビューアがない場合、Dissenter では印刷プレビューを表示できません。</translation>
+<translation id="8880183781256147665">Dissenter に追加...</translation>
+<translation id="3561569806301739367"><ph name="FILE_NAME"/> は危険なファイルの可能性があるため、Dissenter でブロックしました。</translation>
+<translation id="9067428552314418522">このファイルは危険なファイルであるため、Dissenter でブロックしました。</translation>
+<translation id="4168372721886011198"><ph name="FILE_NAME"/> は危険なファイルであるため、Dissenter でブロックしました。</translation>
+<translation id="89367911614620585">このファイルは危険なファイルの可能性があるため、Dissenter でブロックしました。</translation>
+<translation id="9183662282810237335">今すぐ Dissenter を終了しますか？</translation>
+<translation id="3834935463915107022">今すぐ Dissenter を終了しますか？</translation>
+<translation id="8797356639448065696">Dissenter はバックグラウンド モードです。</translation>
+<translation id="2339258256897053758">Gab AI Inc API キーが欠落しています。Dissenter の一部の機能は無効になります。</translation>
+<translation id="7861579472672677409">「<ph name="EXTENSION_NAME"/>」が Dissenter に追加されました</translation>
+<translation id="8516116288943000095">Dissenter のデータ（<ph name="URL"/>）も消去する</translation>
+<translation id="4054452651944170004">Dissenter メニューで非表示</translation>
+<translation id="5660079256336839395">Dissenter メニューで非表示</translation>
+<translation id="6134859571175647580">警告: 拡張機能による閲覧履歴の記録を Dissenter で停止することはできません。シークレット モードでこの拡張機能を無効にするには、このオプションの選択を解除してください。</translation>
+<translation id="777113543093865885">Dissenter から削除...</translation>
+<translation id="6078442581074612226">Dissenter 内</translation>
+<translation id="1448049584457347995">Dissenter をより安全にご利用いただくため、<ph name="IDS_EXTENSION_WEB_STORE_TITLE"/>で提供していない一部の拡張機能を無効にしました。これらは知らないうちに追加された可能性があります。</translation>
+<translation id="8848045066928358658">Dissenter をより安全にご利用いただくために、<ph name="IDS_EXTENSION_WEB_STORE_TITLE"/>で提供していない次の拡張機能を無効にしました。これは知らないうちに追加された可能性があります。</translation>
+<translation id="8148611988012584308">Dissenter の設定</translation>
+<translation id="5849446944780602366">Dissenter をカスタマイズしてご活用ください。アップデートが利用可能です。</translation>
+<translation id="6315734375101223238">Dissenter をカスタマイズ、制御します。確認の必要な項目があります。クリックして詳細をご覧ください。</translation>
+<translation id="9071554113102421877">Dissenter で開く(&amp;O)</translation>
+<translation id="2176825726964012531">Dissenter について(&amp;C)</translation>
+<translation id="5450493308072741203">Dissenter を更新(&amp;C)</translation>
+<translation id="1421502046520299169">Dissenter OS について(&amp;C)</translation>
+<translation id="2534623228451928732">Dissenter OS を更新(&amp;C)</translation>
+<translation id="8447483940522230788">Dissenter Helper</translation>
+<translation id="5477319665405831211">同期してカスタマイズした Dissenter をどの端末でも使用できます</translation>
+<translation id="8132634101975074716">Dissenter にログインしました</translation>
+<translation id="4567424176335768812"><ph name="USER_EMAIL_ADDRESS"/> としてログインしています。ログインしているすべてのデバイスで、ブックマーク、履歴、その他の設定にアクセスできます。</translation>
+<translation id="2925193881330501265">Dissenter に <ph name="USER_EMAIL_ADDRESS"/> としてログインしていました。再度ログインするには同じアカウントを使用してください。</translation>
+<translation id="847561904663814268">前回このパソコンで別のユーザー（<ph name="ACCOUNT_EMAIL_LAST"/>）が Dissenter にログインしました。情報を個別に保持するには、新しい Dissenter ユーザーを作成してください。</translation>
+<translation id="1853997773668795891">Dissenter データをこのアカウントにリンクしますか？</translation>
+<translation id="1326766910007115955">現在、管理対象アカウントでログインしており、あなたの Dissenter プロフィールを管理者が制御できる状態になっています。あなたの Dissenter データ（アプリ、ブックマーク、履歴、パスワードなどの設定）は永続的に <ph name="USER_NAME"/> に関連付けられます。このデータは Gab AI Inc アカウントのダッシュボードを介して削除できますが、このデータを別のアカウントに関連付けることはできなくなります。<ph name="LEARN_MORE"/></translation>
+<translation id="650055380213106997">現在、管理対象アカウントでログインしており、あなたの Dissenter プロフィールを管理者が制御できる状態になっています。あなたの Dissenter データ（アプリ、ブックマーク、履歴、パスワードなどの設定）は永続的に <ph name="USER_NAME"/> に関連付けられます。このデータは Gab AI Inc アカウントのダッシュボードを介して削除できますが、このデータを別のアカウントに関連付けることはできなくなります。新しいプロフィールを作成して、既存の Dissenter データを別に保管することができます。<ph name="LEARN_MORE"/></translation>
+<translation id="2444257125841652328">システム管理者が、<ph name="TARGET_URL_HOSTNAME"/> へのアクセスに代替ブラウザを開くよう Dissenter を設定しています。</translation>
+<translation id="5380963249588143069">システム管理者が、<ph name="TARGET_URL_HOSTNAME"/> へのアクセスに <ph name="ALTERNATIVE_BROWSER_NAME"/> を開くよう Dissenter を設定しています。</translation>
+<translation id="2591326305549412656">Dissenter の前回の使用者は <ph name="USER_EMAIL_ADDRESS"/> です</translation>
+<translation id="1384923383737428730">お使いのパソコンに有害なソフトウェアが見つかりました。Dissenter では、ブラウザを正常な動作に戻すためにこのソフトウェアを削除し、設定を復元して、拡張機能を無効化することができます。</translation>
+<translation id="8919921662052966648">Dissenter はデータを同期できませんでした。同期パスフレーズを更新してください。</translation>
+<translation id="2262856633481902138">アカウントのログイン情報が最新ではないため、Dissenter はデータを同期できませんでした。</translation>
+<translation id="5419189641394808652">お使いのドメインでは同期を利用できないため、Dissenter はデータを同期できませんでした。</translation>
+<translation id="2577755334620061182">ログイン時にエラーが発生したため、Dissenter はデータを同期できませんでした。</translation>
+<translation id="8583885258305961947">Dissenter OS システム</translation>
+<translation id="3968006371075376562">Dissenter OS はデータを同期できませんでした。同期パスフレーズを更新してください。</translation>
+<translation id="6746636977031158624">アカウントのログイン情報が最新ではないため、Dissenter OS はデータを同期できませんでした。</translation>
+<translation id="2999152167963026588">お使いのドメインでは同期を利用できないため、Dissenter OS はデータを同期できませんでした。</translation>
+<translation id="1459786048951724030">ログイン時にエラーが発生したため、Dissenter OS はデータを同期できませんでした。</translation>
+<translation id="6813094029720377619">Dissenter の終了時に Cookie を削除するよう設定しています。同期を継続するにはこちらの<ph name="COOKIE_SETTINGS_LINK"/>を変更してください。</translation>
+<translation id="3340978935015468852">設定</translation>
+<translation id="380197516434040304">Dissenter から削除...</translation>
+<translation id="300669147395456190">Dissenter アプリ</translation>
+<translation id="3421950102518690868"><ph name="DOMAIN"/> では、このデバイスを使用する前に下記の利用規約を確認しこれに同意していただく必要があります。これらの規約は Dissenter OS 利用規約を拡張、変更、制限するものではありません。</translation>
+<translation id="3293668930608086049">Dissenter がカメラとマイクを使用しています。</translation>
+<translation id="8919461291440820124">Dissenter がマイクを使用しています。</translation>
+<translation id="3205074487970075628">Dissenter がカメラを使用しています。</translation>
+<translation id="8142245354207161805">プロフィールは、別のコンピュータ（<ph name="HOST_NAME"/>）の別の Dissenter プロセス（<ph name="PROCESS_ID"/>）で使用されているようです。Dissenter はプロフィールが破損しないようにプロフィールをロックしています。他のプロセスがこのプロフィールを使用していないことが確実であれば、プロフィールのロックを解除して Dissenter を再起動できます。</translation>
+<translation id="239760341987199724">Dissenter をデフォルト ブラウザに設定する</translation>
+<translation id="669092380621816981">この操作を行うと、このユーザーの閲覧データがこのデバイスから削除されます。データを復元するには、<ph name="USER_EMAIL"/> として Dissenter にログインしてください。</translation>
+<translation id="2827121003398607864">進化する Dissenter</translation>
+<translation id="7192666605334070839">共有パソコンの Dissenter で Gab AI Inc アカウントが簡単に使用できるようになりました。</translation>
+<translation id="4100716194836114130">自分好みに設定</translation>
+<translation id="3511996232906761537">ウェブ、ブックマーク、その他の Dissenter データを好みに設定できます。</translation>
+<translation id="7406627712452599344">ゲスト ユーザーは、記録を残さずに Dissenter を使用できます。</translation>
+<translation id="5659384504794665581">パソコンを共有している場合、友だちや家族はそれぞれ Dissenter を自分専用のブラウザとして自分用の設定をして使うことができます。</translation>
+<translation id="7130675370997202556">Dissenter を開いてブラウジングを始めるには、名前をクリックしてください。</translation>
+<translation id="5952898964075639679">Dissenter に自分を追加</translation>
+<translation id="3813272600615358652">この拡張機能により、Dissenter の起動時に表示されるページが変更されました。</translation>
+<translation id="2576129394594491151">拡張機能「<ph name="EXTENSION_NAME"/>」により、Dissenter の起動時に表示されるページが変更されました。</translation>
+<translation id="2675662665675552980">この拡張機能では、Dissenter の起動時に表示されるページも制御されます。</translation>
+<translation id="3215652305414474626">この拡張機能では、Dissenter の起動時、またはホーム ボタンのクリック時に表示されるページも制御されます。</translation>
+<translation id="2433912322225810055">この拡張機能では、Dissenter の起動時、またはアドレスバーからの検索時に表示されるページも制御されます。</translation>
+<translation id="2871190378186459992">Dissenter の優れたアプリ、ゲーム、拡張機能、テーマをぜひご利用ください。</translation>
+<translation id="3350544518197210895">Dissenter（mDNS インバウンド）</translation>
+<translation id="5846303060623790781">Dissenter Beta (mDNS-In)</translation>
+<translation id="3599046180970731601">Dissenter Nightly (mDNS-In)</translation>
+<translation id="7881806463410697784">Dissenter Dev (mDNS-In)</translation>
+<translation id="1912973375560256099">mDNS トラフィックを許可する Dissenter のインバウンド ルールです。</translation>
+<translation id="7272074097076644710">Dissenter BetaでインバウンドのmDNSトラフィックを許可するルール。</translation>
+<translation id="4991512282053949769">Dissenter NightlyでインバウンドのmDNSトラフィックを許可するルール。</translation>
+<translation id="3856641371299712128">Dissenter DevでインバウンドのmDNSトラフィックを許可するルール。</translation>
+<translation id="8207657266087451193">画像に有効な説明が設定されていない場合に、Dissenter で説明を自動的に生成できるよう Gab AI Inc に画像が送信されます。この機能は設定でいつでも無効にできます。</translation>
+<translation id="5499063270485366718">画像に有効な説明が設定されていない場合に、Dissenter で説明を自動的に生成できるよう Gab AI Inc に画像が送信されます。</translation>
+<translation id="215320507915280336">Gab AI Inc 検索と同じスペルチェックが使用されます。ブラウザに入力したテキストは Gab AI Inc に送信されます。この動作はいつでも設定で変更できます。</translation>
+<translation id="1807774211756215222">新しい Dissenter タブでリンクを開く(&amp;T)</translation>
+<translation id="4624945300945265642">Dissenter のシークレット ウインドウでリンクを開く(&amp;G)</translation>
+<translation id="7863882214613921971">新しい Dissenter タブでリンクを開く(&amp;T)</translation>
+<translation id="6554952862405000915">Dissenter のシークレット ウインドウでリンクを開く(&amp;G)</translation>
+<translation id="4805806622840861220">Dissenter を再起動します</translation>
+<translation id="8274659559228306809">{COUNT,plural, =0{Dissenter の新しいアップデートを利用できます。再起動するとすぐにアップデートが適用されます。}=1{Dissenter の新しいアップデートを利用できます。再起動するとすぐにアップデートが適用されます。シークレット ウィンドウは、再起動後は自動的には開きません。}other{Dissenter の新しいアップデートを利用できます。再起動するとすぐにアップデートが適用されます。現在開いている # 個のシークレット ウィンドウは、再起動後は自動的には開きません。}}</translation>
+<translation id="2799223571221894425">再起動</translation>
+<translation id="2522086024276534909">Dissenter OS を再起動してください</translation>
+<translation id="8183252473547465084">アップデートを適用するには Dissenter OS を再起動する必要があります。</translation>
+<translation id="5895138241574237353">再起動</translation>
+<translation id="8887390605192156061">Dissenter のすべてのコピーを終了します。</translation>
+<translation id="1801551749768408825">Dissenter の他のコピーが動作しています。更新するには他のコピーを終了してください。</translation>
+<translation id="2632141563911437138">更新するには、このパソコン上の Dissenter を終了する必要があります。このパソコンにログインしているユーザーが他にいる場合、保存していない変更が失われる可能性があります。</translation>
+<translation id="5875673934455379806">Dissenter を再インストール</translation>
+<translation id="2097604701283463988">Dissenter は古いバージョンです</translation>
+<translation id="5173820533850252773">Dissenter は古いバージョンです</translation>
+<translation id="6389268239133412586">Dissenter を更新できません</translation>
+<translation id="7963515534397191222">Dissenter を最新版に更新できませんでした。新しい機能とセキュリティ修正は適用されていません。</translation>
+<translation id="1705567146636171298">Dissenter を更新</translation>
+<translation id="3598551856834560515">同期を開始するには、Dissenter を更新します</translation>
+<translation id="4050175100176540509">最新バージョンに更新すると、重要なセキュリティ更新と新機能が適用されます。</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{Dissenter は 1 秒後に再起動します}other{Dissenter は # 秒後に再起動します}}</translation>
+<translation id="5646769069113654257">今すぐ Dissenter を再起動してください</translation>
+<translation id="8668413672647811944">Dissenter の特別なセキュリティ アップデートが適用されました。今すぐ再起動してください。タブは復元されます。</translation>
+<translation id="6791166902140255175">Dissenter タブ</translation>
+<translation id="2555639463117073782"><ph name="PLUGIN_NAME"/> を有効にするには Dissenter を再起動してください</translation>
+<translation id="2034072705932785495">このサイトを利用するには、Dissenter でカメラの使用を許可する必要があります</translation>
+<translation id="3335606533094650083">このサイトを利用するには、Dissenter でマイクの使用を許可する必要があります</translation>
+<translation id="4831743161813926460">このサイトを利用するには、Dissenter でカメラとマイクの使用を許可する必要があります</translation>
+<translation id="696826782632239602">このサイトで現在地を共有するには、Dissenter で位置情報の使用を許可する必要があります</translation>
+<translation id="7798069806040634998">ファイルをダウンロードするには、Dissenter でストレージへのアクセスを許可する必要があります</translation>
+<translation id="7685904775439037072">Dissenter にアクセスを許可すると、ウェブサイトからアクセスをリクエストできるようになります。</translation>
+<translation id="1744365871163268756">Dissenter は最新のシステム アップデートをインストールしています。しばらくお待ちください。</translation>
+<translation id="8000338990735917615">Dissenter の今後のバージョンは自動的にインストールされます。</translation>
+<translation id="2975476470948647918">Dissenter の今後のバージョンは自動的にインストールされます。このダウンロードが完了すると Dissenter が再起動し、すぐにお使いいただけます。</translation>
+<translation id="7808415789955822133">Dissenter OS 利用規約</translation>
+<translation id="7207456302801184289">Dissenter へようこそ</translation>
+<translation id="3507835409099344374">Dissenter の通知設定に移動</translation>
+<translation id="1026406809507858026">{0,plural, =0{Dissenter のアップデートが利用可能です}=1{Dissenter のアップデートが利用可能です}other{Dissenter のアップデートが利用可能になってから # 日経過しています}}</translation>
+<translation id="3829358914761176693">{COUNT,plural, =0{管理者が、このアップデートを適用するために Dissenter を再起動するよう求めています}=1{管理者が、このアップデートを適用するために Dissenter を再起動するよう求めています。シークレット ウィンドウは、再起動後は自動的には開きません。}other{管理者が、このアップデートを適用するために Dissenter を再起動するよう求めています。現在開いている # 個のシークレット ウィンドウは、再起動後は自動的には開きません。}}</translation>
+<translation id="5337999052834672687">{0,plural, =1{1 日以内に Dissenter を再起動してください}other{# 日以内に Dissenter を再起動してください}}</translation>
+<translation id="310518206836658214">{0,plural, =1{Dissenter は 1 時間後に再起動されます}other{Dissenter は # 時間後に再起動されます}}</translation>
+<translation id="3186363903915641692">{0,plural, =1{Dissenter は 1 分後に再起動されます}other{Dissenter は # 分後に再起動されます}}</translation>
+<translation id="3574823187131579180">{0,plural, =0{Dissenter は今すぐ再起動されます}=1{Dissenter は 1 秒後に再起動されます}other{Dissenter は # 秒後に再起動されます}}</translation>
+<translation id="552349673358711446">{COUNT,plural, =0{管理者が、アップデートを適用するために Dissenter を再起動するよう求めています}=1{管理者が、アップデートを適用するために Dissenter を再起動するよう求めています。シークレット ウィンドウは、再起動後は自動的には開きません。}other{管理者が、アップデートを適用するために Dissenter を再起動するよう求めています。現在開いている # 個のシークレット ウィンドウは、再起動後は自動的には開きません。}}</translation>
+<translation id="3052349005266761501">Dissenter を起動しています...</translation>
+<translation id="1197672524850678392">Dissenter を起動できませんでした。もう一度お試しください。</translation>
+<translation id="5147525139567260139">Dissenter タブの共有</translation>
+<translation id="8541922081612557424">Dissenter について</translation>
+<translation id="3262506503470845422">Dissenter のヘルプを見る</translation>
+<translation id="1864557848095568223">Dissenter を更新しています</translation>
+<translation id="1786715389543715322">Dissenter を更新しています（<ph name="PROGRESS_PERCENT"/>）</translation>
+<translation id="2182657378556811785">Dissenter を再起動して更新を完了してください。</translation>
+<translation id="8208853227947884571">Dissenter は最新版です</translation>
+<translation id="6686872257969654608">Dissenter OS について</translation>
+<translation id="7674116293463255181">デバイスが最新の状態かどうか確認するには、<ph name="LINK_BEGIN"/>Dissenter OS の設定<ph name="LINK_END"/>をご覧ください</translation>
+<translation id="2280363356796735201">Dissenter OS のヘルプを見る</translation>
+<translation id="38898988211673781">Dissenter の終了時に Cookie とサイトデータを削除する</translation>
+<translation id="5253815230176279256">Gab AI Inc Pay（Dissenter にコピー）</translation>
+<translation id="5468853758063275923">既定のブラウザは Dissenter です</translation>
+<translation id="1775322105159056176">Dissenter では既定のブラウザを判定または設定できません</translation>
+<translation id="6915252145142862992">この Dissenter はセカンダリ インストールのため、既定のブラウザには設定できません。</translation>
+<translation id="6235873178214143377">このページに設定が表示されない場合は、<ph name="LINK_BEGIN"/>
+      Dissenter ブラウザの設定<ph name="LINK_END"/>を確認してください</translation>
+<translation id="4459296183696059108">このページに設定が表示されない場合は、<ph name="LINK_BEGIN"/>
+      Dissenter OS の設定<ph name="LINK_END"/>を確認してください</translation>
+<translation id="7977435741986383568">Dissenter は、より快適なブラウジングを提供する目的でウェブサービスを使用することがあります。これらのサービスは無効にすることもできます。<ph name="BEGIN_LINK"/>詳細<ph name="END_LINK"/></translation>
+<translation id="2312399718665761438">スペルミスを修正するために、テキスト欄に入力したテキストが Dissenter から Gab AI Inc に送信されます</translation>
+<translation id="8586264863973514035">変更を適用するには Dissenter を再起動してください</translation>
+<translation id="7021823858304886493">Dissenter へのログインを許可する</translation>
+<translation id="1649714546770135458">この設定を無効にすると、Dissenter にログインすることなく Gmail などの Gab AI Inc サイトにログインできます</translation>
+<translation id="9220324636239049437">この端末から 1 件の項目を削除します。後でデータを取得するには、<ph name="USER_EMAIL"/> として Dissenter にログインしてください。</translation>
+<translation id="5853262807109651878">この端末から <ph name="ITEMS_COUNT"/> 件の項目を削除します。後でデータを取得するには、<ph name="USER_EMAIL"/> として Dissenter にログインしてください。</translation>
+<translation id="4784414698887946907">この端末から閲覧データを削除します。後でデータを取得するには、<ph name="USER_EMAIL"/> として Dissenter にログインしてください。</translation>
+<translation id="4518479204315969707">Dissenter の名前と画像</translation>
+<translation id="82609232232243542">Dissenter にログイン</translation>
+<translation id="8372880274820509128">セキュリティ強化のため、Dissenter ではデータが暗号化されます。</translation>
+<translation id="7445061995866044926">Dissenter からログアウトしますか？</translation>
+<translation id="7453070689008684791">Dissenter からお客様のドライブにアクセスして、アドレスバーに候補を表示します</translation>
+<translation id="3360368475735266712">ログインすると、同期してカスタマイズした Dissenter をどの端末でも使用できます</translation>
+<translation id="5757460455745382269">この言語が Dissenter UI の表示に使用されます</translation>
+<translation id="2335583906071111058">Dissenter をこの言語で表示</translation>
+<translation id="8926637909431618259">Dissenter を閉じた際にバックグラウンド アプリの処理を続行する</translation>
+<translation id="6056473803837713617"><ph name="BEGIN_LINK"/>現在の設定<ph name="END_LINK"/>を送信して Dissenter の品質向上にご協力ください</translation>
 </translationbundle>

@@ -96,6 +96,7 @@ class GetUpdatesProcessor {
 
   const GetUpdatesDelegate& delegate_;
 
+  BRAVE_GET_UPDATES_PROCESSOR_H
   DISALLOW_COPY_AND_ASSIGN(GetUpdatesProcessor);
 };
 

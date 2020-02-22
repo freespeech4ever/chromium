@@ -40,7 +40,7 @@ ToolbarActionsModelFactory::~ToolbarActionsModelFactory() {}
 
 KeyedService* ToolbarActionsModelFactory::BuildServiceInstanceFor(
     content::BrowserContext* context) const {
-  return new ToolbarActionsModel(
+  return new BraveToolbarActionsModel(
       Profile::FromBrowserContext(context),
       extensions::ExtensionPrefsFactory::GetForBrowserContext(context));
 }

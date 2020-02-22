@@ -107,6 +107,9 @@ bool PermissionDescriptorToPermissionType(
         return true;
       }
       break;
+    case PermissionName::AUTOPLAY:
+      *permission_type  = PermissionType::AUTOPLAY;
+      return true;
   }
 
   NOTREACHED();

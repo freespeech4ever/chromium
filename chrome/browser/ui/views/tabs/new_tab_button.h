@@ -69,6 +69,7 @@ class NewTabButton : public views::ImageButton,
   void OnBoundsChanged(const gfx::Rect& previous_bounds) override;
 
  private:
+  friend class BraveNewTabButton;
   class HighlightPathGenerator;
 
 // views::ImageButton:
@@ -93,12 +94,14 @@ class NewTabButton : public views::ImageButton,
   void PaintFill(gfx::Canvas* canvas) const;
 
   // Paints a properly sized plus (+) icon into the center of the button.
+  virtual
   void PaintPlusIcon(gfx::Canvas* canvas) const;
 
   SkColor GetButtonFillColor() const;
 
   // Returns the path for the given |origin| and |scale|.  If |extend_to_top| is
   // true, the path is extended vertically to y = 0.
+  virtual
   SkPath GetBorderPath(const gfx::Point& origin,
                        float scale,
                        bool extend_to_top) const;

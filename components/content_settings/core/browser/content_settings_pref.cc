@@ -87,7 +87,7 @@ ContentSettingsPref::ContentSettingsPref(
       off_the_record_(off_the_record),
       updating_preferences_(false),
       notify_callback_(notify_callback),
-      allow_resource_identifiers_(false) {
+      allow_resource_identifiers_(true) {
   DCHECK(prefs_);
 
   ReadContentSettingsFromPref();

@@ -34,7 +34,7 @@ import("java_sources.gni")
 import("static_initializers.gni")
 import("trichrome.gni")
 
-chrome_public_manifest_package = "org.chromium.chrome"
+declare_args() { chrome_public_manifest_package = "org.chromium.chrome" }
 chrome_public_test_manifest_package = "org.chromium.chrome.tests"
 
 chrome_public_jinja_variables =
@@ -60,6 +60,7 @@ chrome_jni_registration_header =
 chrome_jni_for_test_registration_header = "$root_build_dir/gen/chrome/browser/android/chrome_jni_for_test_registration.h"
 
 jinja_template("chrome_public_android_manifest") {
+  includes = brave_android_manifest_includes
   input = "java/AndroidManifest.xml"
   output = chrome_public_android_manifest
   variables = chrome_public_jinja_variables
@@ -70,6 +71,7 @@ jinja_template("chrome_public_android_manifest") {
 }
 
 jinja_template("chrome_modern_public_android_manifest") {
+  includes = brave_android_manifest_includes
   input = "java/AndroidManifest.xml"
   output = chrome_modern_public_android_manifest
   variables = chrome_public_jinja_variables
@@ -118,6 +120,7 @@ android_resources("chrome_app_java_resources") {
     "//third_party/android_deps:com_android_support_preference_v7_java",
     "//third_party/android_deps:com_android_support_recyclerview_v7_java",
   ]
+  deps += ["//brave/build/android:android_brave_strings_grd"]
   custom_package = "org.chromium.chrome"
 }
 
@@ -390,6 +393,7 @@ android_library("chrome_java") {
   ]
 
   deps += feed_deps
+  deps += brave_chrome_java_deps
 
   srcjar_deps = [
     ":chrome_android_java_enums_srcjar",
@@ -522,6 +526,7 @@ group("jni_headers") {
     "//chrome/browser/touch_to_fill/android:jni_headers",
     "//chrome/browser/util/android:jni_headers",
   ]
+  public_deps += ["//brave/build/android:jni_headers"]
 }
 
 android_library("bundle_canary_java") {
@@ -1410,6 +1415,7 @@ if (current_toolchain == default_toolchain) {
         ":${_variant}_locale_pak_assets",
         ":${_variant}_paks",
       ]
+      deps += [ "//brave:brave_pak_assets" ]
       if (_is_monochrome) {
         deps += [ "//android_webview:locale_pak_assets" ]
         if (webview_includes_weblayer) {

@@ -6,6 +6,7 @@ module chrome.mojom;
 
 import "components/autofill/core/common/mojom/autofill_types.mojom";
 import "mojo/public/mojom/base/string16.mojom";
+import "services/network/public/mojom/cookie_manager.mojom";
 import "url/mojom/url.mojom";
 
 [Native]
@@ -28,6 +29,27 @@ struct FaviconUsageDataList;
 
 [Native]
 struct ImporterIE7PasswordInfo;
+
+[Native]
+struct BraveStats;
+
+[Native]
+struct BraveLedger;
+
+[Native]
+struct BraveReferral;
+
+[Native]
+struct ImportedBrowserTab;
+
+[Native]
+struct ImportedBrowserWindow;
+
+[Native]
+struct ImportedWindowState;
+
+[Native]
+struct SessionStoreSettings;
 
 [Native]
 enum ImportItem;
@@ -62,6 +84,13 @@ interface ProfileImportObserver {
   OnAutofillFormDataImportStart(uint32 total_autofill_form_data_entry_count);
   OnAutofillFormDataImportGroup(
       array<ImporterAutofillFormDataEntry> autofill_form_data_entry_group);
+  OnCookiesImportStart(uint32 total_cookies_count);
+  OnCookiesImportGroup(array<network.mojom.CanonicalCookie> cookies_group);
+  OnStatsImportReady(BraveStats stats);
+  OnLedgerImportReady(BraveLedger ledger);
+  OnReferralImportReady(BraveReferral referral);
+  OnWindowsImportReady(ImportedWindowState window_state);
+  OnSettingsImportReady(SessionStoreSettings settings);
 };
 
 // This interface is used to control the import process.

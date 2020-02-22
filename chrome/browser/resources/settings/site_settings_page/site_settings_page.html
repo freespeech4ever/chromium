@@ -81,7 +81,18 @@
             default_.notifications,
             '$i18nPolymer{siteSettingsAskBeforeSending}',
             '$i18nPolymer{siteSettingsBlocked}')]]"></cr-link-row>
-
+    <cr-link-row
+        class="hr two-line"
+        data-route="SITE_SETTINGS_AUTOPLAY"
+        icon-class="subpage-arrow"
+        id="autoplay"
+        label="$i18n{siteSettingsAutoplay}"
+        on-click="onTapNavigate_"
+        start-icon="cr:extension"
+        sub-label="[[defaultSettingLabel_(
+            default_.notifications,
+            '$i18nPolymer{siteSettingsAutoplayAsk}',
+            '$i18nPolymer{siteSettingsBlocked}')]]"></cr-link-row>
     <cr-link-row class="hr two-line" data-route="SITE_SETTINGS_JAVASCRIPT"
         id="javascript" label="$i18n{siteSettingsJavascript}"
         on-click="onTapNavigate_" start-icon="settings:code"
@@ -113,7 +124,7 @@
             default_.popups,
             '$i18nPolymer{siteSettingsAllowed}',
             '$i18nPolymer{siteSettingsBlocked}')]]"></cr-link-row>
-
+<!--
     <template is="dom-if" if="[[enableSafeBrowsingSubresourceFilter_]]">
       <cr-link-row class="hr two-line" data-route="SITE_SETTINGS_ADS" id="ads"
           label="$i18n{siteSettingsAds}" on-click="onTapNavigate_"
@@ -131,7 +142,7 @@
             default_.backgroundSync,
             '$i18nPolymer{siteSettingsAllowRecentlyClosedSites}',
             '$i18nPolymer{siteSettingsBackgroundSyncBlocked}')]]"></cr-link-row>
-
+-->
     <cr-link-row class="hr two-line" data-route="SITE_SETTINGS_SOUND"
         id="sound" label="$i18n{siteSettingsSound}" on-click="onTapNavigate_"
         start-icon="settings:volume-up"

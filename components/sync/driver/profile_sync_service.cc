@@ -466,6 +466,7 @@ void ProfileSyncService::StartUpSlowEngineComponents() {
   params.sync_user_agent = MakeUserAgentForSync(channel_);
   params.http_factory_getter = MakeHttpPostProviderFactoryGetter();
   params.authenticated_account_id = GetAuthenticatedAccountInfo().account_id;
+  BRAVE_PROFILE_SYNC_SERVICE_START_UP_SLOW_ENGINE_COMPONENTS
   DCHECK(!params.authenticated_account_id.empty() || IsLocalSyncEnabled());
   if (!base::FeatureList::IsEnabled(switches::kSyncE2ELatencyMeasurement)) {
     invalidation::InvalidationService* invalidator =

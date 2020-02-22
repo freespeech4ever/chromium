@@ -123,6 +123,7 @@ class DownloadItemView : public views::InkDropHostView,
   void OnThemeChanged() override;
 
  private:
+  friend class BraveDownloadItemView;
   FRIEND_TEST_ALL_PREFIXES(DownloadItemViewDangerousDownloadLabelTest,
                            AdjustTextAndGetSize);
 
@@ -179,6 +180,7 @@ class DownloadItemView : public views::InkDropHostView,
 
   // This function calculates the vertical coordinate to draw the file name text
   // relative to local bounds.
+  virtual
   int GetYForFilenameText() const;
 
   void DrawIcon(gfx::Canvas* canvas);
@@ -267,6 +269,7 @@ class DownloadItemView : public views::InkDropHostView,
   // so that screenreaders can access the filename, status text, and
   // dangerous download warning message (if any). The name will be presented
   // when the download item receives focus.
+  virtual
   void UpdateAccessibleName();
 
   // Update accessible status text.

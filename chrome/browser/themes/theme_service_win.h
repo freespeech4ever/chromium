@@ -18,6 +18,7 @@ class ThemeServiceWin : public ThemeService {
   ~ThemeServiceWin() override;
 
  private:
+  friend class BraveThemeServiceWin;
   // ThemeService:
   bool ShouldUseNativeFrame() const override;
   SkColor GetDefaultColor(int id, bool incognito) const override;

@@ -164,6 +164,15 @@ const AcceleratorMapping kAcceleratorMap[] = {
     {ui::VKEY_N, ui::EF_PLATFORM_ACCELERATOR, IDC_NEW_WINDOW},
     {ui::VKEY_T, ui::EF_SHIFT_DOWN | ui::EF_PLATFORM_ACCELERATOR,
      IDC_RESTORE_TAB},
+#if defined(OS_MACOSX)
+    // Command-Option-N
+    {ui::VKEY_N, ui::EF_ALT_DOWN | ui::EF_PLATFORM_ACCELERATOR,
+     IDC_NEW_OFFTHERECORD_WINDOW_TOR},
+#else
+    // Alt-Shift-N
+    {ui::VKEY_N, ui::EF_ALT_DOWN | ui::EF_SHIFT_DOWN,
+     IDC_NEW_OFFTHERECORD_WINDOW_TOR},
+#endif
 
     // Alt by itself (or with just shift) is never used on Mac since it's used
     // to generate non-ASCII characters. Such commands are given Mac-specific

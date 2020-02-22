@@ -144,7 +144,7 @@ views::Widget* TranslateBubbleView::ShowBubble(
           source_language, target_language));
   std::unique_ptr<TranslateBubbleModel> model(
       new TranslateBubbleModelImpl(step, std::move(ui_delegate)));
-  TranslateBubbleView* view = new TranslateBubbleView(
+  TranslateBubbleView* view = new BRAVE_TRANSLATE_BUBBLE_VIEW_(
       anchor_view, std::move(model), error_type, web_contents);
 
   if (highlighted_button)

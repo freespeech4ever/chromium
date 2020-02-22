@@ -3468,6 +3468,7 @@ void AddLocalizedStrings(content::WebUIDataSource* html_source,
   policy_indicator::AddLocalizedStrings(html_source);
   AddSecurityKeysStrings(html_source);
 
+  BraveAddLocalizedStrings(html_source, profile);
   html_source->UseStringsJs();
 }
 

@@ -7,6 +7,7 @@
 #import <Security/Security.h>
 
 #include "base/base64.h"
+#include "base/command_line.h"
 #include "base/mac/mac_logging.h"
 #include "base/mac/scoped_cftyperef.h"
 #include "base/rand_util.h"
@@ -52,8 +53,8 @@ std::string AddRandomPasswordToKeychain(const AppleKeychain& keychain,
 const char KeychainPassword::service_name[] = "Chrome Safe Storage";
 const char KeychainPassword::account_name[] = "Chrome";
 #else
-const char KeychainPassword::service_name[] = "Chromium Safe Storage";
-const char KeychainPassword::account_name[] = "Chromium";
+const char KeychainPassword::service_name[] = "Dissenter Safe Storage";
+const char KeychainPassword::account_name[] = "Dissenter";
 #endif
 
 KeychainPassword::KeychainPassword(
@@ -64,31 +65,50 @@ KeychainPassword::KeychainPassword(
 KeychainPassword::~KeychainPassword() = default;
 
 std::string KeychainPassword::GetPassword() const {
-  DCHECK(key_creation_util_);
-
+  const char *service_name, *account_name;
+  base::CommandLine* command_line = base::CommandLine::ForCurrentProcess();
+  if (command_line->HasSwitch("import-chrome")) {
+    service_name = "Chrome Safe Storage";
+    account_name = "Chrome";
+  } else if (command_line->HasSwitch("import-chromium") ||
+             command_line->HasSwitch("import-brave")) {
+    service_name = "Chromium Safe Storage";
+    account_name = "Chromium";
+  } else {
+    service_name = ::KeychainPassword::service_name;
+    account_name = ::KeychainPassword::account_name;
+    DCHECK(key_creation_util_);
+  }
   UInt32 password_length = 0;
   void* password_data = nullptr;
   OSStatus error = keychain_.FindGenericPassword(
       strlen(service_name), service_name, strlen(account_name), account_name,
       &password_length, &password_data, nullptr);
 
+  // If we're in the importer utility process, key_creation_util_ is nullptr
+  // because it requires a PrefService and therefore can only be created in the
+  // browser process; do not dereference.
   if (error == noErr) {
     std::string password =
         std::string(static_cast<char*>(password_data), password_length);
     keychain_.ItemFreeContent(password_data);
-    key_creation_util_->OnKeyWasFound();
+    if (key_creation_util_)
+      key_creation_util_->OnKeyWasFound();
     return password;
   }
 
   if (error == errSecItemNotFound) {
-    key_creation_util_->OnKeyNotFound(keychain_);
+    if (key_creation_util_)
+      key_creation_util_->OnKeyNotFound(keychain_);
     std::string password =
         AddRandomPasswordToKeychain(keychain_, service_name, account_name);
-    key_creation_util_->OnKeyStored(!password.empty());
+    if (key_creation_util_)
+      key_creation_util_->OnKeyStored(!password.empty());
     return password;
   }
 
-  key_creation_util_->OnKeychainLookupFailed(error);
+  if (key_creation_util_)
+    key_creation_util_->OnKeychainLookupFailed(error);
   OSSTATUS_DLOG(ERROR, error) << "Keychain lookup failed";
   return std::string();
 }

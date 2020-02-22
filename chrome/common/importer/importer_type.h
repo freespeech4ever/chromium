@@ -19,11 +19,15 @@ enum ImporterType {
   TYPE_IE              = 0,
 #endif
   // Value 1 was the (now deleted) Firefox 2 profile importer.
+  // We use it for the Chrome profile importer now.
+  TYPE_CHROME		   = 1,
   TYPE_FIREFOX         = 2,
 #if defined(OS_MACOSX)
   TYPE_SAFARI          = 3,
 #endif
   // Value 4 was the (now deleted) Google Toolbar importer.
+  // We use it for the Brave profile importer now.
+  TYPE_BRAVE           = 4,
   TYPE_BOOKMARKS_FILE  = 5, // Identifies a 'bookmarks.html' file.
 #if defined(OS_WIN)
   TYPE_EDGE            = 6,

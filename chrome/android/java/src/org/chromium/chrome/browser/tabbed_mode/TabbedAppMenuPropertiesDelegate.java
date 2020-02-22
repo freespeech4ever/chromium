@@ -14,6 +14,7 @@ import org.chromium.chrome.browser.appmenu.AppMenuDelegate;
 import org.chromium.chrome.browser.appmenu.AppMenuHandler;
 import org.chromium.chrome.browser.appmenu.AppMenuIconRowFooter;
 import org.chromium.chrome.browser.appmenu.AppMenuPropertiesDelegateImpl;
+import org.chromium.chrome.browser.appmenu.BraveAppMenuPropertiesDelegateImpl;
 import org.chromium.chrome.browser.bookmarks.BookmarkBridge;
 import org.chromium.chrome.browser.compositor.layouts.OverviewModeBehavior;
 import org.chromium.chrome.browser.datareduction.DataReductionMainMenuItem;
@@ -25,7 +26,7 @@ import org.chromium.chrome.browser.toolbar.ToolbarManager;
 /**
  * An {@link AppMenuPropertiesDelegateImpl} for ChromeTabbedActivity.
  */
-public class TabbedAppMenuPropertiesDelegate extends AppMenuPropertiesDelegateImpl {
+public class TabbedAppMenuPropertiesDelegate extends BraveAppMenuPropertiesDelegateImpl {
     AppMenuDelegate mAppMenuDelegate;
 
     public TabbedAppMenuPropertiesDelegate(Context context, ActivityTabProvider activityTabProvider,

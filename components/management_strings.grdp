@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='UTF-8'?>
 <!--
   Strings for the management disclosure panel
 
@@ -9,7 +8,7 @@
 
   Please consult with the privacy team when adding or changing strings.
 -->
-
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
   <!-- Title of the page -->
   <message name="IDS_MANAGEMENT_TITLE" desc="Title of management page.">
@@ -19,16 +18,16 @@
     Settings
   </message>
 
-  <!-- Subtitles of the Chrome OS version of the management page -->
+  <!-- Subtitles of the Dissenter OS version of the management page -->
  <if expr="chromeos">
     <message name="IDS_MANAGEMENT_SUBTITLE_MANAGED" desc="Title of chrome://management page, shows when device is managed by unknown organization">
-      Your <ph name="DEVICE_NAME">$1<ex>Chromebook</ex></ph> is managed
+      Your <ph name="DEVICE_NAME">$1<ex>Dissenterbook</ex></ph> is managed
     </message>
     <message name="IDS_MANAGEMENT_SUBTITLE_MANAGED_BY" desc="Title of chrome://management page, shows when device managed by known organization">
-      Your <ph name="DEVICE_TYPE">$1<ex>Chromebook</ex></ph> is managed by <ph name="ENROLLMENT_DOMAIN">$2<ex>example.com</ex></ph>
+      Your <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph> is managed by <ph name="ENROLLMENT_DOMAIN">$2<ex>example.com</ex></ph>
     </message>
     <message name="IDS_MANAGEMENT_NOT_MANAGED_SUBTITLE" desc="Message indicating that the device is not managed">
-      Your <ph name="DEVICE_TYPE">$1<ex>Chromebook</ex></ph> is not managed
+      Your <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph> is not managed
     </message>
   </if>
 
@@ -48,14 +47,14 @@
   <!-- Browser managed status section -->
   <if expr="not chromeos">
     <message name="IDS_MANAGEMENT_BROWSER_NOTICE" desc="Message shown when the browser is managed, it indicates what the administrator can do on the browser.">
-      Your administrator can change your browser setup remotely. Activity on this device may also be managed outside of Chrome. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn More<ph name="END_LINK">&lt;/a&gt;</ph>
+      Your administrator can change your browser setup remotely. Activity on this device may also be managed outside of Dissenter. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn More<ph name="END_LINK">&lt;/a&gt;</ph>
     </message>
     <message name="IDS_MANAGEMENT_NOT_MANAGED_NOTICE" desc="Message indicating that the browser is not managed">
-      This browser is not managed by a company or other organization. Activity on this device may be managed outside of Chrome. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn More<ph name="END_LINK">&lt;/a&gt;</ph>
+      This browser is not managed by a company or other organization. Activity on this device may be managed outside of Dissenter. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn More<ph name="END_LINK">&lt;/a&gt;</ph>
     </message>
   </if>
 
-  <!-- Chrome OS managed status section -->
+  <!-- Dissenter OS managed status section -->
   <if expr="chromeos">
     <message name="IDS_MANAGEMENT_DEVICE_NOT_MANAGED" desc="Message indicating that the device and account are not managed">
       This device and account are not managed by a company or other organization.
@@ -140,7 +139,7 @@
     Your device name and network address
   </message>
   <message name="IDS_MANAGEMENT_EXTENSION_REPORT_USERNAME" desc="Message explaining that an extension currently reports the user's username">
-    Your device username and Chrome username
+    Your device username and Dissenter username
   </message>
   <message name="IDS_MANAGEMENT_EXTENSION_REPORT_VERSION" desc="Message explaining that an extension currently reports the user's browser and machine version">
     Version information about your device and browser
@@ -158,32 +157,32 @@
     Performance data and crash reports
   </message>
 
-  <!-- Strings related to Chrome Enterprise Threat Protection -->
-  <message name="IDS_MANAGEMENT_THREAT_PROTECTION" desc="Title of the Chrome Enterprise Threat Protection section of the page">
-    Chrome Enterprise Threat Protection
+  <!-- Strings related to Dissenter Enterprise Threat Protection -->
+  <message name="IDS_MANAGEMENT_THREAT_PROTECTION" desc="Title of the Dissenter Enterprise Threat Protection section of the page">
+    Dissenter Enterprise Threat Protection
   </message>
-  <message name="IDS_MANAGEMENT_THREAT_PROTECTION_DESCRIPTION" desc="Description of the Chrome Enterprise Threat Protection section of the page">
-    Your administrator has enabled Chrome Enterprise Threat Protection on your browser. Chrome Enterprise Threat Protection has access to some of your data.
+  <message name="IDS_MANAGEMENT_THREAT_PROTECTION_DESCRIPTION" desc="Description of the Dissenter Enterprise Threat Protection section of the page">
+    Your administrator has enabled Dissenter Enterprise Threat Protection on your browser. Dissenter Enterprise Threat Protection has access to some of your data.
   </message>
-  <message name="IDS_MANAGEMENT_THREAT_PROTECTION_DESCRIPTION_BY" desc="Description of the Chrome Enterprise Threat Protection section of the page">
-    <ph name="ENROLLMENT_DOMAIN">$1<ex>example.com</ex></ph> has enabled Chrome Enterprise Threat Protection on your browser. Chrome Enterprise Threat Protection has access to some of your data.
+  <message name="IDS_MANAGEMENT_THREAT_PROTECTION_DESCRIPTION_BY" desc="Description of the Dissenter Enterprise Threat Protection section of the page">
+    <ph name="ENROLLMENT_DOMAIN">$1<ex>example.com</ex></ph> has enabled Dissenter Enterprise Threat Protection on your browser. Dissenter Enterprise Threat Protection has access to some of your data.
   </message>
   <message name="IDS_MANAGEMENT_DATA_LOSS_PREVENTION_NAME" desc="Name for the data loss prevention feature">
     Data Loss Prevention
   </message>
   <message name="IDS_MANAGEMENT_DATA_LOSS_PREVENTION_PERMISSIONS" desc="Permissions description for the data loss prevention feature">
-    Scan the contents of the cache and files that you download or upload in Chrome.
+    Scan the contents of the cache and files that you download or upload in Dissenter.
   </message>
   <message name="IDS_MANAGEMENT_MALWARE_SCANNING_NAME" desc="Name for the malware scanning feature">
     Malware Scanning
   </message>
   <message name="IDS_MANAGEMENT_MALWARE_SCANNING_PERMISSIONS" desc="Permissions description for the malware scanning feature">
-    Scan files that you download or upload in Chrome.
+    Scan files that you download or upload in Dissenter.
   </message>
   <message name="IDS_MANAGEMENT_ENTERPRISE_REPORTING_NAME" desc="Name for the enterprise reporting feature">
     Enterprise Reporting
   </message>
   <message name="IDS_MANAGEMENT_ENTERPRISE_REPORTING_PERMISSIONS" desc="Permissions description for the enterprise reporting feature">
-    Share data about security events that have been flagged by Chrome Enterprise Threat Protection with your Administrator. These may include page urls, file name and file metadata, your device username and Chrome username.
+    Share data about security events that have been flagged by Dissenter Enterprise Threat Protection with your Administrator. These may include page urls, file name and file metadata, your device username and Dissenter username.
   </message>
 </grit-part>

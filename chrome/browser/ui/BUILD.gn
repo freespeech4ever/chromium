@@ -579,6 +579,9 @@ jumbo_static_library("ui") {
     "//ui/webui",
     "//v8:v8_version",
   ]
+  deps += [
+    "//brave/browser/ui",
+  ]
   allow_circular_includes_from +=
       [ "//chrome/browser/ui/webui/bluetooth_internals" ]
 
@@ -2431,10 +2434,13 @@ jumbo_static_library("ui") {
       ]
       deps += [ "//google_update" ]
     } else {
-      sources += [
-        "webui/help/version_updater_basic.cc",
-        "webui/help/version_updater_basic.h",
-      ]
+      if (!is_official_build) {
+        # In official build, //brave/browser/ui handles.
+        sources += [
+          "webui/help/version_updater_basic.cc",
+          "webui/help/version_updater_basic.h",
+        ]
+      }
     }
   } else {  # 'OS!="win"
     # The Cast Linux build sets toolkit_views to false, but many files in this

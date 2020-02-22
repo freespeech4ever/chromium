@@ -225,7 +225,9 @@ bool AccountConsistencyModeManager::ShouldBuildServiceForProfile(
 
 AccountConsistencyMethod
 AccountConsistencyModeManager::GetAccountConsistencyMethod() {
-#if defined(OS_CHROMEOS)
+#if defined(BRAVE_CHROMIUM_BUILD)
+  return AccountConsistencyMethod::kDisabled;
+#elif defined(OS_CHROMEOS)
   // TODO(https://crbug.com/860671): ChromeOS should use the cached value.
   // Changing the value dynamically is not supported.
   return ComputeAccountConsistencyMethod(profile_);

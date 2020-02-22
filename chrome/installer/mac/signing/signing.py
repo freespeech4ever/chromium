@@ -11,6 +11,7 @@ import os.path
 
 from . import commands
 from .model import CodeSignOptions, CodeSignedProduct, VerifyOptions
+from signing_helper import AddBravePartsForSigning, GenerateBraveWidevineSigFile
 
 _PROVISIONPROFILE_EXT = '.provisionprofile'
 _PROVISIONPROFILE_DEST = 'embedded.provisionprofile'
@@ -136,6 +137,7 @@ def get_parts(config):
             library_basename.replace('.dylib', ''),
             verify_options=VerifyOptions.DEEP)
 
+    AddBravePartsForSigning(parts, config)
     return parts
 
 
@@ -180,7 +182,7 @@ def sign_part(paths, config, part):
         part: The |model.CodeSignedProduct| to sign. The product's |path| must
             be in |paths.work|.
     """
-    command = ['codesign', '--sign', config.identity]
+    command = ['codesign', '--force', '--sign', config.identity]
     if config.notary_user:
         # Assume if the config has notary authentication information that the
         # products will be notarized, which requires a secure timestamp.
@@ -272,6 +274,7 @@ def sign_chrome(paths, config, sign_framework=False):
                 continue
             sign_part(paths, config, part)
 
+        GenerateBraveWidevineSigFile(paths, config, parts['framework'])
         # Sign the framework bundle.
         sign_part(paths, config, parts['framework'])
 

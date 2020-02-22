@@ -20,6 +20,8 @@ class UpdateRecommendedMessageBox : public views::DialogDelegate {
   static void Show(gfx::NativeWindow parent_window);
 
  private:
+  friend class UpdateRecommendedMessageBoxMac;
+
   UpdateRecommendedMessageBox();
   ~UpdateRecommendedMessageBox() override;
 

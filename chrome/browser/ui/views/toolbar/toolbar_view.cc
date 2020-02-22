@@ -283,7 +283,7 @@ void ToolbarView::Init() {
 
   std::unique_ptr<AvatarToolbarButton> avatar;
   if (show_avatar_toolbar_button)
-    avatar = std::make_unique<AvatarToolbarButton>(browser_);
+    avatar = std::make_unique<BraveAvatarToolbarButton>(browser_);
 
   auto app_menu_button = std::make_unique<BrowserAppMenuButton>(this);
   app_menu_button->EnableCanvasFlippingForRTLUI(true);

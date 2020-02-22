@@ -141,6 +141,7 @@ PermissionsBubbleDialogDelegateView::PermissionsBubbleDialogDelegateView(
     AddChildView(label_container);
   }
 
+  AddAdditionalWidevineViewControlsIfNeeded(this, requests);
   chrome::RecordDialogCreation(chrome::DialogIdentifier::PERMISSIONS);
 }
 

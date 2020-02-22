@@ -239,6 +239,7 @@ bool TabSpecificContentSettings::IsContentBlocked(
       content_type == CONTENT_SETTINGS_TYPE_ADS ||
       content_type == CONTENT_SETTINGS_TYPE_SOUND ||
       content_type == CONTENT_SETTINGS_TYPE_CLIPBOARD_READ ||
+      content_type == CONTENT_SETTINGS_TYPE_AUTOPLAY ||
       content_type == CONTENT_SETTINGS_TYPE_SENSORS) {
     const auto& it = content_settings_status_.find(content_type);
     if (it != content_settings_status_.end())
@@ -262,6 +263,7 @@ bool TabSpecificContentSettings::IsContentAllowed(
       content_type != CONTENT_SETTINGS_TYPE_PPAPI_BROKER &&
       content_type != CONTENT_SETTINGS_TYPE_MIDI_SYSEX &&
       content_type != CONTENT_SETTINGS_TYPE_CLIPBOARD_READ &&
+      content_type != CONTENT_SETTINGS_TYPE_AUTOPLAY &&
       content_type != CONTENT_SETTINGS_TYPE_SENSORS) {
     return false;
   }

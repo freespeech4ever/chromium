@@ -759,6 +759,7 @@ void RegisterLocalState(PrefRegistrySimple* registry) {
 #if defined(TOOLKIT_VIEWS)
   RegisterBrowserViewLocalPrefs(registry);
 #endif
+  brave::RegisterLocalStatePrefs(registry);
 }
 
 // Register prefs applicable to all profiles.
@@ -1018,6 +1019,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry,
 #endif
 
   RegisterProfilePrefsForMigration(registry);
+  brave::RegisterProfilePrefs(registry);
 }
 
 void RegisterUserProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {

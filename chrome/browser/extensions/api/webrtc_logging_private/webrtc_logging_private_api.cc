@@ -87,6 +87,7 @@ std::string HashIdWithOrigin(const std::string& security_origin,
 content::RenderProcessHost* WebrtcLoggingPrivateFunction::RphFromRequest(
     const api::webrtc_logging_private::RequestInfo& request,
     const std::string& security_origin) {
+  return nullptr; // feature disabled in Brave
   // There are 2 ways these API functions can get called.
   //
   //  1. From a whitelisted component extension on behalf of a page with the

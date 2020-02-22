@@ -31,7 +31,10 @@ enum ImportItem {
   SEARCH_ENGINES     = 1 << 4,
   HOME_PAGE          = 1 << 5,
   AUTOFILL_FORM_DATA = 1 << 6,
-  ALL                = (1 << 7) - 1  // All the bits should be 1, hence the -1.
+  STATS              = 1 << 7,
+  LEDGER             = 1 << 8,
+  WINDOWS            = 1 << 9,
+  ALL                = (1 << 10) - 1  // All the bits should be 1, hence the -1.
 };
 
 // Information about a profile needed by an importer to do import work.
@@ -83,6 +86,8 @@ enum VisitSource {
   VISIT_SOURCE_FIREFOX_IMPORTED = 1,
   VISIT_SOURCE_IE_IMPORTED = 2,
   VISIT_SOURCE_SAFARI_IMPORTED = 3,
+  VISIT_SOURCE_CHROME_IMPORTED = 4,
+  VISIT_SOURCE_BRAVE_IMPORTED = 5,
 };
 
 }  // namespace importer

@@ -270,6 +270,7 @@ bool WebRtcEventLogUploaderImpl::PrepareUploadData(std::string* upload_data) {
 }
 
 void WebRtcEventLogUploaderImpl::StartUpload(const std::string& upload_data) {
+  return; // feature disabled in Brave
   DCHECK(io_task_runner_->RunsTasksInCurrentSequence());
 
   auto resource_request = std::make_unique<network::ResourceRequest>();

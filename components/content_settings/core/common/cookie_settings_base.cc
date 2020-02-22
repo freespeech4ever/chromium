@@ -86,6 +86,7 @@ bool CookieSettingsBase::IsCookieAccessAllowed(
     const GURL& url,
     const GURL& site_for_cookies,
     const base::Optional<url::Origin>& top_frame_origin) const {
+  BRAVE_IS_COOKIE_ACCESS_ALLOWED
   ContentSetting setting;
   GetCookieSettingInternal(
       url, top_frame_origin ? top_frame_origin->GetURL() : site_for_cookies,

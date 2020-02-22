@@ -29,6 +29,9 @@
 #include "chrome/common/importer/edge_importer_utils_win.h"
 #endif
 
+void DetectChromeProfiles(std::vector<importer::SourceProfile>* profiles);
+void DetectBraveProfiles(std::vector<importer::SourceProfile>* profiles);
+
 namespace {
 
 #if defined(OS_WIN)
@@ -94,8 +97,13 @@ void DetectFirefoxProfiles(const std::string locale,
                            std::vector<importer::SourceProfile>* profiles) {
   base::ScopedBlockingCall scoped_blocking_call(FROM_HERE,
                                                 base::BlockingType::MAY_BLOCK);
-
-  base::FilePath profile_path = GetFirefoxProfilePath();
+#if defined(OS_WIN)
+  const std::string firefox_install_id =
+      shell_integration::GetFirefoxProgIdSuffix();
+#else
+  const std::string firefox_install_id;
+#endif  // defined(OS_WIN)
+  base::FilePath profile_path = GetFirefoxProfilePath(firefox_install_id);
   if (profile_path.empty())
     return;
 
@@ -145,21 +153,37 @@ std::vector<importer::SourceProfile> DetectSourceProfilesWorker(
 #if defined(OS_WIN)
   if (shell_integration::IsFirefoxDefaultBrowser()) {
     DetectFirefoxProfiles(locale, &profiles);
+    DetectBraveProfiles(&profiles);
     DetectBuiltinWindowsProfiles(&profiles);
+    DetectChromeProfiles(&profiles);
   } else {
     DetectBuiltinWindowsProfiles(&profiles);
+    DetectBraveProfiles(&profiles);
     DetectFirefoxProfiles(locale, &profiles);
+    DetectChromeProfiles(&profiles);
   }
 #elif defined(OS_MACOSX)
   if (shell_integration::IsFirefoxDefaultBrowser()) {
     DetectFirefoxProfiles(locale, &profiles);
+    DetectBraveProfiles(&profiles);
     DetectSafariProfiles(&profiles);
+    DetectChromeProfiles(&profiles);
   } else {
     DetectSafariProfiles(&profiles);
+    DetectBraveProfiles(&profiles);
     DetectFirefoxProfiles(locale, &profiles);
+    DetectChromeProfiles(&profiles);
   }
 #else
-  DetectFirefoxProfiles(locale, &profiles);
+  if (shell_integration::IsFirefoxDefaultBrowser()) {
+    DetectFirefoxProfiles(locale, &profiles);
+    DetectBraveProfiles(&profiles);
+    DetectChromeProfiles(&profiles);
+  } else {
+    DetectBraveProfiles(&profiles);
+    DetectChromeProfiles(&profiles);
+    DetectFirefoxProfiles(locale, &profiles);
+  }
 #endif
   if (include_interactive_profiles) {
     importer::SourceProfile bookmarks_profile;

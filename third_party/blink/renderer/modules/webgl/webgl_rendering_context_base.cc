@@ -31,6 +31,7 @@
 #include "base/feature_list.h"
 #include "base/numerics/checked_math.h"
 #include "base/stl_util.h"
+#include "brave/renderer/brave_content_settings_observer_helper.h"
 #include "build/build_config.h"
 #include "gpu/GLES2/gl2extchromium.h"
 #include "gpu/command_buffer/client/gles2_interface.h"
@@ -2812,6 +2813,8 @@ WebGLActiveInfo* WebGLRenderingContextBase::getActiveAttrib(
     GLuint index) {
   if (!ValidateWebGLProgramOrShader("getActiveAttrib", program))
     return nullptr;
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
+    return nullptr;
   GLuint program_id = ObjectNonZero(program);
   GLint max_name_length = -1;
   ContextGL()->GetProgramiv(program_id, GL_ACTIVE_ATTRIBUTE_MAX_LENGTH,
@@ -2842,6 +2845,8 @@ WebGLActiveInfo* WebGLRenderingContextBase::getActiveUniform(
     GLuint index) {
   if (!ValidateWebGLProgramOrShader("getActiveUniform", program))
     return nullptr;
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
+    return nullptr;
   GLuint program_id = ObjectNonZero(program);
   GLint max_name_length = -1;
   ContextGL()->GetProgramiv(program_id, GL_ACTIVE_UNIFORM_MAX_LENGTH,
@@ -2871,6 +2876,8 @@ base::Optional<HeapVector<Member<WebGLShader>>>
 WebGLRenderingContextBase::getAttachedShaders(WebGLProgram* program) {
   if (!ValidateWebGLProgramOrShader("getAttachedShaders", program))
     return base::nullopt;
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
+    return base::nullopt;
 
   HeapVector<Member<WebGLShader>> shader_objects;
   const GLenum kShaderType[] = {GL_VERTEX_SHADER, GL_FRAGMENT_SHADER,
@@ -2886,6 +2893,8 @@ WebGLRenderingContextBase::getAttachedShaders(WebGLProgram* program) {
 GLint WebGLRenderingContextBase::getAttribLocation(WebGLProgram* program,
                                                    const String& name) {
   if (!ValidateWebGLProgramOrShader("getAttribLocation", program))
+    return -1;
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
     return -1;
   if (!ValidateLocationLength("getAttribLocation", name))
     return -1;
@@ -2920,6 +2929,8 @@ ScriptValue WebGLRenderingContextBase::getBufferParameter(
     GLenum pname) {
   if (isContextLost() || !ValidateBufferTarget("getBufferParameter", target))
     return ScriptValue::CreateNull(script_state->GetIsolate());
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
+    return ScriptValue::CreateNull(script_state->GetIsolate());
 
   switch (pname) {
     case GL_BUFFER_USAGE: {
@@ -2944,6 +2955,8 @@ ScriptValue WebGLRenderingContextBase::getBufferParameter(
 WebGLContextAttributes* WebGLRenderingContextBase::getContextAttributes()
     const {
   if (isContextLost())
+    return nullptr;
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
     return nullptr;
 
   WebGLContextAttributes* result =
@@ -3014,6 +3027,13 @@ bool WebGLRenderingContextBase::ExtensionSupportedAndAllowed(
 ScriptValue WebGLRenderingContextBase::getExtension(ScriptState* script_state,
                                                     const String& name) {
   WebGLExtension* extension = nullptr;
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame())) {
+    v8::Local<v8::Value> wrapped_extension =
+      ToV8(extension, script_state->GetContext()->Global(),
+          script_state->GetIsolate());
+
+    return ScriptValue(script_state->GetIsolate(), wrapped_extension);
+  }
 
   if (name == WebGLDebugRendererInfo::ExtensionName()) {
     ExecutionContext* context = ExecutionContext::From(script_state);
@@ -3052,6 +3072,9 @@ ScriptValue WebGLRenderingContextBase::getFramebufferAttachmentParameter(
   if (isContextLost() ||
       !ValidateFramebufferFuncParameters("getFramebufferAttachmentParameter",
                                          target, attachment))
+    return ScriptValue::CreateNull(script_state->GetIsolate());
+
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
     return ScriptValue::CreateNull(script_state->GetIsolate());
 
   if (!framebuffer_binding_ || !framebuffer_binding_->Object()) {
@@ -3134,6 +3157,8 @@ ScriptValue WebGLRenderingContextBase::getFramebufferAttachmentParameter(
 ScriptValue WebGLRenderingContextBase::getParameter(ScriptState* script_state,
                                                     GLenum pname) {
   if (isContextLost())
+    return ScriptValue::CreateNull(script_state->GetIsolate());
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
     return ScriptValue::CreateNull(script_state->GetIsolate());
   const int kIntZero = 0;
   switch (pname) {
@@ -3435,10 +3460,11 @@ ScriptValue WebGLRenderingContextBase::getProgramParameter(
     ScriptState* script_state,
     WebGLProgram* program,
     GLenum pname) {
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
+    return ScriptValue::CreateNull(script_state->GetIsolate());
   if (!ValidateWebGLProgramOrShader("getProgramParamter", program)) {
     return ScriptValue::CreateNull(script_state->GetIsolate());
   }
-
   GLint value = 0;
   switch (pname) {
     case GL_DELETE_STATUS:
@@ -3496,6 +3522,8 @@ ScriptValue WebGLRenderingContextBase::getProgramParameter(
 String WebGLRenderingContextBase::getProgramInfoLog(WebGLProgram* program) {
   if (!ValidateWebGLProgramOrShader("getProgramInfoLog", program))
     return String();
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
+    return String();
   GLStringQuery query(ContextGL());
   return query.Run<GLStringQuery::ProgramInfoLog>(ObjectNonZero(program));
 }
@@ -3505,6 +3533,8 @@ ScriptValue WebGLRenderingContextBase::getRenderbufferParameter(
     GLenum target,
     GLenum pname) {
   if (isContextLost())
+    return ScriptValue::CreateNull(script_state->GetIsolate());
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
     return ScriptValue::CreateNull(script_state->GetIsolate());
   if (target != GL_RENDERBUFFER) {
     SynthesizeGLError(GL_INVALID_ENUM, "getRenderbufferParameter",
@@ -3551,6 +3581,8 @@ ScriptValue WebGLRenderingContextBase::getShaderParameter(
     ScriptState* script_state,
     WebGLShader* shader,
     GLenum pname) {
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
+    return ScriptValue::CreateNull(script_state->GetIsolate());
   if (!ValidateWebGLProgramOrShader("getShaderParameter", shader)) {
     return ScriptValue::CreateNull(script_state->GetIsolate());
   }
@@ -3582,6 +3614,8 @@ ScriptValue WebGLRenderingContextBase::getShaderParameter(
 String WebGLRenderingContextBase::getShaderInfoLog(WebGLShader* shader) {
   if (!ValidateWebGLProgramOrShader("getShaderInfoLog", shader))
     return String();
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
+    return String();
   GLStringQuery query(ContextGL());
   return query.Run<GLStringQuery::ShaderInfoLog>(ObjectNonZero(shader));
 }
@@ -3594,6 +3628,8 @@ WebGLShaderPrecisionFormat* WebGLRenderingContextBase::getShaderPrecisionFormat(
   if (!ValidateShaderType("getShaderPrecisionFormat", shader_type)) {
     return nullptr;
   }
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
+    return nullptr;
   switch (precision_type) {
     case GL_LOW_FLOAT:
     case GL_MEDIUM_FLOAT:
@@ -3618,12 +3654,16 @@ WebGLShaderPrecisionFormat* WebGLRenderingContextBase::getShaderPrecisionFormat(
 String WebGLRenderingContextBase::getShaderSource(WebGLShader* shader) {
   if (!ValidateWebGLProgramOrShader("getShaderSource", shader))
     return String();
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
+    return String();
   return EnsureNotNull(shader->Source());
 }
 
 base::Optional<Vector<String>>
 WebGLRenderingContextBase::getSupportedExtensions() {
   if (isContextLost())
+    return base::nullopt;
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
     return base::nullopt;
 
   Vector<String> result;
@@ -3646,6 +3686,8 @@ ScriptValue WebGLRenderingContextBase::getTexParameter(
     GLenum target,
     GLenum pname) {
   if (isContextLost())
+    return ScriptValue::CreateNull(script_state->GetIsolate());
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
     return ScriptValue::CreateNull(script_state->GetIsolate());
   if (!ValidateTextureBinding("getTexParameter", target))
     return ScriptValue::CreateNull(script_state->GetIsolate());
@@ -3680,6 +3722,8 @@ ScriptValue WebGLRenderingContextBase::getUniform(
     WebGLProgram* program,
     const WebGLUniformLocation* uniform_location) {
   if (!ValidateWebGLProgramOrShader("getUniform", program))
+    return ScriptValue::CreateNull(script_state->GetIsolate());
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
     return ScriptValue::CreateNull(script_state->GetIsolate());
   DCHECK(uniform_location);
   if (uniform_location->Program() != program) {
@@ -3961,6 +4005,8 @@ WebGLUniformLocation* WebGLRenderingContextBase::getUniformLocation(
     const String& name) {
   if (!ValidateWebGLProgramOrShader("getUniformLocation", program))
     return nullptr;
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
+    return nullptr;
   if (!ValidateLocationLength("getUniformLocation", name))
     return nullptr;
   if (!ValidateString("getUniformLocation", name))
@@ -3984,6 +4030,8 @@ ScriptValue WebGLRenderingContextBase::getVertexAttrib(
     GLuint index,
     GLenum pname) {
   if (isContextLost())
+    return ScriptValue::CreateNull(script_state->GetIsolate());
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
     return ScriptValue::CreateNull(script_state->GetIsolate());
   if (index >= max_vertex_attribs_) {
     SynthesizeGLError(GL_INVALID_VALUE, "getVertexAttrib",
@@ -4061,6 +4109,8 @@ ScriptValue WebGLRenderingContextBase::getVertexAttrib(
 int64_t WebGLRenderingContextBase::getVertexAttribOffset(GLuint index,
                                                          GLenum pname) {
   if (isContextLost())
+    return 0;
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
     return 0;
   GLvoid* result = nullptr;
   // NOTE: If pname is ever a value that returns more than 1 element
@@ -4408,6 +4458,8 @@ void WebGLRenderingContextBase::ReadPixelsHelper(GLint x,
                                                  DOMArrayBufferView* pixels,
                                                  int64_t offset) {
   if (isContextLost())
+    return;
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
     return;
   // Due to WebGL's same-origin restrictions, it is not possible to
   // taint the origin using the WebGL API.

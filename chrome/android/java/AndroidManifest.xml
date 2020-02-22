@@ -1285,6 +1285,7 @@ android:value="true" />
         </activity>
         {% endif %}
 
+        {% include "//brave/android/java/AndroidManifest.xml" %}
         {% block extra_application_definitions %}
 
         <!-- Media route controllers to use for remote playback (cast).

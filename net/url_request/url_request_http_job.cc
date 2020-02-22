@@ -767,6 +767,7 @@ void URLRequestHttpJob::SaveCookiesAndNotifyHeadersComplete(int result) {
     num_cookie_lines_left_++;
 
     std::unique_ptr<CanonicalCookie> cookie = net::CanonicalCookie::Create(
+        BRAVE_SAVECOOKIESANDNOTIFYHEADERSCOMPLETE
         request_->url(), cookie_string, base::Time::Now(), server_time,
         &returned_status);
 

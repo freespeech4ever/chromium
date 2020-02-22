@@ -15,6 +15,7 @@
 
 MachineIdStatus GetDeterministicMachineSpecificId(std::string* machine_id) {
   DCHECK(machine_id);
+  if (IsMachineIdDisabled()) { return MachineIdStatus::NOT_IMPLEMENTED; }
 
   wchar_t computer_name[MAX_COMPUTERNAME_LENGTH + 1] = {};
   DWORD computer_name_size = base::size(computer_name);

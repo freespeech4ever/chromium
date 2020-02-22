@@ -33,7 +33,7 @@ namespace {
 UpdateService* update_service_override = nullptr;
 
 // 98% of update checks have 22 or less extensions.
-constexpr size_t kMaxExtensionsPerUpdate = 22;
+constexpr size_t kMaxExtensionsPerUpdate = 1;
 
 void SendUninstallPingCompleteCallback(update_client::Error error) {}
 

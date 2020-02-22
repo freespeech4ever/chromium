@@ -2170,6 +2170,7 @@ jumbo_static_library("browser") {
     "//ui/strings",
     "//ui/surface",
     "//ui/web_dialogs",
+    "//brave/browser:browser_process",
   ]
 
   if (is_posix || is_fuchsia) {

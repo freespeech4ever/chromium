@@ -650,6 +650,7 @@ class ChromeContentBrowserClient : public content::ContentBrowserClient {
   virtual const ui::NativeTheme* GetWebTheme() const;  // For testing.
 
  private:
+  friend class BraveContentBrowserClient;
   friend class DisableWebRtcEncryptionFlagTest;
   friend class InProcessBrowserTest;
 

@@ -28,7 +28,7 @@ namespace safe_browsing {
 // Can be overriden by tests.
 const char* g_sbv4_url_prefix_for_testing = nullptr;
 
-const char kSbV4UrlPrefix[] = "https://safebrowsing.googleapis.com/v4";
+const char kSbV4UrlPrefix[] = "https://safebrowsing.brave.com/v4";
 
 const base::FilePath::CharType kStoreSuffix[] = FILE_PATH_LITERAL(".store");
 

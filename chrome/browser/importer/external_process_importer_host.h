@@ -72,9 +72,12 @@ class ExternalProcessImporterHost
   void NotifyImportItemEnded(importer::ImportItem item);
   void NotifyImportEnded();
 
- private:
+ protected:
   // ExternalProcessImporterHost deletes itself in OnImportEnded().
   ~ExternalProcessImporterHost() override;
+
+ private:
+  friend class BraveExternalProcessImporterHost;
 
   // Launches the utility process that starts the import task, unless bookmark
   // or template model are not yet loaded. If load is not detected, this method

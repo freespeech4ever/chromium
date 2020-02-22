@@ -37,6 +37,7 @@
 #include "base/location.h"
 #include "base/metrics/histogram_macros.h"
 #include "base/numerics/checked_math.h"
+#include "brave/renderer/brave_content_settings_observer_helper.h"
 #include "build/build_config.h"
 #include "third_party/blink/public/common/features.h"
 #include "third_party/blink/public/platform/task_type.h"
@@ -908,6 +909,8 @@ String HTMLCanvasElement::ToDataURLInternal(
 String HTMLCanvasElement::toDataURL(const String& mime_type,
                                     const ScriptValue& quality_argument,
                                     ExceptionState& exception_state) const {
+  if (!AllowFingerprinting(GetDocument().GetFrame()))
+    return String();
   if (!OriginClean()) {
     exception_state.ThrowSecurityError("Tainted canvases may not be exported.");
     return String();
@@ -926,6 +929,8 @@ void HTMLCanvasElement::toBlob(V8BlobCallback* callback,
                                const String& mime_type,
                                const ScriptValue& quality_argument,
                                ExceptionState& exception_state) {
+  if (!AllowFingerprinting(GetDocument().GetFrame()))
+    return;
   if (!OriginClean()) {
     exception_state.ThrowSecurityError("Tainted canvases may not be exported.");
     return;

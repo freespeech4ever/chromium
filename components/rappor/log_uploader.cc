@@ -68,6 +68,7 @@ LogUploader::LogUploader(
 LogUploader::~LogUploader() {}
 
 void LogUploader::Start() {
+  return; // feature disabled in Brave
   is_running_ = true;
   StartScheduledUpload();
 }

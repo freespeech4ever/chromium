@@ -98,6 +98,8 @@ base::scoped_nsobject<NSMenuItem> BuildFileMenu(
                 Item(IDS_NEW_INCOGNITO_WINDOW_MAC)
                     .command_id(IDC_NEW_INCOGNITO_WINDOW)
                     .remove_if(is_pwa),
+                Item(IDS_NEW_OFFTHERECORD_WINDOW_TOR)
+                    .command_id(IDC_NEW_OFFTHERECORD_WINDOW_TOR),
                 Item(IDS_REOPEN_CLOSED_TABS_MAC)
                     .command_id(IDC_RESTORE_TAB)
                     .remove_if(is_pwa),

@@ -95,12 +95,14 @@ class ToolbarView : public views::AccessiblePaneView,
   ~ToolbarView() override;
 
   // Create the contents of the Browser Toolbar.
+  virtual
   void Init();
 
   // Forces the toolbar (and transitively the location bar) to update its
   // current state.  If |tab| is non-NULL, we're switching (back?) to this tab
   // and should restore any previous location bar state (such as user editing)
   // as well.
+  virtual
   void Update(content::WebContents* tab);
 
   // Updates the visibility of the custom tab bar, potentially animating the
@@ -127,6 +129,7 @@ class ToolbarView : public views::AccessiblePaneView,
       IntentPickerResponse callback);
 
   // Shows a bookmark bubble and anchors it appropriately.
+  virtual
   void ShowBookmarkBubble(const GURL& url,
                           bool already_bookmarked,
                           bookmarks::BookmarkBubbleObserver* observer);
@@ -198,6 +201,7 @@ class ToolbarView : public views::AccessiblePaneView,
   void ChildPreferredSizeChanged(views::View* child) override;
 
  protected:
+  friend class BraveToolbarView;
   // AccessiblePaneView:
   bool SetPaneFocusAndFocusDefault() override;
 
@@ -245,6 +249,7 @@ class ToolbarView : public views::AccessiblePaneView,
   views::View* GetViewForDrop() override;
 
   // Loads the images for all the child views.
+  virtual
   void LoadImages();
 
   // Shows the critical notification bubble against the app menu.

@@ -966,6 +966,7 @@ base::DictionaryValue* SandboxedUnpacker::RewriteManifestFile(
   DCHECK(!public_key_.empty());
   std::unique_ptr<base::DictionaryValue> final_manifest =
       manifest.CreateDeepCopy();
+  brave::BraveRewriteManifest(extension_id_, final_manifest.get());
   final_manifest->SetString(manifest_keys::kPublicKey, public_key_);
 
   std::string manifest_json;

@@ -158,6 +158,9 @@ LikelyFormFilling SendFillInformationToRenderer(
 
   bool wait_for_username =
       wait_for_username_reason != WaitForUsernameReason::kDontWait;
+#if defined(BRAVE_CHROMIUM_BUILD)
+  wait_for_username = true;
+#endif
 
   if (wait_for_username) {
     metrics_recorder->SetManagerAction(

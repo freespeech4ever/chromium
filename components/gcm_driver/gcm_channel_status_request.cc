@@ -56,8 +56,8 @@ int GCMChannelStatusRequest::min_poll_interval_seconds() {
 
 void GCMChannelStatusRequest::Start() {
   // url_loader_factory_ can be null for tests.
-  if (!url_loader_factory_)
-    return;
+  // if (!url_loader_factory_)
+  return;
 
   DCHECK(!simple_url_loader_);
 

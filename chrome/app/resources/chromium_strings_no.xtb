@@ -1,234 +1,237 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="no">
-<translation id="1065672644894730302">Kan ikke lese innstillingene. Enkelte funksjoner kan være utilgjengelige, og endringer av innstillingene blir ikke lagret.</translation>
-<translation id="1104942323762546749">Chromium forsøker å eksportere passordene dine. Skriv inn Windows-passordet ditt for å tillate dette.</translation>
-<translation id="1115445892567829615">Chromium kunne ikke synkronisere dataene dine. Oppdater passordfrasen for synkronisering.</translation>
-<translation id="113122355610423240">Chromium er standardnettleseren din</translation>
-<translation id="1185134272377778587">Om Chromium</translation>
-<translation id="1396446129537741364">Chromium prøver å vise passord.</translation>
-<translation id="1414495520565016063">Du er logget på Chromium.</translation>
-<translation id="151962892725702025">Chromium OS kunne ikke synkronisere dataene dine fordi synkronisering ikke er tilgjengelig for domenet ditt.</translation>
-<translation id="1524282610922162960">Del en Chromium-fane</translation>
-<translation id="1607715478322902680">{COUNT,plural, =0{Administratoren din krever at du starter Chromium på nytt for å ta i bruk en oppdatering}=1{Administratoren din krever at du starter Chromium på nytt for å ta i bruk en oppdatering. Inkognitovinduet ditt blir ikke gjenåpnet.}other{Administratoren din krever at du starter Chromium på nytt for å ta i bruk en oppdatering. De # inkognitovinduene dine blir ikke gjenåpnet.}}</translation>
-<translation id="1708666629004767631">En ny, sikrere versjon av Chromium er tilgjengelig.</translation>
-<translation id="1774152462503052664">La Chromium kjøre i bakgrunnen</translation>
-<translation id="1779356040007214683">For å gjøre Chromium tryggere, har vi deaktivert noen utvidelser som ikke er oppført i <ph name="IDS_EXTENSION_WEB_STORE_TITLE" />, og som kan ha blitt lagt uten at du har vært klar over det.</translation>
-<translation id="1808667845054772817">Installer Chromium på nytt</translation>
-<translation id="1881322772814446296">Du logger deg på med en administrert konto og gir tilhørende administratorer kontroll over Chromium-profilen din. Chromium-dataene dine, slik som apper, bokmerker, loggen, passord og andre innstillinger knyttes permanent til <ph name="USER_NAME" />. Du kan slette disse dataene via oversikten for Google-kontoer, men du kan ikke knytte disse dataene til en annen konto. Du kan velge om du vil opprette en ny profil for å holde de eksisterende Chromium-dataene atskilte. <ph name="LEARN_MORE" /></translation>
-<translation id="1911763535808217981">Ved å slå dette av kan du logge på Google-sider, som Gmail, uten å logge på Chromium</translation>
-<translation id="1929939181775079593">Chromium svarer ikke. Vil du starte den på nytt nå?</translation>
-<translation id="1966382378801805537">Chromium kan ikke fastslå eller angi standardnettleseren</translation>
-<translation id="2008474315282236005">Dette sletter 1 element fra denne enheten. For å hente dataene dine igjen senere må du logge på Chromium som <ph name="USER_EMAIL" />.</translation>
-<translation id="2119636228670142020">Om &amp;Chromium OS</translation>
-<translation id="2241627712206172106">Hvis du deler en datamaskin med andre, kan venner og familie surfe hver for seg og konfigurere Chromium akkurat slik de vil.</translation>
-<translation id="2347108572062610441">Denne utvidelsen har endret hvilken side som vises når du starter Chromium.</translation>
-<translation id="2396765026452590966">Utvidelsen «<ph name="EXTENSION_NAME" />» har endret hvilken side som vises når du starter Chromium.</translation>
-<translation id="2483889755041906834">I Chromium</translation>
-<translation id="2485422356828889247">Avinstaller</translation>
-<translation id="2527042973354814951">Start Chromium på nytt for å slå på <ph name="PLUGIN_NAME" /></translation>
-<translation id="2535480412977113886">Chromium kunne ikke synkronisere dataene fordi påloggingsopplysningene dine er foreldede.</translation>
-<translation id="2560420686485554789">Chromium må ha lagringstilgang for å laste ned filer</translation>
-<translation id="2572494885440352020">Chromium-hjelper</translation>
-<translation id="2587578672395088481">Chromium OS må startes på nytt for at oppdateringen skal tas i bruk.</translation>
-<translation id="2647554856022461007">Chromium kan bruke nettjenester for å forbedre brukeropplevelsen din på nettet. Du kan slå av disse tjenestene. <ph name="BEGIN_LINK" />Finn ut mer<ph name="END_LINK" /></translation>
-<translation id="2648074677641340862">Det oppsto en systemfeil under installering. Last ned Chromium på nytt.</translation>
-<translation id="2711502716910134313">Chromium-fane</translation>
-<translation id="2718390899429598676">Chromium krypterer dataene dine for å øke sikkerheten.</translation>
-<translation id="2770231113462710648">Endre standardnettleser til:</translation>
-<translation id="2799223571221894425">Start på nytt</translation>
-<translation id="2838154144102149890">For å oppdateres må Chromium slutte å kjøre på denne datamaskinen. Dette kan medføre at andre brukere som er logget på datamaskinen, mister endringer som ikke er lagret.</translation>
-<translation id="2847479871509788944">Fjern fra Chromium</translation>
-<translation id="2886012850691518054">Valgfritt: Bidra til å gjøre Chromium bedre ved å sende brukerstatistikk og krasjrapporter automatisk til Google.</translation>
-<translation id="2910007522516064972">Om &amp;Chromium</translation>
-<translation id="2977470724722393594">Chromium er oppdatert</translation>
-<translation id="3032787606318309379">Legger til i Chromium …</translation>
-<translation id="3068515742935458733">Bidra til å gjøre Chromium bedre ved å sende programstopprapporter og <ph name="UMA_LINK" /> til Google</translation>
-<translation id="3103660991484857065">Installasjonsprogrammet kunne ikke dekomprimere arkivet. Last ned Chromium på nytt.</translation>
-<translation id="3130323860337406239">Chromium bruker mikrofonen din.</translation>
-<translation id="3155163173539279776">Start Chromium på nytt</translation>
-<translation id="3179665906251668410">Åpne linken i et inkognitovindu i Chromium</translation>
-<translation id="3190315855212034486">Chromium har krasjet. Vil du starte den på nytt nå?</translation>
-<translation id="3229526316128325841">Chromium forsøker å eksportere passordene dine.</translation>
-<translation id="3258596308407688501">Chromium kan ikke lese og skrive til egen datakatalog:
-
-<ph name="USER_DATA_DIRECTORY" /></translation>
-<translation id="328888136576916638">API-nøkler for Google mangler. Noe funksjonalitet i Chromium blir deaktivert.</translation>
-<translation id="3296368748942286671">Fortsett å kjøre bakgrunnsprogrammer når Chromium er lukket</translation>
-<translation id="331951419404882060">Chromium OS kunne ikke synkronisere dataene dine på grunn av en feil under pålogging.</translation>
-<translation id="3340978935015468852">innstillinger</translation>
-<translation id="3474745554856756813">Dette sletter <ph name="ITEMS_COUNT" /> elementer fra denne enheten. For å hente dataene dine igjen senere må du logge på Chromium som <ph name="USER_EMAIL" />.</translation>
-<translation id="3509308970982693815">Lukk alle Chromium-vinduer og prøv på nytt.</translation>
-<translation id="352783484088404971">Fjern fra Chromium</translation>
-<translation id="3575459661164320785">Det finnes skadelig programvare på datamaskinen din. Chromium kan fjerne den, gjenopprette innstillingene dine og deaktivere utvidelser for å få nettleseren til å fungere som normalt igjen.</translation>
-<translation id="358997566136285270">Chromium-logo</translation>
-<translation id="3639635944603682591">Denne personens nettlesingsdata slettes fra denne enheten. For å gjenopprette dataene, logg på Chromium som <ph name="USER_EMAIL" />.</translation>
-<translation id="364817392622123556">{COUNT,plural, =0{En ny oppdatering for Chromium er tilgjengelig og tas i bruk når du starter Chromium på nytt.}=1{En ny oppdatering for Chromium er tilgjengelig og tas i bruk når du starter Chromium på nytt. Inkognitovinduet ditt blir ikke gjenåpnet.}other{En ny oppdatering for Chromium er tilgjengelig og tas i bruk når du starter Chromium på nytt. De # inkognitovinduene dine blir ikke gjenåpnet.}}</translation>
-<translation id="370962675267501463">{COUNT,plural, =0{Administratoren din ber deg om å starte Chromium på nytt for å ta i bruk denne oppdateringen}=1{Administratoren din ber deg om å starte Chromium på nytt for å ta i bruk denne oppdateringen. Inkognitovinduet ditt blir ikke gjenåpnet.}other{Administratoren din ber deg om å starte Chromium på nytt for å ta i bruk denne oppdateringen. De # inkognitovinduene dine blir ikke gjenåpnet.}}</translation>
-<translation id="3713809861844741608">Åpne linken i en ny fane i Chromium</translation>
-<translation id="3728336900324680424">Chromium får tilgang til Disk-lagringen din for å kunne gi deg forslag i adressefeltet</translation>
-<translation id="378917192836375108">Med Chromium kan du klikke på et telefonnummer på nettet og ringe til det med Skype.</translation>
-<translation id="3848258323044014972"><ph name="PAGE_TITLE" /> – Chromium</translation>
-<translation id="388648406173476553">Tilpass og kontrollér Chromium. Det er noe du må se på – klikk for mer informasjon.</translation>
-<translation id="3889543394854987837">Klikk på navnet ditt for å åpne Chromium og starte surfingen.</translation>
-<translation id="4036079820698952681">Bidra til å gjøre Chromium bedre ved å rapportere de <ph name="BEGIN_LINK" />nåværende innstillingene<ph name="END_LINK" /></translation>
-<translation id="4050175100176540509">Viktige sikkerhetsforbedringer og nye funksjoner er tilgjengelige i den nyeste versjonen.</translation>
-<translation id="421369550622382712">Oppdag flotte apper, spill, utvidelser og temaer for Chromium.</translation>
-<translation id="4216212958613226427">Dette språket brukes for UI-et i Chromium</translation>
-<translation id="4230135487732243613">Vil du koble Chromium-dataene dine til denne kontoen?</translation>
-<translation id="4271805377592243930">Få hjelp med Chromium</translation>
-<translation id="4285930937574705105">Installeringen mislyktes på grunn av en uspesifisert feil. Lukk Chromium hvis nettleseren kjører, og prøv på nytt.</translation>
-<translation id="4407044323746248786">Vil du avslutte Chromium likevel?</translation>
-<translation id="4415566066719264597">La Chromium kjøre i bakgrunnen</translation>
-<translation id="4423735387467980091">Tilpass og kontrollér Chromium</translation>
-<translation id="4567424176335768812">Du er logget på som <ph name="USER_EMAIL_ADDRESS" />. Nå kan du bruke bokmerkene, loggen og andre innstillinger på alle enhetene du er logget på.</translation>
-<translation id="459535195905078186">Chromium-apper</translation>
-<translation id="4621240073146040695">Nå er oppdateringen snart ferdig! Start Chromium på nytt for å fullføre oppdateringen.</translation>
-<translation id="4661006601577405669">Fremtidige versjoner av Chromium blir installert automatisk.</translation>
-<translation id="4677944499843243528">Profilen ser ut til å være i bruk av en annen Chromium-prosess (<ph name="PROCESS_ID" />) på en annen datamaskin (<ph name="HOST_NAME" />). Chromium har låst profilen slik at den ikke blir infisert. Hvis du er sikker på at ingen andre prosesser bruker profilen, kan du låse opp profilen og starte Chromium på nytt.</translation>
-<translation id="469338717132742108">Få hjelp med Chromium OS</translation>
-<translation id="4708774505295300557">Noen har tidligere logget på Chromium på denne datamaskinen som <ph name="ACCOUNT_EMAIL_LAST" />. Opprett en ny Chromium-bruker for å holde informasjonen din atskilt.</translation>
-<translation id="4746050847053251315">Vil du avslutte Chromium likevel?</translation>
-<translation id="4748217263233248895">En spesiell sikkerhetsoppdatering for Chromium ble nettopp installert. Start på nytt nå, så gjenoppretter vi fanene dine.</translation>
-<translation id="479167709087336770">Denne funksjonen bruker den samme stavekontrollen som Google Søk. Tekst du skriver inn i nettleseren, sendes til Google. Du kan når som helst endre dette i innstillingene.</translation>
-<translation id="4888717733111232871">Regel om innkommende trafikk for Chromium for å tillate mDNS-trafikk.</translation>
-<translation id="4943838377383847465">Chromium er i bakgrunnsmodus.</translation>
-<translation id="4987820182225656817">Gjester kan bruke Chromium uten å etterlate seg spor.</translation>
-<translation id="4994636714258228724">Legg til deg selv i Chromium</translation>
-<translation id="5277894862589591112">For å bruke endringene dine må du starte Chromium på nytt</translation>
-<translation id="5358375970380395591">Du logger deg på med en administrert konto og gir tilhørende administratorer kontroll over Chromium-profilen din. Chromium-dataene dine, slik som apper, bokmerker, loggen, passord og andre innstillinger, knyttes permanent til <ph name="USER_NAME" />. Du kan slette disse dataene via oversikten for Google-kontoer, men du kan ikke knytte disse dataene til en annen konto. <ph name="LEARN_MORE" /></translation>
-<translation id="5386450000063123300">Oppdaterer Chromium (<ph name="PROGRESS_PERCENT" />)</translation>
-<translation id="538767207339317086">Tillat Chromium-pålogging</translation>
-<translation id="5398878173008909840">En nyere versjon av Chromium er tilgjengelig.</translation>
-<translation id="5416696090975899932">Chromium kan ikke vise forhåndsvisningen av utskrift når det innebygde PDF-visningsprogrammet mangler.</translation>
-<translation id="5427571867875391349">Bruk Chromium som standard nettleser</translation>
-<translation id="5438241569118040789"><ph name="PAGE_TITLE" /> – betaversjon av Chromium</translation>
-<translation id="5479196819031988440">Chromium OS kan ikke åpne denne siden.</translation>
-<translation id="5480860683791598150">Chromium trenger tilgang til posisjonen din for å kunne dele den med dette nettstedet</translation>
-<translation id="549669000822060376">Vent mens Chromium installerer de nyeste systemoppdateringene.</translation>
-<translation id="5623402015214259806">{0,plural, =0{En Chromium-oppdatering er tilgjengelig}=1{En Chromium-oppdatering er tilgjengelig}other{En Chromium-oppdatering har vært tilgjengelig i # dager}}</translation>
-<translation id="5631814766731275228">Navn og bilde i Chromium</translation>
-<translation id="5634636535844844681">Chromium krever Windows 7 eller nyere.</translation>
-<translation id="5653831366781983928">Start Chromium på nytt nå</translation>
-<translation id="5680901439334282664">logg på Chromium</translation>
-<translation id="5698481217667032250">Vis Chromium på dette språket</translation>
-<translation id="5820394555380036790">Chromium OS</translation>
-<translation id="5862307444128926510">Velkommen til Chromium</translation>
-<translation id="5895138241574237353">Start på nytt</translation>
-<translation id="5987687638152509985">Oppdater Chromium for å starte synkroniseringen</translation>
-<translation id="6013050204643758987">Chromium OS er basert på <ph name="BEGIN_LINK_CROS_OSS" />tilleggsprogramvare med åpen kildekode<ph name="END_LINK_CROS_OSS" />, i likhet med <ph name="BEGIN_LINK_LINUX_OSS" />Linux (betaversjon)<ph name="END_LINK_LINUX_OSS" />.</translation>
-<translation id="6055895534982063517">En nyere versjon av Chromium er tilgjengelig, og den er raskere enn noen gang.</translation>
-<translation id="6063093106622310249">&amp;Åpne i Chromium</translation>
-<translation id="6072279588547424923"><ph name="EXTENSION_NAME" /> er lagt til i Chromium</translation>
-<translation id="608189560609172163">Chromium kunne ikke synkronisere dataene dine på grunn av en feil under påloggingen.</translation>
-<translation id="6096348254544841612">Tilpass og kontrollér Chromium. Oppdatering er tilgjengelig.</translation>
-<translation id="6120345080069858279">Chromium lagrer dette passordet i Google-kontoen din, så du trenger ikke å huske det.</translation>
-<translation id="6129621093834146363"><ph name="FILE_NAME" /> er farlig, så Chromium har blokkert den.</translation>
-<translation id="6212496753309875659">Denne datamaskinen har allerede en nyere versjon av Chromium. Hvis programvaren ikke fungerer, må du avinstallere Chromium og prøve på nytt.</translation>
-<translation id="6219195342503754812">{0,plural, =0{Chromium startes på nytt nå}=1{Chromium startes på nytt om 1 sekund}other{Chromium startes på nytt om # sekunder}}</translation>
-<translation id="6248213926982192922">Gjør Chromium til standard nettleser</translation>
-<translation id="6268381023930128611">Vil du logge av Chromium?</translation>
-<translation id="6295779123002464101"><ph name="FILE_NAME" /> kan være farlig, så Chromium har blokkert den.</translation>
-<translation id="6309712487085796862">Chromium bruker kameraet ditt.</translation>
-<translation id="6333502561965082103">En annen handling er i gang på Chromium. Prøv på nytt senere.</translation>
-<translation id="6334986366598267305">Nå er det enklere å bruke Chromium med Google-kontoen din og på datamaskiner du deler med andre.</translation>
-<translation id="6373523479360886564">Er du sikker på at du vil avinstallere Chromium?</translation>
-<translation id="6400072781405947421">Chromium fungerer kanskje ikke riktig fordi den ikke lenger støttes på Mac OS X 10.9.</translation>
-<translation id="6403826409255603130">Chromium er en nettleser som kjører nettsider og programmer i lynets hastighet. Den er rask, stabil og enkel å bruke. Surf på nettet på en tryggere måte med Chromium, som har innebygd beskyttelse mot skadelig programvare og nettfisking.</translation>
-<translation id="6434250628340475518">Chromium OS</translation>
-<translation id="6457450909262716557">{SECONDS,plural, =1{Chromium startes på nytt om 1 sekund}other{Chromium startes på nytt om # sekunder}}</translation>
-<translation id="6475912303565314141">Den styrer også hvilken side som vises når du starter Chromium.</translation>
-<translation id="6510925080656968729">Avinstaller Chromium</translation>
-<translation id="6570579332384693436">For å rette opp i skrivefeil sender Chromium sender tekst du skriver i tekstfelt, til Google</translation>
-<translation id="6598877126913850652">Gå til innstillinger for Chromium-varsler</translation>
-<translation id="6676384891291319759">Gå til Internett</translation>
-<translation id="6717134281241384636">Profilen din kan ikke brukes fordi den kommer fra en nyere versjon av Chromium.
-
-Det er mulig at enkelte funksjoner ikke er tilgjengelige. Angi en annen profilkatalog eller bruk en nyere versjon av Chromium.</translation>
-<translation id="6734080038664603509">Oppdater &amp;Chromium</translation>
-<translation id="6734291798041940871">Chromium er allerede installert for alle brukerne på datamaskinen din.</translation>
-<translation id="6847869444787758381">Med Chromium får du beskjed hvis passordene dine noensinne utsettes for sikkerhetsbrudd</translation>
-<translation id="6857782730669500492">Chromium – <ph name="PAGE_TITLE" /></translation>
-<translation id="6863361426438995919">Google Pay (kopiert til Chromium)</translation>
-<translation id="6868056391275687737">Andre kopier av Chromium kjører. For å oppdatere må du lukke dem.</translation>
-<translation id="6893813176749746474">Chromium har blitt oppdatert, men du har ikke brukt den på minst 30 dager.</translation>
-<translation id="6964305034639999644">Åpne linken i et inko&amp;gnitovindu i Chromium</translation>
-<translation id="6990124437352146030">Chromium trenger tilgang til mikrofonen din for dette nettstedet</translation>
-<translation id="705851970750939768">Oppdater Chromium</translation>
-<translation id="7066436765290594559">Chromium kunne ikke synkronisere dataene dine. Oppdater passordfrasen for synkronisering.</translation>
-<translation id="7067091210845072982">Hvis et bilde ikke har noen nyttig beskrivelse, prøver Chromium å finne en til deg. For å opprette beskrivelser blir bilder sendt til Google.</translation>
-<translation id="7196312274710523067">Kunne ikke starte Chromium. Prøv på nytt.</translation>
-<translation id="7205698830395646142">Skjul i Chromium-menyen</translation>
-<translation id="7223968959479464213">Oppgavebehandling – Chromium</translation>
-<translation id="731644333568559921">Oppdater &amp;Chromium OS</translation>
-<translation id="731795002583552498">Oppdaterer Chromium</translation>
-<translation id="7318036098707714271">Innstillingerfilen din er ødelagt eller ugyldig.
-
-Chromium kan ikke gjenopprette innstillingen dine.</translation>
-<translation id="7337881442233988129">Chromium</translation>
+<translation id="939305735877869636">Dissenter</translation>
+<translation id="2069994121511856876">Dissenter Nightly</translation>
+<translation id="4947625801334180582">Dissenter Beta</translation>
+<translation id="2566435362010629810">Dissenter Dev</translation>
+<translation id="6373767849825830651">Dissenter er en nettleser som kjører nettsider og programmer i lynets hastighet. Den er rask, stabil og enkel å bruke. Surf på nettet på en tryggere måte med Dissenter, som har innebygd beskyttelse mot skadelig programvare og nettfisking.</translation>
+<translation id="680297041157509674">Dissenter OS</translation>
+<translation id="4847979153841887006">Dissenter-logo</translation>
 <translation id="7339898014177206373">Nytt vindu</translation>
-<translation id="734373864078049451">Her finner du nettinnholdet, bokmerkene og de andre Chromium-tingene dine.</translation>
-<translation id="7349591376906416160">Systemadministratoren din har konfigurert Chromium til å åpne <ph name="ALTERNATIVE_BROWSER_NAME" /> for å få tilgang til <ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="7448255348454382571">Start Chromium OS på nytt</translation>
-<translation id="7449453770951226939"><ph name="PAGE_TITLE" /> – Chromium for utviklere</translation>
-<translation id="7451052299415159299">Chromium trenger tilgang til kameraet ditt for dette nettstedet</translation>
-<translation id="7483335560992089831">Kan ikke installere den samme Chromium-versjonen som kjører. Lukk Chromium og prøv på nytt.</translation>
-<translation id="751093125041325477">Fremtidige versjoner av Chromium blir installert automatisk. Når denne nedlastingen er fullført, startes Chromium på nytt, og da er du klar til dyst.</translation>
-<translation id="753534427205733210">{0,plural, =1{Chromium startes på nytt om 1 minutt}other{Chromium startes på nytt om # minutter}}</translation>
-<translation id="7549178288319965365">Om Chromium OS</translation>
-<translation id="7561906087460245826">Fjern dataene fra Chromium også (<ph name="URL" />)</translation>
-<translation id="7585853947355360626">Hvis en innstilling ikke vises på denne siden, kan du gå til <ph name="LINK_BEGIN" />
-    innstillingene for Chromium OS<ph name="LINK_END" /></translation>
-<translation id="761356813943268536">Chromium bruker kameraet og mikrofonen din.</translation>
-<translation id="7617377681829253106">Nå er Chromium blitt enda bedre</translation>
-<translation id="7686590090926151193">Chromium er ikke standardnettleseren din</translation>
-<translation id="7689606757190482937">Synkroniser og gi Chromium et personlig preg på alle enhetene dine</translation>
-<translation id="7729447699958282447">Chromium kunne ikke synkronisere dataene dine. Dette skyldes at synkronisering ikke er tilgjengelig for domenet ditt.</translation>
-<translation id="7745317241717453663">Dette sletter nettlesingsdataene dine fra denne enheten. For å hente dataene dine igjen senere må du logge på Chromium som <ph name="USER_EMAIL" />.</translation>
+<translation id="5935964611177478118">logg på Dissenter</translation>
+<translation id="5516268345616100622">Oppgavebehandling – Dissenter</translation>
+<translation id="7918740962659365265">Bidra til å gjøre Dissenter bedre ved å sende programstopprapporter og <ph name="UMA_LINK"/> til Gab AI Inc</translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> – Dissenter</translation>
+<translation id="7830723774663008396">Dissenter – <ph name="PAGE_TITLE"/></translation>
+<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> – betaversjon av Dissenter</translation>
+<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> – Dissenter for utviklere</translation>
+<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> – Dissenter Canary</translation>
+<translation id="8992261409816268381">The Dissenter Authors</translation>
+<translation id="8121009781989288430">Copyright <ph name="YEAR"/> – The Dissenter Authors. Med enerett.</translation>
+<translation id="2310890394934209120">Dissenter OS er gjort mulig av ytterligere <ph name="BEGIN_LINK_CROS_OSS"/>åpen kilde-programvare<ph name="END_LINK_CROS_OSS"/>.</translation>
+<translation id="8160794320557846790">Dissenter OS er basert på <ph name="BEGIN_LINK_CROS_OSS"/>tilleggsprogramvare med åpen kildekode<ph name="END_LINK_CROS_OSS"/>, i likhet med <ph name="BEGIN_LINK_LINUX_OSS"/>Linux (Beta)<ph name="END_LINK_LINUX_OSS"/>.</translation>
+<translation id="6913582816347128893">Dissenter fungerer kanskje ikke riktig fordi den ikke lenger støttes på Mac OS X 10.9.</translation>
+<translation id="7977787072794666032">Dissenter fungerer kanskje ikke riktig fordi den ikke lenger støttes på Windows XP eller Windows Vista</translation>
+<translation id="189297655255130768">Dissenter svarer ikke. Vil du starte den på nytt nå?</translation>
+<translation id="8703492925273919597">Lukk alle Dissenter-vinduer og prøv på nytt.</translation>
+<translation id="335632367599648646">Er du sikker på at du vil avinstallere Dissenter?</translation>
+<translation id="5590013613412457132">Avinstaller Dissenter</translation>
+<translation id="5019879183386042809">Gjør Dissenter til standard nettleser</translation>
+<translation id="5063987220091207247">Dissenter OS kan ikke åpne denne siden.</translation>
+<translation id="4065288863231444640">La Dissenter kjøre i bakgrunnen</translation>
+<translation id="6797402139308059782">La Dissenter kjøre i bakgrunnen</translation>
+<translation id="2585240446624043880">Dissenter kan ikke lese og skrive til egen datakatalog:
+
+<ph name="USER_DATA_DIRECTORY"/></translation>
+<translation id="8417700129970341035">Valgfritt: Bidra til å gjøre Dissenter bedre ved å sende brukerstatistikk og krasjrapporter automatisk til Gab AI Inc.</translation>
+<translation id="1489465648257900784">Profilen din kan ikke brukes fordi den kommer fra en nyere versjon av Dissenter.
+
+Det er mulig at enkelte funksjoner ikke er tilgjengelige. Angi en annen profilkatalog eller bruk en nyere versjon av Dissenter.</translation>
+<translation id="1065672644894730302">Kan ikke lese innstillingene. Enkelte funksjoner kan være utilgjengelige, og endringer av innstillingene blir ikke lagret.</translation>
+<translation id="3403365884036456766">Innstillingerfilen din er ødelagt eller ugyldig.
+
+Dissenter kan ikke gjenopprette innstillingen dine.</translation>
+<translation id="1477146545787277177">Dissenter har krasjet. Vil du starte den på nytt nå?</translation>
+<translation id="5785919770853225148">Dissenter lagrer dette passordet i Gab AI Inc-kontoen din, så du trenger ikke å huske det.</translation>
+<translation id="8211837073776713955">Med Dissenter får du beskjed hvis passordene dine noensinne utsettes for sikkerhetsbrudd</translation>
+<translation id="113959764510199339">Dissenter prøver å vise passord.</translation>
+<translation id="7503098128120083822">Dissenter forsøker å eksportere passordene dine.</translation>
+<translation id="8285294305439559616">Dissenter forsøker å vise passord. Skriv inn Windows-passordet ditt for å tillate dette.</translation>
+<translation id="5918095577778020936">Dissenter forsøker å eksportere passordene dine. Skriv inn Windows-passordet ditt for å tillate dette.</translation>
+<translation id="8320964054148936490">Denne datamaskinen har allerede en nyere versjon av Dissenter. Hvis programvaren ikke fungerer, må du avinstallere Dissenter og prøve på nytt.</translation>
+<translation id="7691786510374174420">Installeringen mislyktes på grunn av en uspesifisert feil. Lukk Dissenter hvis nettleseren kjører, og prøv på nytt.</translation>
+<translation id="2619516027171717873">Kan ikke installere den samme Dissenter-versjonen som kjører. Lukk Dissenter og prøv på nytt.</translation>
+<translation id="6283840329609797763">Installeringen mislyktes på grunn av en uspesifisert feil. Last ned Dissenter på nytt.</translation>
+<translation id="95624393026532554">Dissenter krever Windows 7 eller nyere.</translation>
+<translation id="7387051847644272380">Det oppsto en systemfeil under installering. Last ned Dissenter på nytt.</translation>
+<translation id="1819119299840995223">En annen handling er i gang på Dissenter. Prøv på nytt senere.</translation>
 <translation id="7747138024166251722">Installasjonsprogrammet kunne ikke opprette en midlertidig katalog. Kontroller at du har nok ledig diskplass og tillatelse til å installere programvare.</translation>
-<translation id="7773960292263897147">Advarsel: Chromium kan ikke hindre utvidelser fra å spille inn nettlesingsloggen. For å slå av denne utvidelsen i inkognitomodus, fjern avmerkingen for dette alternativet.</translation>
-<translation id="7790626492778995050"><ph name="PAGE_TITLE" /> – Chromium Canary</translation>
-<translation id="7827169012280634081">Slett informasjonskapsler og nettstedsdata når du avslutter Chromium</translation>
-<translation id="7867198900892795913">Chromium kunne ikke oppdateres til den nyeste versjonen, så du går glipp av nye funksjoner og sikkerhetsforbedringer.</translation>
-<translation id="7898472181347242998">For å se om enheten er oppdatert, gå til <ph name="LINK_BEGIN" />Innstillinger for Chromium OS<ph name="LINK_END" /></translation>
-<translation id="7937630085815544518">Du ble logget på Chromium som <ph name="USER_EMAIL_ADDRESS" />. Du må logge deg på igjen med samme konto.</translation>
-<translation id="7975919845073681630">Dette er en sekundær installering av Chromium. Den kan ikke brukes som standardnettleser.</translation>
-<translation id="7979877361127045932">Skjul i Chromium-menyen</translation>
-<translation id="8013436988911883588">Når Chromium har fått tilgang, kan nettsteder spørre deg om tilgang.</translation>
-<translation id="81770708095080097">Denne filen er farlig, så Chromium har blokkert den.</translation>
-<translation id="8248265253516264921">Hvis et bilde ikke har noen nyttig beskrivelse, prøver Chromium å finne en til deg. For å opprette beskrivelser blir bilder sendt til Google. Du kan slå av dette i innstillingene når som helst.</translation>
-<translation id="8290862415967981663">Denne filen kan være farlig, så Chromium har blokkert den.</translation>
-<translation id="8330519371938183845">Logg på for å synkronisere og gi Chromium et personlig preg på alle enhetene dine</translation>
-<translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> brukte Chromium tidligere</translation>
-<translation id="8417404458978023919">{0,plural, =1{Start Chromium på nytt innen én dag}other{Start Chromium på nytt innen # dager}}</translation>
-<translation id="8453117565092476964">Installasjonsarkivet er skadet eller ugyldig. Last ned Chromium på nytt.</translation>
-<translation id="8493179195440786826">Chromium er utdatert</translation>
-<translation id="8586442755830160949">Copyright <ph name="YEAR" /> – The Chromium Authors. Med enerett.</translation>
-<translation id="8619360774459241877">Starter Chromium ...</translation>
-<translation id="8621669128220841554">Installeringen mislyktes på grunn av en uspesifisert feil. Last ned Chromium på nytt.</translation>
-<translation id="8682540261359803721">Hvis en innstilling ikke vises på denne siden, kan du gå til <ph name="LINK_BEGIN" />
-    nettleserinnstillingene for Chromium<ph name="LINK_END" /></translation>
-<translation id="8697124171261953979">Den styrer også hvilken side som vises når du starter Chromium eller søker fra multifunksjonsfeltet.</translation>
-<translation id="8704119203788522458">Dette er din Chromium</translation>
-<translation id="8739167630197873875">Du sletter informasjonskapsler når du avslutter Chromium. For å fortsette å synkronisere, endre denne <ph name="COOKIE_SETTINGS_LINK" />.</translation>
-<translation id="8748383401829947534">Avslutt alle kopier av Chromium.</translation>
-<translation id="8796602469536043152">Chromium trenger tilgang til kameraet ditt og mikrofonen din for dette nettstedet</translation>
-<translation id="8803635938069941624">Vilkår for Chromium OS</translation>
-<translation id="8821041990367117597">Chromium kunne ikke synkronisere dataene dine. Dette skyldes at påloggingsopplysningene for kontoen din er foreldede.</translation>
+<translation id="7365690458036015383">Installasjonsprogrammet kunne ikke dekomprimere arkivet. Last ned Dissenter på nytt.</translation>
+<translation id="6914496861676471566">Installasjonsarkivet er skadet eller ugyldig. Last ned Dissenter på nytt.</translation>
 <translation id="8862326446509486874">Du har ikke de nødvendige rettighetene for å installere på systemnivå. Prøv å kjøre installasjonsprogrammet som administrator.</translation>
-<translation id="8897323336392112261">Den styrer også hvilken side som vises når du starter Chromium eller klikker på Startside-knappen.</translation>
-<translation id="8907580949721785412">Chromium forsøker å vise passord. Skriv inn Windows-passordet ditt for å tillate dette.</translation>
-<translation id="8941642502866065432">Kan ikke oppdatere Chromium</translation>
-<translation id="8974095189086268230">Chromium OS er gjort mulig av ytterligere <ph name="BEGIN_LINK_CROS_OSS" />åpen kilde-programvare<ph name="END_LINK_CROS_OSS" />.</translation>
-<translation id="9019929317751753759">For å gjøre Chromium tryggere har vi slått av følgende utvidelse som ikke finnes i <ph name="IDS_EXTENSION_WEB_STORE_TITLE" />, og som kan ha blitt lagt til uten at du vet det.</translation>
-<translation id="9022552996538154597">Logg på Chromium</translation>
-<translation id="9089354809943900324">Chromium er utdatert</translation>
-<translation id="9093206154853821181">{0,plural, =1{Chromium startes på nytt om en time}other{Chromium startes på nytt om # timer}}</translation>
-<translation id="91086099826398415">Åpne linken i en ny &amp;fane i Chromium</translation>
+<translation id="6666624454809779082">Dissenter er allerede installert for alle brukerne på datamaskinen din.</translation>
+<translation id="6676384891291319759">Gå til Internett</translation>
 <translation id="911206726377975832">Vil du slette all nettleserdata også?</translation>
-<translation id="9158494823179993217">Systemadministratoren din har konfigurert Chromium til å åpne en annen nettleser når du går til <ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="9190841055450128916">Chromium (mDNS-Inn)</translation>
-<translation id="93478295209880648">Chromium fungerer kanskje ikke riktig fordi den ikke lenger støttes på Windows XP eller Windows Vista</translation>
-<translation id="95514773681268843"><ph name="DOMAIN" /> krever at du leser og godtar følgende vilkår før du bruker denne enheten. Disse vilkårene utvider, endrer eller begrenser ikke Chromium OS-vilkårene.</translation>
-<translation id="985602178874221306">The Chromium Authors</translation>
+<translation id="2770231113462710648">Endre standardnettleser til:</translation>
+<translation id="2485422356828889247">Avinstaller</translation>
+<translation id="3343095737966473035">Dissenter er ikke standardnettleseren din</translation>
+<translation id="5536657158619734169">En nyere versjon av Dissenter er tilgjengelig.</translation>
+<translation id="505042220086416644">En nyere versjon av Dissenter er tilgjengelig, og den er raskere enn noen gang.</translation>
+<translation id="5616153642055197778">En ny, sikrere versjon av Dissenter er tilgjengelig.</translation>
+<translation id="2301993384336631869">Dissenter har blitt oppdatert, men du har ikke brukt den på minst 30 dager.</translation>
+<translation id="2106568569080763501">Med Dissenter kan du klikke på et telefonnummer på nettet og ringe til det med Skype.</translation>
+<translation id="5874882355102994015">Dissenter kan ikke vise forhåndsvisningen av utskrift når det innebygde PDF-visningsprogrammet mangler.</translation>
+<translation id="8880183781256147665">Legger til i Dissenter …</translation>
+<translation id="3561569806301739367"><ph name="FILE_NAME"/> kan være farlig, så Dissenter har blokkert den.</translation>
+<translation id="9067428552314418522">Denne filen er farlig, så Dissenter har blokkert den.</translation>
+<translation id="4168372721886011198"><ph name="FILE_NAME"/> er farlig, så Dissenter har blokkert den.</translation>
+<translation id="89367911614620585">Denne filen kan være farlig, så Dissenter har blokkert den.</translation>
+<translation id="9183662282810237335">Vil du avslutte Dissenter likevel?</translation>
+<translation id="3834935463915107022">Vil du avslutte Dissenter likevel?</translation>
+<translation id="8797356639448065696">Dissenter er i bakgrunnsmodus.</translation>
+<translation id="2339258256897053758">API-nøkler for Gab AI Inc mangler. Noe funksjonalitet i Dissenter blir deaktivert.</translation>
+<translation id="7861579472672677409"><ph name="EXTENSION_NAME"/> er lagt til i Dissenter</translation>
+<translation id="8516116288943000095">Fjern dataene fra Dissenter også (<ph name="URL"/>)</translation>
+<translation id="4054452651944170004">Skjul i Dissenter-menyen</translation>
+<translation id="5660079256336839395">Skjul i Dissenter-menyen</translation>
+<translation id="6134859571175647580">Advarsel: Dissenter kan ikke hindre utvidelser fra å spille inn nettlesingsloggen. For å slå av denne utvidelsen i inkognitomodus, fjern avmerkingen for dette alternativet.</translation>
+<translation id="777113543093865885">Fjern fra Dissenter</translation>
+<translation id="6078442581074612226">I Dissenter</translation>
+<translation id="1448049584457347995">For å gjøre Dissenter tryggere, har vi deaktivert noen utvidelser som ikke er oppført i <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/>, og som kan ha blitt lagt uten at du har vært klar over det.</translation>
+<translation id="8848045066928358658">For å gjøre Dissenter tryggere har vi slått av følgende utvidelse som ikke finnes i <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/>, og som kan ha blitt lagt til uten at du vet det.</translation>
+<translation id="8148611988012584308">Tilpass og kontrollér Dissenter</translation>
+<translation id="5849446944780602366">Tilpass og kontrollér Dissenter. Oppdatering er tilgjengelig.</translation>
+<translation id="6315734375101223238">Tilpass og kontrollér Dissenter. Det er noe du må se på – klikk for mer informasjon.</translation>
+<translation id="9071554113102421877">&amp;Åpne i Dissenter</translation>
+<translation id="2176825726964012531">Om &amp;Dissenter</translation>
+<translation id="5450493308072741203">Oppdater &amp;Dissenter</translation>
+<translation id="1421502046520299169">Om &amp;Dissenter OS</translation>
+<translation id="2534623228451928732">Oppdater &amp;Dissenter OS</translation>
+<translation id="8447483940522230788">Dissenter-hjelper</translation>
+<translation id="5477319665405831211">Synkroniser og gi Dissenter et personlig preg på alle enhetene dine</translation>
+<translation id="8132634101975074716">Du er logget på Dissenter.</translation>
+<translation id="4567424176335768812">Du er logget på som <ph name="USER_EMAIL_ADDRESS"/>. Nå kan du bruke bokmerkene, loggen og andre innstillinger på alle enhetene du er logget på.</translation>
+<translation id="2925193881330501265">Du ble logget på Dissenter som <ph name="USER_EMAIL_ADDRESS"/>. Du må logge deg på igjen med samme konto.</translation>
+<translation id="847561904663814268">Noen har tidligere logget på Dissenter på denne datamaskinen som <ph name="ACCOUNT_EMAIL_LAST"/>. Opprett en ny Dissenter-bruker for å holde informasjonen din atskilt.</translation>
+<translation id="1853997773668795891">Vil du koble Dissenter-dataene dine til denne kontoen?</translation>
+<translation id="1326766910007115955">Du logger deg på med en administrert konto og gir tilhørende administratorer kontroll over Dissenter-profilen din. Dissenter-dataene dine, slik som apper, bokmerker, loggen, passord og andre innstillinger, knyttes permanent til <ph name="USER_NAME"/>. Du kan slette disse dataene via oversikten for Gab AI Inc-kontoer, men du kan ikke knytte disse dataene til en annen konto. <ph name="LEARN_MORE"/></translation>
+<translation id="650055380213106997">Du logger deg på med en administrert konto og gir tilhørende administratorer kontroll over Dissenter-profilen din. Dissenter-dataene dine, slik som apper, bokmerker, loggen, passord og andre innstillinger knyttes permanent til <ph name="USER_NAME"/>. Du kan slette disse dataene via oversikten for Gab AI Inc-kontoer, men du kan ikke knytte disse dataene til en annen konto. Du kan velge om du vil opprette en ny profil for å holde de eksisterende Dissenter-dataene atskilte. <ph name="LEARN_MORE"/></translation>
+<translation id="2444257125841652328">Systemadministratoren din har konfigurert Dissenter til å åpne en annen nettleser når du går til <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="5380963249588143069">Systemadministratoren din har konfigurert Dissenter til å åpne <ph name="ALTERNATIVE_BROWSER_NAME"/> for å få tilgang til <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> brukte Dissenter tidligere</translation>
+<translation id="1384923383737428730">Det finnes skadelig programvare på datamaskinen din. Dissenter kan fjerne den, gjenopprette innstillingene dine og deaktivere utvidelser for å få nettleseren til å fungere som normalt igjen.</translation>
+<translation id="8919921662052966648">Dissenter kunne ikke synkronisere dataene dine. Oppdater passordfrasen for synkronisering.</translation>
+<translation id="2262856633481902138">Dissenter kunne ikke synkronisere dataene dine. Dette skyldes at påloggingsopplysningene for kontoen din er foreldede.</translation>
+<translation id="5419189641394808652">Dissenter kunne ikke synkronisere dataene dine. Dette skyldes at synkronisering ikke er tilgjengelig for domenet ditt.</translation>
+<translation id="2577755334620061182">Dissenter kunne ikke synkronisere dataene dine på grunn av en feil under påloggingen.</translation>
+<translation id="8583885258305961947">Dissenter OS</translation>
+<translation id="3968006371075376562">Dissenter kunne ikke synkronisere dataene dine. Oppdater passordfrasen for synkronisering.</translation>
+<translation id="6746636977031158624">Dissenter kunne ikke synkronisere dataene fordi påloggingsopplysningene dine er foreldede.</translation>
+<translation id="2999152167963026588">Dissenter OS kunne ikke synkronisere dataene dine fordi synkronisering ikke er tilgjengelig for domenet ditt.</translation>
+<translation id="1459786048951724030">Dissenter OS kunne ikke synkronisere dataene dine på grunn av en feil under pålogging.</translation>
+<translation id="6813094029720377619">Du sletter informasjonskapsler når du avslutter Dissenter. For å fortsette å synkronisere, endre denne <ph name="COOKIE_SETTINGS_LINK"/>.</translation>
+<translation id="3340978935015468852">innstillinger</translation>
+<translation id="380197516434040304">Fjern fra Dissenter</translation>
+<translation id="300669147395456190">Dissenter-apper</translation>
+<translation id="3421950102518690868"><ph name="DOMAIN"/> krever at du leser og godtar følgende vilkår før du bruker denne enheten. Disse vilkårene utvider, endrer eller begrenser ikke Dissenter OS-vilkårene.</translation>
+<translation id="3293668930608086049">Dissenter bruker kameraet og mikrofonen din.</translation>
+<translation id="8919461291440820124">Dissenter bruker mikrofonen din.</translation>
+<translation id="3205074487970075628">Dissenter bruker kameraet ditt.</translation>
+<translation id="8142245354207161805">Profilen ser ut til å være i bruk av en annen Dissenter-prosess (<ph name="PROCESS_ID"/>) på en annen datamaskin (<ph name="HOST_NAME"/>). Dissenter har låst profilen slik at den ikke blir infisert. Hvis du er sikker på at ingen andre prosesser bruker profilen, kan du låse opp profilen og starte Dissenter på nytt.</translation>
+<translation id="239760341987199724">Bruk Dissenter som standard nettleser</translation>
+<translation id="669092380621816981">Denne personens nettlesingsdata slettes fra denne enheten. For å gjenopprette dataene, logg på Dissenter som <ph name="USER_EMAIL"/>.</translation>
+<translation id="2827121003398607864">Nå er Dissenter blitt enda bedre</translation>
+<translation id="7192666605334070839">Nå er det enklere å bruke Dissenter med Gab AI Inc-kontoen din og på datamaskiner du deler med andre.</translation>
+<translation id="4100716194836114130">Dette er din Dissenter</translation>
+<translation id="3511996232906761537">Her finner du nettinnholdet, bokmerkene og de andre Dissenter-tingene dine.</translation>
+<translation id="7406627712452599344">Gjester kan bruke Dissenter uten å etterlate seg spor.</translation>
+<translation id="5659384504794665581">Hvis du deler en datamaskin med andre, kan venner og familie surfe hver for seg og konfigurere Dissenter akkurat slik de vil.</translation>
+<translation id="7130675370997202556">Klikk på navnet ditt for å åpne Dissenter og starte surfingen.</translation>
+<translation id="5952898964075639679">Legg til deg selv i Dissenter</translation>
+<translation id="3813272600615358652">Denne utvidelsen har endret hvilken side som vises når du starter Dissenter.</translation>
+<translation id="2576129394594491151">Utvidelsen «<ph name="EXTENSION_NAME"/>» har endret hvilken side som vises når du starter Dissenter.</translation>
+<translation id="2675662665675552980">Den styrer også hvilken side som vises når du starter Dissenter.</translation>
+<translation id="3215652305414474626">Den styrer også hvilken side som vises når du starter Dissenter eller klikker på Startside-knappen.</translation>
+<translation id="2433912322225810055">Den styrer også hvilken side som vises når du starter Dissenter eller søker fra multifunksjonsfeltet.</translation>
+<translation id="2871190378186459992">Oppdag flotte apper, spill, utvidelser og temaer for Dissenter.</translation>
+<translation id="3350544518197210895">Dissenter (mDNS-Inn)</translation>
+<translation id="1912973375560256099">Regel om innkommende trafikk for Dissenter for å tillate mDNS-trafikk.</translation>
+<translation id="8207657266087451193">Hvis et bilde ikke har noen nyttig beskrivelse, prøver Dissenter å finne en til deg. For å opprette beskrivelser blir bilder sendt til Gab AI Inc. Du kan slå av dette i innstillingene når som helst.</translation>
+<translation id="5499063270485366718">Hvis et bilde ikke har noen nyttig beskrivelse, prøver Dissenter å finne en til deg. For å opprette beskrivelser blir bilder sendt til Gab AI Inc.</translation>
+<translation id="215320507915280336">Denne funksjonen bruker den samme stavekontrollen som Gab AI Inc Søk. Tekst du skriver inn i nettleseren, sendes til Gab AI Inc. Du kan når som helst endre dette i innstillingene.</translation>
+<translation id="1807774211756215222">Åpne linken i en ny fane i Dissenter</translation>
+<translation id="4624945300945265642">Åpne linken i et inko&amp;gnitovindu i Dissenter</translation>
+<translation id="7863882214613921971">Åpne linken i en ny &amp;fane i Dissenter</translation>
+<translation id="6554952862405000915">Åpne linken i et inkognitovindu i Dissenter</translation>
+<translation id="4805806622840861220">Start Dissenter på nytt</translation>
+<translation id="8274659559228306809">{COUNT,plural, =0{En ny oppdatering for Dissenter er tilgjengelig og tas i bruk når du starter Dissenter på nytt.}=1{En ny oppdatering for Dissenter er tilgjengelig og tas i bruk når du starter Dissenter på nytt. Inkognitovinduet ditt blir ikke gjenåpnet.}other{En ny oppdatering for Dissenter er tilgjengelig og tas i bruk når du starter Dissenter på nytt. De # inkognitovinduene dine blir ikke gjenåpnet.}}</translation>
+<translation id="2799223571221894425">Start på nytt</translation>
+<translation id="2522086024276534909">Start Dissenter OS på nytt</translation>
+<translation id="8183252473547465084">Dissenter OS må startes på nytt for at oppdateringen skal tas i bruk.</translation>
+<translation id="5895138241574237353">Start på nytt</translation>
+<translation id="8887390605192156061">Avslutt alle kopier av Dissenter.</translation>
+<translation id="1801551749768408825">Andre kopier av Dissenter kjører. For å oppdatere må du lukke dem.</translation>
+<translation id="2632141563911437138">For å oppdateres må Dissenter slutte å kjøre på denne datamaskinen. Dette kan medføre at andre brukere som er logget på datamaskinen, mister endringer som ikke er lagret.</translation>
+<translation id="5875673934455379806">Installer Dissenter på nytt</translation>
+<translation id="2097604701283463988">Dissenter er utdatert</translation>
+<translation id="5173820533850252773">Dissenter er utdatert</translation>
+<translation id="6389268239133412586">Kan ikke oppdatere Dissenter</translation>
+<translation id="7963515534397191222">Dissenter kunne ikke oppdateres til den nyeste versjonen, så du går glipp av nye funksjoner og sikkerhetsforbedringer.</translation>
+<translation id="1705567146636171298">Oppdater Dissenter</translation>
+<translation id="3598551856834560515">Oppdater Dissenter for å starte synkroniseringen</translation>
+<translation id="4050175100176540509">Viktige sikkerhetsforbedringer og nye funksjoner er tilgjengelige i den nyeste versjonen.</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{Dissenter startes på nytt om 1 sekund}other{Dissenter startes på nytt om # sekunder}}</translation>
+<translation id="5646769069113654257">Start Dissenter på nytt nå</translation>
+<translation id="8668413672647811944">En spesiell sikkerhetsoppdatering for Dissenter ble nettopp installert. Start på nytt nå, så gjenoppretter vi fanene dine.</translation>
+<translation id="6791166902140255175">Dissenter-fane</translation>
+<translation id="2555639463117073782">Start Dissenter på nytt for å slå på <ph name="PLUGIN_NAME"/></translation>
+<translation id="2034072705932785495">Dissenter trenger tilgang til kameraet ditt for dette nettstedet</translation>
+<translation id="3335606533094650083">Dissenter trenger tilgang til mikrofonen din for dette nettstedet</translation>
+<translation id="4831743161813926460">Dissenter trenger tilgang til kameraet ditt og mikrofonen din for dette nettstedet</translation>
+<translation id="696826782632239602">Dissenter trenger tilgang til posisjonen din for å kunne dele den med dette nettstedet</translation>
+<translation id="7798069806040634998">Dissenter må ha lagringstilgang for å laste ned filer</translation>
+<translation id="7685904775439037072">Når Dissenter har fått tilgang, kan nettsteder spørre deg om tilgang.</translation>
+<translation id="1744365871163268756">Vent mens Dissenter installerer de nyeste systemoppdateringene.</translation>
+<translation id="8000338990735917615">Fremtidige versjoner av Dissenter blir installert automatisk.</translation>
+<translation id="2975476470948647918">Fremtidige versjoner av Dissenter blir installert automatisk. Når denne nedlastingen er fullført, startes Dissenter på nytt, og da er du klar til dyst.</translation>
+<translation id="7808415789955822133">Vilkår for Dissenter OS</translation>
+<translation id="7207456302801184289">Velkommen til Dissenter</translation>
+<translation id="3507835409099344374">Gå til innstillinger for Dissenter-varsler</translation>
+<translation id="1026406809507858026">{0,plural, =0{En Dissenter-oppdatering er tilgjengelig}=1{En Dissenter-oppdatering er tilgjengelig}other{En Dissenter-oppdatering har vært tilgjengelig i # dager}}</translation>
+<translation id="3829358914761176693">{COUNT,plural, =0{Administratoren din ber deg om å starte Dissenter på nytt for å ta i bruk denne oppdateringen}=1{Administratoren din ber deg om å starte Dissenter på nytt for å ta i bruk denne oppdateringen. Inkognitovinduet ditt blir ikke gjenåpnet.}other{Administratoren din ber deg om å starte Dissenter på nytt for å ta i bruk denne oppdateringen. De # inkognitovinduene dine blir ikke gjenåpnet.}}</translation>
+<translation id="5337999052834672687">{0,plural, =1{Start Dissenter på nytt innen én dag}other{Start Dissenter på nytt innen # dager}}</translation>
+<translation id="310518206836658214">{0,plural, =1{Dissenter startes på nytt om en time}other{Dissenter startes på nytt om # timer}}</translation>
+<translation id="3186363903915641692">{0,plural, =1{Dissenter startes på nytt om 1 minutt}other{Dissenter startes på nytt om # minutter}}</translation>
+<translation id="3574823187131579180">{0,plural, =0{Dissenter startes på nytt nå}=1{Dissenter startes på nytt om 1 sekund}other{Dissenter startes på nytt om # sekunder}}</translation>
+<translation id="552349673358711446">{COUNT,plural, =0{Administratoren din krever at du starter Dissenter på nytt for å ta i bruk en oppdatering}=1{Administratoren din krever at du starter Dissenter på nytt for å ta i bruk en oppdatering. Inkognitovinduet ditt blir ikke gjenåpnet.}other{Administratoren din krever at du starter Dissenter på nytt for å ta i bruk en oppdatering. De # inkognitovinduene dine blir ikke gjenåpnet.}}</translation>
+<translation id="3052349005266761501">Starter Dissenter ...</translation>
+<translation id="1197672524850678392">Kunne ikke starte Dissenter. Prøv på nytt.</translation>
+<translation id="5147525139567260139">Del en Dissenter-fane</translation>
+<translation id="8541922081612557424">Om Dissenter</translation>
+<translation id="3262506503470845422">Få hjelp med Dissenter</translation>
+<translation id="1864557848095568223">Oppdaterer Dissenter</translation>
+<translation id="1786715389543715322">Oppdaterer Dissenter (<ph name="PROGRESS_PERCENT"/>)</translation>
+<translation id="2182657378556811785">Nå er oppdateringen snart ferdig! Start Dissenter på nytt for å fullføre oppdateringen.</translation>
+<translation id="8208853227947884571">Dissenter er oppdatert</translation>
+<translation id="6686872257969654608">Om Dissenter OS</translation>
+<translation id="7674116293463255181">For å se om enheten er oppdatert, gå til <ph name="LINK_BEGIN"/>Innstillinger for Dissenter OS<ph name="LINK_END"/></translation>
+<translation id="2280363356796735201">Få hjelp med Dissenter OS</translation>
+<translation id="38898988211673781">Slett informasjonskapsler og nettstedsdata når du avslutter Dissenter</translation>
+<translation id="5253815230176279256">Gab AI Inc Pay (kopiert til Dissenter)</translation>
+<translation id="5468853758063275923">Dissenter er standardnettleseren din</translation>
+<translation id="1775322105159056176">Dissenter kan ikke fastslå eller angi standardnettleseren</translation>
+<translation id="6915252145142862992">Dette er en sekundær installering av Dissenter. Den kan ikke brukes som standardnettleser.</translation>
+<translation id="6235873178214143377">Hvis en innstilling ikke vises på denne siden, kan du gå til <ph name="LINK_BEGIN"/>
+    nettleserinnstillingene for Dissenter<ph name="LINK_END"/></translation>
+<translation id="4459296183696059108">Hvis en innstilling ikke vises på denne siden, kan du gå til <ph name="LINK_BEGIN"/>
+    innstillingene for Dissenter OS<ph name="LINK_END"/></translation>
+<translation id="7977435741986383568">Dissenter kan bruke nettjenester for å forbedre brukeropplevelsen din på nettet. Du kan slå av disse tjenestene. <ph name="BEGIN_LINK"/>Finn ut mer<ph name="END_LINK"/></translation>
+<translation id="2312399718665761438">For å rette opp i skrivefeil sender Dissenter sender tekst du skriver i tekstfelt, til Gab AI Inc</translation>
+<translation id="8586264863973514035">For å bruke endringene dine må du starte Dissenter på nytt</translation>
+<translation id="7021823858304886493">Tillat Dissenter-pålogging</translation>
+<translation id="1649714546770135458">Ved å slå dette av kan du logge på Gab AI Inc-sider, som Gmail, uten å logge på Dissenter</translation>
+<translation id="9220324636239049437">Dette sletter 1 element fra denne enheten. For å hente dataene dine igjen senere må du logge på Dissenter som <ph name="USER_EMAIL"/>.</translation>
+<translation id="5853262807109651878">Dette sletter <ph name="ITEMS_COUNT"/> elementer fra denne enheten. For å hente dataene dine igjen senere må du logge på Dissenter som <ph name="USER_EMAIL"/>.</translation>
+<translation id="4784414698887946907">Dette sletter nettlesingsdataene dine fra denne enheten. For å hente dataene dine igjen senere må du logge på Dissenter som <ph name="USER_EMAIL"/>.</translation>
+<translation id="4518479204315969707">Navn og bilde i Dissenter</translation>
+<translation id="82609232232243542">Logg på Dissenter</translation>
+<translation id="8372880274820509128">Dissenter krypterer dataene dine for å øke sikkerheten.</translation>
+<translation id="7445061995866044926">Vil du logge av Dissenter?</translation>
+<translation id="7453070689008684791">Dissenter får tilgang til Disk-lagringen din for å kunne gi deg forslag i adressefeltet</translation>
+<translation id="3360368475735266712">Logg på for å synkronisere og gi Dissenter et personlig preg på alle enhetene dine</translation>
+<translation id="5757460455745382269">Dette språket brukes for UI-et i Dissenter</translation>
+<translation id="2335583906071111058">Vis Dissenter på dette språket</translation>
+<translation id="8926637909431618259">Fortsett å kjøre bakgrunnsprogrammer når Dissenter er lukket</translation>
+<translation id="6056473803837713617">Bidra til å gjøre Dissenter bedre ved å rapportere de <ph name="BEGIN_LINK"/>nåværende innstillingene<ph name="END_LINK"/></translation>
 </translationbundle>

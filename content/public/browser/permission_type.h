@@ -40,6 +40,7 @@ enum class PermissionType {
   WAKE_LOCK_SCREEN = 20,
   WAKE_LOCK_SYSTEM = 21,
 
+  AUTOPLAY,
   // Always keep this at the end.
   NUM,
 };

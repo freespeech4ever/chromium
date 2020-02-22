@@ -66,7 +66,9 @@ class VIEWS_EXPORT MdTextButton : public LabelButton {
   MdTextButton(ButtonListener* listener, int button_context);
 
  private:
+  friend class BraveTextButton;
   void UpdatePadding();
+  virtual
   void UpdateColors();
 
   // True if this button uses prominent styling (blue fill, etc.).

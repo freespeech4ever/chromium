@@ -150,6 +150,16 @@ struct StructTraits<
     return r.mixed_content_rules;
   }
 
+  static const std::vector<ContentSettingPatternSource>& fingerprinting_rules(
+      const RendererContentSettingRules& r) {
+    return r.fingerprinting_rules;
+  }
+
+  static const std::vector<ContentSettingPatternSource>& brave_shields_rules(
+      const RendererContentSettingRules& r) {
+    return r.brave_shields_rules;
+  }
+
   static bool Read(
       content_settings::mojom::RendererContentSettingRulesDataView data,
       RendererContentSettingRules* out);

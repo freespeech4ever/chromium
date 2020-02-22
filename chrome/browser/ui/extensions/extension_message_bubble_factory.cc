@@ -64,6 +64,7 @@ bool EnableProxyOverrideBubble() {
 }
 
 bool EnableDevModeBubble() {
+return false;
   if (extensions::FeatureSwitch::force_dev_mode_highlighting()->IsEnabled())
     return true;
 

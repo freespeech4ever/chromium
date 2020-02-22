@@ -24,6 +24,7 @@ enum PermissionName {
   IDLE_DETECTION,
   PERIODIC_BACKGROUND_SYNC,
   WAKE_LOCK,
+  AUTOPLAY,
 };
 
 // This is similar to WakeLockType in modules/wake_lock/wake_lock.idl.
@@ -69,6 +70,7 @@ interface PermissionObserver {
 // methods to check, request, and revoke permissions. It also allows a client to
 // start listening to permission changes.
 interface PermissionService {
+  [Sync]
   HasPermission(PermissionDescriptor permission) => (PermissionStatus status);
   RequestPermission(PermissionDescriptor permission, bool user_gesture)
       => (PermissionStatus status);

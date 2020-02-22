@@ -35,6 +35,7 @@
 
 #include "base/metrics/histogram_functions.h"
 #include "base/rand_util.h"
+#include "brave/renderer/brave_content_settings_observer_helper.h"
 #include "third_party/blink/public/common/features.h"
 #include "third_party/blink/public/platform/platform.h"
 #include "third_party/blink/public/platform/task_type.h"
@@ -805,6 +806,9 @@ TextMetrics* CanvasRenderingContext2D::measureText(const String& text) {
   // The style resolution required for fonts is not available in frame-less
   // documents.
   if (!canvas()->GetDocument().GetFrame())
+    return MakeGarbageCollected<TextMetrics>();
+
+  if (!AllowFingerprinting(canvas()->GetDocument().GetFrame()))
     return MakeGarbageCollected<TextMetrics>();
 
   canvas()->GetDocument().UpdateStyleAndLayoutTreeForNode(canvas());

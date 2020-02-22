@@ -31,6 +31,7 @@ class ChromeComponentExtensionResourceManager
       const std::string& extension_id) const override;
 
  private:
+  friend class BraveComponentExtensionResourceManager;
   void AddComponentResourceEntries(const GritResourceMap* entries, size_t size);
 
   // A map from a resource path to the resource ID.  Used by

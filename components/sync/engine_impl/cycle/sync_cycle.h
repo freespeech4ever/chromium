@@ -79,6 +79,7 @@ class SyncCycle {
 
     // Called when server requests a migration.
     virtual void OnReceivedMigrationRequest(ModelTypeSet types) = 0;
+    BRAVE_SYNC_CYCLE_DELEGATE_H
 
    protected:
     virtual ~Delegate() {}

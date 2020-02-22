@@ -172,6 +172,7 @@ class BookmarkChangeProcessor : public bookmarks::BookmarkModelObserver,
       bookmarks::BookmarkModel* model,
       const std::vector<const bookmarks::BookmarkNode*>& nodes);
 
+  BRAVE_BOOKMARK_CHANGE_PROCESSOR_H_
  protected:
   void StartImpl() override;
 

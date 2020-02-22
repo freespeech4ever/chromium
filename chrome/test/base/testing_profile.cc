@@ -414,6 +414,7 @@ void TestingProfile::Init() {
       EnsureBrowserContextKeyedServiceFactoriesBuilt();
 
 #if BUILDFLAG(ENABLE_SUPERVISED_USERS)
+  BRAVE_INIT
   if (!IsOffTheRecord()) {
     SupervisedUserSettingsService* settings_service =
         SupervisedUserSettingsServiceFactory::GetForKey(key_.get());

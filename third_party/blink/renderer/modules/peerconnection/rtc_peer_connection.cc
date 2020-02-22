@@ -38,6 +38,7 @@
 #include "base/memory/ptr_util.h"
 #include "base/metrics/histogram_macros.h"
 #include "base/optional.h"
+#include "brave/renderer/brave_content_settings_observer_helper.h"
 #include "services/metrics/public/cpp/ukm_builders.h"
 #include "third_party/blink/public/common/features.h"
 #include "third_party/blink/public/platform/platform.h"
@@ -814,6 +815,8 @@ void RTCPeerConnection::Dispose() {
 
 ScriptPromise RTCPeerConnection::createOffer(ScriptState* script_state,
                                              const RTCOfferOptions* options) {
+  if (!AllowFingerprinting(To<Document>(GetExecutionContext())->GetFrame()))
+    return ScriptPromise::CastUndefined(script_state);
   if (signaling_state_ ==
       webrtc::PeerConnectionInterface::SignalingState::kClosed) {
     return ScriptPromise::RejectWithDOMException(
@@ -853,6 +856,8 @@ ScriptPromise RTCPeerConnection::createOffer(
   ExecutionContext* context = ExecutionContext::From(script_state);
   UseCounter::Count(
       context, WebFeature::kRTCPeerConnectionCreateOfferLegacyFailureCallback);
+  if (!AllowFingerprinting(To<Document>(GetExecutionContext())->GetFrame()))
+    return ScriptPromise::CastUndefined(script_state);
   if (CallErrorCallbackIfSignalingStateClosed(signaling_state_, error_callback))
     return ScriptPromise::CastUndefined(script_state);
 
@@ -914,6 +919,8 @@ ScriptPromise RTCPeerConnection::createOffer(
 
 ScriptPromise RTCPeerConnection::createAnswer(ScriptState* script_state,
                                               const RTCAnswerOptions* options) {
+  if (!AllowFingerprinting(To<Document>(GetExecutionContext())->GetFrame()))
+    return ScriptPromise::CastUndefined(script_state);
   if (signaling_state_ ==
       webrtc::PeerConnectionInterface::SignalingState::kClosed) {
     return ScriptPromise::RejectWithDOMException(
@@ -951,7 +958,8 @@ ScriptPromise RTCPeerConnection::createAnswer(
     UseCounter::Count(
         context, WebFeature::kRTCPeerConnectionCreateAnswerLegacyCompliant);
   }
-
+  if (!AllowFingerprinting(To<Document>(GetExecutionContext())->GetFrame()))
+    return ScriptPromise::CastUndefined(script_state);
   if (CallErrorCallbackIfSignalingStateClosed(signaling_state_, error_callback))
     return ScriptPromise::CastUndefined(script_state);
 
@@ -1244,6 +1252,8 @@ void RTCPeerConnection::ReportSetSdpUsage(
 ScriptPromise RTCPeerConnection::setLocalDescription(
     ScriptState* script_state,
     const RTCSessionDescriptionInit* session_description_init) {
+  if (!AllowFingerprinting(To<Document>(GetExecutionContext())->GetFrame()))
+    return ScriptPromise::CastUndefined(script_state);
   MaybeWarnAboutUnsafeSdp(session_description_init);
   ReportSetSdpUsage(SetSdpOperationType::kSetLocalDescription,
                     session_description_init);
@@ -1291,6 +1301,8 @@ ScriptPromise RTCPeerConnection::setLocalDescription(
           WebFeature::
               kRTCPeerConnectionSetLocalDescriptionLegacyNoFailureCallback);
   }
+  if (!AllowFingerprinting(To<Document>(GetExecutionContext())->GetFrame()))
+    return ScriptPromise::CastUndefined(script_state);
 
   String sdp;
   DOMException* exception =
@@ -1344,6 +1356,8 @@ RTCSessionDescription* RTCPeerConnection::pendingLocalDescription() {
 ScriptPromise RTCPeerConnection::setRemoteDescription(
     ScriptState* script_state,
     const RTCSessionDescriptionInit* session_description_init) {
+  if (!AllowFingerprinting(To<Document>(GetExecutionContext())->GetFrame()))
+    return ScriptPromise::CastUndefined(script_state);
   MaybeWarnAboutUnsafeSdp(session_description_init);
   ReportSetSdpUsage(SetSdpOperationType::kSetRemoteDescription,
                     session_description_init);
@@ -1394,6 +1408,8 @@ ScriptPromise RTCPeerConnection::setRemoteDescription(
           WebFeature::
               kRTCPeerConnectionSetRemoteDescriptionLegacyNoFailureCallback);
   }
+  if (!AllowFingerprinting(To<Document>(GetExecutionContext())->GetFrame()))
+    return ScriptPromise::CastUndefined(script_state);
 
   if (CallErrorCallbackIfSignalingStateClosed(signaling_state_, error_callback))
     return ScriptPromise::CastUndefined(script_state);

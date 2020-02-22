@@ -86,7 +86,15 @@ Polymer({
         !(this.getPref('import_dialog_search_engine').value &&
           this.selected_.search) &&
         !(this.getPref('import_dialog_autofill_form_data').value &&
-          this.selected_.autofillFormData);
+          this.selected_.autofillFormData) &&
+        !(this.getPref('import_dialog_cookies').value &&
+          this.selected_.cookies) &&
+        !(this.getPref('import_dialog_stats').value &&
+          this.selected_.stats) &&
+        !(this.getPref('import_dialog_ledger').value &&
+          this.selected_.ledger) &&
+        !(this.getPref('import_dialog_windows').value &&
+          this.selected_.windows);
   },
 
   /**

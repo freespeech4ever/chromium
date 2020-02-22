@@ -507,6 +507,7 @@ class ProfileSyncService : public SyncService,
 
   base::WeakPtrFactory<ProfileSyncService> weak_factory_{this};
 
+  BRAVE_PROFILE_SYNC_SERVICE_H
   DISALLOW_COPY_AND_ASSIGN(ProfileSyncService);
 };
 

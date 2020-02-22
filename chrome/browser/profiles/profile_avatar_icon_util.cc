@@ -315,7 +315,7 @@ constexpr size_t kDefaultAvatarIconsCount = 1;
 #elif defined(OS_CHROMEOS)
 constexpr size_t kDefaultAvatarIconsCount = 27;
 #else
-constexpr size_t kDefaultAvatarIconsCount = 56;
+constexpr size_t kDefaultAvatarIconsCount = 56 + kBraveDefaultAvatarIconsCount;
 #endif
 
 #if !defined(OS_ANDROID)
@@ -427,6 +427,7 @@ size_t GetPlaceholderAvatarIndex() {
 
 size_t GetModernAvatarIconStartIndex() {
 #if !defined(OS_CHROMEOS) && !defined(OS_ANDROID)
+  BRAVE_GET_MODERN_AVATAR_ICON_START_INDEX
   return GetPlaceholderAvatarIndex() + 1;
 #else
   // Only use the placeholder avatar on ChromeOS and Android.
@@ -452,6 +453,7 @@ std::string GetPlaceholderAvatarIconUrl() {
 
 const IconResourceInfo* GetDefaultAvatarIconResourceInfo(size_t index) {
   CHECK_LT(index, kDefaultAvatarIconsCount);
+  BRAVE_GET_DEFAULT_AVATAR_ICON_RESOURCE_INFO
   static const IconResourceInfo resource_info[kDefaultAvatarIconsCount] = {
   // Old avatar icons:
 #if !defined(OS_ANDROID)

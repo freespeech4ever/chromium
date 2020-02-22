@@ -12,6 +12,7 @@ mojom("interfaces") {
   public_deps = [
     "//components/autofill/core/common/mojom:mojo_types",
     "//mojo/public/mojom/base",
+    "//services/network/public/mojom",
     "//url/mojom:url_mojom_gurl",
   ]
 }

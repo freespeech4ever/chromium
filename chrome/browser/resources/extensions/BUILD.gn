@@ -22,6 +22,7 @@ if (optimize_webui) {
 
     deps = [
       ":unpak",
+    "//brave/browser/resources/extensions:unpak",
     ]
   }
 

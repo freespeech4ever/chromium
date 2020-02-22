@@ -113,7 +113,9 @@ Polymer({
       [R.SITE_SETTINGS_UNSANDBOXED_PLUGINS, 'unsandboxed-plugins'],
       [R.SITE_SETTINGS_HANDLERS, 'protocol-handlers'],
       [R.SITE_SETTINGS_MIDI_DEVICES, 'midi-devices'],
+      // <if expr="_google_chrome">
       [R.SITE_SETTINGS_ADS, 'ads'],
+      // </if>
       [R.SITE_SETTINGS_ZOOM_LEVELS, 'zoom-levels'],
       [R.SITE_SETTINGS_USB_DEVICES, 'usb-devices'],
       [R.SITE_SETTINGS_PDF_DOCUMENTS, 'pdf-documents'],

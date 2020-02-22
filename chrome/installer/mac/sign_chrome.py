@@ -31,6 +31,7 @@ def create_config(config_args, development):
     from signing.chromium_config import ChromiumCodeSignConfig
     config_class = ChromiumCodeSignConfig
 
+    """
     # Then search for the internal config for Google Chrome.
     try:
         from signing.internal_config import InternalCodeSignConfig
@@ -40,6 +41,7 @@ def create_config(config_args, development):
         # internal config has to be available.
         if config_class(*config_args).product == 'Google Chrome':
             raise e
+    """
 
     if development:
 
@@ -61,6 +63,8 @@ def create_config(config_args, development):
 
         config_class = DevelopmentCodeSignConfig
 
+    from signing_helper import GetBraveSigningConfig
+    config_class = GetBraveSigningConfig(config_class, development)
     return config_class(*config_args)
 
 

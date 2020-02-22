@@ -1,232 +1,241 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="de">
-<translation id="1065672644894730302">Ihre Einstellungen können nicht gelesen werden. Einige Funktionen sind möglicherweise nicht verfügbar und Änderungen an Einstellungen werden nicht gespeichert.</translation>
-<translation id="1104942323762546749">Chromium möchte Ihre Passwörter exportieren. Wenn Sie dies zulassen möchten, geben Sie Ihr Windows-Passwort ein.</translation>
-<translation id="1115445892567829615">Chromium konnte Ihre Daten nicht synchronisieren. Bitte aktualisieren Sie Ihre Passphrase für die Synchronisierung.</translation>
-<translation id="113122355610423240">Chromium ist Ihr Standardbrowser</translation>
-<translation id="1185134272377778587">Über Chromium</translation>
-<translation id="1396446129537741364">Chromium versucht, Passwörter anzuzeigen.</translation>
-<translation id="1414495520565016063">Sie sind in Chromium angemeldet.</translation>
-<translation id="151962892725702025">Chromium OS konnte Ihre Daten nicht synchronisieren, da die Synchronisierung für Ihre Domain nicht verfügbar ist.</translation>
-<translation id="1524282610922162960">Chromium-Tab freigeben</translation>
-<translation id="1607715478322902680">{COUNT,plural, =0{Laut Ihrem Administrator müssen Sie Chromium neu starten, um ein Update durchzuführen}=1{Laut Ihrem Administrator müssen Sie Chromium neu starten, um ein Update durchzuführen. Ihr Inkognitofenster wird nicht wieder geöffnet.}other{Laut Ihrem Administrator müssen Sie Chromium neu starten, um ein Update durchzuführen. Ihre # Inkognitofenster werden nicht wieder geöffnet.}}</translation>
-<translation id="1708666629004767631">Es gibt eine neue, sicherere Version von Chromium.</translation>
-<translation id="1774152462503052664">Chromium im Hintergrund ausführen</translation>
-<translation id="1779356040007214683">Um Chromium sicherer zu machen, haben wir einige Erweiterungen deaktiviert, die nicht im <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> aufgeführt sind und möglicherweise ohne Ihr Wissen hinzugefügt wurden.</translation>
-<translation id="1808667845054772817">Chromium neu installieren</translation>
-<translation id="1881322772814446296">Sie melden sich mit einem verwalteten Konto an und ermöglichen dessen Administrator Zugriff auf Ihr Chromium-Profil. Ihre Chromium-Daten, wie Apps, Lesezeichen, Verlauf, Passwörter und andere Einstellungen, werden dauerhaft mit <ph name="USER_NAME" /> verknüpft. Sie können diese Daten über das Google Konten-Dashboard löschen, aber nicht mit einem anderen Konto verknüpfen. Wenn Sie Ihre bestehenden Chromium-Daten getrennt verwenden möchten, können Sie ein neues Profil erstellen. <ph name="LEARN_MORE" /></translation>
-<translation id="1911763535808217981">Wenn Sie diese Einstellung deaktivieren, können Sie sich auf Websites von Google wie beispielsweise Gmail anmelden, ohne sich auch in Chromium anmelden zu müssen</translation>
-<translation id="1929939181775079593">Chromium reagiert nicht. Jetzt neu starten?</translation>
-<translation id="1966382378801805537">Chromium kann den Standardbrowser nicht bestimmen oder festlegen</translation>
-<translation id="2008474315282236005">Dadurch wird 1 Element von diesem Gerät gelöscht. Wenn Sie Ihre Daten später abrufen möchten, melden Sie sich als <ph name="USER_EMAIL" /> in Chromium an.</translation>
-<translation id="2119636228670142020">Über &amp;Chromium OS</translation>
-<translation id="2241627712206172106">Bei gemeinsam genutzten Computern können die verschiedenen Personen separat surfen und Chromium jeweils nach ihren Wünschen einrichten.</translation>
-<translation id="2347108572062610441">Die beim Start von Chromium angezeigte Seite wurde durch diese Erweiterung geändert.</translation>
-<translation id="2396765026452590966">Die beim Start von Chromium angezeigte Seite wurde durch die Erweiterung <ph name="EXTENSION_NAME" /> geändert.</translation>
-<translation id="2483889755041906834">In Chromium</translation>
-<translation id="2485422356828889247">Deinstallieren</translation>
-<translation id="2527042973354814951">Chromium neu starten, um <ph name="PLUGIN_NAME" /> zu aktivieren</translation>
-<translation id="2535480412977113886">Chromium OS konnte Ihre Daten nicht synchronisieren, da die Anmeldedaten Ihres Kontos veraltet sind.</translation>
-<translation id="2560420686485554789">Chromium benötigt Speicherzugriff, um Dateien herunterladen zu können</translation>
-<translation id="2572494885440352020">Chromium Helper</translation>
-<translation id="2587578672395088481">Chromium OS muss neu gestartet werden, um das Update zu übernehmen.</translation>
-<translation id="2647554856022461007">Chromium verwendet möglicherweise Webdienste zur Verbesserung Ihrer Nutzererfahrung beim Surfen im Internet. Sie haben die Möglichkeit, diese Dienste zu deaktivieren. <ph name="BEGIN_LINK" />Weitere Informationen<ph name="END_LINK" /></translation>
-<translation id="2648074677641340862">Während der Installation ist ein Fehler im Betriebssystem aufgetreten. Bitte laden Sie Chromium erneut herunter.</translation>
-<translation id="2711502716910134313">Chromium-Tab</translation>
-<translation id="2718390899429598676">Chromium verschlüsselt Ihre Daten zur Erhöhung der Sicherheit.</translation>
-<translation id="2770231113462710648">Standardbrowser ändern in:</translation>
-<translation id="2799223571221894425">Neu starten</translation>
-<translation id="2838154144102149890">Zum Aktualisieren muss Chromium auf diesem Computer geschlossen werden. Nicht gespeicherte Änderungen von anderen Nutzern, die auf diesem Computer angemeldet sind, gehen dann eventuell verloren.</translation>
-<translation id="2847479871509788944">Aus Chromium entfernen...</translation>
-<translation id="2886012850691518054">Optional: Unterstützen Sie Google bei der Verbesserung von Chromium durch automatisches Senden von Nutzungsstatistiken und Absturzberichten.</translation>
-<translation id="2910007522516064972">Über &amp;Chromium</translation>
-<translation id="2977470724722393594">Chromium ist auf dem neuesten Stand</translation>
-<translation id="3032787606318309379">Wird zu Chromium hinzugefügt...</translation>
-<translation id="3068515742935458733">Absturzberichte und <ph name="UMA_LINK" /> zur Verbesserung von Chromium an Google senden</translation>
-<translation id="3103660991484857065">Das Installationsprogramm konnte das Archiv nicht dekomprimieren. Bitte laden Sie Chromium erneut herunter.</translation>
-<translation id="3130323860337406239">Chromium verwendet Ihr Mikrofon.</translation>
-<translation id="3155163173539279776">Chromium neu starten</translation>
-<translation id="3179665906251668410">Link in Chromium-Inkognitofenster öffnen</translation>
-<translation id="3190315855212034486">Chromium ist abgestürzt. Jetzt neu starten?</translation>
-<translation id="3229526316128325841">Chromium möchte Ihre Passwörter exportieren.</translation>
-<translation id="3258596308407688501">Chromium kann im folgenden Datenverzeichnis weder lesen noch schreiben:
-
-<ph name="USER_DATA_DIRECTORY" /></translation>
-<translation id="328888136576916638">Google API-Schlüssel fehlen. Einige Funktionen von Chromium sind deaktiviert.</translation>
-<translation id="3296368748942286671">Apps weiter im Hintergrund ausführen, wenn Chromium geschlossen wird</translation>
-<translation id="331951419404882060">Chromium OS konnte Ihre Daten aufgrund eines Fehlers bei der Anmeldung nicht synchronisieren.</translation>
-<translation id="3340978935015468852">Einstellungen</translation>
-<translation id="3474745554856756813">Dadurch werden <ph name="ITEMS_COUNT" /> Elemente von diesem Gerät gelöscht. Wenn Sie Ihre Daten später abrufen möchten, melden Sie sich als <ph name="USER_EMAIL" /> in Chromium an.</translation>
-<translation id="3509308970982693815">Schließen Sie bitte alle Chromium-Fenster und versuchen Sie es erneut.</translation>
-<translation id="352783484088404971">Aus Chromium entfernen...</translation>
-<translation id="3575459661164320785">Schädliche Software wurde auf Ihrem Computer gefunden. Chromium kann diese Software entfernen, Ihre Einstellungen wiederherstellen und Erweiterungen deaktivieren, sodass Ihr Browser wieder wie gewohnt funktioniert.</translation>
-<translation id="358997566136285270">Chromium-Logo</translation>
-<translation id="3639635944603682591">Die Browserdaten dieser Person werden von diesem Gerät gelöscht. Wenn Sie die Daten wiederherstellen möchten, melden Sie sich als <ph name="USER_EMAIL" /> in Chromium an.</translation>
-<translation id="364817392622123556">{COUNT,plural, =0{Ein neues Update für Chromium ist verfügbar und wird installiert, sobald Sie den Browser neu starten.}=1{Ein neues Update für Chromium ist verfügbar und wird installiert, sobald Sie den Browser neu starten. Ihr Inkognitofenster wird nicht wieder geöffnet.}other{Ein neues Update für Chromium ist verfügbar und wird installiert, sobald Sie den Browser neu starten. Ihre # Inkognitofenster werden nicht wieder geöffnet.}}</translation>
-<translation id="370962675267501463">{COUNT,plural, =0{Laut Ihrem Administrator sollten Sie Chromium neu starten, um dieses Update durchzuführen}=1{Laut Ihrem Administrator sollten Sie Chromium neu starten, um dieses Update durchzuführen. Ihr Inkognitofenster wird nicht wieder geöffnet.}other{Laut Ihrem Administrator sollten Sie Chromium neu starten, um dieses Update durchzuführen. Ihre # Inkognitofenster werden nicht wieder geöffnet.}}</translation>
-<translation id="3713809861844741608">Link in neuem Chromium-Tab öffnen</translation>
-<translation id="3728336900324680424">Chromium greift auf Google Drive zu, um in der Adressleiste Vorschläge zu machen</translation>
-<translation id="378917192836375108">In Chromium können Sie auf eine Telefonnummer im Web klicken und diese mit Skype anrufen.</translation>
-<translation id="3848258323044014972"><ph name="PAGE_TITLE" /> - Chromium</translation>
-<translation id="388648406173476553">Sie können Chromium anpassen und Einstellungen festlegen. Etwas erfordert Ihre Aufmerksamkeit – klicken Sie, um mehr zu erfahren.</translation>
-<translation id="3889543394854987837">Klicken Sie auf Ihren Namen, um Chromium zu öffnen und im Web zu surfen.</translation>
-<translation id="4036079820698952681">Helfen Sie uns mit Ihrem Feedback zu den <ph name="BEGIN_LINK" />aktuellen Einstellungen<ph name="END_LINK" /> bei der Verbesserung von Chromium</translation>
-<translation id="4050175100176540509">Wichtige Sicherheitsverbesserungen und neue Funktionen sind in der aktuellen Version verfügbar.</translation>
-<translation id="421369550622382712">Entdecken Sie tolle Apps, Spiele, Erweiterungen und Designs für Chromium.</translation>
-<translation id="4216212958613226427">Diese Sprache wird für die Chromium-UI verwendet</translation>
-<translation id="4230135487732243613">Ihre Chromium-Daten mit diesem Konto verknüpfen?</translation>
-<translation id="4271805377592243930">Hilfe für Chromium aufrufen</translation>
-<translation id="4285930937574705105">Die Installation konnte aufgrund eines undefinierten Fehlers nicht abgeschlossen werden. Falls Chromium derzeit ausgeführt wird, schließen Sie es bitte und versuchen Sie es erneut.</translation>
-<translation id="4407044323746248786">Chromium trotzdem beenden?</translation>
-<translation id="4415566066719264597">Chromium im Hintergrund ausführen</translation>
-<translation id="4423735387467980091">Chromium anpassen und einstellen</translation>
-<translation id="4567424176335768812">Sie sind als <ph name="USER_EMAIL_ADDRESS" /> angemeldet. Auf allen Geräten, auf denen Sie angemeldet sind, sind nun Ihre Lesezeichen, Ihr Verlauf und andere Einstellungen verfügbar.</translation>
-<translation id="459535195905078186">Chromium-Apps</translation>
-<translation id="4621240073146040695">Fast fertig! Starten Sie Chromium neu, um die Aktualisierung abzuschließen.</translation>
-<translation id="4661006601577405669">Künftige Versionen von Chromium werden automatisch installiert.</translation>
-<translation id="4677944499843243528">Das Profil wird offenbar gerade von einem Chromium-Prozess (<ph name="PROCESS_ID" />) auf einem anderen Computer (<ph name="HOST_NAME" />) verwendet. Das Profil wurde von Chromium gesperrt, damit es nicht beschädigt wird. Wenn Sie sicher sind, dass das Profil nicht von anderen Prozessen verwendet wird, können Sie das Profil entsperren und Chromium neu starten.</translation>
-<translation id="469338717132742108">Hilfe für Chromium OS aufrufen</translation>
-<translation id="4708774505295300557">Auf diesem Computer war zuvor ein Nutzer mit dem Konto <ph name="ACCOUNT_EMAIL_LAST" /> in Chromium angemeldet. Erstellen Sie einen neuen Chromium-Nutzer, um Ihre Daten getrennt zu verwenden.</translation>
-<translation id="4746050847053251315">Chromium trotzdem beenden?</translation>
-<translation id="4748217263233248895">Da soeben ein kritisches Sicherheitsupdate für Chromium installiert wurde, sollten Sie jetzt einen Neustart durchführen. Ihre Tabs werden dann automatisch wiederhergestellt.</translation>
-<translation id="479167709087336770">Es wird dieselbe Rechtschreibprüfung wie in der Google-Suche verwendet. Der in den Browser eingegebene Text wird an Google gesendet. Sie können dies jederzeit in den Einstellungen ändern.</translation>
-<translation id="4888717733111232871">Eingangsregel für die Zulassung von mDNS-Verkehr in Chromium</translation>
-<translation id="4943838377383847465">Chromium wird im Hintergrundmodus ausgeführt.</translation>
-<translation id="4987820182225656817">Gastnutzer können Chromium verwenden, ohne Daten zu hinterlassen.</translation>
-<translation id="4994636714258228724">Mich zu Chromium hinzufügen</translation>
-<translation id="5277894862589591112">Starten Sie Chromium neu, um die Änderungen zu übernehmen</translation>
-<translation id="5358375970380395591">Sie melden sich mit einem verwalteten Konto an und ermöglichen dessen Administrator Zugriff auf Ihr Chromium-Profil. Ihre Chromium-Daten, wie Apps, Lesezeichen, Verlauf, Passwörter und andere Einstellungen, werden dauerhaft mit <ph name="USER_NAME" /> verknüpft. Sie können diese Daten über das Google Konten-Dashboard löschen, aber nicht mit einem anderen Konto verknüpfen. <ph name="LEARN_MORE" /></translation>
-<translation id="5386450000063123300">Chromium wird aktualisiert (<ph name="PROGRESS_PERCENT" />)</translation>
-<translation id="538767207339317086">Anmeldung in Chromium zulassen</translation>
-<translation id="5398878173008909840">Eine neue Version von Chromium ist verfügbar.</translation>
-<translation id="5416696090975899932">Chromium kann ohne den integrierten PDF-Viewer keine Druckvorschau anzeigen.</translation>
-<translation id="5427571867875391349">Chromium als Standardbrowser festlegen</translation>
-<translation id="5438241569118040789"><ph name="PAGE_TITLE" /> – Chromium Beta</translation>
-<translation id="5479196819031988440">Chromium OS kann diese Seite nicht öffnen.</translation>
-<translation id="5480860683791598150">Chromium benötigt Zugriff auf Ihren Standort, um ihn mit dieser Website zu teilen</translation>
-<translation id="549669000822060376">Bitte warten Sie, bis die aktuellen Systemupdates von Chromium installiert wurden.</translation>
-<translation id="5623402015214259806">{0,plural, =0{Ein Chromium-Update ist verfügbar}=1{Ein Chromium-Update ist verfügbar}other{Ein Chromium-Update ist seit # Tagen verfügbar}}</translation>
-<translation id="5631814766731275228">Chromium-Name und -Bild</translation>
-<translation id="5634636535844844681">Für Chromium ist Windows 7 oder höher erforderlich.</translation>
-<translation id="5653831366781983928">Starten Sie Chromium jetzt neu</translation>
-<translation id="5680901439334282664">In Chromium anmelden</translation>
-<translation id="5698481217667032250">Chromium in dieser Sprache anzeigen</translation>
-<translation id="5820394555380036790">Chromium OS</translation>
-<translation id="5862307444128926510">Willkommen bei Chromium</translation>
-<translation id="5895138241574237353">Neu starten</translation>
-<translation id="5987687638152509985">Aktualisieren Sie Chromium, um die Synchronisierung zu starten</translation>
-<translation id="6013050204643758987">Chromium OS und <ph name="BEGIN_LINK_LINUX_OSS" />Linux (Beta)<ph name="END_LINK_LINUX_OSS" /> werden durch zusätzliche <ph name="BEGIN_LINK_CROS_OSS" />Open-Source-Software<ph name="END_LINK_CROS_OSS" /> möglich gemacht.</translation>
-<translation id="6055895534982063517">Es gibt eine neue Version von Chromium, die schneller ist als je zuvor.</translation>
-<translation id="6063093106622310249">In Chr&amp;omium öffnen</translation>
-<translation id="6072279588547424923"><ph name="EXTENSION_NAME" /> wurde zu Chromium hinzugefügt</translation>
-<translation id="608189560609172163">Chromium konnte Ihre Daten aufgrund eines Fehlers bei der Anmeldung nicht synchronisieren.</translation>
-<translation id="6096348254544841612">Chromium anpassen und Einstellungen festlegen. Ein Update ist verfügbar.</translation>
-<translation id="6120345080069858279">Chromium speichert dieses Passwort in Ihrem Google-Konto. Sie müssen es sich also nicht merken.</translation>
-<translation id="6129621093834146363"><ph name="FILE_NAME" /> ist schädlich und wurde daher von Chromium blockiert.</translation>
-<translation id="6212496753309875659">Auf diesem Computer befindet sich bereits eine neuere Version von Chromium. Falls die Software nicht funktioniert, deinstallieren Sie Chromium bitte und versuchen Sie es erneut.</translation>
-<translation id="6219195342503754812">{0,plural, =0{Chromium wird jetzt neu gestartet}=1{Chromium wird in einer Sekunde neu gestartet}other{Chromium wird in # Sekunden neu gestartet}}</translation>
-<translation id="6248213926982192922">Chromium als Standardbrowser verwenden</translation>
-<translation id="6268381023930128611">Von Chromium abmelden?</translation>
-<translation id="6295779123002464101"><ph name="FILE_NAME" /> ist möglicherweise schädlich und wurde daher von Chromium blockiert.</translation>
-<translation id="6309712487085796862">Chromium verwendet Ihre Kamera.</translation>
-<translation id="6333502561965082103">In Chromium wird eine andere Aktion durchgeführt. Bitte versuchen Sie es später noch einmal.</translation>
-<translation id="6334986366598267305">Sie können Chromium jetzt noch einfacher mit Ihrem Google-Konto und auf gemeinsam genutzten Computern verwenden.</translation>
-<translation id="6373523479360886564">Möchten Sie Chromium wirklich deinstallieren?</translation>
-<translation id="6400072781405947421">Chromium funktioniert unter Umständen nicht ordnungsgemäß, da es unter Mac OS X 10.9 nicht mehr unterstützt wird.</translation>
-<translation id="6403826409255603130">Chromium ist ein Webbrowser, der Webseiten und Apps in Sekundenschnelle lädt und dabei äußerst stabil und nutzerfreundlich ist. Dank des integrierten Malware- und Phishing-Schutzes können Sie bedenkenlos im Internet surfen.</translation>
-<translation id="6434250628340475518">Chromium OS-System</translation>
-<translation id="6457450909262716557">{SECONDS,plural, =1{Chromium wird in 1 Sekunde neu gestartet}other{Chromium wird in # Sekunden neu gestartet}}</translation>
-<translation id="6475912303565314141">Die Erweiterung legt auch die Seite fest, die beim Start von Chromium angezeigt wird.</translation>
-<translation id="6510925080656968729">Chromium deinstallieren</translation>
-<translation id="6570579332384693436">Zur Behebung von Tippfehlern sendet Chromium eingegebenen Text an Google</translation>
-<translation id="6598877126913850652">Zu Chromium-Benachrichtigungseinstellungen wechseln</translation>
-<translation id="6676384891291319759">Internetzugriff</translation>
-<translation id="6717134281241384636">Ihr Profil kann nicht verwendet werden, da es aus einer neueren Version von Chromium stammt.
-
-Einige Funktionen stehen möglicherweise nicht zur Verfügung. Geben Sie bitte ein anderes Profilverzeichnis an oder verwenden Sie eine neuere Version von Chromium.</translation>
-<translation id="6734080038664603509">&amp;Chromium aktualisieren</translation>
-<translation id="6734291798041940871">Chromium ist bereits für alle Nutzer auf Ihrem Computer installiert.</translation>
-<translation id="6847869444787758381">Chromium wird Sie informieren, sollten Ihre Passwörter nicht mehr sicher sein</translation>
-<translation id="6857782730669500492">Chromium – <ph name="PAGE_TITLE" /></translation>
-<translation id="6863361426438995919">Google Pay (in Chromium kopiert)</translation>
-<translation id="6868056391275687737">Andere Instanzen von Chromium sind noch aktiv. Bitte schließen Sie diese, um den Browser zu aktualisieren.</translation>
-<translation id="6893813176749746474">Chromium wurde aktualisiert, Sie haben den Browser jedoch mindestens 30 Tage nicht verwendet.</translation>
-<translation id="6964305034639999644">Link in Chromium-Inkognitofenster öffnen</translation>
-<translation id="6990124437352146030">Chromium benötigt für diese Website die Berechtigung, auf Ihr Mikrofon zuzugreifen</translation>
-<translation id="705851970750939768">Chromium aktualisieren</translation>
-<translation id="7066436765290594559">Chromium OS konnte Ihre Daten nicht synchronisieren. Bitte aktualisieren Sie Ihre Passphrase für die Synchronisierung.</translation>
-<translation id="7067091210845072982">Wenn ein Bild keine brauchbare Beschreibung hat, versucht Chromium, eine für Sie zu finden. Damit entsprechende Beschreibungen erstellt werden können, werden die Bilder an Google gesendet.</translation>
-<translation id="7196312274710523067">Chromium konnte nicht gestartet werden. Versuchen Sie es noch einmal.</translation>
-<translation id="7205698830395646142">Im Chromium-Menü ausblenden</translation>
-<translation id="7223968959479464213">Taskmanager - Chromium</translation>
-<translation id="731644333568559921">&amp;Chromium OS aktualisieren</translation>
-<translation id="731795002583552498">Chromium wird aktualisiert</translation>
-<translation id="7318036098707714271">Ihre Einstellungsdatei ist beschädigt oder ungültig.
-
-Chromium kann Ihre Einstellungen nicht wiederherstellen.</translation>
-<translation id="7337881442233988129">Chromium</translation>
+<translation id="939305735877869636">Dissenter</translation>
+<translation id="2069994121511856876">Dissenter Nightly</translation>
+<translation id="4947625801334180582">Dissenter Beta</translation>
+<translation id="2566435362010629810">Dissenter Dev</translation>
+<translation id="6373767849825830651">Dissenter ist ein Webbrowser, der Webseiten und Apps in Sekundenschnelle lädt und dabei äußerst stabil und benutzerfreundlich ist. Dank des integrierten Malware- und Phishing-Schutzes können Sie bedenkenlos im Internet surfen.</translation>
+<translation id="680297041157509674">Dissenter OS</translation>
+<translation id="4847979153841887006">Dissenter-Logo</translation>
 <translation id="7339898014177206373">Neues Fenster</translation>
-<translation id="734373864078049451">Hier können Sie im Web surfen und Ihre Lesezeichen und andere Chromium-Inhalte speichern.</translation>
-<translation id="7349591376906416160">Ihr Systemadministrator hat Chromium so konfiguriert, dass <ph name="ALTERNATIVE_BROWSER_NAME" /> für den Zugriff auf <ph name="TARGET_URL_HOSTNAME" /> geöffnet wird.</translation>
-<translation id="7448255348454382571">Chromium OS neu starten</translation>
-<translation id="7449453770951226939"><ph name="PAGE_TITLE" /> – Chromium Dev</translation>
-<translation id="7451052299415159299">Chromium benötigt für diese Website die Berechtigung, auf Ihre Kamera zuzugreifen</translation>
-<translation id="7483335560992089831">Die Chromium-Version kann nicht installiert werden, da sie aktuell ausgeführt wird. Schließen Sie Chromium bitte und versuchen Sie es erneut.</translation>
-<translation id="751093125041325477">Künftige Versionen von Chromium werden automatisch installiert. Nach Abschluss des Downloads wird Chromium neu gestartet und Sie können fortfahren.</translation>
-<translation id="753534427205733210">{0,plural, =1{Chromium wird in einer Minute neu gestartet}other{Chromium wird in # Minuten neu gestartet}}</translation>
-<translation id="7549178288319965365">Über Chromium OS</translation>
-<translation id="7561906087460245826">Daten aus Chromium ebenfalls löschen (<ph name="URL" />)</translation>
-<translation id="7585853947355360626">Wenn Sie auf dieser Seite eine Einstellung nicht finden können, sehen Sie in den <ph name="LINK_BEGIN" />Einstellungen von Chromium OS<ph name="LINK_END" /> nach</translation>
-<translation id="761356813943268536">Chromium verwendet Ihre Kamera und Ihr Mikrofon.</translation>
-<translation id="7617377681829253106">Chromium ist jetzt noch besser</translation>
-<translation id="7686590090926151193">Chromium ist nicht als Ihr Standardbrowser festgelegt</translation>
-<translation id="7689606757190482937">Chromium wird auf allen Ihren Geräten synchronisiert und personalisiert</translation>
-<translation id="7729447699958282447">Chromium konnte Ihre Daten nicht synchronisieren, da die Synchronisierung für Ihre Domain nicht zur Verfügung steht.</translation>
-<translation id="7745317241717453663">Dadurch werden Ihre Browserdaten von diesem Gerät gelöscht. Wenn Sie Ihre Daten später abrufen möchten, melden Sie sich als <ph name="USER_EMAIL" /> in Chromium an.</translation>
+<translation id="5935964611177478118">In Dissenter anmelden</translation>
+<translation id="5516268345616100622">Taskmanager - Dissenter</translation>
+<translation id="7918740962659365265">Absturzberichte und <ph name="UMA_LINK"/> zur Verbesserung von Dissenter an Gab AI Inc senden</translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - Dissenter</translation>
+<translation id="7830723774663008396">Dissenter – <ph name="PAGE_TITLE"/></translation>
+<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> – Dissenter Beta</translation>
+<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> – Dissenter Dev</translation>
+<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> – Dissenter Canary</translation>
+<translation id="8992261409816268381">Die Dissenter-Autoren</translation>
+<translation id="8121009781989288430">Copyright <ph name="YEAR"/> Die Dissenter-Autoren. Alle Rechte vorbehalten.</translation>
+<translation id="2310890394934209120">Dissenter OS wird durch zusätzliche <ph name="BEGIN_LINK_CROS_OSS"/>Open-Source-Software<ph name="END_LINK_CROS_OSS"/> möglich gemacht.</translation>
+<translation id="8160794320557846790">Dissenter OS und <ph name="BEGIN_LINK_LINUX_OSS"/>Linux (Beta)<ph name="END_LINK_LINUX_OSS"/> werden durch zusätzliche <ph name="BEGIN_LINK_CROS_OSS"/>Open-Source-Software<ph name="END_LINK_CROS_OSS"/> möglich gemacht.</translation>
+<translation id="6913582816347128893">Dissenter funktioniert unter Umständen nicht ordnungsgemäß, da Mac OS X 10.9  nicht mehr unterstützt wird.</translation>
+<translation id="7977787072794666032">Dissenter funktioniert unter Umständen nicht ordnungsgemäß, da es unter Windows XP und Windows Vista nicht mehr unterstützt wird</translation>
+<translation id="189297655255130768">Dissenter reagiert nicht. Jetzt neu starten?</translation>
+<translation id="8703492925273919597">Schließen Sie bitte alle Dissenter-Fenster und versuchen Sie es erneut.</translation>
+<translation id="335632367599648646">Möchten Sie Dissenter wirklich deinstallieren?</translation>
+<translation id="5590013613412457132">Dissenter deinstallieren</translation>
+<translation id="5019879183386042809">Dissenter als Standardbrowser verwenden</translation>
+<translation id="5063987220091207247">Dissenter OS kann diese Seite nicht öffnen.</translation>
+<translation id="4065288863231444640">Dissenter im Hintergrund ausführen</translation>
+<translation id="6797402139308059782">Dissenter im Hintergrund ausführen</translation>
+<translation id="2585240446624043880">Dissenter kann im folgenden Datenverzeichnis weder lesen noch schreiben:
+
+<ph name="USER_DATA_DIRECTORY"/></translation>
+<translation id="8417700129970341035">Optional: Unterstützen Sie Gab AI Inc bei der Verbesserung von Dissenter durch automatisches Senden von Nutzungsstatistiken und Absturzberichten.</translation>
+<translation id="1489465648257900784">Ihr Profil kann nicht verwendet werden, da es aus einer neueren Version von Dissenter stammt.
+
+Einige Funktionen stehen möglicherweise nicht zur Verfügung. Geben Sie bitte ein anderes Profilverzeichnis an oder verwenden Sie eine neuere Version von Dissenter.</translation>
+<translation id="1065672644894730302">Ihre Einstellungen können nicht gelesen werden. Einige Funktionen sind möglicherweise nicht verfügbar und Änderungen an Einstellungen werden nicht gespeichert.</translation>
+<translation id="3403365884036456766">Ihre Einstellungsdatei ist beschädigt oder ungültig.
+
+Dissenter kann Ihre Einstellungen nicht wiederherstellen.</translation>
+<translation id="1477146545787277177">Dissenter ist abgestürzt. Jetzt neu starten?</translation>
+<translation id="5785919770853225148">Dissenter speichert dieses Passwort in Ihrem Gab AI Inc-Konto. Sie müssen es sich also nicht merken.</translation>
+<translation id="8211837073776713955">Dissenter wird Sie informieren, sollten Ihre Passwörter nicht mehr sicher sein</translation>
+<translation id="113959764510199339">Dissenter versucht Passwörter anzuzeigen.</translation>
+<translation id="7503098128120083822">Dissenter möchte Ihre Passwörter exportieren.</translation>
+<translation id="8285294305439559616">Dissenter möchte Passwörter anzeigen. Geben Sie Ihr Windows-Passwort ein, um dies zuzulassen.</translation>
+<translation id="5918095577778020936">Dissenter möchte Ihre Passwörter exportieren. Wenn Sie dies zulassen möchten, geben Sie Ihr Windows-Passwort ein.</translation>
+<translation id="8320964054148936490">Auf diesem Computer befindet sich bereits eine neuere Version von Dissenter. Falls die Software nicht funktioniert, deinstallieren Sie Dissenter bitte und versuchen Sie es erneut.</translation>
+<translation id="7691786510374174420">Die Installation konnte aufgrund eines undefinierten Fehlers nicht abgeschlossen werden. Falls Dissenter derzeit ausgeführt wird, schließen Sie es bitte und versuchen Sie es erneut.</translation>
+<translation id="2619516027171717873">Die Dissenter-Version kann nicht installiert werden, da sie aktuell ausgeführt wird. Schließen Sie Dissenter bitte und versuchen Sie es erneut.</translation>
+<translation id="6283840329609797763">Die Installation konnte aufgrund eines undefinierten Fehlers nicht abgeschlossen werden. Bitte laden Sie Dissenter erneut herunter.</translation>
+<translation id="95624393026532554">Für Dissenter ist Windows 7 oder höher erforderlich.</translation>
+<translation id="7387051847644272380">Während der Installation ist ein Fehler im Betriebssystem aufgetreten. Bitte laden Sie Dissenter erneut herunter.</translation>
+<translation id="1819119299840995223">In Dissenter wird eine andere Aktion durchgeführt. Bitte versuchen Sie es später noch einmal.</translation>
 <translation id="7747138024166251722">Das Installationsprogramm konnte kein temporäres Verzeichnis erstellen. Überprüfen Sie, ob freier Speicherplatz und die Rechte zum Installieren von Software vorhanden sind.</translation>
-<translation id="7773960292263897147">Achtung: Chromium kann nicht verhindern, dass Ihr Browserverlauf von Erweiterungen protokolliert wird. Sie können diese Erweiterung für den Inkognitomodus deaktivieren, indem Sie die Auswahl für die entsprechende Option aufheben.</translation>
-<translation id="7790626492778995050"><ph name="PAGE_TITLE" /> – Chromium Canary</translation>
-<translation id="7827169012280634081">Cookies und Websitedaten beim Beenden von Chromium löschen</translation>
-<translation id="7867198900892795913">Chromium konnte nicht auf die neueste Version aktualisiert werden. In Ihrer Version fehlen daher einige neue Funktionen und Sicherheitspatches.</translation>
-<translation id="7898472181347242998">Sie können anhand der <ph name="LINK_BEGIN" />Einstellungen von Chromium OS<ph name="LINK_END" /> sehen, ob Ihr Gerät auf dem neuesten Stand ist</translation>
-<translation id="7937630085815544518">Sie waren in Chromium als <ph name="USER_EMAIL_ADDRESS" /> angemeldet. Melden Sie sich bitte wieder mit demselben Konto an.</translation>
-<translation id="7975919845073681630">Dies ist eine Zweitinstallation, daher kann Chromium nicht als Standardbrowser festgelegt werden.</translation>
-<translation id="7979877361127045932">Im Chromium-Menü ausblenden</translation>
-<translation id="8013436988911883588">Sobald Chromium Zugriff hat, können Websites Sie um Zugriff bitten.</translation>
-<translation id="81770708095080097">Diese Datei ist schädlich und wurde von Chromium blockiert.</translation>
-<translation id="8248265253516264921">Wenn ein Bild keine brauchbare Beschreibung hat, versucht Chromium, eine für Sie zu finden. Damit entsprechende Beschreibungen erstellt werden können, werden die Bilder an Google gesendet. Sie können dies jederzeit in den Einstellungen deaktivieren.</translation>
-<translation id="8290862415967981663">Diese Datei ist eventuell schädlich und wurde von Chromium blockiert.</translation>
-<translation id="8330519371938183845">Wenn Sie sich anmelden, wird Chromium auf allen Ihren Geräten synchronisiert und personalisiert</translation>
-<translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> hat zuvor Chromium verwendet</translation>
-<translation id="8417404458978023919">{0,plural, =1{Chromium innerhalb eines Tages neu starten}other{Chromium innerhalb von # Tagen neu starten}}</translation>
-<translation id="8453117565092476964">Das Installationsarchiv ist beschädigt oder ungültig. Bitte laden Sie Chromium erneut herunter.</translation>
-<translation id="8493179195440786826">Chromium ist veraltet.</translation>
-<translation id="8586442755830160949">Copyright <ph name="YEAR" /> Die Chromium-Autoren. Alle Rechte vorbehalten.</translation>
-<translation id="8619360774459241877">Chromium wird gestartet…</translation>
-<translation id="8621669128220841554">Die Installation konnte aufgrund eines undefinierten Fehlers nicht abgeschlossen werden. Bitte laden Sie Chromium erneut herunter.</translation>
-<translation id="8682540261359803721">Wenn Sie auf dieser Seite eine Einstellung nicht finden können, sehen Sie in den <ph name="LINK_BEGIN" />Chromium-Browsereinstellungen<ph name="LINK_END" /> nach</translation>
-<translation id="8697124171261953979">Die Erweiterung legt auch fest, welche Seite beim Start von Chromium oder bei der Suche über die Omnibox angezeigt wird.</translation>
-<translation id="8704119203788522458">Dies ist Ihr persönlicher Chromium-Browser</translation>
-<translation id="8739167630197873875">Cookies werden gelöscht, wenn Sie Chromium beenden. Ändern Sie <ph name="COOKIE_SETTINGS_LINK" />, wenn die Synchronisierung fortgesetzt werden soll.</translation>
-<translation id="8748383401829947534">Alle Instanzen von Chromium schließen.</translation>
-<translation id="8796602469536043152">Chromium benötigt für diese Website die Berechtigung, auf Ihre Kamera und Ihr Mikrofon zuzugreifen</translation>
-<translation id="8803635938069941624">Chromium OS-Nutzungsbedingungen</translation>
-<translation id="8821041990367117597">Chromium konnte Ihre Daten nicht synchronisieren, da die Anmeldedaten Ihres Kontos nicht mehr aktuell sind.</translation>
+<translation id="7365690458036015383">Das Installationsprogramm konnte das Archiv nicht dekomprimieren. Bitte laden Sie Dissenter erneut herunter.</translation>
+<translation id="6914496861676471566">Das Installationsarchiv ist beschädigt oder ungültig. Bitte laden Sie Dissenter erneut herunter.</translation>
 <translation id="8862326446509486874">Sie verfügen nicht über die erforderlichen Rechte für eine systemweite Installation. Starten Sie das Installationsprogramm als Administrator.</translation>
-<translation id="8897323336392112261">Die Erweiterung legt auch fest, welche Seite beim Start von Chromium angezeigt wird oder wenn Sie auf die Schaltfläche "Startseite" klicken.</translation>
-<translation id="8907580949721785412">Chromium möchte Passwörter anzeigen. Geben Sie Ihr Windows-Passwort ein, um dies zuzulassen.</translation>
-<translation id="8941642502866065432">Chromium kann nicht aktualisiert werden</translation>
-<translation id="8974095189086268230">Chromium OS wird durch zusätzliche <ph name="BEGIN_LINK_CROS_OSS" />Open-Source-Software<ph name="END_LINK_CROS_OSS" /> möglich gemacht.</translation>
-<translation id="9019929317751753759">Um Chromium sicherer zu machen, haben wir die folgende Erweiterung deaktiviert. Sie ist nicht im <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> aufgeführt und wurde möglicherweise ohne Ihr Wissen hinzugefügt.</translation>
-<translation id="9022552996538154597">In Chromium anmelden</translation>
-<translation id="9089354809943900324">Chromium ist veraltet.</translation>
-<translation id="9093206154853821181">{0,plural, =1{Chromium wird in einer Stunde neu gestartet}other{Chromium wird in # Stunden neu gestartet}}</translation>
-<translation id="91086099826398415">Link in neuem Chromium-Tab öffnen</translation>
+<translation id="6666624454809779082">Dissenter ist bereits für alle Nutzer auf Ihrem Computer installiert.</translation>
+<translation id="6676384891291319759">Internetzugriff</translation>
 <translation id="911206726377975832">Auch die Browserdaten löschen?</translation>
-<translation id="9158494823179993217">Ihr Systemadministrator hat Chromium so konfiguriert, dass ein alternativer Browser für den Zugriff auf <ph name="TARGET_URL_HOSTNAME" /> geöffnet wird.</translation>
-<translation id="9190841055450128916">Chromium (mDNS-In)</translation>
-<translation id="93478295209880648">Chromium funktioniert unter Umständen nicht ordnungsgemäß, da es unter Windows XP und Windows Vista nicht mehr unterstützt wird</translation>
-<translation id="95514773681268843">Vor der Verwendung dieses Geräts ist es erforderlich, dass Sie die folgenden Nutzungsbedingungen von <ph name="DOMAIN" /> akzeptieren. Durch diese Nutzungsbedingungen werden die Chromium OS-Nutzungsbedingungen nicht erweitert, geändert oder eingeschränkt.</translation>
-<translation id="985602178874221306">Die Chromium-Autoren</translation>
+<translation id="2770231113462710648">Standardbrowser ändern in:</translation>
+<translation id="2485422356828889247">Deinstallieren</translation>
+<translation id="3343095737966473035">Dissenter ist nicht als Ihr Standardbrowser festgelegt</translation>
+<translation id="5536657158619734169">Eine neue Version von Dissenter ist verfügbar.</translation>
+<translation id="505042220086416644">Es gibt eine neue Version von Dissenter, die schneller ist als je zuvor.</translation>
+<translation id="5616153642055197778">Es gibt eine neue, sicherere Version von Dissenter.</translation>
+<translation id="2301993384336631869">Dissenter wurde aktualisiert, Sie haben den Browser jedoch mindestens 30 Tage nicht verwendet.</translation>
+<translation id="2106568569080763501">In Dissenter können Sie auf eine Telefonnummer im Web klicken und diese mit Skype anrufen.</translation>
+<translation id="5874882355102994015">Dissenter kann ohne den integrierten PDF-Viewer keine Druckvorschau anzeigen.</translation>
+<translation id="8880183781256147665">Wird zu Dissenter hinzugefügt...</translation>
+<translation id="3561569806301739367"><ph name="FILE_NAME"/> ist möglicherweise schädlich und wurde daher von Dissenter blockiert.</translation>
+<translation id="9067428552314418522">Diese Datei ist schädlich und wurde von Dissenter blockiert.</translation>
+<translation id="4168372721886011198"><ph name="FILE_NAME"/> ist schädlich und wurde daher von Dissenter blockiert.</translation>
+<translation id="89367911614620585">Diese Datei ist eventuell schädlich und wurde von Dissenter blockiert.</translation>
+<translation id="9183662282810237335">Dissenter trotzdem beenden?</translation>
+<translation id="3834935463915107022">Dissenter trotzdem beenden?</translation>
+<translation id="8797356639448065696">Dissenter wird im Hintergrund ausgeführt.</translation>
+<translation id="2339258256897053758">Gab AI Inc API-Schlüssel fehlen. Einige Funktionen von Dissenter sind deaktiviert.</translation>
+<translation id="7861579472672677409"><ph name="EXTENSION_NAME"/> wurde zu Dissenter hinzugefügt</translation>
+<translation id="8516116288943000095">Daten aus Dissenter ebenfalls löschen (<ph name="URL"/>)</translation>
+<translation id="4054452651944170004">Im Dissenter-Menü ausblenden</translation>
+<translation id="5660079256336839395">Im Dissenter-Menü ausblenden</translation>
+<translation id="6134859571175647580">Achtung: Dissenter kann nicht verhindern, dass Ihr Browserverlauf von Erweiterungen protokolliert wird. Hier können Sie diese Erweiterung für private Fenster aktivieren oder deaktivieren.</translation>
+<translation id="777113543093865885">Aus Dissenter entfernen...</translation>
+<translation id="6078442581074612226">In Dissenter</translation>
+<translation id="1448049584457347995">Um Dissenter sicherer zu machen, haben wir einige Erweiterungen deaktiviert, die nicht im <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> aufgeführt sind und möglicherweise ohne Ihr Wissen hinzugefügt wurden.</translation>
+<translation id="8848045066928358658">Um Dissenter sicherer zu machen, haben wir die folgende Erweiterung deaktiviert. Sie ist nicht im <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> aufgeführt und wurde möglicherweise ohne Ihr Wissen hinzugefügt.</translation>
+<translation id="8148611988012584308">Dissenter anpassen und einstellen</translation>
+<translation id="5849446944780602366">Dissenter anpassen und Einstellungen festlegen. Ein Update ist verfügbar.</translation>
+<translation id="6315734375101223238">Sie können Dissenter anpassen und Einstellungen festlegen. Etwas erfordert Ihre Aufmerksamkeit – klicken Sie, um mehr zu erfahren.</translation>
+<translation id="9071554113102421877">&amp;In Dissenter öffnen</translation>
+<translation id="2176825726964012531">Über &amp;Dissenter</translation>
+<translation id="5450493308072741203">&amp;Dissenter aktualisieren</translation>
+<translation id="1421502046520299169">Über &amp;Dissenter OS</translation>
+<translation id="2534623228451928732">&amp;Dissenter OS aktualisieren</translation>
+<translation id="8447483940522230788">Dissenter Helper</translation>
+<translation id="5477319665405831211">Dissenter wird auf allen Ihren Geräten synchronisiert und personalisiert</translation>
+<translation id="8132634101975074716">Sie sind in Dissenter angemeldet.</translation>
+<translation id="4567424176335768812">Sie sind als <ph name="USER_EMAIL_ADDRESS"/> angemeldet. Auf allen Geräten, auf denen Sie angemeldet sind, sind nun Ihre Lesezeichen, Ihr Verlauf und andere Einstellungen verfügbar.</translation>
+<translation id="2925193881330501265">Sie waren in Dissenter als <ph name="USER_EMAIL_ADDRESS"/> angemeldet. Melden Sie sich bitte wieder mit demselben Konto an.</translation>
+<translation id="847561904663814268">Auf diesem Computer war zuvor ein Nutzer mit dem Konto <ph name="ACCOUNT_EMAIL_LAST"/> in Dissenter angemeldet. Erstellen Sie einen neuen Dissenter-Nutzer, um Ihre Daten getrennt zu verwenden.</translation>
+<translation id="1853997773668795891">Ihre Dissenter-Daten mit diesem Konto verknüpfen?</translation>
+<translation id="1326766910007115955">Sie melden sich mit einem verwalteten Konto an und ermöglichen dessen Administrator Zugriff auf Ihr Dissenter-Profil. Ihre Dissenter-Daten, wie Apps, Lesezeichen, Verlauf, Passwörter und andere Einstellungen, werden dauerhaft mit <ph name="USER_NAME"/> verknüpft. Sie können diese Daten über das Gab AI Inc Konten-Dashboard löschen, aber nicht mit einem anderen Konto verknüpfen. <ph name="LEARN_MORE"/></translation>
+<translation id="650055380213106997">Sie melden sich mit einem verwalteten Konto an und ermöglichen dessen Administrator Zugriff auf Ihr Dissenter-Profil. Ihre Dissenter-Daten, wie Apps, Lesezeichen, Verlauf, Passwörter und andere Einstellungen, werden dauerhaft mit <ph name="USER_NAME"/> verknüpft. Sie können diese Daten über das Gab AI Inc Konten-Dashboard löschen, aber nicht mit einem anderen Konto verknüpfen. Wenn Sie Ihre bestehenden Dissenter-Daten getrennt verwenden möchten, können Sie ein neues Profil erstellen. <ph name="LEARN_MORE"/></translation>
+<translation id="2444257125841652328">Ihr Systemadministrator hat Dissenter so konfiguriert, dass ein alternativer Browser für den Zugriff auf <ph name="TARGET_URL_HOSTNAME"/> geöffnet wird.</translation>
+<translation id="5380963249588143069">Ihr Systemadministrator hat Dissenter so konfiguriert, dass <ph name="ALTERNATIVE_BROWSER_NAME"/> für den Zugriff auf <ph name="TARGET_URL_HOSTNAME"/> geöffnet wird.</translation>
+<translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> hat zuvor Dissenter verwendet</translation>
+<translation id="1384923383737428730">Schädliche Software wurde auf Ihrem Computer gefunden. Dissenter kann diese Software entfernen, Ihre Einstellungen wiederherstellen und Erweiterungen deaktivieren, sodass Ihr Browser wieder wie gewohnt funktioniert.</translation>
+<translation id="8919921662052966648">Dissenter konnte Ihre Daten nicht synchronisieren. Bitte aktualisieren Sie Ihre Passphrase für die Synchronisierung.</translation>
+<translation id="2262856633481902138">Dissenter konnte Ihre Daten nicht synchronisieren, da die Anmeldedaten Ihres Kontos nicht mehr aktuell sind.</translation>
+<translation id="5419189641394808652">Dissenter konnte Ihre Daten nicht synchronisieren, da die Synchronisierung für Ihre Domain nicht zur Verfügung steht.</translation>
+<translation id="2577755334620061182">Dissenter konnte Ihre Daten aufgrund eines Fehlers bei der Anmeldung nicht synchronisieren.</translation>
+<translation id="8583885258305961947">Dissenter OS-System</translation>
+<translation id="3968006371075376562">Dissenter OS konnte Ihre Daten nicht synchronisieren. Bitte aktualisieren Sie Ihre Passphrase für die Synchronisierung.</translation>
+<translation id="6746636977031158624">Dissenter OS konnte Ihre Daten nicht synchronisieren, da die Anmeldedaten Ihres Kontos veraltet sind.</translation>
+<translation id="2999152167963026588">Dissenter OS konnte Ihre Daten nicht synchronisieren, da die Synchronisierung für Ihre Domain nicht verfügbar ist.</translation>
+<translation id="1459786048951724030">Dissenter OS konnte Ihre Daten aufgrund eines Fehlers bei der Anmeldung nicht synchronisieren.</translation>
+<translation id="6813094029720377619">Cookies werden gelöscht, wenn Sie Dissenter beenden. Ändern Sie <ph name="COOKIE_SETTINGS_LINK"/>, wenn die Synchronisierung fortgesetzt werden soll.</translation>
+<translation id="3340978935015468852">Einstellungen</translation>
+<translation id="380197516434040304">Aus Dissenter entfernen...</translation>
+<translation id="300669147395456190">Dissenter-Apps</translation>
+<translation id="3421950102518690868">Vor der Verwendung dieses Geräts ist es erforderlich, dass Sie die folgenden Nutzungsbedingungen von <ph name="DOMAIN"/> akzeptieren. Durch diese Nutzungsbedingungen werden die Dissenter OS-Nutzungsbedingungen nicht erweitert, geändert oder eingeschränkt.</translation>
+<translation id="3293668930608086049">Dissenter verwendet Ihre Kamera und Ihr Mikrofon.</translation>
+<translation id="8919461291440820124">Dissenter verwendet Ihr Mikrofon.</translation>
+<translation id="3205074487970075628">Dissenter verwendet Ihre Kamera.</translation>
+<translation id="8142245354207161805">Das Profil wird offenbar gerade von einem Dissenter-Prozess (<ph name="PROCESS_ID"/>) auf einem anderen Computer (<ph name="HOST_NAME"/>) verwendet. Das Profil wurde von Dissenter gesperrt, damit es nicht beschädigt wird. Wenn Sie sicher sind, dass das Profil nicht von anderen Prozessen verwendet wird, können Sie das Profil entsperren und Dissenter neu starten.</translation>
+<translation id="239760341987199724">Dissenter als Standardbrowser festlegen</translation>
+<translation id="669092380621816981">Die Browserdaten dieses Profils werden von diesem Gerät gelöscht. Wenn Sie die Daten wiederherstellen möchten, melden Sie sich als <ph name="USER_EMAIL"/> in Dissenter an.</translation>
+<translation id="2827121003398607864">Dissenter ist jetzt noch besser</translation>
+<translation id="7192666605334070839">Sie können Dissenter jetzt noch einfacher mit Ihrem Gab AI Inc-Konto und auf gemeinsam genutzten Computern verwenden.</translation>
+<translation id="4100716194836114130">Dies ist Ihr persönlicher Dissenter-Browser</translation>
+<translation id="3511996232906761537">Hier können Sie im Web surfen und Ihre Lesezeichen und andere Dissenter-Inhalte speichern.</translation>
+<translation id="7406627712452599344">Gastnutzer können Dissenter verwenden, ohne Daten zu hinterlassen.</translation>
+<translation id="5659384504794665581">Bei gemeinsam genutzten Computern können die verschiedenen Personen separat surfen und Dissenter jeweils nach ihren Wünschen einrichten.</translation>
+<translation id="7130675370997202556">Klicken Sie auf Ihren Namen, um Dissenter zu öffnen und im Web zu surfen.</translation>
+<translation id="5952898964075639679">Mich zu Dissenter hinzufügen</translation>
+<translation id="3813272600615358652">Die beim Start von Dissenter angezeigte Seite wurde durch diese Erweiterung geändert.</translation>
+<translation id="2576129394594491151">Die beim Start von Dissenter angezeigte Seite wurde durch die Erweiterung <ph name="EXTENSION_NAME"/> geändert.</translation>
+<translation id="2675662665675552980">Die Erweiterung legt auch die Seite fest, die beim Start von Dissenter angezeigt wird.</translation>
+<translation id="3215652305414474626">Die Erweiterung legt auch fest, welche Seite beim Start von Dissenter angezeigt wird oder wenn Sie auf die Schaltfläche "Startseite" klicken.</translation>
+<translation id="2433912322225810055">Die Erweiterung legt auch fest, welche Seite beim Start von Dissenter oder bei der Suche über die Omnibox angezeigt wird.</translation>
+<translation id="2871190378186459992">Entdecken Sie tolle Apps, Spiele, Erweiterungen und Designs für Dissenter.</translation>
+<translation id="3350544518197210895">Dissenter (mDNS-In)</translation>
+<translation id="5846303060623790781">Dissenter Beta (mDNS-In)</translation>
+<translation id="3599046180970731601">Dissenter Nightly (mDNS-In)</translation>
+<translation id="7881806463410697784">Dissenter Dev (mDNS-In)</translation>
+<translation id="1912973375560256099">Eingangsregel für die Zulassung von mDNS-Verkehr in Dissenter</translation>
+<translation id="7272074097076644710">Eingehende Regel für Dissenter Beta um mDNS-Verkehr zu erlauben.</translation>
+<translation id="4991512282053949769">Eingehende Regel für Dissenter Nightly um mDNS-Verkehr zu erlauben.</translation>
+<translation id="3856641371299712128">Eingehende Regel für Dissenter Dev um mDNS-Verkehr zu erlauben.</translation>
+<translation id="8207657266087451193">Wenn ein Bild keine brauchbare Beschreibung hat, versucht Dissenter, eine für Sie zu finden. Damit entsprechende Beschreibungen erstellt werden können, werden die Bilder an Gab AI Inc gesendet. Sie können dies jederzeit in den Einstellungen deaktivieren.</translation>
+<translation id="5499063270485366718">Wenn ein Bild keine brauchbare Beschreibung hat, versucht Dissenter, eine für Sie zu finden. Damit entsprechende Beschreibungen erstellt werden können, werden die Bilder an Gab AI Inc gesendet.</translation>
+<translation id="215320507915280336">Es wird dieselbe Rechtschreibprüfung wie in der Gab AI Inc-Suche verwendet. Der in den Browser eingegebene Text wird an Gab AI Inc gesendet. Sie können dies jederzeit in den Einstellungen ändern.</translation>
+<translation id="1807774211756215222">Link in neuem Dissenter-Tab öffnen</translation>
+<translation id="4624945300945265642">Link in privatem Fenster öffnen</translation>
+<translation id="7863882214613921971">Link in neuem Dissenter-Tab öffnen</translation>
+<translation id="6554952862405000915">Link in privatem Fenster öffnen</translation>
+<translation id="4805806622840861220">Dissenter neu starten</translation>
+<translation id="8274659559228306809">{COUNT,plural, =0{Ein neues Update für Dissenter ist verfügbar und wird installiert, sobald Sie den Browser neu starten.}=1{Ein neues Update für Dissenter ist verfügbar und wird installiert, sobald Sie den Browser neu starten. Ihr Inkognitofenster wird nicht wieder geöffnet.}other{Ein neues Update für Dissenter ist verfügbar und wird installiert, sobald Sie den Browser neu starten. Ihre # Inkognitofenster werden nicht wieder geöffnet.}}</translation>
+<translation id="2799223571221894425">Neu starten</translation>
+<translation id="2522086024276534909">Dissenter OS neu starten</translation>
+<translation id="8183252473547465084">Dissenter OS muss neu gestartet werden, um das Update zu übernehmen.</translation>
+<translation id="5895138241574237353">Neu starten</translation>
+<translation id="8887390605192156061">Alle Instanzen von Dissenter schließen.</translation>
+<translation id="1801551749768408825">Andere Instanzen von Dissenter sind noch aktiv. Bitte schließen Sie diese, um den Browser zu aktualisieren.</translation>
+<translation id="2632141563911437138">Zum Aktualisieren muss Dissenter auf diesem Computer geschlossen werden. Nicht gespeicherte Änderungen von anderen Nutzern, die auf diesem Computer angemeldet sind, gehen dann eventuell verloren.</translation>
+<translation id="5875673934455379806">Dissenter neu installieren</translation>
+<translation id="2097604701283463988">Dissenter ist veraltet.</translation>
+<translation id="5173820533850252773">Dissenter ist veraltet.</translation>
+<translation id="6389268239133412586">Dissenter kann nicht aktualisiert werden</translation>
+<translation id="7963515534397191222">Dissenter konnte nicht auf die neueste Version aktualisiert werden. In Ihrer Version fehlen daher einige neue Funktionen und Sicherheitspatches.</translation>
+<translation id="1705567146636171298">Dissenter aktualisieren</translation>
+<translation id="3598551856834560515">Aktualisieren Sie Dissenter, um die Synchronisierung zu starten</translation>
+<translation id="4050175100176540509">Wichtige Sicherheitsverbesserungen und neue Funktionen sind in der aktuellen Version verfügbar.</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{Dissenter wird in 1 Sekunde neu gestartet}other{Dissenter wird in # Sekunden neu gestartet}}</translation>
+<translation id="5646769069113654257">Starten Sie Dissenter jetzt neu</translation>
+<translation id="8668413672647811944">Da soeben ein kritisches Sicherheitsupdate für Dissenter installiert wurde, sollten Sie jetzt einen Neustart durchführen. Ihre Tabs werden dann automatisch wiederhergestellt.</translation>
+<translation id="6791166902140255175">Dissenter-Tab</translation>
+<translation id="2555639463117073782">Dissenter neu starten, um <ph name="PLUGIN_NAME"/> zu aktivieren</translation>
+<translation id="2034072705932785495">Dissenter benötigt für diese Website die Berechtigung, auf Ihre Kamera zuzugreifen</translation>
+<translation id="3335606533094650083">Dissenter benötigt für diese Website die Berechtigung, auf Ihr Mikrofon zuzugreifen</translation>
+<translation id="4831743161813926460">Dissenter benötigt für diese Website die Berechtigung, auf Ihre Kamera und Ihr Mikrofon zuzugreifen</translation>
+<translation id="696826782632239602">Dissenter benötigt Zugriff auf Ihren Standort, um ihn mit dieser Website zu teilen</translation>
+<translation id="7798069806040634998">Dissenter benötigt Speicherzugriff, um Dateien herunterladen zu können</translation>
+<translation id="7685904775439037072">Sobald Dissenter Zugriff hat, können Websites Sie um Zugriff bitten.</translation>
+<translation id="1744365871163268756">Bitte warten Sie, bis die aktuellen Systemupdates von Dissenter installiert wurden.</translation>
+<translation id="8000338990735917615">Künftige Versionen von Dissenter werden automatisch installiert.</translation>
+<translation id="2975476470948647918">Künftige Versionen von Dissenter werden automatisch installiert. Nach Abschluss des Downloads wird Dissenter neu gestartet und Sie können fortfahren.</translation>
+<translation id="7808415789955822133">Dissenter OS-Nutzungsbedingungen</translation>
+<translation id="7207456302801184289">Willkommen bei Dissenter</translation>
+<translation id="3507835409099344374">Zu Dissenter-Benachrichtigungseinstellungen wechseln</translation>
+<translation id="1026406809507858026">{0,plural, =0{Ein Dissenter-Update ist verfügbar}=1{Ein Dissenter-Update ist verfügbar}other{Ein Dissenter-Update ist seit # Tagen verfügbar}}</translation>
+<translation id="3829358914761176693">{COUNT,plural, =0{Laut Ihrem Administrator sollten Sie Dissenter neu starten, um dieses Update durchzuführen}=1{Laut Ihrem Administrator sollten Sie Dissenter neu starten, um dieses Update durchzuführen. Ihr Inkognitofenster wird nicht wieder geöffnet.}other{Laut Ihrem Administrator sollten Sie Dissenter neu starten, um dieses Update durchzuführen. Ihre # Inkognitofenster werden nicht wieder geöffnet.}}</translation>
+<translation id="5337999052834672687">{0,plural, =1{Dissenter innerhalb eines Tages neu starten}other{Dissenter innerhalb von # Tagen neu starten}}</translation>
+<translation id="310518206836658214">{0,plural, =1{Dissenter wird in einer Stunde neu gestartet}other{Dissenter wird in # Stunden neu gestartet}}</translation>
+<translation id="3186363903915641692">{0,plural, =1{Dissenter wird in einer Minute neu gestartet}other{Dissenter wird in # Minuten neu gestartet}}</translation>
+<translation id="3574823187131579180">{0,plural, =0{Dissenter wird jetzt neu gestartet}=1{Dissenter wird in einer Sekunde neu gestartet}other{Dissenter wird in # Sekunden neu gestartet}}</translation>
+<translation id="552349673358711446">{COUNT,plural, =0{Laut Ihrem Administrator müssen Sie Dissenter neu starten, um ein Update durchzuführen}=1{Laut Ihrem Administrator müssen Sie Dissenter neu starten, um ein Update durchzuführen. Ihr Inkognitofenster wird nicht wieder geöffnet.}other{Laut Ihrem Administrator müssen Sie Dissenter neu starten, um ein Update durchzuführen. Ihre # Inkognitofenster werden nicht wieder geöffnet.}}</translation>
+<translation id="3052349005266761501">Dissenter wird gestartet…</translation>
+<translation id="1197672524850678392">Dissenter konnte nicht gestartet werden. Versuchen Sie es noch einmal.</translation>
+<translation id="5147525139567260139">Dissenter-Tab freigeben</translation>
+<translation id="8541922081612557424">Über Dissenter</translation>
+<translation id="3262506503470845422">Hilfe für Dissenter aufrufen</translation>
+<translation id="1864557848095568223">Dissenter wird aktualisiert</translation>
+<translation id="1786715389543715322">Dissenter wird aktualisiert (<ph name="PROGRESS_PERCENT"/>)</translation>
+<translation id="2182657378556811785">Fast fertig! Starten Sie Dissenter neu, um die Aktualisierung abzuschließen.</translation>
+<translation id="8208853227947884571">Dissenter ist auf dem neuesten Stand</translation>
+<translation id="6686872257969654608">Über Dissenter OS</translation>
+<translation id="7674116293463255181">Sie können anhand der <ph name="LINK_BEGIN"/>Einstellungen von Dissenter OS<ph name="LINK_END"/> sehen, ob Ihr Gerät auf dem neuesten Stand ist</translation>
+<translation id="2280363356796735201">Hilfe für Dissenter OS aufrufen</translation>
+<translation id="38898988211673781">Cookies und Websitedaten beim Beenden von Dissenter löschen</translation>
+<translation id="5253815230176279256">Gab AI Inc Pay (in Dissenter kopiert)</translation>
+<translation id="5468853758063275923">Dissenter ist Ihr Standardbrowser</translation>
+<translation id="1775322105159056176">Dissenter kann den Standardbrowser nicht bestimmen oder festlegen</translation>
+<translation id="6915252145142862992">Dies ist eine Zweitinstallation, daher kann Dissenter nicht als Standardbrowser festgelegt werden.</translation>
+<translation id="6235873178214143377">Wenn Sie auf dieser Seite eine Einstellung nicht finden können, sehen Sie in den <ph name="LINK_BEGIN"/>Dissenter-Browsereinstellungen<ph name="LINK_END"/> nach</translation>
+<translation id="4459296183696059108">Wenn Sie auf dieser Seite eine Einstellung nicht finden können, sehen Sie in den <ph name="LINK_BEGIN"/>Einstellungen von Dissenter OS<ph name="LINK_END"/> nach</translation>
+<translation id="7977435741986383568">Dissenter verwendet möglicherweise Webdienste zur Verbesserung Ihrer Nutzererfahrung beim Surfen im Internet. Sie haben die Möglichkeit, diese Dienste zu deaktivieren. <ph name="BEGIN_LINK"/>Weitere Informationen<ph name="END_LINK"/></translation>
+<translation id="2312399718665761438">Zur Behebung von Tippfehlern sendet Dissenter eingegebenen Text an Gab AI Inc</translation>
+<translation id="8586264863973514035">Starten Sie Dissenter neu, um die Änderungen zu übernehmen</translation>
+<translation id="7021823858304886493">Anmeldung in Dissenter zulassen</translation>
+<translation id="1649714546770135458">Wenn Sie diese Einstellung deaktivieren, können Sie sich auf Websites von Gab AI Inc wie beispielsweise Gmail anmelden, ohne sich auch in Dissenter anmelden zu müssen</translation>
+<translation id="9220324636239049437">Dadurch wird 1 Element von diesem Gerät gelöscht. Wenn Sie Ihre Daten später abrufen möchten, melden Sie sich als <ph name="USER_EMAIL"/> in Dissenter an.</translation>
+<translation id="5853262807109651878">Dadurch werden <ph name="ITEMS_COUNT"/> Elemente von diesem Gerät gelöscht. Wenn Sie Ihre Daten später abrufen möchten, melden Sie sich als <ph name="USER_EMAIL"/> in Dissenter an.</translation>
+<translation id="4784414698887946907">Dadurch werden Ihre Browserdaten von diesem Gerät gelöscht. Wenn Sie Ihre Daten später abrufen möchten, melden Sie sich als <ph name="USER_EMAIL"/> in Dissenter an.</translation>
+<translation id="4518479204315969707">Dissenter-Name und -Bild</translation>
+<translation id="82609232232243542">In Dissenter anmelden</translation>
+<translation id="8372880274820509128">Dissenter verschlüsselt Ihre Daten zur Erhöhung der Sicherheit.</translation>
+<translation id="7445061995866044926">Von Dissenter abmelden?</translation>
+<translation id="7453070689008684791">Dissenter greift auf Gab AI Inc Drive zu, um in der Adressleiste Vorschläge zu machen</translation>
+<translation id="3360368475735266712">Wenn Sie sich anmelden, wird Dissenter auf allen Ihren Geräten synchronisiert und personalisiert</translation>
+<translation id="5757460455745382269">Dissenter wird in dieser Sprache dargestellt</translation>
+<translation id="2335583906071111058">Dissenter in dieser Sprache anzeigen</translation>
+<translation id="8926637909431618259">Apps weiter im Hintergrund ausführen, wenn Dissenter geschlossen wird</translation>
+<translation id="6056473803837713617">Helfen Sie uns mit Ihrem Feedback zu den <ph name="BEGIN_LINK"/>aktuellen Einstellungen<ph name="END_LINK"/> bei der Verbesserung von Dissenter</translation>
 </translationbundle>

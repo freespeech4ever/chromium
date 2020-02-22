@@ -12,6 +12,7 @@
 #include "base/location.h"
 #include "base/memory/ptr_util.h"
 #include "base/threading/thread_task_runner_handle.h"
+#include "brave/browser/ui/webui/brave_web_ui_controller_factory.h"
 #include "build/build_config.h"
 #include "chrome/browser/about_flags.h"
 #include "chrome/browser/accessibility/accessibility_ui.h"
@@ -816,7 +817,7 @@ void ChromeWebUIControllerFactory::GetFaviconForURL(
 
 // static
 ChromeWebUIControllerFactory* ChromeWebUIControllerFactory::GetInstance() {
-  return base::Singleton<ChromeWebUIControllerFactory>::get();
+  return BraveWebUIControllerFactory::GetInstance();
 }
 
 // static

@@ -180,7 +180,7 @@ import java.util.Locale;
  * This is the main activity for ChromeMobile when not running in document mode.  All the tabs
  * are accessible via a chrome specific tab switching UI.
  */
-public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMonitorDelegate {
+public class ChromeTabbedActivity extends BraveActivity implements ScreenshotMonitorDelegate {
     /**
      * The results of a system back press action.
      */

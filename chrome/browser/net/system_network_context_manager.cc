@@ -295,7 +295,7 @@ class SystemNetworkContextManager::URLLoaderFactoryForSystem
     if (!manager_)
       return;
     manager_->GetURLLoaderFactory()->CreateLoaderAndStart(
-        std::move(request), routing_id, request_id, options, url_request,
+        std::move(request), routing_id, request_id, options, brave::OnBeforeSystemRequest(url_request),
         std::move(client), traffic_annotation);
   }
 

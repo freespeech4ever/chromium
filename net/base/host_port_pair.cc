@@ -24,6 +24,7 @@ HostPortPair::HostPortPair(const std::string& in_host, uint16_t in_port)
 
 // static
 HostPortPair HostPortPair::FromURL(const GURL& url) {
+  BRAVE_HOST_PORT_PAIR_FROM_URL_
   return HostPortPair(url.HostNoBrackets(),
                       static_cast<uint16_t>(url.EffectiveIntPort()));
 }
@@ -35,6 +36,7 @@ HostPortPair HostPortPair::FromIPEndPoint(const IPEndPoint& ipe) {
 
 // static
 HostPortPair HostPortPair::FromString(const std::string& str) {
+  BRAVE_HOST_PORT_PAIR_FROM_STRING_
   std::vector<base::StringPiece> key_port = base::SplitStringPiece(
       str, ":", base::TRIM_WHITESPACE, base::SPLIT_WANT_ALL);
   if (key_port.size() != 2)
@@ -54,6 +56,7 @@ std::string HostPortPair::ToString() const {
   std::string ret(HostForURL());
   ret += ':';
   ret += base::NumberToString(port_);
+  BRAVE_HOST_PORT_PAIR_TO_STRING_
   return ret;
 }
 

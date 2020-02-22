@@ -16,6 +16,7 @@
 #include "extensions/buildflags/buildflags.h"
 #include "ppapi/buildflags/buildflags.h"
 
+class BraveRenderMessageFilter;
 class GURL;
 class Profile;
 
@@ -47,6 +48,7 @@ class ChromeRenderMessageFilter : public content::BrowserMessageFilter {
                                 content::BrowserThread::ID* thread) override;
 
  private:
+  friend class BraveRenderMessageFilter;
   friend class content::BrowserThread;
   friend class base::DeleteHelper<ChromeRenderMessageFilter>;
 

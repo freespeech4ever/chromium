@@ -30,7 +30,7 @@ import java.util.List;
  * Media to its own dedicated PreferenceFragment rather than sharing this one.
  */
 public class SiteSettingsPreferences
-        extends PreferenceFragmentCompat implements Preference.OnPreferenceClickListener {
+        extends BraveSiteSettingsPreferencesBase implements Preference.OnPreferenceClickListener {
     // The keys for each category shown on the Site Settings page
     // are defined in the SiteSettingsCategory, additional keys
     // are listed here.

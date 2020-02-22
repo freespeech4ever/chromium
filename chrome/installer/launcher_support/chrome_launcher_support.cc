@@ -29,12 +29,24 @@ const wchar_t kBrowserAppGuid[] = L"{8A69D345-D564-463c-AFF1-A69D9E530F96}";
 
 // Copied frome google_chrome_sxs_distribution.cc.
 const wchar_t kSxSBrowserAppGuid[] = L"{4ea16ac7-fd5a-47c3-875b-dbf4a2008c20}";
+#elif defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
+const wchar_t kInstallationRegKey[] =
+    L"Software\\GabAI\\Update\\ClientState";
+// Copied from
+// brave/chromium_src/chrome_install_static/chromium_install_modes.cc
+const wchar_t kBinariesAppGuid[] = L"{DA2C89DD-D3D6-4E1C-9534-27E0F66759A1}";
+const wchar_t kBrowserAppGuid[] =  L"{0C12B489-0B55-4F8B-8EB7-640256ADBE54}";
+const wchar_t kSxSBrowserAppGuid[] = L"{7D06B97B-CBC7-49E6-8440-4A6750F016A6}";
 #else
 const wchar_t kInstallationRegKey[] = L"Software\\Chromium";
 #endif
 
 // Copied from util_constants.cc.
+#if defined(BRAVE_CHROMIUM_BUILD)
+const wchar_t kChromeExe[] = L"dissenter.exe";
+#else
 const wchar_t kChromeExe[] = L"chrome.exe";
+#endif
 const wchar_t kUninstallStringField[] = L"UninstallString";
 
 // Reads a string value from the specified product's registry key. Returns true
@@ -77,7 +89,7 @@ base::FilePath GetSetupExeFromRegistry(InstallationLevel level,
 // be found via the registry.
 base::FilePath GetSetupExeForInstallationLevel(InstallationLevel level) {
   base::FilePath setup_exe_path;
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
+#if BUILDFLAG(GOOGLE_CHROME_BRANDING) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
   // Look in the registry for Chrome Binaries first.
   setup_exe_path = GetSetupExeFromRegistry(level, kBinariesAppGuid);
   // If the above fails, look in the registry for Chrome next.
@@ -119,7 +131,7 @@ base::FilePath FindExeRelativeToSetupExe(const base::FilePath setup_exe_path,
 base::FilePath GetChromePathForInstallationLevel(InstallationLevel level,
                                                  bool is_sxs) {
   if (is_sxs) {
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
+#if BUILDFLAG(GOOGLE_CHROME_BRANDING) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
     return FindExeRelativeToSetupExe(
         GetSetupExeFromRegistry(level, kSxSBrowserAppGuid), kChromeExe);
 #else

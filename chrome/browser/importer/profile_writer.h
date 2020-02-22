@@ -86,6 +86,7 @@ class ProfileWriter : public base::RefCountedThreadSafe<ProfileWriter> {
 
  protected:
   friend class base::RefCountedThreadSafe<ProfileWriter>;
+  friend class BraveProfileWriter;
 
   virtual ~ProfileWriter();
 

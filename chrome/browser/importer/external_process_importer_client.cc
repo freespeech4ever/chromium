@@ -68,6 +68,12 @@ void ExternalProcessImporterClient::Start() {
   localized_strings.try_emplace(
       IDS_BOOKMARK_BAR_FOLDER_NAME,
       l10n_util::GetStringUTF8(IDS_BOOKMARK_BAR_FOLDER_NAME));
+  localized_strings.try_emplace(
+      IDS_IMPORT_FROM_BRAVE,
+      l10n_util::GetStringUTF8(IDS_IMPORT_FROM_BRAVE));
+  localized_strings.try_emplace(
+      IDS_BOOKMARK_GROUP_FROM_BRAVE,
+      l10n_util::GetStringUTF8(IDS_BOOKMARK_GROUP_FROM_BRAVE));
 
   // If the utility process hasn't started yet the message will queue until it
   // does.

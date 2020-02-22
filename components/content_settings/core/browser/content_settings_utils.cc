@@ -156,6 +156,14 @@ void GetRendererContentSettingRules(const HostContentSettingsMap* map,
                              &(rules->client_hints_rules));
   map->GetSettingsForOneType(CONTENT_SETTINGS_TYPE_POPUPS, ResourceIdentifier(),
                              &(rules->popup_redirect_rules));
+  map->GetSettingsForOneType(
+      CONTENT_SETTINGS_TYPE_PLUGINS,
+      "fingerprinting",
+      &(rules->fingerprinting_rules));
+  map->GetSettingsForOneType(
+      CONTENT_SETTINGS_TYPE_PLUGINS,
+      "braveShields",
+      &(rules->brave_shields_rules));
 }
 
 bool IsMorePermissive(ContentSetting a, ContentSetting b) {

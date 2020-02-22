@@ -310,6 +310,8 @@ content::WebUIDataSource* CreateMdExtensionsSource(Profile* profile,
   source->SetDefaultResource(IDR_EXTENSIONS_EXTENSIONS_HTML);
 #endif
 
+  BraveAddExtensionsResources(source);
+
   return source;
 }
 

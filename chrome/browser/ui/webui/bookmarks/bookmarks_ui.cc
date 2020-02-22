@@ -46,6 +46,7 @@ content::WebUIDataSource* CreateBookmarksUIHTMLSource(Profile* profile) {
   content::WebUIDataSource* source =
       content::WebUIDataSource::Create(chrome::kChromeUIBookmarksHost);
 
+  BraveCustomizeBookmarksDataSource(source);
   // Build an Accelerator to describe undo shortcut
   // NOTE: the undo shortcut is also defined in bookmarks/command_manager.js
   // TODO(crbug/893033): de-duplicate shortcut by moving all shortcut

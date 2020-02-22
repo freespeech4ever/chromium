@@ -236,4 +236,5 @@ public class BottomControlsCoordinator {
         if (mTabGroupUi != null) mTabGroupUi.destroy();
         mMediator.destroy();
     }
+    public void updateBookmarkButton(boolean isBookmarked, boolean editingAllowed) {if (mBottomToolbarCoordinator != null) { mBottomToolbarCoordinator.updateBookmarkButton(isBookmarked, editingAllowed);}}
 }

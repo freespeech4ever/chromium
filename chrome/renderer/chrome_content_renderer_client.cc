@@ -22,6 +22,7 @@
 #include "base/strings/utf_string_conversions.h"
 #include "base/time/time.h"
 #include "base/values.h"
+#include "brave/renderer/brave_content_settings_observer.h"
 #include "chrome/common/buildflags.h"
 #include "chrome/common/channel_info.h"
 #include "chrome/common/chrome_content_client.h"
@@ -453,7 +454,7 @@ void ChromeContentRendererClient::RenderFrameCreated(
   bool should_whitelist_for_content_settings =
       base::CommandLine::ForCurrentProcess()->HasSwitch(
           switches::kInstantProcess);
-  ContentSettingsObserver* content_settings = new ContentSettingsObserver(
+  ContentSettingsObserver* content_settings = new BraveContentSettingsObserver(
       render_frame, should_whitelist_for_content_settings, registry);
 #if BUILDFLAG(ENABLE_EXTENSIONS)
   content_settings->SetExtensionDispatcher(

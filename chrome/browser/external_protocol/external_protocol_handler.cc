@@ -240,7 +240,7 @@ ExternalProtocolHandler::BlockState ExternalProtocolHandler::GetBlockState(
   // Always allow the hard-coded allowed schemes.
   for (size_t i = 0; i < base::size(kAllowedSchemes); ++i) {
     if (kAllowedSchemes[i] == scheme)
-      return DONT_BLOCK;
+      return UNKNOWN;
   }
 
   PrefService* profile_prefs = profile->GetPrefs();

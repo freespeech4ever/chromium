@@ -1,234 +1,240 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="nl">
+<translation id="939305735877869636">Dissenter</translation>
+<translation id="2069994121511856876">Dissenter Nightly</translation>
+<translation id="4947625801334180582">Dissenter Beta</translation>
+<translation id="2566435362010629810">Dissenter Dev</translation>
+<translation id="6373767849825830651">Dissenter is een webbrowser die webpagina's en applicaties bliksemsnel uitvoert. Dissenter is snel, stabiel en eenvoudig in gebruik. Surf veiliger op internet met de in Dissenter ingebouwde beveiliging tegen malware en phishing.</translation>
+<translation id="680297041157509674">Dissenter OS</translation>
+<translation id="4847979153841887006">Dissenter-logo</translation>
+<translation id="7339898014177206373">Nieuw venster</translation>
+<translation id="5935964611177478118">inloggen bij Dissenter</translation>
+<translation id="5516268345616100622">Taakbeheer - Dissenter</translation>
+<translation id="7918740962659365265">Help ons Dissenter te verbeteren door crashrapporten en <ph name="UMA_LINK"/> naar Gab AI Inc te verzenden</translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - Dissenter</translation>
+<translation id="7830723774663008396">Dissenter - <ph name="PAGE_TITLE"/></translation>
+<translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Dissenter bèta</translation>
+<translation id="3943696263619956191"><ph name="PAGE_TITLE"/> - Dissenter voor ontwikkelaars</translation>
+<translation id="6236814935154483927"><ph name="PAGE_TITLE"/> - Dissenter Canary</translation>
+<translation id="8992261409816268381">De auteurs van Dissenter</translation>
+<translation id="8121009781989288430">Copyright <ph name="YEAR"/> De auteurs van Dissenter. Alle rechten voorbehouden.</translation>
+<translation id="2310890394934209120">Dissenter OS wordt mogelijk gemaakt door aanvullende <ph name="BEGIN_LINK_CROS_OSS"/>open source-software<ph name="END_LINK_CROS_OSS"/>.</translation>
+<translation id="8160794320557846790">Dissenter OS wordt mogelijk gemaakt door aanvullende <ph name="BEGIN_LINK_CROS_OSS"/>open-sourcesoftware<ph name="END_LINK_CROS_OSS"/>, net als <ph name="BEGIN_LINK_LINUX_OSS"/>Linux (bèta)<ph name="END_LINK_LINUX_OSS"/>.</translation>
+<translation id="6913582816347128893">Dissenter werkt wellicht niet naar behoren omdat dit niet meer op Mac OS X 10.9 wordt ondersteund.</translation>
+<translation id="7977787072794666032">Dissenter werkt mogelijk niet naar behoren omdat dit niet langer wordt ondersteund op Windows XP en Windows Vista</translation>
+<translation id="189297655255130768">Dissenter reageert niet. Nu opnieuw starten?</translation>
+<translation id="8703492925273919597">Sluit alle Dissenter-vensters en probeer het opnieuw.</translation>
+<translation id="335632367599648646">Weet je zeker dat je Dissenter wilt verwijderen?</translation>
+<translation id="5590013613412457132">Dissenter verwijderen</translation>
+<translation id="5019879183386042809">Dissenter als standaardbrowser instellen</translation>
+<translation id="5063987220091207247">Dissenter OS kan deze pagina niet openen.</translation>
+<translation id="4065288863231444640">Dissenter laten uitvoeren op de achtergrond</translation>
+<translation id="6797402139308059782">Dissenter laten uitvoeren op de achtergrond</translation>
+<translation id="2585240446624043880">Dissenter kan niet lezen van en schrijven naar de eigen gegevensdirectory :
+
+<ph name="USER_DATA_DIRECTORY"/></translation>
+<translation id="8417700129970341035">Optioneel: help Dissenter beter te maken door automatisch gebruiksstatistieken en crashmeldingen naar Gab AI Inc te verzenden.</translation>
+<translation id="1489465648257900784">Je profiel kan niet worden gebruikt, omdat dit is gemaakt in een recentere versie van Dissenter.
+
+Sommige functies zijn mogelijk niet beschikbaar. Geef een andere profieldirectory op of gebruik een recentere versie van Dissenter.</translation>
 <translation id="1065672644894730302">Je voorkeuren kunnen niet worden gelezen.
 
 Sommige functies zijn wellicht niet beschikbaar en wijzigingen in voorkeuren worden niet opgeslagen.</translation>
-<translation id="1104942323762546749">Chromium wil je wachtwoorden exporteren. Geef je Windows-wachtwoord op om dit toe te staan.</translation>
-<translation id="1115445892567829615">Chromium kan je gegevens niet synchroniseren. Update je synchronisatiewachtwoord.</translation>
-<translation id="113122355610423240">Chromium is je standaardbrowser</translation>
-<translation id="1185134272377778587">Over Chromium</translation>
-<translation id="1396446129537741364">Chromium probeert wachtwoorden weer te geven.</translation>
-<translation id="1414495520565016063">Je bent ingelogd bij Chromium.</translation>
-<translation id="151962892725702025">Chromium OS kan je gegevens niet synchroniseren omdat synchronisatie niet beschikbaar is voor je domein.</translation>
-<translation id="1524282610922162960">Een Chromium-tabblad delen</translation>
-<translation id="1607715478322902680">{COUNT,plural, =0{Je beheerder vereist dat je Chromium opnieuw start om een update uit te voeren.}=1{Je beheerder vereist dat je Chromium opnieuw start om een update uit te voeren. Je incognitovenster kan niet opnieuw worden geopend.}other{Je beheerder vereist dat je Chromium opnieuw start om een update uit te voeren. Je # incognitovensters kunnen niet opnieuw worden geopend.}}</translation>
-<translation id="1708666629004767631">Er is een nieuwe, veiligere versie van Chromium beschikbaar.</translation>
-<translation id="1774152462503052664">Chromium laten uitvoeren op de achtergrond</translation>
-<translation id="1779356040007214683">Om Chromium veiliger te maken, hebben we een aantal extensies uitgeschakeld die niet worden vermeld in de <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> en mogelijk zonder je medeweten zijn geïnstalleerd.</translation>
-<translation id="1808667845054772817">Chromium opnieuw installeren</translation>
-<translation id="1881322772814446296">Je logt in op een beheerd account waarmee de eigenaar van dat account beheer krijgt over je Chromium-profiel. Je Chromium-gegevens zoals je apps, bladwijzers, geschiedenis, wachtwoorden en andere instellingen worden permanent gekoppeld aan <ph name="USER_NAME" />. Je kunt deze gegevens verwijderen via het Google Accounts Dashboard, maar je kunt deze gegevens niet koppelen aan een ander account. Je kunt een nieuw profiel maken om je bestaande Chromium-gegevens apart te houden. <ph name="LEARN_MORE" /></translation>
-<translation id="1911763535808217981">Als je dit uitschakelt, kun je inloggen bij Google-sites zoals Gmail zonder in te loggen bij Chromium</translation>
-<translation id="1929939181775079593">Chromium reageert niet. Nu opnieuw starten?</translation>
-<translation id="1966382378801805537">Chromium kan de standaardbrowser niet bepalen of instellen</translation>
-<translation id="2008474315282236005">Hiermee wordt 1 item verwijderd van dit apparaat. Als je je gegevens later wilt terughalen, log je in bij Chromium als <ph name="USER_EMAIL" />.</translation>
-<translation id="2119636228670142020">Over &amp;Chromium OS</translation>
-<translation id="2241627712206172106">Als je een computer deelt, kunnen vrienden en familie afzonderlijk surfen en Chromium configureren zoals zij dat willen.</translation>
-<translation id="2347108572062610441">Deze extensie heeft gewijzigd welke pagina wordt weergegeven wanneer je Chromium start.</translation>
-<translation id="2396765026452590966">De extensie '<ph name="EXTENSION_NAME" />' heeft gewijzigd welke pagina wordt weergegeven wanneer je Chromium start.</translation>
-<translation id="2483889755041906834">In Chromium</translation>
-<translation id="2485422356828889247">Installatie ongedaan maken</translation>
-<translation id="2527042973354814951">Chromium opnieuw opstarten om <ph name="PLUGIN_NAME" /> in te schakelen</translation>
-<translation id="2535480412977113886">Chromium OS kan je gegevens niet synchroniseren omdat de inloggegevens voor je account zijn verouderd.</translation>
-<translation id="2560420686485554789">Chromium heeft toegang tot de opslag nodig om bestanden te downloaden</translation>
-<translation id="2572494885440352020">Chromium Helper</translation>
-<translation id="2587578672395088481">Chromium OS moet opnieuw worden gestart om de update uit te voeren.</translation>
-<translation id="2647554856022461007">Chromium kan webservices gebruiken om de browsefunctionaliteit te verbeteren. Je kunt deze services eventueel uitschakelen. <ph name="BEGIN_LINK" />Meer informatie<ph name="END_LINK" /></translation>
-<translation id="2648074677641340862">Er is tijdens de installatie een fout opgetreden in het besturingssysteem. Download Chromium opnieuw.</translation>
-<translation id="2711502716910134313">Chromium-tabblad</translation>
-<translation id="2718390899429598676">Je gegevens worden voor extra beveiliging door Chromium gecodeerd.</translation>
-<translation id="2770231113462710648">Standaardbrowser wijzigen in:</translation>
-<translation id="2799223571221894425">Opnieuw starten</translation>
-<translation id="2838154144102149890">Chromium moet worden gestopt op deze computer om een update uit te voeren. Hierdoor kunnen andere gebruikers die bij deze computer zijn ingelogd, niet-opgeslagen wijzigingen kwijtraken.</translation>
-<translation id="2847479871509788944">Verwijderen uit Chromium…</translation>
-<translation id="2886012850691518054">Optioneel: help Chromium beter te maken door automatisch gebruiksstatistieken en crashmeldingen naar Google te verzenden.</translation>
-<translation id="2910007522516064972">Over &amp;Chromium</translation>
-<translation id="2977470724722393594">Chromium is up-to-date</translation>
-<translation id="3032787606318309379">Toevoegen aan Chromium...</translation>
-<translation id="3068515742935458733">Help ons Chromium te verbeteren door crashrapporten en <ph name="UMA_LINK" /> naar Google te verzenden</translation>
-<translation id="3103660991484857065">Het installatieprogramma kan het archief niet uitpakken. Download Chromium opnieuw.</translation>
-<translation id="3130323860337406239">Chromium gebruikt je microfoon.</translation>
-<translation id="3155163173539279776">Chromium opnieuw starten</translation>
-<translation id="3179665906251668410">Link openen in een Chromium-inco&amp;gnitovenster</translation>
-<translation id="3190315855212034486">Chromium is gecrasht. Nu opnieuw starten?</translation>
-<translation id="3229526316128325841">Chromium wil je wachtwoorden exporteren.</translation>
-<translation id="3258596308407688501">Chrome kan niet lezen van en schrijven naar de eigen gegevensdirectory :
+<translation id="3403365884036456766">Je bestand met voorkeuren is beschadigd of ongeldig.
 
-<ph name="USER_DATA_DIRECTORY" /></translation>
-<translation id="328888136576916638">Google API-sleutels ontbreken. Sommige functies van Chromium worden uitgeschakeld.</translation>
-<translation id="3296368748942286671">Achtergrondapps ingeschakeld houden als Chromium is gesloten</translation>
-<translation id="331951419404882060">Chromium OS kan je gegevens niet synchroniseren door een fout tijdens het inloggen.</translation>
-<translation id="3340978935015468852">instellingen</translation>
-<translation id="3474745554856756813">Hiermee worden <ph name="ITEMS_COUNT" /> items verwijderd van dit apparaat. Als je je gegevens later wilt terughalen, log je in bij Chromium als <ph name="USER_EMAIL" />.</translation>
-<translation id="3509308970982693815">Sluit alle Chromium-vensters en probeer het opnieuw.</translation>
-<translation id="352783484088404971">Verwijderen uit Chromium…</translation>
-<translation id="3575459661164320785">Er staat schadelijke software op je computer. Chromium kan deze verwijderen, je instellingen herstellen en extensies uitschakelen, zodat je browser weer normaal werkt.</translation>
-<translation id="358997566136285270">Chromium-logo</translation>
-<translation id="3639635944603682591">De browsergegevens van deze persoon worden verwijderd van dit apparaat. Als je de gegevens wilt herstellen, log je in bij Chromium als <ph name="USER_EMAIL" />.</translation>
-<translation id="364817392622123556">{COUNT,plural, =0{Er is een nieuwe update voor Chromium beschikbaar die wordt uitgevoerd zodra je het programma opnieuw start.}=1{Er is een nieuwe update voor Chromium beschikbaar die wordt uitgevoerd zodra je het programma opnieuw start. Je incognitovenster kan niet opnieuw worden geopend.}other{Er is een nieuwe update voor Chromium beschikbaar die wordt uitgevoerd zodra je het programma opnieuw start. Je # incognitovensters kunnen niet opnieuw worden geopend.}}</translation>
-<translation id="370962675267501463">{COUNT,plural, =0{Je beheerder vraagt je Chromium opnieuw te starten om deze update uit te voeren.}=1{Je beheerder vraagt je Chromium opnieuw te starten om deze update uit te voeren. Je incognitovenster kan niet opnieuw worden geopend.}other{Je beheerder vraagt je Chromium opnieuw te starten om deze update uit te voeren. Je # incognitovensters kunnen niet opnieuw worden geopend.}}</translation>
-<translation id="3713809861844741608">Link openen op een nieuw Chromium-&amp;tabblad</translation>
-<translation id="3728336900324680424">Chromium gebruikt de toegang tot je Drive om suggesties te doen in de adresbalk</translation>
-<translation id="378917192836375108">Met Chromium kun je klikken op een telefoonnummer op internet om dit via Skype te bellen!</translation>
-<translation id="3848258323044014972"><ph name="PAGE_TITLE" /> - Chromium</translation>
-<translation id="388648406173476553">Pas Chromium aan en beheer de instellingen. Je aandacht is vereist. Klik voor meer informatie.</translation>
-<translation id="3889543394854987837">Klik op je naam om Chromium te openen en begin met surfen.</translation>
-<translation id="4036079820698952681">Help Chromium beter te maken door de <ph name="BEGIN_LINK" />huidige instellingen<ph name="END_LINK" /> te melden</translation>
-<translation id="4050175100176540509">Er zijn belangrijke beveiligingsverbeteringen en nieuwe functies beschikbaar in de nieuwste versie.</translation>
-<translation id="421369550622382712">Ontdek fantastische apps, games, extensies en thema's voor Chromium.</translation>
-<translation id="4216212958613226427">Deze taal wordt gebruikt om de Chromium-UI weer te geven</translation>
-<translation id="4230135487732243613">Wil je je Chromium-gegevens aan dit account koppelen?</translation>
-<translation id="4271805377592243930">Hulp bij Chromium</translation>
-<translation id="4285930937574705105">De installatie is mislukt wegens een onbekende fout. Als Chromium momenteel actief is, moet je Chromium sluiten en het opnieuw proberen.</translation>
-<translation id="4407044323746248786">Chromium toch sluiten?</translation>
-<translation id="4415566066719264597">Chromium laten uitvoeren op de achtergrond</translation>
-<translation id="4423735387467980091">Chromium aanpassen en beheren</translation>
-<translation id="4567424176335768812">Je bent ingelogd als <ph name="USER_EMAIL_ADDRESS" />. Je hebt nu toegang tot je bladwijzers, geschiedenis en andere instellingen op al je apparaten waarop je bent ingelogd.</translation>
-<translation id="459535195905078186">Chromium-apps</translation>
-<translation id="4621240073146040695">Updaten bijna voltooid. Start Chromium opnieuw op om de update te voltooien.</translation>
-<translation id="4661006601577405669">Toekomstige versies van Chromium worden automatisch geïnstalleerd.</translation>
-<translation id="4677944499843243528">Het profiel lijkt te worden gebruikt door een ander proces in Chromium (<ph name="PROCESS_ID" />) op een andere computer (<ph name="HOST_NAME" />). Het profiel is vergrendeld zodat het niet wordt beschadigd. Als je zeker weet dat dit profiel niet door andere processen wordt gebruikt, kun je het profiel ontgrendelen en Chromium opnieuw starten.</translation>
-<translation id="469338717132742108">Hulp bij Chromium OS</translation>
-<translation id="4708774505295300557">Iemand heeft eerder bij Chromium op deze computer ingelogd als <ph name="ACCOUNT_EMAIL_LAST" />. Maak een nieuwe Chromium-gebruiker om je informatie gescheiden te houden.</translation>
-<translation id="4746050847053251315">Chromium toch sluiten?</translation>
-<translation id="4748217263233248895">Er is zojuist een speciale beveiligingsupdate voor Chromium toegepast. Start nu opnieuw op. Je tabbladen worden hersteld.</translation>
-<translation id="479167709087336770">Hiervoor wordt dezelfde spellingcontrole gebruikt als voor Google Zoeken. Tekst die je in de browser typt, wordt naar Google gestuurd. Je kunt dit altijd wijzigen in de instellingen.</translation>
-<translation id="4888717733111232871">Inkomende regel zodat Chromium mDNS-verkeer toestaat.</translation>
-<translation id="4943838377383847465">Chromium bevindt zich in de achtergrondmodus.</translation>
-<translation id="4987820182225656817">Gasten kunnen Chromium gebruiken zonder iets achter te laten.</translation>
-<translation id="4994636714258228724">Jezelf toevoegen aan Chromium</translation>
-<translation id="5277894862589591112">Als je de wijzigingen wilt toepassen, start je Chromium opnieuw</translation>
-<translation id="5358375970380395591">Je logt in op een beheerd account waarmee de eigenaar van dat account beheer krijgt over je Chromium-profiel. Je Chromium-gegevens zoals je apps, bladwijzers, geschiedenis, wachtwoorden en andere instellingen worden permanent gekoppeld aan <ph name="USER_NAME" />. Je kunt deze gegevens verwijderen via het Google Accounts Dashboard, maar je kunt deze gegevens niet koppelen aan een ander account.<ph name="LEARN_MORE" /></translation>
-<translation id="5386450000063123300">Chromium updaten (<ph name="PROGRESS_PERCENT" />)</translation>
-<translation id="538767207339317086">Inloggen bij Chromium toestaan</translation>
-<translation id="5398878173008909840">Er is een nieuwe versie van Chromium beschikbaar.</translation>
-<translation id="5416696090975899932">Chromium kan het afdrukvoorbeeld niet weergeven wanneer de ingebouwde pdf-viewer ontbreekt.</translation>
-<translation id="5427571867875391349">Chromium instellen als je standaardbrowser</translation>
-<translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - Chromium bèta</translation>
-<translation id="5479196819031988440">Chromium OS kan deze pagina niet openen.</translation>
-<translation id="5480860683791598150">Chromium heeft toegang tot je locatie nodig om je locatie met deze site te delen</translation>
-<translation id="549669000822060376">Wacht terwijl Chromium de nieuwste systeemupdates installeert.</translation>
-<translation id="5623402015214259806">{0,plural, =0{Er is een Chromium-update beschikbaar}=1{Er is een Chromium-update beschikbaar}other{Er is al # dagen een Chromium-update beschikbaar}}</translation>
-<translation id="5631814766731275228">Naam en afbeelding voor Chromium</translation>
-<translation id="5634636535844844681">Voor Chromium is Windows 7 of hoger vereist.</translation>
-<translation id="5653831366781983928">Chromium nu opnieuw opstarten</translation>
-<translation id="5680901439334282664">inloggen bij Chromium</translation>
-<translation id="5698481217667032250">Chromium weergeven in deze taal</translation>
-<translation id="5820394555380036790">Chromium OS</translation>
-<translation id="5862307444128926510">Welkom bij Chromium</translation>
-<translation id="5895138241574237353">Opnieuw starten</translation>
-<translation id="5987687638152509985">Chromium updaten om de synchronisatie te starten</translation>
-<translation id="6013050204643758987">Chromium OS wordt mogelijk gemaakt door aanvullende <ph name="BEGIN_LINK_CROS_OSS" />open-sourcesoftware<ph name="END_LINK_CROS_OSS" />, net als <ph name="BEGIN_LINK_LINUX_OSS" />Linux (bèta)<ph name="END_LINK_LINUX_OSS" />.</translation>
-<translation id="6055895534982063517">Er is een nieuwe versie van Chromium beschikbaar, en deze is sneller dan ooit.</translation>
-<translation id="6063093106622310249">&amp;Openen in Chromium</translation>
-<translation id="6072279588547424923"><ph name="EXTENSION_NAME" /> is toegevoegd aan Chromium</translation>
-<translation id="608189560609172163">Chromium kan je gegevens niet synchroniseren door een fout tijdens het inloggen.</translation>
-<translation id="6096348254544841612">Chromium aanpassen en beheren. Update is beschikbaar</translation>
-<translation id="6120345080069858279">Chromium slaat dit wachtwoord op in je Google-account. Je hoeft het niet te onthouden.</translation>
-<translation id="6129621093834146363"><ph name="FILE_NAME" /> is gevaarlijk en is daarom door Chromium geblokkeerd.</translation>
-<translation id="6212496753309875659">Deze computer beschikt al over een recentere versie van Chromium. Als de software niet werkt, moet je Chromium verwijderen en het opnieuw proberen.</translation>
-<translation id="6219195342503754812">{0,plural, =0{Chromium wordt nu opnieuw gestart}=1{Chromium wordt over één seconde opnieuw gestart}other{Chromium wordt over # seconden opnieuw gestart}}</translation>
-<translation id="6248213926982192922">Chromium als standaardbrowser instellen</translation>
-<translation id="6268381023930128611">Uitloggen bij Chromium?</translation>
-<translation id="6295779123002464101"><ph name="FILE_NAME" /> kan gevaarlijk zijn en is daarom door Chromium geblokkeerd.</translation>
-<translation id="6309712487085796862">Chromium gebruikt je camera.</translation>
-<translation id="6333502561965082103">Er wordt een andere bewerking in Chromium uitgevoerd. Probeer het later opnieuw.</translation>
-<translation id="6334986366598267305">Het is nu gemakkelijker om Chromium met je Google-account en op gedeelde computers te gebruiken.</translation>
-<translation id="6373523479360886564">Weet je zeker dat je Chromium wilt verwijderen?</translation>
-<translation id="6400072781405947421">Chromium werkt wellicht niet naar behoren omdat dit niet meer op Mac OS X 10.9 wordt ondersteund.</translation>
-<translation id="6403826409255603130">Chromium is een webbrowser die webpagina's en applicaties bliksemsnel uitvoert. Chromium is snel, stabiel en eenvoudig in gebruik. Surf veiliger op internet met de in Chromium ingebouwde beveiliging tegen malware en phishing.</translation>
-<translation id="6434250628340475518">Chromium OS-systeem</translation>
-<translation id="6457450909262716557">{SECONDS,plural, =1{Chromium wordt over één seconde opnieuw gestart}other{Chromium wordt over # seconden opnieuw gestart}}</translation>
-<translation id="6475912303565314141">Hiermee wordt ook gecontroleerd welke pagina wordt weergegeven wanneer je Chromium start.</translation>
-<translation id="6510925080656968729">Chromium verwijderen</translation>
-<translation id="6570579332384693436">Chromium verzendt de tekst die je in tekstvelden typt naar Google om spelfouten te corrigeren</translation>
-<translation id="6598877126913850652">Ga naar instellingen voor Chromium-meldingen</translation>
-<translation id="6676384891291319759">Verbinding maken met internet</translation>
-<translation id="6717134281241384636">Je profiel kan niet worden gebruikt, omdat dit is gemaakt in een recentere versie van Chromium.
-
-Sommige functies zijn mogelijk niet beschikbaar. Geef een andere profieldirectory op of gebruik een recentere versie van Chromium.</translation>
-<translation id="6734080038664603509">&amp;Chromium updaten</translation>
-<translation id="6734291798041940871">Chromium is al geïnstalleerd voor alle gebruikers op je computer.</translation>
-<translation id="6847869444787758381">Chromium laat het je weten als je wachtwoorden mogelijk niet veilig meer zijn</translation>
-<translation id="6857782730669500492">Chromium - <ph name="PAGE_TITLE" /></translation>
-<translation id="6863361426438995919">Google Pay (gekopieerd naar Chromium)</translation>
-<translation id="6868056391275687737">Er zijn andere exemplaren van Chromium actief. Sluit ze om een update uit te voeren.</translation>
-<translation id="6893813176749746474">Chromium is bijgewerkt, maar je hebt het programma minstens 30 dagen niet gebruikt.</translation>
-<translation id="6964305034639999644">Link openen in een Chromium-inco&amp;gnitovenster</translation>
-<translation id="6990124437352146030">Chromium heeft toegangsrechten voor je microfoon nodig voor deze site</translation>
-<translation id="705851970750939768">Chromium updaten</translation>
-<translation id="7066436765290594559">Chromium OS kan je gegevens niet synchroniseren. Update je wachtwoordzin voor synchronisatie.</translation>
-<translation id="7067091210845072982">Als een afbeelding geen nuttige beschrijving bevat, probeert Chromium je er een te geven. Afbeeldingen worden naar Google verzonden om beschrijvingen te maken.</translation>
-<translation id="7196312274710523067">Kan Chromium niet starten. Probeer het opnieuw.</translation>
-<translation id="7205698830395646142">Verbergen in Chromium-menu</translation>
-<translation id="7223968959479464213">Taakbeheer - Chromium</translation>
-<translation id="731644333568559921">&amp;Chromium OS updaten</translation>
-<translation id="731795002583552498">Chromium updaten</translation>
-<translation id="7318036098707714271">Je bestand met voorkeuren is beschadigd of ongeldig.
-
-Chromium kan je instellingen niet herstellen.</translation>
-<translation id="7337881442233988129">Chromium</translation>
-<translation id="7339898014177206373">Nieuw venster</translation>
-<translation id="734373864078049451">Hier vind je internet, bladwijzers en andere Chromium-instellingen.</translation>
-<translation id="7349591376906416160">Je systeembeheerder heeft Chromium geconfigureerd om <ph name="ALTERNATIVE_BROWSER_NAME" /> te openen voor toegang tot <ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="7448255348454382571">Chromium OS opnieuw opstarten</translation>
-<translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - Chromium voor ontwikkelaars</translation>
-<translation id="7451052299415159299">Chromium heeft toegangsrechten voor je camera nodig voor deze site</translation>
-<translation id="7483335560992089831">Kan niet dezelfde Chromium-versie installeren, omdat deze versie nu actief is. Sluit Chromium en probeer het opnieuw.</translation>
-<translation id="751093125041325477">Toekomstige versies van Chromium worden automatisch geïnstalleerd. Als deze download is voltooid, start Chromium opnieuw op en kun je doorgaan.</translation>
-<translation id="753534427205733210">{0,plural, =1{Chromium wordt over één minuut opnieuw gestart}other{Chromium wordt over # minuten opnieuw gestart}}</translation>
-<translation id="7549178288319965365">Over Chromium OS</translation>
-<translation id="7561906087460245826">Ook gegevens van Chromium wissen (<ph name="URL" />)</translation>
-<translation id="7585853947355360626">Kijk je in de <ph name="LINK_BEGIN" />Chromium OS-instellingen<ph name="LINK_END" />als je een instelling niet ziet op deze pagina.</translation>
-<translation id="761356813943268536">Chromium gebruikt je camera en microfoon.</translation>
-<translation id="7617377681829253106">Chromium is nu nog beter</translation>
-<translation id="7686590090926151193">Chromium is niet je standaardbrowser</translation>
-<translation id="7689606757190482937">Chromium synchroniseren en personaliseren op al je apparaten</translation>
-<translation id="7729447699958282447">Chromium kan je gegevens niet synchroniseren, omdat synchronisatie niet beschikbaar is voor je domein.</translation>
-<translation id="7745317241717453663">Hiermee worden je browsergegevens verwijderd van dit apparaat. Als je je gegevens later wilt terughalen, log je in bij Chromium als <ph name="USER_EMAIL" />.</translation>
+Dissenter kan je instellingen niet herstellen.</translation>
+<translation id="1477146545787277177">Dissenter is gecrasht. Nu opnieuw starten?</translation>
+<translation id="5785919770853225148">Dissenter slaat dit wachtwoord op in je Gab AI Inc-account. Je hoeft het niet te onthouden.</translation>
+<translation id="8211837073776713955">Dissenter laat het je weten als je wachtwoorden mogelijk niet veilig meer zijn</translation>
+<translation id="113959764510199339">Dissenter probeert wachtwoorden weer te geven.</translation>
+<translation id="7503098128120083822">Dissenter wil je wachtwoorden exporteren.</translation>
+<translation id="8285294305439559616">Dissenter probeert wachtwoorden weer te geven. Geef je Windows-wachtwoord op om dit toe te staan.</translation>
+<translation id="5918095577778020936">Dissenter wil je wachtwoorden exporteren. Geef je Windows-wachtwoord op om dit toe te staan.</translation>
+<translation id="8320964054148936490">Deze computer beschikt al over een recentere versie van Dissenter. Als de software niet werkt, moet je Dissenter verwijderen en het opnieuw proberen.</translation>
+<translation id="7691786510374174420">De installatie is mislukt wegens een onbekende fout. Als Dissenter momenteel actief is, moet je Dissenter sluiten en het opnieuw proberen.</translation>
+<translation id="2619516027171717873">Kan niet dezelfde Dissenter-versie installeren, omdat deze versie nu actief is. Sluit Dissenter en probeer het opnieuw.</translation>
+<translation id="6283840329609797763">De installatie is mislukt wegens een onbekende fout. Download Dissenter opnieuw.</translation>
+<translation id="95624393026532554">Voor Dissenter is Windows 7 of hoger vereist.</translation>
+<translation id="7387051847644272380">Er is tijdens de installatie een fout opgetreden in het besturingssysteem. Download Dissenter opnieuw.</translation>
+<translation id="1819119299840995223">Er wordt een andere bewerking in Dissenter uitgevoerd. Probeer het later opnieuw.</translation>
 <translation id="7747138024166251722">Het installatieprogramma kan geen tijdelijke directory maken. Controleer of je nog schijfruimte hebt en of je toestemming hebt om software te installeren.</translation>
-<translation id="7773960292263897147">Waarschuwing: Chromium kan niet voorkomen dat extensies je browsergeschiedenis vastleggen. Als je deze extensie in de incognitomodus wilt uitschakelen, verwijder je het vinkje bij deze optie.</translation>
-<translation id="7790626492778995050"><ph name="PAGE_TITLE" /> - Chromium Canary</translation>
-<translation id="7827169012280634081">Cookies en sitegegevens wissen wanneer je Chromium sluit</translation>
-<translation id="7867198900892795913">Chromium kan niet worden geüpdatet naar de nieuwste versie, dus je loopt nieuwe functies en beveiligingsoplossingen mis.</translation>
-<translation id="7898472181347242998">Ga naar de <ph name="LINK_BEGIN" />instellingen van Chromium OS<ph name="LINK_END" /> om te kijken of je apparaat up-to-date is</translation>
-<translation id="7937630085815544518">Je bent ingelogd bij Chromium als <ph name="USER_EMAIL_ADDRESS" />. Gebruik hetzelfde account om opnieuw in te loggen.</translation>
-<translation id="7975919845073681630">Dit is een tweede installatie van Chromium en kan niet als standaardbrowser worden ingesteld.</translation>
-<translation id="7979877361127045932">Verbergen in Chromium-menu</translation>
-<translation id="8013436988911883588">Zodra Chromium toegang heeft, kunnen websites je om toegang vragen.</translation>
-<translation id="81770708095080097">Dit bestand is gevaarlijk en is daarom door Chromium geblokkeerd.</translation>
-<translation id="8248265253516264921">Als een afbeelding geen nuttige beschrijving bevat, probeert Chromium je er een te geven. Afbeeldingen worden naar Google verzonden om beschrijvingen te maken. Je kunt dit op elk gewenst moment uitschakelen in Instellingen.</translation>
-<translation id="8290862415967981663">Dit bestand kan gevaarlijk zijn en is daarom door Chromium geblokkeerd.</translation>
-<translation id="8330519371938183845">Log in om Chromium op al je apparaten te synchroniseren en te personaliseren</translation>
-<translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> maakte eerder gebruik van Chromium</translation>
-<translation id="8417404458978023919">{0,plural, =1{Start Chromium binnen een dag opnieuw}other{Start Chromium binnen # dagen opnieuw}}</translation>
-<translation id="8453117565092476964">Het archief van het installatieprogramma is beschadigd of ongeldig. Download Chromium opnieuw.</translation>
-<translation id="8493179195440786826">Chromium is verouderd</translation>
-<translation id="8586442755830160949">Copyright <ph name="YEAR" /> De auteurs van Chromium. Alle rechten voorbehouden.</translation>
-<translation id="8619360774459241877">Chromium starten…</translation>
-<translation id="8621669128220841554">De installatie is mislukt wegens een onbekende fout. Download Chromium opnieuw.</translation>
-<translation id="8682540261359803721">Kijk in de <ph name="LINK_BEGIN" />instellingen van je Chromium-browser<ph name="LINK_END" /> als je een instelling niet ziet op deze pagina</translation>
-<translation id="8697124171261953979">Hiermee wordt ook gecontroleerd welke pagina wordt weergegeven wanneer je Chromium start of vanuit de omnibox zoekt.</translation>
-<translation id="8704119203788522458">Personaliseer jouw Chromium</translation>
-<translation id="8739167630197873875">Je wist cookies wanneer je Chromium sluit. Als je wilt doorgaan met synchroniseren, wijzig je deze <ph name="COOKIE_SETTINGS_LINK" />.</translation>
-<translation id="8748383401829947534">Sluit alle exemplaren van Chromium.</translation>
-<translation id="8796602469536043152">Chromium heeft toegangsrechten voor je camera en microfoon nodig voor deze site</translation>
-<translation id="8803635938069941624">Voorwaarden van Chromium OS</translation>
-<translation id="8821041990367117597">Chromium kan je gegevens niet synchroniseren, omdat de inloggegevens voor je account zijn verouderd.</translation>
+<translation id="7365690458036015383">Het installatieprogramma kan het archief niet uitpakken. Download Dissenter opnieuw.</translation>
+<translation id="6914496861676471566">Het archief van het installatieprogramma is beschadigd of ongeldig. Download Dissenter opnieuw.</translation>
 <translation id="8862326446509486874">Je hebt geen rechten om op systeemniveau te installeren. Meld je aan als beheerder en voer het installatieprogramma opnieuw uit.</translation>
-<translation id="8897323336392112261">Hiermee wordt ook gecontroleerd welke pagina wordt weergegeven wanneer je Chromium start of op de knop 'Homepage' klikt.</translation>
-<translation id="8907580949721785412">Chromium probeert wachtwoorden weer te geven. Geef je Windows-wachtwoord op om dit toe te staan.</translation>
-<translation id="8941642502866065432">Kan Chromium niet updaten</translation>
-<translation id="8974095189086268230">Chromium OS wordt mogelijk gemaakt door aanvullende <ph name="BEGIN_LINK_CROS_OSS" />open source-software<ph name="END_LINK_CROS_OSS" />.</translation>
-<translation id="9019929317751753759">We hebben de volgende extensie uitgeschakeld die niet wordt vermeld in de <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> en mogelijk zonder je medeweten is toegevoegd. We doen dit om Chromium veiliger te maken.</translation>
-<translation id="9022552996538154597">Inloggen bij Chromium</translation>
-<translation id="9089354809943900324">Chromium is verouderd</translation>
-<translation id="9093206154853821181">{0,plural, =1{Chromium wordt over een uur opnieuw gestart}other{Chromium wordt over # uur opnieuw gestart}}</translation>
-<translation id="91086099826398415">Link openen op een nieuw Chromium-&amp;tabblad</translation>
+<translation id="6666624454809779082">Dissenter is al geïnstalleerd voor alle gebruikers op je computer.</translation>
+<translation id="6676384891291319759">Verbinding maken met internet</translation>
 <translation id="911206726377975832">Ook browsegegevens wissen?</translation>
-<translation id="9158494823179993217">Je systeembeheerder heeft geconfigureerd dat Chromium een alternatieve browser opent voor toegang tot <ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="9190841055450128916">Chromium (mDNS-In)</translation>
-<translation id="93478295209880648">Chromium werkt mogelijk niet naar behoren omdat dit niet langer wordt ondersteund op Windows XP en Windows Vista</translation>
-<translation id="95514773681268843"><ph name="DOMAIN" /> vereist dat je de volgende Servicevoorwaarden leest en accepteert voordat je dit apparaat gebruikt. Deze voorwaarden zijn geen uitbreiding, aanpassing of beperking van de Voorwaarden van Chromium OS.</translation>
-<translation id="985602178874221306">De auteurs van Chromium</translation>
+<translation id="2770231113462710648">Standaardbrowser wijzigen in:</translation>
+<translation id="2485422356828889247">Installatie ongedaan maken</translation>
+<translation id="3343095737966473035">Dissenter is niet je standaardbrowser</translation>
+<translation id="5536657158619734169">Er is een nieuwe versie van Dissenter beschikbaar.</translation>
+<translation id="505042220086416644">Er is een nieuwe versie van Dissenter beschikbaar, en deze is sneller dan ooit.</translation>
+<translation id="5616153642055197778">Er is een nieuwe, veiligere versie van Dissenter beschikbaar.</translation>
+<translation id="2301993384336631869">Dissenter is bijgewerkt, maar je hebt het programma minstens 30 dagen niet gebruikt.</translation>
+<translation id="2106568569080763501">Met Dissenter kun je klikken op een telefoonnummer op internet om dit via Skype te bellen!</translation>
+<translation id="5874882355102994015">Dissenter kan het afdrukvoorbeeld niet weergeven wanneer de ingebouwde pdf-viewer ontbreekt.</translation>
+<translation id="8880183781256147665">Toevoegen aan Dissenter...</translation>
+<translation id="3561569806301739367"><ph name="FILE_NAME"/> kan gevaarlijk zijn en is daarom door Dissenter geblokkeerd.</translation>
+<translation id="9067428552314418522">Dit bestand is gevaarlijk en is daarom door Dissenter geblokkeerd.</translation>
+<translation id="4168372721886011198"><ph name="FILE_NAME"/> is gevaarlijk en is daarom door Dissenter geblokkeerd.</translation>
+<translation id="89367911614620585">Dit bestand kan gevaarlijk zijn en is daarom door Dissenter geblokkeerd.</translation>
+<translation id="9183662282810237335">Dissenter toch sluiten?</translation>
+<translation id="3834935463915107022">Dissenter toch sluiten?</translation>
+<translation id="8797356639448065696">Dissenter bevindt zich in de achtergrondmodus.</translation>
+<translation id="2339258256897053758">Gab AI Inc API-sleutels ontbreken. Sommige functies van Dissenter worden uitgeschakeld.</translation>
+<translation id="7861579472672677409"><ph name="EXTENSION_NAME"/> is toegevoegd aan Dissenter</translation>
+<translation id="8516116288943000095">Ook gegevens van Dissenter wissen (<ph name="URL"/>)</translation>
+<translation id="4054452651944170004">Verbergen in Dissenter-menu</translation>
+<translation id="5660079256336839395">Verbergen in Dissenter-menu</translation>
+<translation id="6134859571175647580">Waarschuwing: Dissenter kan niet voorkomen dat extensies je browsergeschiedenis vastleggen. Als je deze extensie in de incognitomodus wilt uitschakelen, verwijder je het vinkje bij deze optie.</translation>
+<translation id="777113543093865885">Verwijderen uit Dissenter…</translation>
+<translation id="6078442581074612226">In Dissenter</translation>
+<translation id="1448049584457347995">Om Dissenter veiliger te maken, hebben we een aantal extensies uitgeschakeld die niet worden vermeld in de <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> en mogelijk zonder je medeweten zijn geïnstalleerd.</translation>
+<translation id="8848045066928358658">We hebben de volgende extensie uitgeschakeld die niet wordt vermeld in de <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> en mogelijk zonder je medeweten is toegevoegd. We doen dit om Dissenter veiliger te maken.</translation>
+<translation id="8148611988012584308">Dissenter aanpassen en beheren</translation>
+<translation id="5849446944780602366">Dissenter aanpassen en beheren. Update is beschikbaar</translation>
+<translation id="6315734375101223238">Pas Dissenter aan en beheer de instellingen. Je aandacht is vereist. Klik voor meer informatie.</translation>
+<translation id="9071554113102421877">&amp;Openen in Dissenter</translation>
+<translation id="2176825726964012531">Over &amp;Dissenter</translation>
+<translation id="5450493308072741203">&amp;Dissenter updaten</translation>
+<translation id="1421502046520299169">Over &amp;Dissenter OS</translation>
+<translation id="2534623228451928732">&amp;Dissenter OS updaten</translation>
+<translation id="8447483940522230788">Dissenter Helper</translation>
+<translation id="5477319665405831211">Dissenter synchroniseren en personaliseren op al je apparaten</translation>
+<translation id="8132634101975074716">Je bent ingelogd bij Dissenter.</translation>
+<translation id="4567424176335768812">Je bent ingelogd als <ph name="USER_EMAIL_ADDRESS"/>. Je hebt nu toegang tot je bladwijzers, geschiedenis en andere instellingen op al je apparaten waarop je bent ingelogd.</translation>
+<translation id="2925193881330501265">Je bent ingelogd bij Dissenter als <ph name="USER_EMAIL_ADDRESS"/>. Gebruik hetzelfde account om opnieuw in te loggen.</translation>
+<translation id="847561904663814268">Iemand heeft eerder bij Dissenter op deze computer ingelogd als <ph name="ACCOUNT_EMAIL_LAST"/>. Maak een nieuwe Dissenter-gebruiker om je informatie gescheiden te houden.</translation>
+<translation id="1853997773668795891">Wil je je Dissenter-gegevens aan dit account koppelen?</translation>
+<translation id="1326766910007115955">Je logt in op een beheerd account waarmee de eigenaar van dat account beheer krijgt over je Dissenter-profiel. Je Dissenter-gegevens zoals je apps, bladwijzers, geschiedenis, wachtwoorden en andere instellingen worden permanent gekoppeld aan <ph name="USER_NAME"/>. Je kunt deze gegevens verwijderen via het Gab AI Inc Accounts Dashboard, maar je kunt deze gegevens niet koppelen aan een ander account.<ph name="LEARN_MORE"/></translation>
+<translation id="650055380213106997">Je logt in op een beheerd account waarmee de eigenaar van dat account beheer krijgt over je Dissenter-profiel. Je Dissenter-gegevens zoals je apps, bladwijzers, geschiedenis, wachtwoorden en andere instellingen worden permanent gekoppeld aan <ph name="USER_NAME"/>. Je kunt deze gegevens verwijderen via het Gab AI Inc Accounts Dashboard, maar je kunt deze gegevens niet koppelen aan een ander account. Je kunt een nieuw profiel maken om je bestaande Dissenter-gegevens apart te houden. <ph name="LEARN_MORE"/></translation>
+<translation id="2444257125841652328">Je systeembeheerder heeft geconfigureerd dat Dissenter een alternatieve browser opent voor toegang tot <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="5380963249588143069">Je systeembeheerder heeft Dissenter geconfigureerd om <ph name="ALTERNATIVE_BROWSER_NAME"/> te openen voor toegang tot <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> maakte eerder gebruik van Dissenter</translation>
+<translation id="1384923383737428730">Er staat schadelijke software op je computer. Dissenter kan deze verwijderen, je instellingen herstellen en extensies uitschakelen, zodat je browser weer normaal werkt.</translation>
+<translation id="8919921662052966648">Dissenter kan je gegevens niet synchroniseren. Update je synchronisatiewachtwoord.</translation>
+<translation id="2262856633481902138">Dissenter kan je gegevens niet synchroniseren, omdat de inloggegevens voor je account zijn verouderd.</translation>
+<translation id="5419189641394808652">Dissenter kan je gegevens niet synchroniseren, omdat synchronisatie niet beschikbaar is voor je domein.</translation>
+<translation id="2577755334620061182">Dissenter kan je gegevens niet synchroniseren door een fout tijdens het inloggen.</translation>
+<translation id="8583885258305961947">Dissenter OS-systeem</translation>
+<translation id="3968006371075376562">Dissenter OS kan je gegevens niet synchroniseren. Update je wachtwoordzin voor synchronisatie.</translation>
+<translation id="6746636977031158624">Dissenter OS kan je gegevens niet synchroniseren omdat de inloggegevens voor je account zijn verouderd.</translation>
+<translation id="2999152167963026588">Dissenter OS kan je gegevens niet synchroniseren omdat synchronisatie niet beschikbaar is voor je domein.</translation>
+<translation id="1459786048951724030">Dissenter OS kan je gegevens niet synchroniseren door een fout tijdens het inloggen.</translation>
+<translation id="6813094029720377619">Je wist cookies wanneer je Dissenter sluit. Als je wilt doorgaan met synchroniseren, wijzig je deze <ph name="COOKIE_SETTINGS_LINK"/>.</translation>
+<translation id="3340978935015468852">instellingen</translation>
+<translation id="380197516434040304">Verwijderen uit Dissenter…</translation>
+<translation id="300669147395456190">Dissenter-apps</translation>
+<translation id="3421950102518690868"><ph name="DOMAIN"/> vereist dat je de volgende Servicevoorwaarden leest en accepteert voordat je dit apparaat gebruikt. Deze voorwaarden zijn geen uitbreiding, aanpassing of beperking van de Voorwaarden van Dissenter OS.</translation>
+<translation id="3293668930608086049">Dissenter gebruikt je camera en microfoon.</translation>
+<translation id="8919461291440820124">Dissenter gebruikt je microfoon.</translation>
+<translation id="3205074487970075628">Dissenter gebruikt je camera.</translation>
+<translation id="8142245354207161805">Het profiel lijkt te worden gebruikt door een ander proces in Dissenter (<ph name="PROCESS_ID"/>) op een andere computer (<ph name="HOST_NAME"/>). Het profiel is vergrendeld zodat het niet wordt beschadigd. Als je zeker weet dat dit profiel niet door andere processen wordt gebruikt, kun je het profiel ontgrendelen en Dissenter opnieuw starten.</translation>
+<translation id="239760341987199724">Dissenter instellen als je standaardbrowser</translation>
+<translation id="669092380621816981">De browsergegevens van deze persoon worden verwijderd van dit apparaat. Als je de gegevens wilt herstellen, log je in bij Dissenter als <ph name="USER_EMAIL"/>.</translation>
+<translation id="2827121003398607864">Dissenter is nu nog beter</translation>
+<translation id="7192666605334070839">Het is nu gemakkelijker om Dissenter met je Gab AI Inc-account en op gedeelde computers te gebruiken.</translation>
+<translation id="4100716194836114130">Personaliseer jouw Dissenter</translation>
+<translation id="3511996232906761537">Hier vind je internet, bladwijzers en andere Dissenter-instellingen.</translation>
+<translation id="7406627712452599344">Gasten kunnen Dissenter gebruiken zonder iets achter te laten.</translation>
+<translation id="5659384504794665581">Als je een computer deelt, kunnen vrienden en familie afzonderlijk surfen en Dissenter configureren zoals zij dat willen.</translation>
+<translation id="7130675370997202556">Klik op je naam om Dissenter te openen en begin met surfen.</translation>
+<translation id="5952898964075639679">Jezelf toevoegen aan Dissenter</translation>
+<translation id="3813272600615358652">Deze extensie heeft gewijzigd welke pagina wordt weergegeven wanneer je Dissenter start.</translation>
+<translation id="2576129394594491151">De extensie '<ph name="EXTENSION_NAME"/>' heeft gewijzigd welke pagina wordt weergegeven wanneer je Dissenter start.</translation>
+<translation id="2675662665675552980">Hiermee wordt ook gecontroleerd welke pagina wordt weergegeven wanneer je Dissenter start.</translation>
+<translation id="3215652305414474626">Hiermee wordt ook gecontroleerd welke pagina wordt weergegeven wanneer je Dissenter start of op de knop 'Homepage' klikt.</translation>
+<translation id="2433912322225810055">Hiermee wordt ook gecontroleerd welke pagina wordt weergegeven wanneer je Dissenter start of vanuit de omnibox zoekt.</translation>
+<translation id="2871190378186459992">Ontdek fantastische apps, games, extensies en thema's voor Dissenter.</translation>
+<translation id="3350544518197210895">Dissenter (mDNS-In)</translation>
+<translation id="5846303060623790781">Dissenter Beta (mDNS-In)</translation>
+<translation id="3599046180970731601">Dissenter Nightly (mDNS-In)</translation>
+<translation id="7881806463410697784">Dissenter Dev (mDNS-In)</translation>
+<translation id="1912973375560256099">Inkomende regel zodat Dissenter mDNS-verkeer toestaat.</translation>
+<translation id="8207657266087451193">Als een afbeelding geen nuttige beschrijving bevat, probeert Dissenter je er een te geven. Afbeeldingen worden naar Gab AI Inc verzonden om beschrijvingen te maken. Je kunt dit op elk gewenst moment uitschakelen in Instellingen.</translation>
+<translation id="5499063270485366718">Als een afbeelding geen nuttige beschrijving bevat, probeert Dissenter je er een te geven. Afbeeldingen worden naar Gab AI Inc verzonden om beschrijvingen te maken.</translation>
+<translation id="215320507915280336">Hiervoor wordt dezelfde spellingcontrole gebruikt als voor Gab AI Inc Zoeken. Tekst die je in de browser typt, wordt naar Gab AI Inc gestuurd. Je kunt dit altijd wijzigen in de instellingen.</translation>
+<translation id="1807774211756215222">Link openen op een nieuw Dissenter-&amp;tabblad</translation>
+<translation id="4624945300945265642">Link openen in een Dissenter-inco&amp;gnitovenster</translation>
+<translation id="7863882214613921971">Link openen op een nieuw Dissenter-&amp;tabblad</translation>
+<translation id="6554952862405000915">Link openen in een Dissenter-inco&amp;gnitovenster</translation>
+<translation id="4805806622840861220">Dissenter opnieuw starten</translation>
+<translation id="8274659559228306809">{COUNT,plural, =0{Er is een nieuwe update voor Dissenter beschikbaar die wordt uitgevoerd zodra je het programma opnieuw start.}=1{Er is een nieuwe update voor Dissenter beschikbaar die wordt uitgevoerd zodra je het programma opnieuw start. Je incognitovenster kan niet opnieuw worden geopend.}other{Er is een nieuwe update voor Dissenter beschikbaar die wordt uitgevoerd zodra je het programma opnieuw start. Je # incognitovensters kunnen niet opnieuw worden geopend.}}</translation>
+<translation id="2799223571221894425">Opnieuw starten</translation>
+<translation id="2522086024276534909">Dissenter OS opnieuw opstarten</translation>
+<translation id="8183252473547465084">Dissenter OS moet opnieuw worden gestart om de update toe te passen.</translation>
+<translation id="5895138241574237353">Opnieuw starten</translation>
+<translation id="8887390605192156061">Sluit alle exemplaren van Dissenter.</translation>
+<translation id="1801551749768408825">Er zijn andere exemplaren van Dissenter actief. Sluit ze om een update uit te voeren.</translation>
+<translation id="2632141563911437138">Dissenter moet worden gestopt op deze computer om een update uit te voeren. Hierdoor kunnen andere gebruikers die bij deze computer zijn ingelogd, niet-opgeslagen wijzigingen kwijtraken.</translation>
+<translation id="5875673934455379806">Dissenter opnieuw installeren</translation>
+<translation id="2097604701283463988">Dissenter is verouderd</translation>
+<translation id="5173820533850252773">Dissenter is verouderd</translation>
+<translation id="6389268239133412586">Kan Dissenter niet updaten</translation>
+<translation id="7963515534397191222">Dissenter kan niet worden geüpdatet naar de nieuwste versie, dus je loopt nieuwe functies en beveiligingsoplossingen mis.</translation>
+<translation id="1705567146636171298">Dissenter updaten</translation>
+<translation id="3598551856834560515">Dissenter updaten om de synchronisatie te starten</translation>
+<translation id="4050175100176540509">Er zijn belangrijke beveiligingsverbeteringen en nieuwe functies beschikbaar in de nieuwste versie.</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{Dissenter wordt over één seconde opnieuw gestart}other{Dissenter wordt over # seconden opnieuw gestart}}</translation>
+<translation id="5646769069113654257">Dissenter nu opnieuw opstarten</translation>
+<translation id="8668413672647811944">Er is zojuist een speciale beveiligingsupdate voor Dissenter toegepast. Start nu opnieuw op. Je tabbladen worden hersteld.</translation>
+<translation id="6791166902140255175">Dissenter-tabblad</translation>
+<translation id="2555639463117073782">Dissenter opnieuw opstarten om <ph name="PLUGIN_NAME"/> in te schakelen</translation>
+<translation id="2034072705932785495">Dissenter heeft toegangsrechten voor je camera nodig voor deze site</translation>
+<translation id="3335606533094650083">Dissenter heeft toegangsrechten voor je microfoon nodig voor deze site</translation>
+<translation id="4831743161813926460">Dissenter heeft toegangsrechten voor je camera en microfoon nodig voor deze site</translation>
+<translation id="696826782632239602">Dissenter heeft toegang tot je locatie nodig om je locatie met deze site te delen</translation>
+<translation id="7798069806040634998">Dissenter heeft toegang tot de opslag nodig om bestanden te downloaden</translation>
+<translation id="7685904775439037072">Zodra Dissenter toegang heeft, kunnen websites je om toegang vragen.</translation>
+<translation id="1744365871163268756">Wacht terwijl Dissenter de nieuwste systeemupdates installeert.</translation>
+<translation id="8000338990735917615">Toekomstige versies van Dissenter worden automatisch geïnstalleerd.</translation>
+<translation id="2975476470948647918">Toekomstige versies van Dissenter worden automatisch geïnstalleerd. Als deze download is voltooid, start Dissenter opnieuw op en kun je doorgaan.</translation>
+<translation id="7808415789955822133">Voorwaarden van Dissenter OS</translation>
+<translation id="7207456302801184289">Welkom bij Dissenter</translation>
+<translation id="3507835409099344374">Ga naar instellingen voor Dissenter-meldingen</translation>
+<translation id="1026406809507858026">{0,plural, =0{Er is een Dissenter-update beschikbaar}=1{Er is een Dissenter-update beschikbaar}other{Er is al # dagen een Dissenter-update beschikbaar}}</translation>
+<translation id="3829358914761176693">{COUNT,plural, =0{Je beheerder vraagt je Dissenter opnieuw te starten om deze update uit te voeren.}=1{Je beheerder vraagt je Dissenter opnieuw te starten om deze update uit te voeren. Je incognitovenster kan niet opnieuw worden geopend.}other{Je beheerder vraagt je Dissenter opnieuw te starten om deze update uit te voeren. Je # incognitovensters kunnen niet opnieuw worden geopend.}}</translation>
+<translation id="5337999052834672687">{0,plural, =1{Start Dissenter binnen een dag opnieuw}other{Start Dissenter binnen # dagen opnieuw}}</translation>
+<translation id="310518206836658214">{0,plural, =1{Dissenter wordt over een uur opnieuw gestart}other{Dissenter wordt over # uur opnieuw gestart}}</translation>
+<translation id="3186363903915641692">{0,plural, =1{Dissenter wordt over één minuut opnieuw gestart}other{Dissenter wordt over # minuten opnieuw gestart}}</translation>
+<translation id="3574823187131579180">{0,plural, =0{Dissenter wordt nu opnieuw gestart}=1{Dissenter wordt over één seconde opnieuw gestart}other{Dissenter wordt over # seconden opnieuw gestart}}</translation>
+<translation id="552349673358711446">{COUNT,plural, =0{Je beheerder vereist dat je Dissenter opnieuw start om een update uit te voeren.}=1{Je beheerder vereist dat je Dissenter opnieuw start om een update uit te voeren. Je incognitovenster kan niet opnieuw worden geopend.}other{Je beheerder vereist dat je Dissenter opnieuw start om een update uit te voeren. Je # incognitovensters kunnen niet opnieuw worden geopend.}}</translation>
+<translation id="3052349005266761501">Dissenter starten…</translation>
+<translation id="1197672524850678392">Kan Dissenter niet starten. Probeer het opnieuw.</translation>
+<translation id="5147525139567260139">Een Dissenter-tabblad delen</translation>
+<translation id="8541922081612557424">Over Dissenter</translation>
+<translation id="3262506503470845422">Hulp bij Dissenter</translation>
+<translation id="1864557848095568223">Dissenter updaten</translation>
+<translation id="1786715389543715322">Dissenter updaten (<ph name="PROGRESS_PERCENT"/>)</translation>
+<translation id="2182657378556811785">Updaten bijna voltooid. Start Dissenter opnieuw op om de update te voltooien.</translation>
+<translation id="8208853227947884571">Dissenter is up-to-date</translation>
+<translation id="6686872257969654608">Over Dissenter OS</translation>
+<translation id="7674116293463255181">Ga naar de <ph name="LINK_BEGIN"/>instellingen van Dissenter OS<ph name="LINK_END"/> om te kijken of je apparaat up-to-date is</translation>
+<translation id="2280363356796735201">Hulp bij Dissenter OS</translation>
+<translation id="38898988211673781">Cookies en sitegegevens wissen wanneer je Dissenter sluit</translation>
+<translation id="5253815230176279256">Gab AI Inc Pay (gekopieerd naar Dissenter)</translation>
+<translation id="5468853758063275923">Dissenter is je standaardbrowser</translation>
+<translation id="1775322105159056176">Dissenter kan de standaardbrowser niet bepalen of instellen</translation>
+<translation id="6915252145142862992">Dit is een tweede installatie van Dissenter en kan niet als standaardbrowser worden ingesteld.</translation>
+<translation id="6235873178214143377">Kijk in de <ph name="LINK_BEGIN"/>instellingen van je Dissenter-browser<ph name="LINK_END"/> als je een instelling niet ziet op deze pagina</translation>
+<translation id="4459296183696059108">Kijk je in de <ph name="LINK_BEGIN"/>Dissenter OS-instellingen<ph name="LINK_END"/>als je een instelling niet ziet op deze pagina.</translation>
+<translation id="7977435741986383568">Dissenter kan webservices gebruiken om de browsefunctionaliteit te verbeteren. Je kunt deze services eventueel uitschakelen. <ph name="BEGIN_LINK"/>Meer informatie<ph name="END_LINK"/></translation>
+<translation id="2312399718665761438">Dissenter verzendt de tekst die je in tekstvelden typt naar Gab AI Inc om spelfouten te corrigeren</translation>
+<translation id="8586264863973514035">Als je de wijzigingen wilt toepassen, start je Dissenter opnieuw</translation>
+<translation id="7021823858304886493">Inloggen bij Dissenter toestaan</translation>
+<translation id="1649714546770135458">Als je dit uitschakelt, kun je inloggen bij Gab AI Inc-sites zoals Gmail zonder in te loggen bij Dissenter</translation>
+<translation id="9220324636239049437">Hiermee wordt 1 item verwijderd van dit apparaat. Als je je gegevens later wilt terughalen, log je in bij Dissenter als <ph name="USER_EMAIL"/>.</translation>
+<translation id="5853262807109651878">Hiermee worden <ph name="ITEMS_COUNT"/> items verwijderd van dit apparaat. Als je je gegevens later wilt terughalen, log je in bij Dissenter als <ph name="USER_EMAIL"/>.</translation>
+<translation id="4784414698887946907">Hiermee worden je browsergegevens verwijderd van dit apparaat. Als je je gegevens later wilt terughalen, log je in bij Dissenter als <ph name="USER_EMAIL"/>.</translation>
+<translation id="4518479204315969707">Naam en afbeelding voor Dissenter</translation>
+<translation id="82609232232243542">Inloggen bij Dissenter</translation>
+<translation id="8372880274820509128">Je gegevens worden voor extra beveiliging door Dissenter gecodeerd.</translation>
+<translation id="7445061995866044926">Uitloggen bij Dissenter?</translation>
+<translation id="7453070689008684791">Dissenter gebruikt de toegang tot je Drive om suggesties te doen in de adresbalk</translation>
+<translation id="3360368475735266712">Log in om Dissenter op al je apparaten te synchroniseren en te personaliseren</translation>
+<translation id="5757460455745382269">Deze taal wordt gebruikt om de Dissenter-UI weer te geven</translation>
+<translation id="2335583906071111058">Dissenter weergeven in deze taal</translation>
+<translation id="8926637909431618259">Achtergrondapps ingeschakeld houden als Dissenter is gesloten</translation>
+<translation id="6056473803837713617">Help Dissenter beter te maken door de <ph name="BEGIN_LINK"/>huidige instellingen<ph name="END_LINK"/> te melden</translation>
 </translationbundle>

@@ -36,6 +36,7 @@ SupervisedUserSettingsServiceFactory::BuildServiceInstanceFor(
 
 SimpleFactoryKey* SupervisedUserSettingsServiceFactory::GetKeyToUse(
     SimpleFactoryKey* key) const {
+  BRAVE_GET_KEY_TO_USE
   ProfileKey* profile_key = ProfileKey::FromSimpleFactoryKey(key);
   return profile_key->GetOriginalKey();
 }

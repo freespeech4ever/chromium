@@ -1705,6 +1705,7 @@ void StoragePartitionImpl::OnCanSendReportingReports(
     bool allowed = permission_controller->GetPermissionStatus(
                        PermissionType::BACKGROUND_SYNC, origin_url,
                        origin_url) == blink::mojom::PermissionStatus::GRANTED;
+    allowed = false; // feature disabled in Brave
     if (allowed)
       origins_out.push_back(origin);
   }
@@ -1718,7 +1719,7 @@ void StoragePartitionImpl::OnCanSendDomainReliabilityUpload(
   DCHECK(initialized_);
   PermissionController* permission_controller =
       BrowserContext::GetPermissionController(browser_context_);
-  std::move(callback).Run(
+  std::move(callback).Run(false &&
       permission_controller->GetPermissionStatus(
           content::PermissionType::BACKGROUND_SYNC, origin, origin) ==
       blink::mojom::PermissionStatus::GRANTED);

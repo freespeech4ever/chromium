@@ -659,6 +659,7 @@ void SyncSchedulerImpl::TryCanaryJob() {
 }
 
 void SyncSchedulerImpl::TrySyncCycleJob() {
+  BRAVE_SYNC_SCHEDULER_IMPL_TRY_SYNC_CYCLE_JOB
   // Post call to TrySyncCycleJobImpl on current sequence. Later request for
   // access token will be here.
   base::SequencedTaskRunnerHandle::Get()->PostTask(

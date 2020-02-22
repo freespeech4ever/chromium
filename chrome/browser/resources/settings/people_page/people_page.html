@@ -189,6 +189,7 @@
 </if>
               </div>
 <if expr="not chromeos">
+<!--
               <template is="dom-if" if="[[showSignin_(syncStatus)]]">
                 <div class="separator"></div>
                 <cr-button class="action-button" on-click="onSigninTap_"
@@ -203,6 +204,7 @@
                   $i18n{syncDisconnect}
                 </cr-button>
               </template>
+-->
 </if>
             </template>
           </div>
@@ -214,6 +216,7 @@
 <if expr="not chromeos">
           <template is="dom-if" if="[[!diceEnabled_]]">
 </if>
+<!--
             <div class="settings-box two-line" id="sync-overview"
                 hidden="[[!syncStatus.signinAllowed]]">
               <div class="start settings-box-text">
@@ -223,6 +226,7 @@
                 </a>
               </div>
             </div>
+-->
 <if expr="not chromeos">
           </template> <!-- if="[[!diceEnabled_]]" -->
 </if>

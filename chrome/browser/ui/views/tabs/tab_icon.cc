@@ -355,7 +355,7 @@ void TabIcon::SetIcon(const GURL& url, const gfx::ImageSkia& icon) {
 
   favicon_ = icon;
 
-  if (!HasNonDefaultFavicon() || ShouldThemifyFaviconForUrl(url)) {
+  if (!HasNonDefaultFavicon() || BraveShouldThemifyFaviconForUrl(url)) {
     themed_favicon_ = ThemeImage(icon);
   } else {
     themed_favicon_ = gfx::ImageSkia();

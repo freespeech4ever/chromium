@@ -39,7 +39,7 @@ public class BrowsingModeBottomToolbarCoordinator {
     private final HomeButton mHomeButton;
 
     /** The share button that lives in the bottom toolbar. */
-    private final ShareButton mShareButton;
+    private final BookmarksButton mShareButton;
 
     /** The search accelerator that lives in the bottom toolbar. */
     private final SearchAccelerator mSearchAccelerator;
@@ -185,4 +185,5 @@ public class BrowsingModeBottomToolbarCoordinator {
         mTabSwitcherButtonCoordinator.destroy();
         mMenuButton.destroy();
     }
+    public void updateBookmarkButton(boolean isBookmarked, boolean editingAllowed) {if (mShareButton != null) {mShareButton.updateBookmarkButton(isBookmarked, editingAllowed);}}
 }

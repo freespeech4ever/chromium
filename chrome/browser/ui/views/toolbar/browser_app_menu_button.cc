@@ -11,6 +11,7 @@
 #include "base/single_thread_task_runner.h"
 #include "base/threading/thread_task_runner_handle.h"
 #include "base/time/time.h"
+#include "brave/browser/ui/toolbar/brave_app_menu_model.h"
 #include "cc/paint/paint_flags.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_otr_state.h"
@@ -257,7 +258,7 @@ void BrowserAppMenuButton::ShowMenu(int run_types) {
       promo_feature_ == InProductHelpFeature::kReopenTab;
 
   RunMenu(
-      std::make_unique<AppMenuModel>(toolbar_view_, browser,
+      std::make_unique<BraveAppMenuModel>(toolbar_view_, browser,
                                      toolbar_view_->app_menu_icon_controller()),
       browser, run_types, alert_reopen_tab_items);
 }

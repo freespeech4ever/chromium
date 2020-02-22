@@ -317,7 +317,9 @@ cr.define('settings', function() {
 
       // TODO(tommycli): Find a way to refactor these repetitive category
       // routes.
+      // <if expr="_google_chrome">
       r.SITE_SETTINGS_ADS = r.SITE_SETTINGS.createChild('ads');
+      // </if>
       r.SITE_SETTINGS_AUTOMATIC_DOWNLOADS =
           r.SITE_SETTINGS.createChild('automaticDownloads');
       r.SITE_SETTINGS_BACKGROUND_SYNC =
@@ -380,7 +382,9 @@ cr.define('settings', function() {
       }
 
       r.PRINTING = r.ADVANCED.createSection('/printing', 'printing');
+      // <if expr="_google_chrome">
       r.CLOUD_PRINTERS = r.PRINTING.createChild('/cloudPrinters');
+      // </if>
 
       r.ACCESSIBILITY = r.ADVANCED.createSection('/accessibility', 'a11y');
 

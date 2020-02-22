@@ -13,6 +13,7 @@
 #include "ui/gfx/image/canvas_image_source.h"
 #include "ui/gfx/image/image.h"
 
+class BraveActionIconWithBadgeImageSource;
 namespace gfx {
 class RenderText;
 class Size;
@@ -21,6 +22,7 @@ class Size;
 // CanvasImageSource for creating extension icon with a badge.
 class IconWithBadgeImageSource : public gfx::CanvasImageSource {
  public:
+  friend class BraveActionIconWithBadgeImageSource;
   // The data representing a badge to be painted over the base image.
   struct Badge {
     Badge(const std::string& text,
@@ -57,11 +59,16 @@ class IconWithBadgeImageSource : public gfx::CanvasImageSource {
   }
 
  private:
+  // Custom values for Brave Action Icons
+  virtual base::Optional<int> GetCustomGraphicSize();
+  virtual base::Optional<int> GetCustomGraphicXOffset();
+  virtual base::Optional<int> GetCustomGraphicYOffset();
+
   // gfx::CanvasImageSource:
   void Draw(gfx::Canvas* canvas) override;
 
   // Paints |badge_|, if any, on |canvas|.
-  void PaintBadge(gfx::Canvas* canvas);
+  virtual void PaintBadge(gfx::Canvas* canvas);
 
   // Paints a decoration over the base icon to indicate that the action wants to
   // run.
@@ -76,7 +83,7 @@ class IconWithBadgeImageSource : public gfx::CanvasImageSource {
   // all cases, our badges and decorations should be positions at the corners of
   // the area where the icon exists (ignoring all the paddings).
   // https://crbug.com/831946.
-  gfx::Rect GetIconAreaRect() const;
+  virtual gfx::Rect GetIconAreaRect() const;
 
   // The base icon to draw.
   gfx::Image icon_;

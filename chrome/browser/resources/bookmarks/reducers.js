@@ -246,6 +246,9 @@ cr.define('bookmarks', function() {
   NodeState.moveBookmark = function(nodes, action) {
     const nodeModifications = {};
     const id = action.id;
+    // Skip when new/old parent is invisible (Pending Bookmarks)
+    if (!nodes[action.oldParentId] || !nodes[action.parentId])
+      return nodes;
 
     // Change node's parent.
     nodeModifications[id] =
@@ -424,7 +427,7 @@ cr.define('bookmarks', function() {
         return FolderOpenState.openFolderAndAncestors(
             folderOpenState, nodes[action.id].parentId, nodes);
       case 'move-bookmark':
-        if (!nodes[action.id].children) {
+        if (!nodes[action.id] || !nodes[action.id].children) {
           return folderOpenState;
         }
 

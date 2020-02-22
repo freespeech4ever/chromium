@@ -290,12 +290,6 @@ def _package_dmg(paths, dist, config):
         '--volname', config.app_product,
         '--icon', os.path.join(packaging_dir, icon_file),
         '--copy', '{}:/'.format(app_path),
-        '--copy',
-            '{}/keystone_install.sh:/.keystone_install'.format(packaging_dir),
-        '--mkdir', '.background',
-        '--copy',
-            '{}/chrome_dmg_background.png:/.background/background.png'.format(
-                packaging_dir),
         '--copy', '{}/{}:/.DS_Store'.format(packaging_dir, dsstore_file),
         '--symlink', '/Applications:/ ',
     ])
@@ -319,7 +313,6 @@ def _package_installer_tools(paths, config):
         'dirdiffer.sh',
         'dirpatcher.sh',
         'dmgdiffer.sh',
-        'keystone_install.sh',
         'pkg-dmg',
     )
 
@@ -466,5 +459,8 @@ def sign_all(orig_paths,
                         uuids_to_package_path.keys(), config):
                     package_path = uuids_to_package_path[result]
                     notarize.staple(package_path)
+        else:
+            # Copy the notarized app to the orig_paths.output dir where the user expects it.
+            commands.copy_files(dest_dir, orig_paths.output)
 
     _package_installer_tools(orig_paths, config)

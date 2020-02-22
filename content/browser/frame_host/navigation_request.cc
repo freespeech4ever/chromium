@@ -2157,6 +2157,7 @@ void NavigationRequest::OnStartChecksComplete(
   headers.MergeFrom(TakeModifiedRequestHeaders());
   begin_params_->headers = headers.ToString();
 
+  BRAVE_ONSTARTCHECKSCOMPLETE_MAYBEHIDEREFERRER
   // TODO(clamy): Avoid cloning the navigation params and create the
   // ResourceRequest directly here.
   std::vector<std::unique_ptr<NavigationLoaderInterceptor>> interceptor;

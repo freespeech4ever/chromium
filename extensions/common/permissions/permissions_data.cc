@@ -531,6 +531,7 @@ PermissionsData::PageAccess PermissionsData::CanRunOnPage(
   if (IsRestrictedUrl(document_url, error))
     return PageAccess::kDenied;
 
+  BRAVE_CAN_RUN_ON_PAGE
   if (tab_url_patterns && tab_url_patterns->MatchesURL(document_url))
     return PageAccess::kAllowed;
 

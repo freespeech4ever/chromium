@@ -38,9 +38,11 @@ class PermissionUtil {
  public:
   // Returns the permission string for the given permission.
   static std::string GetPermissionString(ContentSettingsType);
+  static std::string GetPermissionString_ChromiumImpl(ContentSettingsType);
 
   // Returns the request type corresponding to a permission type.
   static PermissionRequestType GetRequestType(ContentSettingsType permission);
+  static PermissionRequestType GetRequestType_ChromiumImpl(ContentSettingsType permission);
 
   // Returns the gesture type corresponding to whether a permission request is
   // made with or without a user gesture.
@@ -53,11 +55,13 @@ class PermissionUtil {
   // histogram value to count permission request metrics.
   static bool GetPermissionType(ContentSettingsType type,
                                 content::PermissionType* out);
+  static bool GetPermissionType_ChromiumImpl(ContentSettingsType type, content::PermissionType* out);
 
   // Checks whether the given ContentSettingsType is a permission. Use this
   // to determine whether a specific ContentSettingsType is supported by the
   // PermissionManager.
   static bool IsPermission(ContentSettingsType type);
+  static bool IsPermission_ChromiumImpl(ContentSettingsType type);
 
   // A scoped class that will check the current resolved content setting on
   // construction and report a revocation metric accordingly if the revocation

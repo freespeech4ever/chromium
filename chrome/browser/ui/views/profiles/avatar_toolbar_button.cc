@@ -451,6 +451,7 @@ void AvatarToolbarButton::MaybeHideIdentityAnimation() {
 }
 
 base::string16 AvatarToolbarButton::GetAvatarTooltipText() const {
+  GET_AVATAR_TOOLTIP_TEXT_
   switch (GetState()) {
     case State::kIncognitoProfile:
       return l10n_util::GetStringUTF16(IDS_AVATAR_BUTTON_INCOGNITO_TOOLTIP);

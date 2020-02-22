@@ -1,236 +1,245 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="lt">
+<translation id="939305735877869636">„Dissenter“</translation>
+<translation id="2069994121511856876">„Dissenter Nightly“</translation>
+<translation id="4947625801334180582">„Dissenter Beta“</translation>
+<translation id="2566435362010629810">„Dissenter Dev“</translation>
+<translation id="6373767849825830651">„Dissenter“ – tai žiniatinklio naršyklė, kurią naudojant akimirksniu paleidžiami tinklalapiai ir programos. Ji greita, stabili ir lengvai naudojama. Saugiau naršykite žiniatinklį naudodami į „Dissenter“ integruotą apsaugą nuo kenkėjiškų programų ir sukčiavimo.</translation>
+<translation id="680297041157509674">„Dissenter“ OS</translation>
+<translation id="4847979153841887006">„Dissenter“ logotipas</translation>
+<translation id="7339898014177206373">Naujas langas</translation>
+<translation id="5935964611177478118">prisijunkite prie „Dissenter“</translation>
+<translation id="5516268345616100622">Užduočių tvarkytuvė – „Dissenter“</translation>
+<translation id="7918740962659365265">Padėkite tobulinti „Dissenter“ siųsdami „Gab AI Inc“ strigčių ataskaitas ir <ph name="UMA_LINK"/></translation>
+<translation id="5381622442243174305">„<ph name="PAGE_TITLE"/>“ – „Dissenter“</translation>
+<translation id="7830723774663008396">„Dissenter“ – „<ph name="PAGE_TITLE"/>“</translation>
+<translation id="1403270718080126244">„<ph name="PAGE_TITLE"/>“ – „Dissenter Beta“</translation>
+<translation id="3943696263619956191">„<ph name="PAGE_TITLE"/>“ – „Dissenter Dev“</translation>
+<translation id="6236814935154483927">„<ph name="PAGE_TITLE"/>“ – „Dissenter Canary“</translation>
+<translation id="8992261409816268381">„Dissenter“ autoriai</translation>
+<translation id="8121009781989288430">Autorių teisės priklauso „Dissenter“ autoriams, <ph name="YEAR"/> m. Visos teisės saugomos.</translation>
+<translation id="2310890394934209120">„Dissenter“ OS pasiekiama naudojant papildomą <ph name="BEGIN_LINK_CROS_OSS"/>atvirojo šaltinio programinę įrangą<ph name="END_LINK_CROS_OSS"/>.</translation>
+<translation id="8160794320557846790">„Dissenter“ OS pasiekiama naudojant papildomą <ph name="BEGIN_LINK_CROS_OSS"/>atvirojo šaltinio programinę įrangą<ph name="END_LINK_CROS_OSS"/> (kaip ir <ph name="BEGIN_LINK_LINUX_OSS"/>„Linux“ (beta versija)<ph name="END_LINK_LINUX_OSS"/>).</translation>
+<translation id="6913582816347128893">„Dissenter“ gali tinkamai neveikti, nes ji nebepalaikoma naudojant 10.9 versijos „Mac OS X“.</translation>
+<translation id="7977787072794666032">„Dissenter“ gali tinkamai neveikti, nes ji nebepalaikoma naudojant „Windows XP“ arba „Windows Vista“</translation>
+<translation id="189297655255130768">„Dissenter“ neatsako. Paleisti iš naujo dabar?</translation>
+<translation id="8703492925273919597">Uždarykite visus „Dissenter“ langus ir bandykite dar kartą.</translation>
+<translation id="335632367599648646">Ar tikrai norite pašalinti „Dissenter"?</translation>
+<translation id="5590013613412457132">Pašalinti „Dissenter“</translation>
+<translation id="5019879183386042809">Padaryti „Dissenter“ numatytąja naršykle</translation>
+<translation id="5063987220091207247">„Dissenter“ OS negali atidaryti šio puslapio.</translation>
+<translation id="4065288863231444640">„Dissenter“ leidimas fone</translation>
+<translation id="6797402139308059782">Paleisti „Dissenter“ fone</translation>
+<translation id="2585240446624043880">„Dissenter“ negali skaityti ir rašyti į duomenų katalogą:
+
+<ph name="USER_DATA_DIRECTORY"/></translation>
+<translation id="8417700129970341035">Pasirenkama: padėkite tobulinti „Dissenter“ automatiškai siųsdami „Gab AI Inc“ naudojimo statistiką ir strigčių ataskaitas.</translation>
+<translation id="1489465648257900784">Jūsų profilis nenaudojamas, nes jis iš naujesnės versijos „Dissenter“.
+
+Kai kurios funkcijos gali būti nepasiekiamos. Nurodykite kitą profilio katalogą arba naudokite naujesnės versijos „Dissenter“.</translation>
 <translation id="1065672644894730302">Jūsų nuostatų negalima nuskaityti.
 
 Kai kurios funkcijos gali būti nepasiekiamos ir nuostatų pakeitimai nebus išsaugoti.</translation>
-<translation id="1104942323762546749">„Chromium“ nori eksportuoti jūsų slaptažodžius. Įveskite „Windows“ slaptažodį, kad tai leistumėte.</translation>
-<translation id="1115445892567829615">„Chromium“ negali sinchronizuoti jūsų duomenų. Atnaujinkite sinchronizavimo slaptafrazę.</translation>
-<translation id="113122355610423240">„Chromium“ yra numatytoji naršyklė</translation>
-<translation id="1185134272377778587">Apie „Chromium“</translation>
-<translation id="1396446129537741364">„Chromium“ bando parodyti slaptažodžius.</translation>
-<translation id="1414495520565016063">Esate prisijungę prie „Chromium“.</translation>
-<translation id="151962892725702025">„Chromium“ OS negali sinchronizuoti duomenų, nes jūsų domene sinchronizavimas nepasiekiamas.</translation>
-<translation id="1524282610922162960">„Chromium“ skirtuko bendrinimas</translation>
-<translation id="1607715478322902680">{COUNT,plural, =0{Administratorius reikalauja paleisti „Chromium“ iš naujo, kad būtų galima pritaikyti naujinį}=1{Administratorius reikalauja paleisti „Chromium“ iš naujo, kad būtų galima pritaikyti naujinį. Inkognito langas nebus atidarytas iš naujo.}one{Administratorius reikalauja paleisti „Chromium“ iš naujo, kad būtų galima pritaikyti naujinį. # inkognito langas nebus atidarytas iš naujo.}few{Administratorius reikalauja paleisti „Chromium“ iš naujo, kad būtų galima pritaikyti naujinį. # inkognito langai nebus atidaryti iš naujo.}many{Administratorius reikalauja paleisti „Chromium“ iš naujo, kad būtų galima pritaikyti naujinį. # inkognito lango nebus atidaryta iš naujo.}other{Administratorius reikalauja paleisti „Chromium“ iš naujo, kad būtų galima pritaikyti naujinį. # inkognito langų nebus atidaryta iš naujo.}}</translation>
-<translation id="1708666629004767631">Pasiekiama nauja, saugesnė „Chromium“ versija.</translation>
-<translation id="1774152462503052664">Paleisti „Chromium“ fone</translation>
-<translation id="1779356040007214683">Kad „Chromium“ padarytume saugesnę, išjungėme kai kuriuos plėtinius, kurių nėra „<ph name="IDS_EXTENSION_WEB_STORE_TITLE" />“ sąraše ir kurie galėjo būti pridėti be jūsų žinios.</translation>
-<translation id="1808667845054772817">Iš naujo įdiegti „Chromium“</translation>
-<translation id="1881322772814446296">Prisijungiate su valdoma paskyra ir leidžiate jos administratoriui valdyti jūsų „Chromium“ profilį. „Chromium“ duomenys, pvz., programos, žymės, istorija, slaptažodžiai ir kiti nustatymai, bus visam laikui susieti su <ph name="USER_NAME" />. Galėsite ištrinti šiuos duomenis naudodami „Google“ paskyrų informacijos suvestinę, bet negalėsite susieti šių duomenų su kita paskyra. Galite pasirinktinai sukurti naują profilį, kad esami „Chromium“ duomenys būtų saugomi atskirai. <ph name="LEARN_MORE" /></translation>
-<translation id="1911763535808217981">Jei išjungsite šį nustatymą, prie „Google“ svetainių galėsite prisijungti kaip prie „Gmail“ neprisijungę prie „Chromium“</translation>
-<translation id="1929939181775079593">„Chromium“ neatsako. Paleisti iš naujo dabar?</translation>
-<translation id="1966382378801805537">„Chromium“ nepavyko aptikti arba nustatyti numatytosios naršyklės</translation>
-<translation id="2008474315282236005">Atlikus šį veiksmą iš šio įrenginio bus ištrintas 1 elementas. Jei vėliau norėsite gauti duomenis, prisijunkite prie „Chromium“ kaip <ph name="USER_EMAIL" />.</translation>
-<translation id="2119636228670142020">Apie &amp;„Chromium“ OS</translation>
-<translation id="2241627712206172106">Jei bendrinate kompiuterį, šeimos nariai ir draugai gali naršyti atskirai ir nustatyti „Chromium“ pagal savo poreikius.</translation>
-<translation id="2347108572062610441">Šis plėtinys pakeitė, kuris puslapis rodomas paleidus „Chromium“.</translation>
-<translation id="2396765026452590966">Plėtinys „<ph name="EXTENSION_NAME" />“ pakeitė, kuris puslapis rodomas paleidus „Chromium“.</translation>
-<translation id="2483889755041906834">Naudojant „Chromium“</translation>
-<translation id="2485422356828889247">Pašalinti</translation>
-<translation id="2527042973354814951">Iš naujo paleiskite „Chromium“, kad įgalintumėte „<ph name="PLUGIN_NAME" />“</translation>
-<translation id="2535480412977113886">„Chromium“ OS negali sinchronizuoti duomenų, nes paskyros išsami prisijungimo informacija yra pasenusi.</translation>
-<translation id="2560420686485554789">„Chromium“ reikia prieigos prie saugyklos, kad būtų galima atsisiųsti failus</translation>
-<translation id="2572494885440352020">„Chromium“ pagalbos priemonė</translation>
-<translation id="2587578672395088481">Kad būtų galima pritaikyti naujinį, „Chromium“ OS reikia paleisti iš naujo.</translation>
-<translation id="2647554856022461007">„Chromium“ gali naudoti žiniatinklio paslaugas naršymo funkcijoms pagerinti. Galite pasirinktinai išjungti šias paslaugas. <ph name="BEGIN_LINK" />Sužinokite daugiau<ph name="END_LINK" /></translation>
-<translation id="2648074677641340862">Diegiant įvyko operacinės sistemos klaida. Atsisiųskite „Chromium“ dar kartą.</translation>
-<translation id="2711502716910134313">„Chromium“ skirtukas</translation>
-<translation id="2718390899429598676">Kad būtų papildomai užtikrintas saugumas, „Chromium“ užšifruos jūsų duomenis.</translation>
-<translation id="2770231113462710648">Pakeisti numatytąją naršyklę į:</translation>
-<translation id="2799223571221894425">Paleisti iš naujo</translation>
-<translation id="2838154144102149890">Norint atnaujinti „Chromium“, programa šiame kompiuteryje turi būti sustabdyta. Todėl kiti naudotojai, prisijungę prie šio kompiuterio, gali prarasti neišsaugotus pakeitimus.</translation>
-<translation id="2847479871509788944">Pašalinti iš „Chromium“...</translation>
-<translation id="2886012850691518054">Pasirenkama: padėkite tobulinti „Chromium“ automatiškai siųsdami „Google“ naudojimo statistiką ir strigčių ataskaitas.</translation>
-<translation id="2910007522516064972">Apie &amp;„Chromium“</translation>
-<translation id="2977470724722393594">„Chromium“ naujausios versijos</translation>
-<translation id="3032787606318309379">Pridedama prie „Chromium“...</translation>
-<translation id="3068515742935458733">Padėkite tobulinti „Chromium“ siųsdami „Google“ strigčių ataskaitas ir <ph name="UMA_LINK" /></translation>
-<translation id="3103660991484857065">Diegimo programai nepavyko išpakuoti archyvo. Atsisiųskite „Chromium“ dar kartą.</translation>
-<translation id="3130323860337406239">„Chromium“ naudoja jūsų mikrofoną.</translation>
-<translation id="3155163173539279776">Iš naujo paleisti „Chromium“</translation>
-<translation id="3179665906251668410">Atidaryti nuorodą „Chromium“ inko&amp;gnito lange</translation>
-<translation id="3190315855212034486">Oi! „Chromium“ užstrigo. Paleisti iš naujo dabar?</translation>
-<translation id="3229526316128325841">„Chromium“ nori eksportuoti jūsų slaptažodžius.</translation>
-<translation id="3258596308407688501">„Chromium“ negali skaityti ir rašyti į duomenų katalogą:
+<translation id="3403365884036456766">Nuostatų failas sugadintas ar netinkamas.
 
-<ph name="USER_DATA_DIRECTORY" /></translation>
-<translation id="328888136576916638">Trūksta „Google“ API raktų. Bus išjungtos kai kurios „Chromium“ funkcijos.</translation>
-<translation id="3296368748942286671">Toliau vykdyti fonines programas, kai „Chromium“ uždaroma</translation>
-<translation id="331951419404882060">„Chromium“ OS negali sinchronizuoti duomenų, nes prisijungiant įvyko klaida.</translation>
-<translation id="3340978935015468852">nustatymų</translation>
-<translation id="3474745554856756813">Atlikus šį veiksmą iš šio įrenginio bus ištrinti elementai (<ph name="ITEMS_COUNT" />). Jei vėliau norėsite gauti duomenis, prisijunkite prie „Chromium“ kaip <ph name="USER_EMAIL" />.</translation>
-<translation id="3509308970982693815">Uždarykite visus „Chromium“ langus ir bandykite dar kartą.</translation>
-<translation id="352783484088404971">Pašalinti iš „Chromium“...</translation>
-<translation id="3575459661164320785">Kompiuteryje yra kenkėjiškos programinės įrangos. „Chromium“ gali ją pašalinti, atkurti nustatymus ir išjungti plėtinius, kad naršyklė vėl veiktų įprastai.</translation>
-<translation id="358997566136285270">„Chromium“ logotipas</translation>
-<translation id="3639635944603682591">Šio asmens naršymo duomenys bus ištrinti iš šio įrenginio. Jei norite atkurti duomenis, prisijunkite prie „Chromium“ kaip <ph name="USER_EMAIL" />.</translation>
-<translation id="364817392622123556">{COUNT,plural, =0{Pasiekiamas naujas „Chromium“ naujinys. Jis bus pritaikytas, kai paleisite „Chromium“ iš naujo.}=1{Pasiekiamas naujas „Chromium“ naujinys. Jis bus pritaikytas, kai paleisite „Chromium“ iš naujo. Inkognito langas nebus atidarytas iš naujo.}one{Pasiekiamas naujas „Chromium“ naujinys. Jis bus pritaikytas, kai paleisite „Chromium“ iš naujo. # inkognito langas nebus atidarytas iš naujo.}few{Pasiekiamas naujas „Chromium“ naujinys. Jis bus pritaikytas, kai paleisite „Chromium“ iš naujo. # inkognito langai nebus atidaryti iš naujo.}many{Pasiekiamas naujas „Chromium“ naujinys. Jis bus pritaikytas, kai paleisite „Chromium“ iš naujo. # inkognito lango nebus atidaryta iš naujo.}other{Pasiekiamas naujas „Chromium“ naujinys. Jis bus pritaikytas, kai paleisite „Chromium“ iš naujo. # inkognito langų nebus atidaryta iš naujo.}}</translation>
-<translation id="370962675267501463">{COUNT,plural, =0{Administratorius prašo paleisti „Chromium“ iš naujo, kad būtų galima pritaikyti šį naujinį}=1{Administratorius prašo paleisti „Chromium“ iš naujo, kad būtų galima pritaikyti šį naujinį. Inkognito langas nebus atidarytas iš naujo.}one{Administratorius prašo paleisti „Chromium“ iš naujo, kad būtų galima pritaikyti šį naujinį. # inkognito langas nebus atidarytas iš naujo.}few{Administratorius prašo paleisti „Chromium“ iš naujo, kad būtų galima pritaikyti šį naujinį. # inkognito langai nebus atidaryti iš naujo.}many{Administratorius prašo paleisti „Chromium“ iš naujo, kad būtų galima pritaikyti šį naujinį. # inkognito lango nebus atidaryta iš naujo.}other{Administratorius prašo paleisti „Chromium“ iš naujo, kad būtų galima pritaikyti šį naujinį. # inkognito langų nebus atidaryta iš naujo.}}</translation>
-<translation id="3713809861844741608">Atidaryti nuorodą naujame „Chromium“ &amp;skirtuke</translation>
-<translation id="3728336900324680424">„Chromium“ turės prieigą prie Disko, kad galėtų teikti pasiūlymus adreso juostoje</translation>
-<translation id="378917192836375108">Naudodami „Chromium“ galite spustelėti telefono numerį žiniatinklyje ir skambinti juo naudodami „Skype“!</translation>
-<translation id="3848258323044014972">„<ph name="PAGE_TITLE" />“ – „Chromium“</translation>
-<translation id="388648406173476553">Tinkinkite ir valdykite „Chromium“. Reikia atkreipti dėmesį – spustelėkite ir peržiūrėkite išsamią informaciją.</translation>
-<translation id="3889543394854987837">Spustelėkite savo vardą, kad atidarytumėte „Chromium“ ir pradėtumėte naršyti.</translation>
-<translation id="4036079820698952681">Padėkite tobulinti „Chromium“ pateikę ataskaitą apie <ph name="BEGIN_LINK" />dabartinius nustatymus<ph name="END_LINK" />.</translation>
-<translation id="4050175100176540509">Naujausios versijos programoje įdiegti svarbūs saugos patobulinimai ir pasiekiamos naujos funkcijos.</translation>
-<translation id="421369550622382712">Atraskite puikių „Chromium“ programų, žaidimų, plėtinių ir temų.</translation>
-<translation id="4216212958613226427">Ši kalba vartojama „Chromium“ NS pateikti</translation>
-<translation id="4230135487732243613">Susisieti „Chromium“ duomenis su šia paskyra?</translation>
-<translation id="4271805377592243930">Gaukite pagalbos dėl „Chromium“</translation>
-<translation id="4285930937574705105">Diegimas nepavyko dėl nežinomos klaidos. Jei šiuo metu veikia „Chromium“, uždarykite ir pabandykite iš naujo.</translation>
-<translation id="4407044323746248786">Vis tiek išeiti iš „Chromium“?</translation>
-<translation id="4415566066719264597">„Chromium“ leidimas fone</translation>
-<translation id="4423735387467980091">Tinkinkite ir valdykite „Chromium“</translation>
-<translation id="4567424176335768812">Esate prisijungę kaip <ph name="USER_EMAIL_ADDRESS" />. Dabar galite pasiekti savo žymes, istoriją ir kitus nustatymus visuose įrenginiuose, kuriuose esate prisijungę.</translation>
-<translation id="459535195905078186">„Chromium“ programos</translation>
-<translation id="4621240073146040695">Beveik atnaujinta! Paleiskite „Chromium“ iš naujo, kad būtų užbaigtas naujinimas.</translation>
-<translation id="4661006601577405669">Būsimos „Chromium“ versijos bus įdiegtos automatiškai.</translation>
-<translation id="4677944499843243528">Atrodo, kad profilį naudoja kitas „Chromium“ procesas (<ph name="PROCESS_ID" />) kitame kompiuteryje (<ph name="HOST_NAME" />). „Chromium“ užrakino profilį, kad jis nebūtų sugadintas. Jei esate tikri, kad jokie kiti procesai nenaudoja šio profilio, galite atrakinti profilį ir iš naujo paleisti „Chromium“.</translation>
-<translation id="469338717132742108">Gaukite pagalbos dėl „Chromium“ OS</translation>
-<translation id="4708774505295300557">Kažkas anksčiau prisijungė prie „Chromium“ šiame kompiuteryje kaip <ph name="ACCOUNT_EMAIL_LAST" />. Sukurkite naują „Chromium“ naudotoją, kad apsaugotumėte savo informaciją.</translation>
-<translation id="4746050847053251315">Vis tiek išeiti iš „Chromium“?</translation>
-<translation id="4748217263233248895">Ką tik pritaikytas specialus „Chromium“ skirtas saugos naujinys. Paleiskite naršyklę iš naujo ir atkursime visus skirtukus.</translation>
-<translation id="479167709087336770">Naudojamas tas pats rašybos tikrinimas kaip ir „Google“ paieškoje. Tekstas, kurį įvedate naršyklėje, nusiunčiamas „Google“. Šį veikimą visada galite pakeisti nustatymuose.</translation>
-<translation id="4888717733111232871">„Chromium“ skirta taisyklė, pagal kurią leidžiamas mDNS srautas.</translation>
-<translation id="4943838377383847465">„Chromium“ veikia fono režimu.</translation>
-<translation id="4987820182225656817">Svečiai gali naudoti „Chromium“ nepalikdami jokių duomenų.</translation>
-<translation id="4994636714258228724">Pridėkite save prie „Chromium“</translation>
-<translation id="5277894862589591112">Norėdami pritaikyti pakeitimus, paleiskite „Chromium“ iš naujo</translation>
-<translation id="5358375970380395591">Prisijungiate su valdoma paskyra ir leidžiate jos administratoriui valdyti jūsų „Chromium“ profilį. „Chromium“ duomenys, pvz., programos, žymės, istorija, slaptažodžiai ir kiti nustatymai, bus visam laikui susieti su <ph name="USER_NAME" />. Galėsite ištrinti šiuos duomenis naudodami „Google“ paskyrų informacijos suvestinę, bet negalėsite susieti šių duomenų su kita paskyra. <ph name="LEARN_MORE" /></translation>
-<translation id="5386450000063123300">Atnaujinama „Chromium“ (<ph name="PROGRESS_PERCENT" />)</translation>
-<translation id="538767207339317086">Leisti „Chromium“ prisijungti</translation>
-<translation id="5398878173008909840">Pasiekiama nauja „Chromium“ versija.</translation>
-<translation id="5416696090975899932">„Chromium“ negalima rodyti spaudinio peržiūros, jei nėra įtaisytos PDF žiūryklės.</translation>
-<translation id="5427571867875391349">Nustatyti „Chromium“ kaip numatytąją naršyklę</translation>
-<translation id="5438241569118040789">„<ph name="PAGE_TITLE" />“ – „Chromium Beta“</translation>
-<translation id="5479196819031988440">„Chromium“ OS negali atidaryti šio puslapio.</translation>
-<translation id="5480860683791598150">„Chromium“ reikia leidimo, kad galėtų naudoti jūsų vietovės informaciją ir bendrinti ją su šia svetaine</translation>
-<translation id="549669000822060376">Palaukite, kol „Chromium“ įdiegs naujausius sistemos naujinius.</translation>
-<translation id="5623402015214259806">{0,plural, =0{Pasiekiamas „Chromium“ naujinys}=1{Pasiekiamas „Chromium“ naujinys}one{„Chromium“ naujinys pasiekiamas # dieną}few{„Chromium“ naujinys pasiekiamas # dienas}many{„Chromium“ naujinys pasiekiamas # dienos}other{„Chromium“ naujinys pasiekiamas # dienų}}</translation>
-<translation id="5631814766731275228">„Chromium“ pavadinimas ir paveikslėlis</translation>
-<translation id="5634636535844844681">Kad būtų galima naudoti „Chromium“, reikalinga 7 ar naujesnės versijos „Windows“.</translation>
-<translation id="5653831366781983928">Dabar iš naujo paleiskite „Chromium“</translation>
-<translation id="5680901439334282664">prisijunkite prie „Chromium“</translation>
-<translation id="5698481217667032250">Pateikti „Chromium“ šia kalba</translation>
-<translation id="5820394555380036790">„Chromium“ OS</translation>
-<translation id="5862307444128926510">Sveiki, tai „Chromium“</translation>
-<translation id="5895138241574237353">Paleisti iš naujo</translation>
-<translation id="5987687638152509985">Atnaujinkite „Chromium“, kad galėtumėte pradėti sinchronizuoti</translation>
-<translation id="6013050204643758987">„Chromium“ OS pasiekiama naudojant papildomą <ph name="BEGIN_LINK_CROS_OSS" />atvirojo šaltinio programinę įrangą<ph name="END_LINK_CROS_OSS" /> (kaip ir <ph name="BEGIN_LINK_LINUX_OSS" />„Linux“ (beta vers.)<ph name="END_LINK_LINUX_OSS" />.</translation>
-<translation id="6055895534982063517">Pasiekiama nauja „Chromium“ versija, kuri greitesnė nei bet kada.</translation>
-<translation id="6063093106622310249">&amp;Atidaryti naudojant „Chromium“</translation>
-<translation id="6072279588547424923">„<ph name="EXTENSION_NAME" />“ pridėtas prie „Chromium“</translation>
-<translation id="608189560609172163">„Chromium“ negali sinchronizuoti duomenų, nes prisijungiant įvyko klaida.</translation>
-<translation id="6096348254544841612">Tinkinkite ir valdykite „Chromium“. Pasiekiamas naujinys.</translation>
-<translation id="6120345080069858279">„Chromium“ išsaugos šį slaptažodį „Google“ paskyroje. Jums nereikia jo prisiminti.</translation>
-<translation id="6129621093834146363">Failas „<ph name="FILE_NAME" />“ pavojingas, todėl „Chromium“ jį užblokavo.</translation>
-<translation id="6212496753309875659">Šiame kompiuteryje jau yra naujesnės versijos „Chromium“. Jei programinė įranga neveikia, pašalinkite „Chromium“ ir bandykite dar kartą.</translation>
-<translation id="6219195342503754812">{0,plural, =0{„Chromium“ bus paleista iš naujo dabar}=1{„Chromium“ bus paleista iš naujo po 1 sekundės}one{„Chromium“ bus paleista iš naujo po # sekundės}few{„Chromium“ bus paleista iš naujo po # sekundžių}many{„Chromium“ bus paleista iš naujo po # sekundės}other{„Chromium“ bus paleista iš naujo po # sekundžių}}</translation>
-<translation id="6248213926982192922">Padaryti „Chromium“ numatytąja naršykle</translation>
-<translation id="6268381023930128611">Atsijungti nuo „Chromium“?</translation>
-<translation id="6295779123002464101">Failas „<ph name="FILE_NAME" />“ gali būti pavojingas, todėl „Chromium“ jį užblokavo.</translation>
-<translation id="6309712487085796862">„Chromium“ naudoja jūsų fotoaparatą.</translation>
-<translation id="6333502561965082103">Vykdoma kita „Chromium“ operacija. Vėliau bandykite dar kartą.</translation>
-<translation id="6334986366598267305">Dabar galite lengviau naudoti „Chromium“ naudodami „Google“ paskyrą ir bendrinamus kompiuterius.</translation>
-<translation id="6373523479360886564">Ar tikrai norite pašalinti „Chromium"?</translation>
-<translation id="6400072781405947421">„Chromium“ gali tinkamai neveikti, nes ji nebepalaikoma naudojant 10.9 versijos „Mac OS X“.</translation>
-<translation id="6403826409255603130">„Chromium“ – tai žiniatinklio naršyklė, kurią naudojant akimirksniu paleidžiami tinklalapiai ir programos. Ji greita, stabili ir lengvai naudojama. Saugiau naršykite žiniatinklį naudodami į „Chromium“ integruotą apsaugą nuo kenkėjiškų programų ir sukčiavimo.</translation>
-<translation id="6434250628340475518">„Chromium“ OS sistema</translation>
-<translation id="6457450909262716557">{SECONDS,plural, =1{„Chromium“ bus paleista iš naujo po 1 sekundės}one{„Chromium“ bus paleista iš naujo po # sekundės}few{„Chromium“ bus paleista iš naujo po # sekundžių}many{„Chromium“ bus paleista iš naujo po # sekundės}other{„Chromium“ bus paleista iš naujo po # sekundžių}}</translation>
-<translation id="6475912303565314141">Ji taip pat kontroliuoja, koks puslapis rodomas, kai paleidžiate „Chromium“.</translation>
-<translation id="6510925080656968729">Pašalinti „Chromium“</translation>
-<translation id="6570579332384693436">Kad ištaisytų rašybos klaidas, „Chromium“ siunčia „Google“ tekstą, kurį įvedate teksto laukuose</translation>
-<translation id="6598877126913850652">Eiti į „Chromium“ pranešimų nustatymus</translation>
-<translation id="6676384891291319759">Interneto prieiga</translation>
-<translation id="6717134281241384636">Jūsų profilis nenaudojamas, nes jis iš naujesnės versijos „Chromium“.
-
-Kai kurios funkcijos gali būti nepasiekiamos. Nurodykite kitą profilio katalogą arba naudokite naujesnės versijos „Chromium“.</translation>
-<translation id="6734080038664603509">&amp;„Chromium“ naujinys</translation>
-<translation id="6734291798041940871">„Chromium“ jau įdiegta visiems kompiuterio naudotojams.</translation>
-<translation id="6847869444787758381">„Chromium“ praneš, jei slaptažodžiai bus pažeisti</translation>
-<translation id="6857782730669500492">„Chromium“ – „<ph name="PAGE_TITLE" />“</translation>
-<translation id="6863361426438995919">„Google Pay“ (nukopijuota į „Chromium“)</translation>
-<translation id="6868056391275687737">Veikia kitos „Chromium“ kopijos. Norėdami atnaujinti, jas uždarykite.</translation>
-<translation id="6893813176749746474">„Chromium“ atnaujinta, bet jos nenaudojote mažiausiai 30 dienų.</translation>
-<translation id="6964305034639999644">Atidaryti nuorodą „Chromium“ inko&amp;gnito lange</translation>
-<translation id="6990124437352146030">„Chromium“ reikia leidimo, kad galėtų naudoti mikrofoną šioje svetainėje</translation>
-<translation id="705851970750939768">Atnaujinti „Chromium“</translation>
-<translation id="7066436765290594559">„Chromium“ OS negali sinchronizuoti duomenų. Atnaujinkite sinchronizavimo slaptafrazę.</translation>
-<translation id="7067091210845072982">Jei nebus naudingo vaizdo aprašo, „Chromium“ bandys jums jį pateikti. Kad būtų galima kurti aprašus, vaizdai siunčiami į sistemą „Google“.</translation>
-<translation id="7196312274710523067">Nepavyko paleisti „Chromium“. Bandykite dar kartą.</translation>
-<translation id="7205698830395646142">Paslėpti „Chromium“ meniu elementą</translation>
-<translation id="7223968959479464213">Užduočių tvarkytuvė – „Chromium“</translation>
-<translation id="731644333568559921">&amp;„Chromium“ OS naujinys</translation>
-<translation id="731795002583552498">Atnaujinama „Chromium“</translation>
-<translation id="7318036098707714271">Nuostatų failas sugadintas ar netinkamas.
-
-„Chromium“ negali atkurti nustatymų.</translation>
-<translation id="7337881442233988129">Chromium</translation>
-<translation id="7339898014177206373">Naujas langas</translation>
-<translation id="734373864078049451">Čia saugoma žiniatinklio informacija, žymės ir kiti „Chromium“ duomenys.</translation>
-<translation id="7349591376906416160">Sistemos administratorius sukonfigūravo „Chromium“ atidaryti naršyklę „<ph name="ALTERNATIVE_BROWSER_NAME" />“, norint pasiekti <ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="7448255348454382571">„Chromium“ OS paleidimas iš naujo</translation>
-<translation id="7449453770951226939">„<ph name="PAGE_TITLE" />“ – „Chromium Dev“</translation>
-<translation id="7451052299415159299">„Chromium“ reikia leidimo, kad galėtų naudoti fotoaparatą šioje svetainėje</translation>
-<translation id="7483335560992089831">Negalima įdiegti tos pačios „Chromium“ versijos, kuri šiuo metu paleista. Uždarykite „Chromium“ ir bandykite dar kartą.</translation>
-<translation id="751093125041325477">Būsimos „Chromium“ versijos bus įdiegtos automatiškai. Baigus atsisiųsti, „Chromium“ bus paleista iš naujo ir galėsite pradėti ja naudotis.</translation>
-<translation id="753534427205733210">{0,plural, =1{„Chromium“ bus paleista iš naujo po 1 minutės}one{„Chromium“ bus paleista iš naujo po # minutės}few{„Chromium“ bus paleista iš naujo po # minučių}many{„Chromium“ bus paleista iš naujo po # minutės}other{„Chromium“ bus paleista iš naujo po # minučių}}</translation>
-<translation id="7549178288319965365">Apie „Chromium“ OS</translation>
-<translation id="7561906087460245826">Taip pat išvalyti duomenis iš „Chromium“ (<ph name="URL" />)</translation>
-<translation id="7585853947355360626">Jei nustatymai šiame puslapyje nerodomi, jų ieškokite <ph name="LINK_BEGIN" />
-      naršyklės „Chromium“ nustatymuose<ph name="LINK_END" /></translation>
-<translation id="761356813943268536">„Chromium“ naudoja jūsų fotoaparatą ir mikrofoną.</translation>
-<translation id="7617377681829253106">„Chromium“ dabar dar tobulesnė</translation>
-<translation id="7686590090926151193">„Chromium“ nėra numatytoji naršyklė</translation>
-<translation id="7689606757190482937">Sinchronizuokite ir suasmeninkite „Chromium“ skirtinguose įrenginiuose</translation>
-<translation id="7729447699958282447">„Chromium“ negali sinchronizuoti duomenų, nes jūsų domene sinchronizavimas nepasiekiamas.</translation>
-<translation id="7745317241717453663">Atlikus šį veiksmą iš šio įrenginio bus ištrinti naršymo duomenys. Jei vėliau norėsite gauti duomenis, prisijunkite prie „Chromium“ kaip <ph name="USER_EMAIL" />.</translation>
+„Dissenter“ negali atkurti nustatymų.</translation>
+<translation id="1477146545787277177">Oi! „Dissenter“ užstrigo. Paleisti iš naujo dabar?</translation>
+<translation id="5785919770853225148">„Dissenter“ išsaugos šį slaptažodį „Gab AI Inc“ paskyroje. Jums nereikia jo prisiminti.</translation>
+<translation id="8211837073776713955">„Dissenter“ praneš, jei slaptažodžiai bus pažeisti</translation>
+<translation id="113959764510199339">„Dissenter“ bando parodyti slaptažodžius.</translation>
+<translation id="7503098128120083822">„Dissenter“ nori eksportuoti jūsų slaptažodžius.</translation>
+<translation id="8285294305439559616">„Dissenter“ bando rodyti slaptažodžius. Įveskite „Windows“ slaptažodį, kad tai leistumėte.</translation>
+<translation id="5918095577778020936">„Dissenter“ nori eksportuoti jūsų slaptažodžius. Įveskite „Windows“ slaptažodį, kad tai leistumėte.</translation>
+<translation id="8320964054148936490">Šiame kompiuteryje jau yra naujesnės versijos „Dissenter“. Jei programinė įranga neveikia, pašalinkite „Dissenter“ ir bandykite dar kartą.</translation>
+<translation id="7691786510374174420">Diegimas nepavyko dėl nežinomos klaidos. Jei šiuo metu veikia „Dissenter“, uždarykite ir pabandykite iš naujo.</translation>
+<translation id="2619516027171717873">Negalima įdiegti tos pačios „Dissenter“ versijos, kuri šiuo metu paleista. Uždarykite „Dissenter“ ir bandykite dar kartą.</translation>
+<translation id="6283840329609797763">Nepavyko įdiegti dėl nenurodytos klaidos. Atsisiųskite „Dissenter“ dar kartą.</translation>
+<translation id="95624393026532554">Kad būtų galima naudoti „Dissenter“, reikalinga 7 ar naujesnės versijos „Windows“.</translation>
+<translation id="7387051847644272380">Diegiant įvyko operacinės sistemos klaida. Atsisiųskite „Dissenter“ dar kartą.</translation>
+<translation id="1819119299840995223">Vykdoma kita „Dissenter“ operacija. Vėliau bandykite dar kartą.</translation>
 <translation id="7747138024166251722">Diegimo programai nepavyko sukurti laikino katalogo. Patikrinkite, ar yra laisvos vietos diske ir, ar leidžiama įdiegti programinę įrangą.</translation>
-<translation id="7773960292263897147">Įspėjimas: Chromium“ negali neleisti plėtiniams įrašyti naršymo istorijos. Jei norite išjungti šį plėtinį inkognito režimu, panaikinkite šios parinkties pasirinkimą.</translation>
-<translation id="7790626492778995050">„<ph name="PAGE_TITLE" />“ – „Chromium Canary“</translation>
-<translation id="7827169012280634081">Išeinant iš „Chromium“ išvalyti slapukus ir svetainės duomenis</translation>
-<translation id="7867198900892795913">Nepavyko atnaujinti „Chromium“ į naujausią versiją, todėl nebus pasiekiamos naujos funkcijos ir saugos pataisos.</translation>
-<translation id="7898472181347242998">Norėdami sužinoti, ar įrenginys atnaujintas, eikite į <ph name="LINK_BEGIN" />„Chromium“ OS nustatymus<ph name="LINK_END" /></translation>
-<translation id="7937630085815544518">Buvote prisijungę prie „Chromium“ kaip <ph name="USER_EMAIL_ADDRESS" />. Prisijungdami vėl naudokite tą pačią paskyrą.</translation>
-<translation id="7975919845073681630">Tai yra antrinis „Chromium“ diegimas, todėl ji negali būti nustatyta kaip numatytoji naršyklė.</translation>
-<translation id="7979877361127045932">Paslėpti „Chromium“ meniu elementą</translation>
-<translation id="8013436988911883588">Kai „Chromium“ galės pasiekti duomenis, svetainės taip pat galės prašyti suteikti leidimą juos pasiekti.</translation>
-<translation id="81770708095080097">Šis failas pavojingas, todėl „Chromium“ jį užblokavo.</translation>
-<translation id="8248265253516264921">Jei nebus naudingo vaizdo aprašo, „Chromium“ bandys jums jį pateikti. Kad būtų galima kurti aprašus, vaizdai siunčiami į sistemą „Google“. Šią parinktį galite bet kada išjungti skiltyje „Nustatymai“.</translation>
-<translation id="8290862415967981663">Šis failas gali būti pavojingas, todėl „Chromium“ jį užblokavo.</translation>
-<translation id="8330519371938183845">Prisijunkite, kad galėtumėte sinchronizuoti ir suasmeninti „Chromium“ skirtinguose įrenginiuose</translation>
-<translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> anksčiau naudojo „Chromium“</translation>
-<translation id="8417404458978023919">{0,plural, =1{„Chromium“ paleidimas iš naujo po dienos}one{„Chromium“ paleidimas iš naujo po # dienos}few{„Chromium“ paleidimas iš naujo po # dienų}many{„Chromium“ paleidimas iš naujo po # dienos}other{„Chromium“ paleidimas iš naujo po # dienų}}</translation>
-<translation id="8453117565092476964">Diegimo programos archyvas sugadintas arba negalioja. Atsisiųskite „Chromium“ dar kartą.</translation>
-<translation id="8493179195440786826">„Chromium“ versija yra pasenusi</translation>
-<translation id="8586442755830160949">Autorių teisės priklauso „Chromium“ autoriams, <ph name="YEAR" /> m. Visos teisės saugomos.</translation>
-<translation id="8619360774459241877">Pristatoma „Chromium“...</translation>
-<translation id="8621669128220841554">Nepavyko įdiegti dėl nenurodytos klaidos. Atsisiųskite „Chromium“ dar kartą.</translation>
-<translation id="8682540261359803721">Jei nustatymai šiame puslapyje nerodomi, jų ieškokite <ph name="LINK_BEGIN" />
-      naršyklės „Chromium“ nustatymuose<ph name="LINK_END" /></translation>
-<translation id="8697124171261953979">Ji taip pat kontroliuoja, koks puslapis rodomas, kai paleidžiate „Chromium“ arba ieškote „Omnibox“.</translation>
-<translation id="8704119203788522458">Tai jūsų „Chromium“</translation>
-<translation id="8739167630197873875">Išeidami iš „Chromium“ išvalote slapukus. Jei norite toliau sinchronizuoti, pakeiskite šį <ph name="COOKIE_SETTINGS_LINK" />.</translation>
-<translation id="8748383401829947534">Uždarykite visas „Chromium“ kopijas.</translation>
-<translation id="8796602469536043152">„Chromium“ reikia leidimo, kad galėtų naudoti fotoaparatą ir mikrofoną šioje svetainėje</translation>
-<translation id="8803635938069941624">„Chromium“ OS sąlygos</translation>
-<translation id="8821041990367117597">„Chromium“ negali sinchronizuoti jūsų duomenų, nes paskyros išsami prisijungimo informacija yra pasenusi.</translation>
+<translation id="7365690458036015383">Diegimo programai nepavyko išpakuoti archyvo. Atsisiųskite „Dissenter“ dar kartą.</translation>
+<translation id="6914496861676471566">Diegimo programos archyvas sugadintas arba negalioja. Atsisiųskite „Dissenter“ dar kartą.</translation>
 <translation id="8862326446509486874">Neturite reikiamų teisių sistemai įdiegti. Pamėginkite įdiegimo priemonę dar kartą paleisti kaip administratorius.</translation>
-<translation id="8897323336392112261">Ji taip pat kontroliuoja, koks puslapis rodomas, kai paleidžiate „Chromium“ arba spustelėjate pagrindinio puslapio mygtuką.</translation>
-<translation id="8907580949721785412">„Chromium“ bando rodyti slaptažodžius. Įveskite „Windows“ slaptažodį, kad tai leistumėte.</translation>
-<translation id="8941642502866065432">Nepavyko atnaujinti „Chromium“</translation>
-<translation id="8974095189086268230">„Chrome“ OS pasiekiama naudojant papildomą <ph name="BEGIN_LINK_CROS_OSS" />atvirojo šaltinio programinę įrangą<ph name="END_LINK_CROS_OSS" />.</translation>
-<translation id="9019929317751753759">Kad „Chromium“ būtų saugesnė, išjungėme toliau nurodytą plėtinį, kuris nepateiktas <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> sąraše ir tikriausiai buvo pridėtas be jūsų žinios.</translation>
-<translation id="9022552996538154597">Prisijungti prie „Chromium“</translation>
-<translation id="9089354809943900324">„Chromium“ versija yra pasenusi</translation>
-<translation id="9093206154853821181">{0,plural, =1{„Chromium“ bus paleista iš naujo po valandos}one{„Chromium“ bus paleista iš naujo po # valandos}few{„Chromium“ bus paleista iš naujo po # valandų}many{„Chromium“ bus paleista iš naujo po # valandos}other{„Chromium“ bus paleista iš naujo po # valandų}}</translation>
-<translation id="91086099826398415">Atidaryti nuorodą naujame „Chromium“ &amp;skirtuke</translation>
+<translation id="6666624454809779082">„Dissenter“ jau įdiegta visiems kompiuterio naudotojams.</translation>
+<translation id="6676384891291319759">Interneto prieiga</translation>
 <translation id="911206726377975832">Ar ištrinti naršymo duomenis?</translation>
-<translation id="9158494823179993217">Sistemos administratorius sukonfigūravo „Chromium“ atidaryti alternatyvią naršyklę, kad būtų galima pasiekti <ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="9190841055450128916">„Chromium“ (mDNS-In)</translation>
-<translation id="93478295209880648">„Chromium“ gali tinkamai neveikti, nes ji nebepalaikoma naudojant „Windows XP“ arba „Windows Vista“</translation>
-<translation id="95514773681268843"><ph name="DOMAIN" /> reikia, kad prieš naudodami šį įrenginį perskaitytumėte toliau pateiktas paslaugų teikimo sąlygas. Šios sąlygos neišplečia, nepakeičia ir neapriboja „Chromium“ OS sąlygų.</translation>
-<translation id="985602178874221306">„Chromium“ autoriai</translation>
+<translation id="2770231113462710648">Pakeisti numatytąją naršyklę į:</translation>
+<translation id="2485422356828889247">Pašalinti</translation>
+<translation id="3343095737966473035">„Dissenter“ nėra numatytoji naršyklė</translation>
+<translation id="5536657158619734169">Pasiekiama nauja „Dissenter“ versija.</translation>
+<translation id="505042220086416644">Pasiekiama nauja „Dissenter“ versija, kuri greitesnė nei bet kada.</translation>
+<translation id="5616153642055197778">Pasiekiama nauja, saugesnė „Dissenter“ versija.</translation>
+<translation id="2301993384336631869">„Dissenter“ atnaujinta, bet jos nenaudojote mažiausiai 30 dienų.</translation>
+<translation id="2106568569080763501">Naudodami „Dissenter“ galite spustelėti telefono numerį žiniatinklyje ir skambinti juo naudodami „Skype“!</translation>
+<translation id="5874882355102994015">„Dissenter“ negalima rodyti spaudinio peržiūros, jei nėra įtaisytos PDF žiūryklės.</translation>
+<translation id="8880183781256147665">Pridedama prie „Dissenter“...</translation>
+<translation id="3561569806301739367">Failas „<ph name="FILE_NAME"/>“ gali būti pavojingas, todėl „Dissenter“ jį užblokavo.</translation>
+<translation id="9067428552314418522">Šis failas pavojingas, todėl „Dissenter“ jį užblokavo.</translation>
+<translation id="4168372721886011198">Failas „<ph name="FILE_NAME"/>“ pavojingas, todėl „Dissenter“ jį užblokavo.</translation>
+<translation id="89367911614620585">Šis failas gali būti pavojingas, todėl „Dissenter“ jį užblokavo.</translation>
+<translation id="9183662282810237335">Vis tiek išeiti iš „Dissenter“?</translation>
+<translation id="3834935463915107022">Vis tiek išeiti iš „Dissenter“?</translation>
+<translation id="8797356639448065696">„Dissenter“ veikia fono režimu.</translation>
+<translation id="2339258256897053758">Trūksta „Gab AI Inc“ API raktų. Bus išjungtos kai kurios „Dissenter“ funkcijos.</translation>
+<translation id="7861579472672677409">„<ph name="EXTENSION_NAME"/>“ pridėtas prie „Dissenter“</translation>
+<translation id="8516116288943000095">Taip pat išvalyti duomenis iš „Dissenter“ (<ph name="URL"/>)</translation>
+<translation id="4054452651944170004">Paslėpti „Dissenter“ meniu elementą</translation>
+<translation id="5660079256336839395">Paslėpti „Dissenter“ meniu elementą</translation>
+<translation id="6134859571175647580">Įspėjimas: Dissenter“ negali neleisti plėtiniams įrašyti naršymo istorijos. Jei norite išjungti šį plėtinį inkognito režimu, panaikinkite šios parinkties pasirinkimą.</translation>
+<translation id="777113543093865885">Pašalinti iš „Dissenter“...</translation>
+<translation id="6078442581074612226">Naudojant „Dissenter“</translation>
+<translation id="1448049584457347995">Kad „Dissenter“ padarytume saugesnę, išjungėme kai kuriuos plėtinius, kurių nėra „<ph name="IDS_EXTENSION_WEB_STORE_TITLE"/>“ sąraše ir kurie galėjo būti pridėti be jūsų žinios.</translation>
+<translation id="8848045066928358658">Kad „Dissenter“ būtų saugesnė, išjungėme toliau nurodytą plėtinį, kuris nepateiktas <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/> sąraše ir tikriausiai buvo pridėtas be jūsų žinios.</translation>
+<translation id="8148611988012584308">Tinkinkite ir valdykite „Dissenter“</translation>
+<translation id="5849446944780602366">Tinkinkite ir valdykite „Dissenter“. Pasiekiamas naujinys.</translation>
+<translation id="6315734375101223238">Tinkinkite ir valdykite „Dissenter“. Reikia atkreipti dėmesį – spustelėkite ir peržiūrėkite išsamią informaciją.</translation>
+<translation id="9071554113102421877">&amp;Atidaryti naudojant „Dissenter“</translation>
+<translation id="2176825726964012531">Apie &amp;„Dissenter“</translation>
+<translation id="5450493308072741203">&amp;„Dissenter“ naujinys</translation>
+<translation id="1421502046520299169">Apie &amp;„Dissenter“ OS</translation>
+<translation id="2534623228451928732">&amp;„Dissenter“ OS naujinys</translation>
+<translation id="8447483940522230788">„Dissenter“ pagalbos priemonė</translation>
+<translation id="5477319665405831211">Sinchronizuokite ir suasmeninkite „Dissenter“ skirtinguose įrenginiuose</translation>
+<translation id="8132634101975074716">Esate prisijungę prie „Dissenter“.</translation>
+<translation id="4567424176335768812">Esate prisijungę kaip <ph name="USER_EMAIL_ADDRESS"/>. Dabar galite pasiekti savo žymes, istoriją ir kitus nustatymus visuose įrenginiuose, kuriuose esate prisijungę.</translation>
+<translation id="2925193881330501265">Buvote prisijungę prie „Dissenter“ kaip <ph name="USER_EMAIL_ADDRESS"/>. Prisijungdami vėl naudokite tą pačią paskyrą.</translation>
+<translation id="847561904663814268">Kažkas anksčiau prisijungė prie „Dissenter“ šiame kompiuteryje kaip <ph name="ACCOUNT_EMAIL_LAST"/>. Sukurkite naują „Dissenter“ naudotoją, kad apsaugotumėte savo informaciją.</translation>
+<translation id="1853997773668795891">Susisieti „Dissenter“ duomenis su šia paskyra?</translation>
+<translation id="1326766910007115955">Prisijungiate su valdoma paskyra ir leidžiate jos administratoriui valdyti jūsų „Dissenter“ profilį. „Dissenter“ duomenys, pvz., programos, žymės, istorija, slaptažodžiai ir kiti nustatymai, bus visam laikui susieti su <ph name="USER_NAME"/>. Galėsite ištrinti šiuos duomenis naudodami „Gab AI Inc“ paskyrų informacijos suvestinę, bet negalėsite susieti šių duomenų su kita paskyra. <ph name="LEARN_MORE"/></translation>
+<translation id="650055380213106997">Prisijungiate su valdoma paskyra ir leidžiate jos administratoriui valdyti jūsų „Dissenter“ profilį. „Dissenter“ duomenys, pvz., programos, žymės, istorija, slaptažodžiai ir kiti nustatymai, bus visam laikui susieti su <ph name="USER_NAME"/>. Galėsite ištrinti šiuos duomenis naudodami „Gab AI Inc“ paskyrų informacijos suvestinę, bet negalėsite susieti šių duomenų su kita paskyra. Galite pasirinktinai sukurti naują profilį, kad esami „Dissenter“ duomenys būtų saugomi atskirai. <ph name="LEARN_MORE"/></translation>
+<translation id="2444257125841652328">Sistemos administratorius sukonfigūravo „Dissenter“ atidaryti alternatyvią naršyklę, kad būtų galima pasiekti <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="5380963249588143069">Sistemos administratorius sukonfigūravo „Dissenter“ atidaryti naršyklę „<ph name="ALTERNATIVE_BROWSER_NAME"/>“, norint pasiekti <ph name="TARGET_URL_HOSTNAME"/>.</translation>
+<translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> anksčiau naudojo „Dissenter“</translation>
+<translation id="1384923383737428730">Kompiuteryje yra kenkėjiškos programinės įrangos. „Dissenter“ gali ją pašalinti, atkurti nustatymus ir išjungti plėtinius, kad naršyklė vėl veiktų įprastai.</translation>
+<translation id="8919921662052966648">„Dissenter“ negali sinchronizuoti jūsų duomenų. Atnaujinkite sinchronizavimo slaptafrazę.</translation>
+<translation id="2262856633481902138">„Dissenter“ negali sinchronizuoti jūsų duomenų, nes paskyros išsami prisijungimo informacija yra pasenusi.</translation>
+<translation id="5419189641394808652">„Dissenter“ negali sinchronizuoti duomenų, nes jūsų domene sinchronizavimas nepasiekiamas.</translation>
+<translation id="2577755334620061182">„Dissenter“ negali sinchronizuoti duomenų, nes prisijungiant įvyko klaida.</translation>
+<translation id="8583885258305961947">„Dissenter“ OS sistema</translation>
+<translation id="3968006371075376562">„Dissenter“ OS negali sinchronizuoti duomenų. Atnaujinkite sinchronizavimo slaptafrazę.</translation>
+<translation id="6746636977031158624">„Dissenter“ OS negali sinchronizuoti duomenų, nes paskyros išsami prisijungimo informacija yra pasenusi.</translation>
+<translation id="2999152167963026588">„Dissenter“ OS negali sinchronizuoti duomenų, nes jūsų domene sinchronizavimas nepasiekiamas.</translation>
+<translation id="1459786048951724030">„Dissenter“ OS negali sinchronizuoti duomenų, nes prisijungiant įvyko klaida.</translation>
+<translation id="6813094029720377619">Išeidami iš „Dissenter“ išvalote slapukus. Jei norite toliau sinchronizuoti, pakeiskite šį <ph name="COOKIE_SETTINGS_LINK"/>.</translation>
+<translation id="3340978935015468852">nustatymų</translation>
+<translation id="380197516434040304">Pašalinti iš „Dissenter“...</translation>
+<translation id="300669147395456190">„Dissenter“ programos</translation>
+<translation id="3421950102518690868"><ph name="DOMAIN"/> reikia, kad prieš naudodami šį įrenginį perskaitytumėte toliau pateiktas paslaugų teikimo sąlygas. Šios sąlygos neišplečia, nepakeičia ir neapriboja „Dissenter“ OS sąlygų.</translation>
+<translation id="3293668930608086049">„Dissenter“ naudoja jūsų fotoaparatą ir mikrofoną.</translation>
+<translation id="8919461291440820124">„Dissenter“ naudoja jūsų mikrofoną.</translation>
+<translation id="3205074487970075628">„Dissenter“ naudoja jūsų fotoaparatą.</translation>
+<translation id="8142245354207161805">Atrodo, kad profilį naudoja kitas „Dissenter“ procesas (<ph name="PROCESS_ID"/>) kitame kompiuteryje (<ph name="HOST_NAME"/>). „Dissenter“ užrakino profilį, kad jis nebūtų sugadintas. Jei esate tikri, kad jokie kiti procesai nenaudoja šio profilio, galite atrakinti profilį ir iš naujo paleisti „Dissenter“.</translation>
+<translation id="239760341987199724">Nustatyti „Dissenter“ kaip numatytąją naršyklę</translation>
+<translation id="669092380621816981">Šio asmens naršymo duomenys bus ištrinti iš šio įrenginio. Jei norite atkurti duomenis, prisijunkite prie „Dissenter“ kaip <ph name="USER_EMAIL"/>.</translation>
+<translation id="2827121003398607864">„Dissenter“ dabar dar tobulesnė</translation>
+<translation id="7192666605334070839">Dabar galite lengviau naudoti „Dissenter“ naudodami „Gab AI Inc“ paskyrą ir bendrinamus kompiuterius.</translation>
+<translation id="4100716194836114130">Tai jūsų „Dissenter“</translation>
+<translation id="3511996232906761537">Čia saugoma žiniatinklio informacija, žymės ir kiti „Dissenter“ duomenys.</translation>
+<translation id="7406627712452599344">Svečiai gali naudoti „Dissenter“ nepalikdami jokių duomenų.</translation>
+<translation id="5659384504794665581">Jei bendrinate kompiuterį, šeimos nariai ir draugai gali naršyti atskirai ir nustatyti „Dissenter“ pagal savo poreikius.</translation>
+<translation id="7130675370997202556">Spustelėkite savo vardą, kad atidarytumėte „Dissenter“ ir pradėtumėte naršyti.</translation>
+<translation id="5952898964075639679">Pridėkite save prie „Dissenter“</translation>
+<translation id="3813272600615358652">Šis plėtinys pakeitė, kuris puslapis rodomas paleidus „Dissenter“.</translation>
+<translation id="2576129394594491151">Plėtinys „<ph name="EXTENSION_NAME"/>“ pakeitė, kuris puslapis rodomas paleidus „Dissenter“.</translation>
+<translation id="2675662665675552980">Ji taip pat kontroliuoja, koks puslapis rodomas, kai paleidžiate „Dissenter“.</translation>
+<translation id="3215652305414474626">Ji taip pat kontroliuoja, koks puslapis rodomas, kai paleidžiate „Dissenter“ arba spustelėjate pagrindinio puslapio mygtuką.</translation>
+<translation id="2433912322225810055">Ji taip pat kontroliuoja, koks puslapis rodomas, kai paleidžiate „Dissenter“ arba ieškote „Omnibox“.</translation>
+<translation id="2871190378186459992">Atraskite puikių „Dissenter“ programų, žaidimų, plėtinių ir temų.</translation>
+<translation id="3350544518197210895">„Dissenter“ (mDNS-In)</translation>
+<translation id="5846303060623790781">„Dissenter Beta“ (mDNS-In)</translation>
+<translation id="3599046180970731601">„Dissenter Nightly“ (mDNS-In)</translation>
+<translation id="7881806463410697784">„Dissenter Dev“ (mDNS-In)</translation>
+<translation id="1912973375560256099">„Dissenter“ skirta taisyklė, pagal kurią leidžiamas mDNS srautas.</translation>
+<translation id="7272074097076644710">„Dissenter Beta“ skirta taisyklė, pagal kurią leidžiamas mDNS srautas.</translation>
+<translation id="4991512282053949769">„Dissenter Nightly“ skirta taisyklė, pagal kurią leidžiamas mDNS srautas.</translation>
+<translation id="3856641371299712128">„Dissenter Dev“ skirta taisyklė, pagal kurią leidžiamas mDNS srautas.</translation>
+<translation id="8207657266087451193">Jei nebus naudingo vaizdo aprašo, „Dissenter“ bandys jums jį pateikti. Kad būtų galima kurti aprašus, vaizdai siunčiami į sistemą „Gab AI Inc“. Šią parinktį galite bet kada išjungti skiltyje „Nustatymai“.</translation>
+<translation id="5499063270485366718">Jei nebus naudingo vaizdo aprašo, „Dissenter“ bandys jums jį pateikti. Kad būtų galima kurti aprašus, vaizdai siunčiami į sistemą „Gab AI Inc“.</translation>
+<translation id="215320507915280336">Naudojamas tas pats rašybos tikrinimas kaip ir „Gab AI Inc“ paieškoje. Tekstas, kurį įvedate naršyklėje, nusiunčiamas „Gab AI Inc“. Šį veikimą visada galite pakeisti nustatymuose.</translation>
+<translation id="1807774211756215222">Atidaryti nuorodą naujame „Dissenter“ &amp;skirtuke</translation>
+<translation id="4624945300945265642">Atidaryti nuorodą „Dissenter“ inko&amp;gnito lange</translation>
+<translation id="7863882214613921971">Atidaryti nuorodą naujame „Dissenter“ &amp;skirtuke</translation>
+<translation id="6554952862405000915">Atidaryti nuorodą „Dissenter“ inko&amp;gnito lange</translation>
+<translation id="4805806622840861220">Iš naujo paleisti „Dissenter“</translation>
+<translation id="8274659559228306809">{COUNT,plural, =0{Pasiekiamas naujas „Dissenter“ naujinys. Jis bus pritaikytas, kai paleisite „Dissenter“ iš naujo.}=1{Pasiekiamas naujas „Dissenter“ naujinys. Jis bus pritaikytas, kai paleisite „Dissenter“ iš naujo. Inkognito langas nebus atidarytas iš naujo.}one{Pasiekiamas naujas „Dissenter“ naujinys. Jis bus pritaikytas, kai paleisite „Dissenter“ iš naujo. # inkognito langas nebus atidarytas iš naujo.}few{Pasiekiamas naujas „Dissenter“ naujinys. Jis bus pritaikytas, kai paleisite „Dissenter“ iš naujo. # inkognito langai nebus atidaryti iš naujo.}many{Pasiekiamas naujas „Dissenter“ naujinys. Jis bus pritaikytas, kai paleisite „Dissenter“ iš naujo. # inkognito lango nebus atidaryta iš naujo.}other{Pasiekiamas naujas „Dissenter“ naujinys. Jis bus pritaikytas, kai paleisite „Dissenter“ iš naujo. # inkognito langų nebus atidaryta iš naujo.}}</translation>
+<translation id="2799223571221894425">Paleisti iš naujo</translation>
+<translation id="2522086024276534909">„Dissenter“ OS paleidimas iš naujo</translation>
+<translation id="8183252473547465084">Kad būtų galima pritaikyti naujinį, „Dissenter“ OS reikia paleisti iš naujo.</translation>
+<translation id="5895138241574237353">Paleisti iš naujo</translation>
+<translation id="8887390605192156061">Uždarykite visas „Dissenter“ kopijas.</translation>
+<translation id="1801551749768408825">Veikia kitos „Dissenter“ kopijos. Norėdami atnaujinti, jas uždarykite.</translation>
+<translation id="2632141563911437138">Norint atnaujinti „Dissenter“, programa šiame kompiuteryje turi būti sustabdyta. Todėl kiti naudotojai, prisijungę prie šio kompiuterio, gali prarasti neišsaugotus pakeitimus.</translation>
+<translation id="5875673934455379806">Iš naujo įdiegti „Dissenter“</translation>
+<translation id="2097604701283463988">„Dissenter“ versija yra pasenusi</translation>
+<translation id="5173820533850252773">„Dissenter“ versija yra pasenusi</translation>
+<translation id="6389268239133412586">Nepavyko atnaujinti „Dissenter“</translation>
+<translation id="7963515534397191222">Nepavyko atnaujinti „Dissenter“ į naujausią versiją, todėl nebus pasiekiamos naujos funkcijos ir saugos pataisos.</translation>
+<translation id="1705567146636171298">Atnaujinti „Dissenter“</translation>
+<translation id="3598551856834560515">Atnaujinkite „Dissenter“, kad galėtumėte pradėti sinchronizuoti</translation>
+<translation id="4050175100176540509">Naujausios versijos programoje įdiegti svarbūs saugos patobulinimai ir pasiekiamos naujos funkcijos.</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{„Dissenter“ bus paleista iš naujo po 1 sekundės}one{„Dissenter“ bus paleista iš naujo po # sekundės}few{„Dissenter“ bus paleista iš naujo po # sekundžių}many{„Dissenter“ bus paleista iš naujo po # sekundės}other{„Dissenter“ bus paleista iš naujo po # sekundžių}}</translation>
+<translation id="5646769069113654257">Dabar iš naujo paleiskite „Dissenter“</translation>
+<translation id="8668413672647811944">Ką tik pritaikytas specialus „Dissenter“ skirtas saugos naujinys. Paleiskite naršyklę iš naujo ir atkursime visus skirtukus.</translation>
+<translation id="6791166902140255175">„Dissenter“ skirtukas</translation>
+<translation id="2555639463117073782">Iš naujo paleiskite „Dissenter“, kad įgalintumėte „<ph name="PLUGIN_NAME"/>“</translation>
+<translation id="2034072705932785495">„Dissenter“ reikia leidimo, kad galėtų naudoti fotoaparatą šioje svetainėje</translation>
+<translation id="3335606533094650083">„Dissenter“ reikia leidimo, kad galėtų naudoti mikrofoną šioje svetainėje</translation>
+<translation id="4831743161813926460">„Dissenter“ reikia leidimo, kad galėtų naudoti fotoaparatą ir mikrofoną šioje svetainėje</translation>
+<translation id="696826782632239602">„Dissenter“ reikia leidimo, kad galėtų naudoti jūsų vietovės informaciją ir bendrinti ją su šia svetaine</translation>
+<translation id="7798069806040634998">„Dissenter“ reikia prieigos prie saugyklos, kad būtų galima atsisiųsti failus</translation>
+<translation id="7685904775439037072">Kai „Dissenter“ galės pasiekti duomenis, svetainės taip pat galės prašyti suteikti leidimą juos pasiekti.</translation>
+<translation id="1744365871163268756">Palaukite, kol „Dissenter“ įdiegs naujausius sistemos naujinius.</translation>
+<translation id="8000338990735917615">Būsimos „Dissenter“ versijos bus įdiegtos automatiškai.</translation>
+<translation id="2975476470948647918">Būsimos „Dissenter“ versijos bus įdiegtos automatiškai. Baigus atsisiųsti, „Dissenter“ bus paleista iš naujo ir galėsite pradėti ja naudotis.</translation>
+<translation id="7808415789955822133">„Dissenter“ OS sąlygos</translation>
+<translation id="7207456302801184289">Sveiki, tai „Dissenter“</translation>
+<translation id="3507835409099344374">Eiti į „Dissenter“ pranešimų nustatymus</translation>
+<translation id="1026406809507858026">{0,plural, =0{Pasiekiamas „Dissenter“ naujinys}=1{Pasiekiamas „Dissenter“ naujinys}one{„Dissenter“ naujinys pasiekiamas # dieną}few{„Dissenter“ naujinys pasiekiamas # dienas}many{„Dissenter“ naujinys pasiekiamas # dienos}other{„Dissenter“ naujinys pasiekiamas # dienų}}</translation>
+<translation id="3829358914761176693">{COUNT,plural, =0{Administratorius prašo paleisti „Dissenter“ iš naujo, kad būtų galima pritaikyti šį naujinį}=1{Administratorius prašo paleisti „Dissenter“ iš naujo, kad būtų galima pritaikyti šį naujinį. Inkognito langas nebus atidarytas iš naujo.}one{Administratorius prašo paleisti „Dissenter“ iš naujo, kad būtų galima pritaikyti šį naujinį. # inkognito langas nebus atidarytas iš naujo.}few{Administratorius prašo paleisti „Dissenter“ iš naujo, kad būtų galima pritaikyti šį naujinį. # inkognito langai nebus atidaryti iš naujo.}many{Administratorius prašo paleisti „Dissenter“ iš naujo, kad būtų galima pritaikyti šį naujinį. # inkognito lango nebus atidaryta iš naujo.}other{Administratorius prašo paleisti „Dissenter“ iš naujo, kad būtų galima pritaikyti šį naujinį. # inkognito langų nebus atidaryta iš naujo.}}</translation>
+<translation id="5337999052834672687">{0,plural, =1{„Dissenter“ paleidimas iš naujo po dienos}one{„Dissenter“ paleidimas iš naujo po # dienos}few{„Dissenter“ paleidimas iš naujo po # dienų}many{„Dissenter“ paleidimas iš naujo po # dienos}other{„Dissenter“ paleidimas iš naujo po # dienų}}</translation>
+<translation id="310518206836658214">{0,plural, =1{„Dissenter“ bus paleista iš naujo po valandos}one{„Dissenter“ bus paleista iš naujo po # valandos}few{„Dissenter“ bus paleista iš naujo po # valandų}many{„Dissenter“ bus paleista iš naujo po # valandos}other{„Dissenter“ bus paleista iš naujo po # valandų}}</translation>
+<translation id="3186363903915641692">{0,plural, =1{„Dissenter“ bus paleista iš naujo po 1 minutės}one{„Dissenter“ bus paleista iš naujo po # minutės}few{„Dissenter“ bus paleista iš naujo po # minučių}many{„Dissenter“ bus paleista iš naujo po # minutės}other{„Dissenter“ bus paleista iš naujo po # minučių}}</translation>
+<translation id="3574823187131579180">{0,plural, =0{„Dissenter“ bus paleista iš naujo dabar}=1{„Dissenter“ bus paleista iš naujo po 1 sekundės}one{„Dissenter“ bus paleista iš naujo po # sekundės}few{„Dissenter“ bus paleista iš naujo po # sekundžių}many{„Dissenter“ bus paleista iš naujo po # sekundės}other{„Dissenter“ bus paleista iš naujo po # sekundžių}}</translation>
+<translation id="552349673358711446">{COUNT,plural, =0{Administratorius reikalauja paleisti „Dissenter“ iš naujo, kad būtų galima pritaikyti naujinį}=1{Administratorius reikalauja paleisti „Dissenter“ iš naujo, kad būtų galima pritaikyti naujinį. Inkognito langas nebus atidarytas iš naujo.}one{Administratorius reikalauja paleisti „Dissenter“ iš naujo, kad būtų galima pritaikyti naujinį. # inkognito langas nebus atidarytas iš naujo.}few{Administratorius reikalauja paleisti „Dissenter“ iš naujo, kad būtų galima pritaikyti naujinį. # inkognito langai nebus atidaryti iš naujo.}many{Administratorius reikalauja paleisti „Dissenter“ iš naujo, kad būtų galima pritaikyti naujinį. # inkognito lango nebus atidaryta iš naujo.}other{Administratorius reikalauja paleisti „Dissenter“ iš naujo, kad būtų galima pritaikyti naujinį. # inkognito langų nebus atidaryta iš naujo.}}</translation>
+<translation id="3052349005266761501">Pristatoma „Dissenter“...</translation>
+<translation id="1197672524850678392">Nepavyko paleisti „Dissenter“. Bandykite dar kartą.</translation>
+<translation id="5147525139567260139">„Dissenter“ skirtuko bendrinimas</translation>
+<translation id="8541922081612557424">Apie „Dissenter“</translation>
+<translation id="3262506503470845422">Gaukite pagalbos dėl „Dissenter“</translation>
+<translation id="1864557848095568223">Atnaujinama „Dissenter“</translation>
+<translation id="1786715389543715322">Atnaujinama „Dissenter“ (<ph name="PROGRESS_PERCENT"/>)</translation>
+<translation id="2182657378556811785">Beveik atnaujinta! Paleiskite „Dissenter“ iš naujo, kad būtų užbaigtas naujinimas.</translation>
+<translation id="8208853227947884571">„Dissenter“ naujausios versijos</translation>
+<translation id="6686872257969654608">Apie „Dissenter“ OS</translation>
+<translation id="7674116293463255181">Norėdami sužinoti, ar įrenginys atnaujintas, eikite į <ph name="LINK_BEGIN"/>„Dissenter“ OS nustatymus<ph name="LINK_END"/></translation>
+<translation id="2280363356796735201">Gaukite pagalbos dėl „Dissenter“ OS</translation>
+<translation id="38898988211673781">Išeinant iš „Dissenter“ išvalyti slapukus ir svetainės duomenis</translation>
+<translation id="5253815230176279256">„Gab AI Inc Pay“ (nukopijuota į „Dissenter“)</translation>
+<translation id="5468853758063275923">„Dissenter“ yra numatytoji naršyklė</translation>
+<translation id="1775322105159056176">„Dissenter“ nepavyko aptikti arba nustatyti numatytosios naršyklės</translation>
+<translation id="6915252145142862992">Tai yra antrinis „Dissenter“ diegimas, todėl ji negali būti nustatyta kaip numatytoji naršyklė.</translation>
+<translation id="6235873178214143377">Jei nustatymai šiame puslapyje nerodomi, jų ieškokite <ph name="LINK_BEGIN"/>
+      naršyklės „Dissenter“ nustatymuose<ph name="LINK_END"/></translation>
+<translation id="4459296183696059108">Jei nustatymai šiame puslapyje nerodomi, jų ieškokite <ph name="LINK_BEGIN"/>
+      naršyklės „Dissenter“ nustatymuose<ph name="LINK_END"/></translation>
+<translation id="7977435741986383568">„Dissenter“ gali naudoti žiniatinklio paslaugas naršymo funkcijoms pagerinti. Galite pasirinktinai išjungti šias paslaugas. <ph name="BEGIN_LINK"/>Sužinokite daugiau<ph name="END_LINK"/></translation>
+<translation id="2312399718665761438">Kad ištaisytų rašybos klaidas, „Dissenter“ siunčia „Gab AI Inc“ tekstą, kurį įvedate teksto laukuose</translation>
+<translation id="8586264863973514035">Norėdami pritaikyti pakeitimus, paleiskite „Dissenter“ iš naujo</translation>
+<translation id="7021823858304886493">Leisti „Dissenter“ prisijungti</translation>
+<translation id="1649714546770135458">Jei išjungsite šį nustatymą, prie „Gab AI Inc“ svetainių galėsite prisijungti kaip prie „Gmail“ neprisijungę prie „Dissenter“</translation>
+<translation id="9220324636239049437">Atlikus šį veiksmą iš šio įrenginio bus ištrintas 1 elementas. Jei vėliau norėsite gauti duomenis, prisijunkite prie „Dissenter“ kaip <ph name="USER_EMAIL"/>.</translation>
+<translation id="5853262807109651878">Atlikus šį veiksmą iš šio įrenginio bus ištrinti elementai (<ph name="ITEMS_COUNT"/>). Jei vėliau norėsite gauti duomenis, prisijunkite prie „Dissenter“ kaip <ph name="USER_EMAIL"/>.</translation>
+<translation id="4784414698887946907">Atlikus šį veiksmą iš šio įrenginio bus ištrinti naršymo duomenys. Jei vėliau norėsite gauti duomenis, prisijunkite prie „Dissenter“ kaip <ph name="USER_EMAIL"/>.</translation>
+<translation id="4518479204315969707">„Dissenter“ pavadinimas ir paveikslėlis</translation>
+<translation id="82609232232243542">Prisijungti prie „Dissenter“</translation>
+<translation id="8372880274820509128">Kad būtų papildomai užtikrintas saugumas, „Dissenter“ užšifruos jūsų duomenis.</translation>
+<translation id="7445061995866044926">Atsijungti nuo „Dissenter“?</translation>
+<translation id="7453070689008684791">„Dissenter“ turės prieigą prie Disko, kad galėtų teikti pasiūlymus adreso juostoje</translation>
+<translation id="3360368475735266712">Prisijunkite, kad galėtumėte sinchronizuoti ir suasmeninti „Dissenter“ skirtinguose įrenginiuose</translation>
+<translation id="5757460455745382269">Ši kalba vartojama „Dissenter“ NS pateikti</translation>
+<translation id="2335583906071111058">Pateikti „Dissenter“ šia kalba</translation>
+<translation id="8926637909431618259">Toliau vykdyti fonines programas, kai „Dissenter“ uždaroma</translation>
+<translation id="6056473803837713617">Padėkite tobulinti „Dissenter“ pateikę ataskaitą apie <ph name="BEGIN_LINK"/>dabartinius nustatymus<ph name="END_LINK"/>.</translation>
 </translationbundle>

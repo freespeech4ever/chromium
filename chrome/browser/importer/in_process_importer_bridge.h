@@ -60,9 +60,9 @@ class InProcessImporterBridge : public ImporterBridge {
   // End ImporterBridge implementation.
 
  private:
-  ~InProcessImporterBridge() override;
-
   ProfileWriter* const writer_;  // weak
+ protected:
+  ~InProcessImporterBridge() override;
   const base::WeakPtr<ExternalProcessImporterHost> host_;
 
   DISALLOW_COPY_AND_ASSIGN(InProcessImporterBridge);

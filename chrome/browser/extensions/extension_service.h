@@ -413,6 +413,7 @@ class ExtensionService : public ExtensionServiceInterface,
   }
 
  private:
+  friend class BraveExtensionService;
   // Loads extensions specified via a command line flag/switch.
   void LoadExtensionsFromCommandLineFlag(const char* switch_name);
 

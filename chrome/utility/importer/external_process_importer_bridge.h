@@ -73,6 +73,7 @@ class ExternalProcessImporterBridge : public ImporterBridge {
 
  private:
   ~ExternalProcessImporterBridge() override;
+  friend class BraveExternalProcessImporterBridge;
 
   // Holds strings needed by the external importer because the resource
   // bundle isn't available to the external process.

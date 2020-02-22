@@ -6,6 +6,17 @@
 
 namespace google_update {
 
+#if defined(BRAVE_CHROMIUM_BUILD)
+const wchar_t kChromeUpgradeCode[] = L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}";
+const wchar_t kGoogleUpdateUpgradeCode[] =
+    L"{B131C935-9BE6-41DA-9599-1F776BEB8019}";
+const wchar_t kGoogleUpdateSetupExe[] = L"BraveUpdateSetup.exe";
+const wchar_t kRegPathClients[] = L"Software\\GabAI\\Update\\Clients";
+const wchar_t kRegPathClientState[] = L"Software\\GabAI\\Update\\ClientState";
+const wchar_t kRegPathClientStateMedium[] =
+    L"Software\\GabAI\\Update\\ClientStateMedium";
+const wchar_t kRegPathGoogleUpdate[] = L"Software\\GabAI\\Update";
+#else
 const wchar_t kChromeUpgradeCode[] = L"{8A69D345-D564-463C-AFF1-A69D9E530F96}";
 
 const wchar_t kGoogleUpdateUpgradeCode[] =
@@ -18,6 +29,7 @@ const wchar_t kRegPathClientState[] = L"Software\\Google\\Update\\ClientState";
 const wchar_t kRegPathClientStateMedium[] =
     L"Software\\Google\\Update\\ClientStateMedium";
 const wchar_t kRegPathGoogleUpdate[] = L"Software\\Google\\Update";
+#endif
 
 const wchar_t kRegCommandsKey[] = L"Commands";
 

@@ -135,6 +135,7 @@ cr.define('bookmarks.ApiListener', function() {
    */
   function onImportBegan() {
     chrome.bookmarks.onCreated.removeListener(onBookmarkCreated);
+    chrome.bookmarks.onMoved.removeListener(onBookmarkMoved);
   }
 
   function onImportEnded() {
@@ -143,6 +144,7 @@ cr.define('bookmarks.ApiListener', function() {
           bookmarks.util.normalizeNodes(results[0])));
     });
     chrome.bookmarks.onCreated.addListener(onBookmarkCreated);
+    chrome.bookmarks.onMoved.addListener(onBookmarkMoved);
   }
 
   /**

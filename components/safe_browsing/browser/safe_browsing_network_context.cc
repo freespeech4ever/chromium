@@ -77,7 +77,7 @@ class SafeBrowsingNetworkContext::SharedURLLoaderFactory
                                 traffic_annotation) override {
     DCHECK(content::BrowserThread::CurrentlyOn(content::BrowserThread::UI));
     GetURLLoaderFactory()->CreateLoaderAndStart(
-        std::move(loader), routing_id, request_id, options, request,
+        std::move(loader), routing_id, request_id, options, brave::OnBeforeSystemRequest(request),
         std::move(client), traffic_annotation);
   }
 

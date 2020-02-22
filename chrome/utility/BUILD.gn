@@ -27,6 +27,7 @@ static_library("utility") {
 
   public_deps = []
   deps = [
+    "//brave/utility",
     "//base",
     "//chrome:resources",
     "//chrome:strings",

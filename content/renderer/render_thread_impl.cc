@@ -1222,6 +1222,14 @@ void RenderThreadImpl::InitializeWebKit(
 }
 
 void RenderThreadImpl::RegisterSchemes() {
+#if defined(BRAVE_CHROMIUM_BUILD)
+  // brave:
+  WebString brave_scheme(WebString::FromASCII(kBraveUIScheme));
+  WebSecurityPolicy::RegisterURLSchemeAsDisplayIsolated(brave_scheme);
+  WebSecurityPolicy::RegisterURLSchemeAsNotAllowingJavascriptURLs(
+      brave_scheme);
+#endif
+
   // chrome:
   WebString chrome_scheme(WebString::FromASCII(kChromeUIScheme));
   WebSecurityPolicy::RegisterURLSchemeAsDisplayIsolated(chrome_scheme);

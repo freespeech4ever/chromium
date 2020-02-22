@@ -145,7 +145,7 @@ class ChromeMetricsServicesManagerClient::ChromeEnabledStateProvider
   }
 
   bool IsReportingEnabled() const override {
-    return metrics::EnabledStateProvider::IsReportingEnabled() &&
+    return false && metrics::EnabledStateProvider::IsReportingEnabled() &&
            IsClientInSampleImpl(local_state_);
   }
 

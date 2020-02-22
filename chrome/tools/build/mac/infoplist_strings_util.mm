@@ -245,8 +245,7 @@ int main(int argc, char* const argv[]) {
 
       // Fetch the strings.
       NSString* name =
-            LoadStringFromDataPack(branded_data_pack.get(), cur_lang,
-                                   name_id, name_id_str);
+          [NSString stringWithUTF8String:BRAVE_PRODUCT_STRING];
       NSString* short_name =
             LoadStringFromDataPack(branded_data_pack.get(), cur_lang,
                                    short_name_id, short_name_id_str);

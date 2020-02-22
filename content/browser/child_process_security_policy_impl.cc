@@ -845,6 +845,9 @@ void ChildProcessSecurityPolicyImpl::GrantWebUIBindings(int child_id,
 
   // Web UI bindings need the ability to request chrome: URLs.
   state->second->GrantRequestScheme(kChromeUIScheme);
+#if defined(BRAVE_CHROMIUM_BUILD)
+  state->second->GrantRequestScheme(kBraveUIScheme);
+#endif
 
   // Web UI pages can contain links to file:// URLs.
   state->second->GrantRequestScheme(url::kFileScheme);

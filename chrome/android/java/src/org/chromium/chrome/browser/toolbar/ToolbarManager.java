@@ -760,6 +760,7 @@ public class ToolbarManager implements ScrimObserver, ToolbarTabController, UrlF
         };
 
         final OnClickListener shareButtonListener = v -> {
+/*
             recordBottomToolbarUseForIPH();
             RecordUserAction.record("MobileBottomToolbarShareButton");
             boolean isIncognito = false;
@@ -767,6 +768,7 @@ public class ToolbarManager implements ScrimObserver, ToolbarTabController, UrlF
                 isIncognito = mTabModelSelector.getCurrentTab().isIncognito();
             }
             mActivity.onShareMenuItemSelected(false, isIncognito);
+*/          mActivity.addOrEditBookmark(mActivity.getActivityTab());
         };
 
         if (FeatureUtilities.isDuetTabStripIntegrationAndroidEnabled()
@@ -1811,6 +1813,7 @@ public class ToolbarManager implements ScrimObserver, ToolbarTabController, UrlF
         boolean editingAllowed = currentTab == null || mBookmarkBridge == null
                 || mBookmarkBridge.isEditBookmarksEnabled();
         mToolbar.updateBookmarkButton(isBookmarked, editingAllowed);
+        if (mBottomControlsCoordinator != null) {mBottomControlsCoordinator.updateBookmarkButton(isBookmarked, editingAllowed);}
     }
 
     private void updateReloadState(boolean tabCrashed) {

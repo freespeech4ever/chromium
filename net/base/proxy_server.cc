@@ -223,10 +223,13 @@ ProxyServer ProxyServer::FromSchemeHostAndPort(
   HostPortPair host_port_pair;
 
   if (scheme != SCHEME_INVALID && scheme != SCHEME_DIRECT) {
+    std::string username;
+    std::string password;
     std::string host;
     int port = -1;
     // If the scheme has a host/port, parse it.
-    bool ok = ParseHostAndPort(host_and_port, &host, &port);
+    bool ok = ParseAuthHostAndPort(host_and_port, &username, &password,
+                                   &host, &port);
     if (!ok)
       return ProxyServer();  // Invalid -- failed parsing <host>[":"<port>]
 
@@ -234,7 +237,8 @@ ProxyServer ProxyServer::FromSchemeHostAndPort(
     if (port == -1)
       port = GetDefaultPortForScheme(scheme);
 
-    host_port_pair = HostPortPair(host, static_cast<uint16_t>(port));
+    host_port_pair = HostPortPair(username, password, host,
+                                  static_cast<uint16_t>(port));
   }
 
   return ProxyServer(scheme, host_port_pair);

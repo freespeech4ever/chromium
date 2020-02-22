@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!--
-Copyright 2019 The Chromium Authors. All rights reserved.
+Copyright 2019 The Dissenter Authors. All rights reserved.
 Use of this source code is governed by a BSD-style license that can be
 found in the LICENSE file.
 -->
 <!-- XR specific strings (included from generated_resources.grd and android_chrome_strings.grd). -->
 <!-- These strings are used in the consent flow dialog. -->
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
   <!-- XR consent dialog. -->
   <message name="IDS_XR_CONSENT_DIALOG_TITLE" desc="Title of the user consent dialog displayed before allowing a website to start a VR presentation">
@@ -32,7 +33,7 @@ While you are in VR, this site may be able to learn about:
 Make sure you trust this site before entering VR.
   </message>
   <message name="IDS_XR_CONSENT_DIALOG_BUTTON_DENY_VR" desc="Text on the button of a user consent dialog which denies a website from starting a VR presentation">
-    Don&#39;t allow
+    Don't allow
   </message>
   <message name="IDS_XR_CONSENT_DIALOG_BUTTON_ALLOW_AND_ENTER_VR" desc="Text on the button of a user consent dialog which allows a website to start a VR presentation">
     Allow &amp; enter VR

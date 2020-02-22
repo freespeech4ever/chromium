@@ -65,7 +65,7 @@ namespace {
 
 const int kPriorCountCap = 10;
 
-std::string GetPermissionRequestString(PermissionRequestType type) {
+std::string GetPermissionRequestString_ChromiumImpl(PermissionRequestType type) {
   switch (type) {
     case PermissionRequestType::MULTIPLE:
       return "AudioAndVideoCapture";
@@ -430,6 +430,9 @@ void PermissionUmaUtil::RecordPermissionAction(
     case CONTENT_SETTINGS_TYPE_PAYMENT_HANDLER:
       UMA_HISTOGRAM_ENUMERATION("Permissions.Action.PaymentHandler", action,
                                 PermissionAction::NUM);
+      break;
+    case CONTENT_SETTINGS_TYPE_AUTOPLAY:
+      BraveRecordPermissionAction(permission, secure_origin, action);
       break;
     // The user is not prompted for these permissions, thus there is no
     // permission action recorded for them.

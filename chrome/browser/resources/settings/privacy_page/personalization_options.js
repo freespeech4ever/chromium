@@ -58,7 +58,7 @@ Polymer({
       value: loadTimeData.getBoolean('passwordsLeakDetectionEnabled'),
     },
 
-    // <if expr="_google_chrome and not chromeos">
+    // <if expr="_chromium and not chromeos">
     // TODO(dbeam): make a virtual.* pref namespace and set/get this normally
     // (but handled differently in C++).
     /** @private {chrome.settingsPrivate.PrefObject} */
@@ -80,7 +80,7 @@ Polymer({
   ready: function() {
     this.browserProxy_ = settings.PrivacyPageBrowserProxyImpl.getInstance();
 
-    // <if expr="_google_chrome and not chromeos">
+    // <if expr="_chromium and not chromeos">
     const setMetricsReportingPref = this.setMetricsReportingPref_.bind(this);
     this.addWebUIListener('metrics-reporting-change', setMetricsReportingPref);
     this.browserProxy_.getMetricsReporting().then(setMetricsReportingPref);
@@ -165,7 +165,7 @@ Polymer({
     return !this.getPref('safebrowsing.enabled').value;
   },
 
-  // <if expr="_google_chrome and not chromeos">
+  // <if expr="_chromium and not chromeos">
   /** @private */
   onMetricsReportingChange_: function() {
     const enabled = this.$.metricsReportingControl.checked;

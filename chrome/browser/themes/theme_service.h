@@ -205,6 +205,7 @@ class ThemeService : public content::NotificationObserver,
   // ThemeSource no longer uses the ThemeService when it is not ready.
   bool ready_;
 
+  THEMES_THEME_SERVICE_H_
  private:
   // This class implements ui::ThemeProvider on behalf of ThemeService and keeps
   // track of the incognito state of the calling code.

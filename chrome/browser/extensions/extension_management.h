@@ -173,6 +173,7 @@ class ExtensionManagement : public KeyedService {
                            std::string* required_version) const;
 
  private:
+  friend class BraveExtensionManagement;
   using SettingsIdMap =
       std::unordered_map<ExtensionId,
                          std::unique_ptr<internal::IndividualSettings>>;

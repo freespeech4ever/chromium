@@ -89,8 +89,9 @@ public class HomepageManager {
      * @return Whether to close the app when the user has zero tabs.
      */
     public static boolean shouldCloseAppWithZeroTabs() {
-        return HomepageManager.isHomepageEnabled()
-                && !NewTabPage.isNTPUrl(HomepageManager.getHomepageUri());
+        return CloseBraveManager.shouldCloseAppWithZeroTabs();
+        // return HomepageManager.isHomepageEnabled()
+        //         && !NewTabPage.isNTPUrl(HomepageManager.getHomepageUri());
     }
 
     /**

@@ -25,6 +25,7 @@
 
 #include "third_party/blink/renderer/modules/webaudio/analyser_node.h"
 
+#include "brave/renderer/brave_content_settings_observer_helper.h"
 #include "third_party/blink/renderer/modules/webaudio/analyser_options.h"
 #include "third_party/blink/renderer/modules/webaudio/audio_node_input.h"
 #include "third_party/blink/renderer/modules/webaudio/audio_node_output.h"
@@ -274,20 +275,28 @@ double AnalyserNode::smoothingTimeConstant() const {
 }
 
 void AnalyserNode::getFloatFrequencyData(NotShared<DOMFloat32Array> array) {
+  if (!AllowFingerprinting(To<Document>(GetExecutionContext())->GetFrame()))
+    return;
   GetAnalyserHandler().GetFloatFrequencyData(array.View(),
                                              context()->currentTime());
 }
 
 void AnalyserNode::getByteFrequencyData(NotShared<DOMUint8Array> array) {
+  if (!AllowFingerprinting(To<Document>(GetExecutionContext())->GetFrame()))
+    return;
   GetAnalyserHandler().GetByteFrequencyData(array.View(),
                                             context()->currentTime());
 }
 
 void AnalyserNode::getFloatTimeDomainData(NotShared<DOMFloat32Array> array) {
+  if (!AllowFingerprinting(To<Document>(GetExecutionContext())->GetFrame()))
+    return;
   GetAnalyserHandler().GetFloatTimeDomainData(array.View());
 }
 
 void AnalyserNode::getByteTimeDomainData(NotShared<DOMUint8Array> array) {
+  if (!AllowFingerprinting(To<Document>(GetExecutionContext())->GetFrame()))
+    return;
   GetAnalyserHandler().GetByteTimeDomainData(array.View());
 }
 

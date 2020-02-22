@@ -20,6 +20,7 @@
 
 #include "third_party/blink/renderer/core/svg/svg_text_content_element.h"
 
+#include "brave/renderer/brave_content_settings_observer_helper.h"
 #include "third_party/blink/renderer/core/css/css_property_names.h"
 #include "third_party/blink/renderer/core/css_value_keywords.h"
 #include "third_party/blink/renderer/core/editing/frame_selection.h"
@@ -97,6 +98,9 @@ unsigned SVGTextContentElement::getNumberOfChars() {
 }
 
 float SVGTextContentElement::getComputedTextLength() {
+  if (!AllowFingerprinting(GetDocument().GetFrame())) {
+    return 0.0f;
+  }
   GetDocument().UpdateStyleAndLayoutForNode(this);
   return SVGTextQuery(GetLayoutObject()).TextLength();
 }

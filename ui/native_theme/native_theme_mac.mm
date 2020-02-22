@@ -205,6 +205,7 @@ SkColor NativeThemeMac::GetSystemColor(ColorId color_id,
   }
   // Even with --secondary-ui-md, menus use the platform colors and styling, and
   // Mac has a couple of specific color overrides, documented below.
+  GET_BRAVE_COLOR(color_id)
   switch (color_id) {
     case kColorId_EnabledMenuItemForegroundColor:
       return NSSystemColorToSkColor([NSColor controlTextColor]);

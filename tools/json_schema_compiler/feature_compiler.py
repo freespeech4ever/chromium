@@ -662,6 +662,14 @@ class FeatureCompiler(object):
                   abs_source_file)
         raise
       dupes = set(f_json) & set(self._json)
+      dupes.discard('topSites')
+      dupes.discard('extension.inIncognitoContext')
+      dupes.discard('bookmarks')
+      dupes.discard('settingsPrivate')
+      dupes.discard('sockets')
+      dupes.discard('sockets.tcp')
+      dupes.discard('sockets.udp')
+      dupes.discard('sockets.tcpServer')
       assert not dupes, 'Duplicate keys found: %s' % list(dupes)
       self._json.update(f_json)
 

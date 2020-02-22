@@ -318,7 +318,7 @@ std::string DeviceInfoSyncBridge::GetStorageKey(const EntityData& entity_data) {
 void DeviceInfoSyncBridge::ApplyStopSyncChanges(
     std::unique_ptr<MetadataChangeList> delete_metadata_change_list) {
   if (!delete_metadata_change_list) {
-    return;
+    // return;
   }
 
   // Sync is being disabled, so the local DeviceInfo is no longer valid and

@@ -58,6 +58,24 @@ class ImporterBridge : public base::RefCountedThreadSafe<ImporterBridge> {
   virtual void SetAutofillFormData(
       const std::vector<ImporterAutofillFormDataEntry>& entries) = 0;
 
+  virtual void SetCookies(
+      const std::vector<net::CanonicalCookie>& cookies) {}
+
+  virtual void UpdateStats(
+      const BraveStats& stats) {}
+
+  virtual void UpdateLedger(
+      const BraveLedger& ledger) {}
+
+  virtual void UpdateReferral(
+      const BraveReferral& referral) {}
+
+  virtual void UpdateWindows(
+      const ImportedWindowState& windowState) {}
+
+  virtual void UpdateSettings(
+      const SessionStoreSettings& settings) {}
+
   // Notifies the coordinator that the import operation has begun.
   virtual void NotifyStarted() = 0;
 

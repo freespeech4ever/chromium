@@ -6,7 +6,7 @@
  /* File created by MIDL compiler version 8.xx.xxxx */
 /* at a redacted point in time
  */
-/* Compiler settings for ../../google_update/google_update_idl.idl:
+/* Compiler settings for ../../brave/chromium_src/google_update/google_update_idl.idl:
     Oicf, W1, Zp8, env=Win64 (32b run), target_arch=AMD64 8.xx.xxxx 
     protocol : dce , ms_ext, c_ext, robust
     error checks: allocation ref bounds_check enum stub_data 
@@ -478,6 +478,30 @@ typedef struct CredentialDialogMachineClass CredentialDialogMachineClass;
 #endif 	/* __CredentialDialogMachineClass_FWD_DEFINED__ */
 
 
+#ifndef __GoogleComProxyMachineClass_FWD_DEFINED__
+#define __GoogleComProxyMachineClass_FWD_DEFINED__
+
+#ifdef __cplusplus
+typedef class GoogleComProxyMachineClass GoogleComProxyMachineClass;
+#else
+typedef struct GoogleComProxyMachineClass GoogleComProxyMachineClass;
+#endif /* __cplusplus */
+
+#endif 	/* __GoogleComProxyMachineClass_FWD_DEFINED__ */
+
+
+#ifndef __GoogleComProxyUserClass_FWD_DEFINED__
+#define __GoogleComProxyUserClass_FWD_DEFINED__
+
+#ifdef __cplusplus
+typedef class GoogleComProxyUserClass GoogleComProxyUserClass;
+#else
+typedef struct GoogleComProxyUserClass GoogleComProxyUserClass;
+#endif /* __cplusplus */
+
+#endif 	/* __GoogleComProxyUserClass_FWD_DEFINED__ */
+
+
 #ifndef __ProcessLauncherClass_FWD_DEFINED__
 #define __ProcessLauncherClass_FWD_DEFINED__
 
@@ -673,7 +697,7 @@ EXTERN_C const IID IID_IGoogleUpdate3;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("6DB17455-4E85-46e7-9D23-E555E4B005AF")
+    MIDL_INTERFACE("7CB305B1-4D45-4668-AD91-677F87BED305")
     IGoogleUpdate3 : public IDispatch
     {
     public:
@@ -825,7 +849,7 @@ EXTERN_C const IID IID_IAppBundle;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("fe908cdd-22bb-472a-9870-1a0390e42f36")
+    MIDL_INTERFACE("1985533F-9B0F-490A-85C5-24F316E66FB2")
     IAppBundle : public IDispatch
     {
     public:
@@ -1279,7 +1303,7 @@ EXTERN_C const IID IID_IApp;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("76F7B787-A67C-4c73-82C7-31F5E3AABC5C")
+    MIDL_INTERFACE("A4BCDF52-2179-4C77-8C5F-B8095712B563")
     IApp : public IDispatch
     {
     public:
@@ -1741,7 +1765,7 @@ EXTERN_C const IID IID_IApp2;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("084D78A8-B084-4E14-A629-A2C419B0E3D9")
+    MIDL_INTERFACE("A147722A-5568-4B84-B401-86D744470CBF")
     IApp2 : public IApp
     {
     public:
@@ -2121,7 +2145,7 @@ EXTERN_C const IID IID_IAppCommand;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("4DE778FE-F195-4ee3-9DAB-FE446C239221")
+    MIDL_INTERFACE("4842EC21-0860-45B5-99F0-A1E6E7C11561")
     IAppCommand : public IDispatch
     {
     public:
@@ -2297,7 +2321,7 @@ EXTERN_C const IID IID_IAppCommand2;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("3D05F64F-71E3-48A5-BF6B-83315BC8AE1F")
+    MIDL_INTERFACE("C11C073F-E6D0-4EF7-897B-AAF52498CD2F")
     IAppCommand2 : public IAppCommand
     {
     public:
@@ -2464,7 +2488,7 @@ EXTERN_C const IID IID_IAppVersion;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("BCDCB538-01C0-46d1-A6A7-52F4D021C272")
+    MIDL_INTERFACE("F234546B-DACD-4374-97CF-7BADFAB76766")
     IAppVersion : public IDispatch
     {
     public:
@@ -2616,7 +2640,7 @@ EXTERN_C const IID IID_IPackage;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("DCAB8386-4F03-4dbd-A366-D90BC9F68DE6")
+    MIDL_INTERFACE("C663DEBB-F082-4971-9F6E-35DE45C96F4E")
     IPackage : public IDispatch
     {
     public:
@@ -2766,7 +2790,7 @@ EXTERN_C const IID IID_ICurrentState;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("247954F9-9EDC-4E68-8CC3-150C2B89EADF")
+    MIDL_INTERFACE("E6836CFF-5949-44BC-B6BE-9C8C48DD8D97")
     ICurrentState : public IDispatch
     {
     public:
@@ -3056,7 +3080,7 @@ EXTERN_C const IID IID_IRegistrationUpdateHook;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("4E223325-C16B-4eeb-AEDC-19AA99A237FA")
+    MIDL_INTERFACE("48B5E6B2-9383-4B1E-AAE7-720C4779ABA6")
     IRegistrationUpdateHook : public IDispatch
     {
     public:
@@ -3188,7 +3212,7 @@ EXTERN_C const IID IID_ICredentialDialog;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("b3a47570-0a85-4aea-8270-529d47899603")
+    MIDL_INTERFACE("660130E8-74E4-4821-A6FD-4E9A86E06470")
     ICredentialDialog : public IUnknown
     {
     public:
@@ -3276,7 +3300,7 @@ EXTERN_C const IID IID_IGoogleUpdate3Web;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("494B20CF-282E-4BDD-9F5D-B70CB09D351E")
+    MIDL_INTERFACE("C9190589-ECEC-43F8-8AEC-62496BB87B26")
     IGoogleUpdate3Web : public IDispatch
     {
     public:
@@ -3406,7 +3430,7 @@ EXTERN_C const IID IID_IGoogleUpdate3WebSecurity;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("2D363682-561D-4c3a-81C6-F2F82107562A")
+    MIDL_INTERFACE("24D704AD-AC42-49F2-BB4F-68BA77C98E91")
     IGoogleUpdate3WebSecurity : public IUnknown
     {
     public:
@@ -3486,7 +3510,7 @@ EXTERN_C const IID IID_IAppBundleWeb;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("DD42475D-6D46-496a-924E-BD5630B4CBBA")
+    MIDL_INTERFACE("852A0F87-D117-4B7C-ABA9-2F76D91BCB9D")
     IAppBundleWeb : public IDispatch
     {
     public:
@@ -3770,7 +3794,7 @@ EXTERN_C const IID IID_IAppWeb;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("18D0F672-18B4-48e6-AD36-6E6BF01DBBC4")
+    MIDL_INTERFACE("FB43AAD0-DDBA-4D01-A3E0-FAB100E7926B")
     IAppWeb : public IDispatch
     {
     public:
@@ -3986,7 +4010,7 @@ EXTERN_C const IID IID_IAppCommandWeb;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("8476CE12-AE1F-4198-805C-BA0F9B783F57")
+    MIDL_INTERFACE("19F4616B-B7DD-4B3F-8084-C81C5C77AAA4")
     IAppCommandWeb : public IDispatch
     {
     public:
@@ -4162,7 +4186,7 @@ EXTERN_C const IID IID_IAppVersionWeb;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("0CD01D1E-4A1C-489d-93B9-9B6672877C57")
+    MIDL_INTERFACE("35A4470F-5EEC-4715-A2DC-6AA9F8E21183")
     IAppVersionWeb : public IDispatch
     {
     public:
@@ -4314,7 +4338,7 @@ EXTERN_C const IID IID_ICoCreateAsyncStatus;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("2E629606-312A-482f-9B12-2C4ABF6F0B6D")
+    MIDL_INTERFACE("7A24060E-533F-4962-9E15-34BD82555FA7")
     ICoCreateAsyncStatus : public IDispatch
     {
     public:
@@ -4464,7 +4488,7 @@ EXTERN_C const IID IID_ICoCreateAsync;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("DAB1D343-1B2A-47f9-B445-93DC50704BFE")
+    MIDL_INTERFACE("DD84E356-3D21-44C8-83DD-6BEEC22FA427")
     ICoCreateAsync : public IUnknown
     {
     public:
@@ -4548,7 +4572,7 @@ EXTERN_C const IID IID_IBrowserHttpRequest2;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("5B25A8DC-1780-4178-A629-6BE8B8DEFAA2")
+    MIDL_INTERFACE("AAE4AD28-500D-43BA-9F54-730CA146C190")
     IBrowserHttpRequest2 : public IUnknown
     {
     public:
@@ -4640,7 +4664,7 @@ EXTERN_C const IID IID_IProcessLauncher;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("128C2DA6-2BC0-44c0-B3F6-4EC22E647964")
+    MIDL_INTERFACE("70E5ECF5-2CA7-4019-9B23-916789A13C2C")
     IProcessLauncher : public IUnknown
     {
     public:
@@ -4748,7 +4772,7 @@ EXTERN_C const IID IID_IProcessLauncher2;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("D106AB5F-A70E-400E-A21B-96208C1D8DBB")
+    MIDL_INTERFACE("D5627FC9-E2F0-484B-89A4-5DACFE7FAAD3")
     IProcessLauncher2 : public IProcessLauncher
     {
     public:
@@ -4860,7 +4884,7 @@ EXTERN_C const IID IID_IOneClickProcessLauncher;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("5CCCB0EF-7073-4516-8028-4C628D0C8AAB")
+    MIDL_INTERFACE("0FF491FB-E162-4E0B-9CA3-1464B0CF9F20")
     IOneClickProcessLauncher : public IUnknown
     {
     public:
@@ -4965,7 +4989,7 @@ EXTERN_C const IID IID_IProgressWndEvents;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("1C642CED-CA3B-4013-A9DF-CA6CE5FF6503")
+    MIDL_INTERFACE("8504FB26-FC3E-4C1C-9C94-46EC93E6BA63")
     IProgressWndEvents : public IUnknown
     {
     public:
@@ -5085,7 +5109,7 @@ EXTERN_C const IID IID_IJobObserver;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("49D7563B-2DDB-4831-88C8-768A53833837")
+    MIDL_INTERFACE("7CFC4E00-1C9D-443D-B5BE-CEEEAC1443AF")
     IJobObserver : public IUnknown
     {
     public:
@@ -5247,7 +5271,7 @@ EXTERN_C const IID IID_IJobObserver2;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("19692F10-ADD2-4EFF-BE54-E61C62E40D13")
+    MIDL_INTERFACE("91B050A9-5A49-4249-A8C8-B4390961A912")
     IJobObserver2 : public IUnknown
     {
     public:
@@ -5329,7 +5353,7 @@ EXTERN_C const IID IID_IGoogleUpdate;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("31AC3F11-E5EA-4a85-8A3D-8E095A39C27B")
+    MIDL_INTERFACE("4C929BFE-4FA4-488D-B1E2-82ECD6F076C8")
     IGoogleUpdate : public IUnknown
     {
     public:
@@ -5423,7 +5447,7 @@ EXTERN_C const IID IID_IGoogleUpdateCore;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("909489C2-85A6-4322-AA56-D25278649D67")
+    MIDL_INTERFACE("10479D64-2C5F-46CD-9BC8-FD04FF4D02D8")
     IGoogleUpdateCore : public IUnknown
     {
     public:
@@ -5527,7 +5551,7 @@ EXTERN_C const CLSID CLSID_GoogleUpdate3UserClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("022105BD-948A-40c9-AB42-A3300DDF097F")
+class DECLSPEC_UUID("2CF4A521-EC1E-4075-A20B-5DE3E5B89B1B")
 GoogleUpdate3UserClass;
 #endif
 
@@ -5535,7 +5559,7 @@ EXTERN_C const CLSID CLSID_GoogleUpdate3ServiceClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("4EB61BAC-A3B6-4760-9581-655041EF4D69")
+class DECLSPEC_UUID("08F15E98-0442-45D3-82F1-F67495CC51EB")
 GoogleUpdate3ServiceClass;
 #endif
 
@@ -5543,7 +5567,7 @@ EXTERN_C const CLSID CLSID_GoogleUpdate3WebUserClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("22181302-A8A6-4f84-A541-E5CBFC70CC43")
+class DECLSPEC_UUID("2F78AECB-0A7F-4474-89D5-C325293DE960")
 GoogleUpdate3WebUserClass;
 #endif
 
@@ -5551,7 +5575,7 @@ EXTERN_C const CLSID CLSID_GoogleUpdate3WebMachineClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("8A1D4361-2C08-4700-A351-3EAA9CBFF5E4")
+class DECLSPEC_UUID("00B16F95-319A-4F01-AC81-CE69B8F4E387")
 GoogleUpdate3WebMachineClass;
 #endif
 
@@ -5559,7 +5583,7 @@ EXTERN_C const CLSID CLSID_GoogleUpdate3WebServiceClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("534F5323-3569-4f42-919D-1E1CF93E5BF6")
+class DECLSPEC_UUID("3A9D7221-2278-41DD-930B-C2356B7D3725")
 GoogleUpdate3WebServiceClass;
 #endif
 
@@ -5567,7 +5591,7 @@ EXTERN_C const CLSID CLSID_GoogleUpdate3WebMachineFallbackClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("598FE0E5-E02D-465d-9A9D-37974A28FD42")
+class DECLSPEC_UUID("66CE3D6C-0B35-4F78-AC77-39728A75CB75")
 GoogleUpdate3WebMachineFallbackClass;
 #endif
 
@@ -5575,7 +5599,7 @@ EXTERN_C const CLSID CLSID_CurrentStateUserClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("E8CF3E55-F919-49d9-ABC0-948E6CB34B9F")
+class DECLSPEC_UUID("06B74C04-E813-4DD4-A972-172836EFA8D6")
 CurrentStateUserClass;
 #endif
 
@@ -5583,7 +5607,7 @@ EXTERN_C const CLSID CLSID_CurrentStateMachineClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("9D6AA569-9F30-41ad-885A-346685C74928")
+class DECLSPEC_UUID("BC03C0E4-1528-4299-89B2-419644FA48AC")
 CurrentStateMachineClass;
 #endif
 
@@ -5591,7 +5615,7 @@ EXTERN_C const CLSID CLSID_CoCreateAsyncClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("7DE94008-8AFD-4c70-9728-C6FBFFF6A73E")
+class DECLSPEC_UUID("8F6D9FE5-6ED3-43A3-80D2-EA8766D65352")
 CoCreateAsyncClass;
 #endif
 
@@ -5599,7 +5623,7 @@ EXTERN_C const CLSID CLSID_CredentialDialogUserClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("e67be843-bbbe-4484-95fb-05271ae86750")
+class DECLSPEC_UUID("4C738ABE-2ED7-4BF6-B668-046DC1A72C00")
 CredentialDialogUserClass;
 #endif
 
@@ -5607,15 +5631,31 @@ EXTERN_C const CLSID CLSID_CredentialDialogMachineClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("25461599-633d-42b1-84fb-7cd68d026e53")
+class DECLSPEC_UUID("B5D1924F-CB80-47AA-8DEC-5E0854A42A73")
 CredentialDialogMachineClass;
+#endif
+
+EXTERN_C const CLSID CLSID_GoogleComProxyMachineClass;
+
+#ifdef __cplusplus
+
+class DECLSPEC_UUID("126611A5-ECDC-433C-AF8E-33B60623C667")
+GoogleComProxyMachineClass;
+#endif
+
+EXTERN_C const CLSID CLSID_GoogleComProxyUserClass;
+
+#ifdef __cplusplus
+
+class DECLSPEC_UUID("45191060-8307-4517-A093-A442E26B21DB")
+GoogleComProxyUserClass;
 #endif
 
 EXTERN_C const CLSID CLSID_ProcessLauncherClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("ABC01078-F197-4b0b-ADBC-CFE684B39C82")
+class DECLSPEC_UUID("4C3BA8F3-1264-4BDB-BB2D-CA44734AD00D")
 ProcessLauncherClass;
 #endif
 
@@ -5623,7 +5663,7 @@ EXTERN_C const CLSID CLSID_OneClickUserProcessLauncherClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("51F9E8EF-59D7-475b-A106-C7EA6F30C119")
+class DECLSPEC_UUID("446D6231-628F-4FC3-B92E-11C403D19F5A")
 OneClickUserProcessLauncherClass;
 #endif
 
@@ -5631,7 +5671,7 @@ EXTERN_C const CLSID CLSID_OneClickMachineProcessLauncherClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("AAD4AE2E-D834-46d4-8B09-490FAC9C722B")
+class DECLSPEC_UUID("CB34ABFF-C7C8-442C-AB75-6A913FA47304")
 OneClickMachineProcessLauncherClass;
 #endif
 
@@ -5639,7 +5679,7 @@ EXTERN_C const CLSID CLSID_OnDemandUserAppsClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("2F0E2680-9FF5-43c0-B76E-114A56E93598")
+class DECLSPEC_UUID("6DA8171A-7CEC-4E45-BDED-9F287AD7C854")
 OnDemandUserAppsClass;
 #endif
 
@@ -5647,7 +5687,7 @@ EXTERN_C const CLSID CLSID_OnDemandMachineAppsClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("6F8BD55B-E83D-4a47-85BE-81FFA8057A69")
+class DECLSPEC_UUID("28C83F57-E4C0-4B54-B187-585C51EE8F9C")
 OnDemandMachineAppsClass;
 #endif
 
@@ -5655,7 +5695,7 @@ EXTERN_C const CLSID CLSID_OnDemandMachineAppsServiceClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("9465B4B4-5216-4042-9A2C-754D3BCDC410")
+class DECLSPEC_UUID("D7D7525F-5DF4-4C9D-8781-C02F39F973E6")
 OnDemandMachineAppsServiceClass;
 #endif
 
@@ -5663,7 +5703,7 @@ EXTERN_C const CLSID CLSID_OnDemandMachineAppsFallbackClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("B3D28DBD-0DFA-40e4-8071-520767BADC7E")
+class DECLSPEC_UUID("3282EB12-D954-4FD2-A2E1-C942C8745C65")
 OnDemandMachineAppsFallbackClass;
 #endif
 
@@ -5671,7 +5711,7 @@ EXTERN_C const CLSID CLSID_GoogleUpdateCoreClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("E225E692-4B47-4777-9BED-4FD7FE257F0E")
+class DECLSPEC_UUID("3AD2D487-D166-4160-8E36-1AE505233A55")
 GoogleUpdateCoreClass;
 #endif
 
@@ -5679,7 +5719,7 @@ EXTERN_C const CLSID CLSID_GoogleUpdateCoreMachineClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("9B2340A0-4068-43d6-B404-32E27217859D")
+class DECLSPEC_UUID("F7FF255A-A593-41BD-A69B-E05D72B72756")
 GoogleUpdateCoreMachineClass;
 #endif
 #endif /* __GoogleUpdate3Lib_LIBRARY_DEFINED__ */

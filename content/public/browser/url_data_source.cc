@@ -72,7 +72,7 @@ bool URLDataSource::ShouldAddContentSecurityPolicy() {
 std::string URLDataSource::GetContentSecurityPolicyScriptSrc() {
   // Note: Do not add 'unsafe-eval' here. Instead override CSP for the
   // specific pages that need it, see context http://crbug.com/525224.
-  return "script-src chrome://resources 'self';";
+  return "script-src chrome://resources chrome://brave-resources 'self';";
 }
 
 std::string URLDataSource::GetContentSecurityPolicyObjectSrc() {

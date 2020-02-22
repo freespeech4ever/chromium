@@ -30,6 +30,7 @@ class IncognitoMenuView : public ProfileMenuViewBase {
   void BuildMenu() override;
 
  private:
+  friend class BraveIncognitoMenuView;
   // views::BubbleDialogDelegateView:
   base::string16 GetAccessibleWindowTitle() const override;
 
