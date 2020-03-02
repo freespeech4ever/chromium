@@ -45,7 +45,7 @@ Polymer({
     /** @private */
     hasCheckedForUpdates_: {
       type: Boolean,
-      value: false,
+      value: true,
     },
 
     /** @private {!BrowserChannel} */
@@ -215,9 +215,9 @@ Polymer({
         settings.LifetimeBrowserProxyImpl.getInstance();
 
     // <if expr="chromeos">
-    if (!this.showOsSettings_) {
-      return;
-    }
+    //if (!this.showOsSettings_) {
+    return;
+    //}
 
     this.addEventListener('target-channel-changed', e => {
       this.targetChannel_ = e.detail;
@@ -347,7 +347,14 @@ Polymer({
 
   /** @private */
   onRelaunchTap_: function() {
+    // <if expr="is_macosx">
+    // Sparkle framework's relaunch api is used.
+    this.lifetimeBrowserProxy_.relaunchOnMac();
+    // </if>
+
+    // <if expr="not is_macosx">
     this.lifetimeBrowserProxy_.relaunch();
+    // </if>
   },
 
   /** @private */
@@ -417,6 +424,7 @@ Polymer({
    * @private
    */
   getUpdateStatusMessage_: function() {
+    return 'Auto-updates are handled outside of the browser.  On Windows, this is through a service named "Dissenter" checking for a new build periodically.';
     switch (this.currentUpdateStatusEvent_.status) {
       case UpdateStatus.CHECKING:
       case UpdateStatus.NEED_PERMISSION_TO_UPDATE:
