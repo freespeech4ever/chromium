@@ -495,6 +495,7 @@ Polymer({
    * @private
    */
   getUpdateStatusIcon_: function() {
+    return 'settings:check-circle';
     // <if expr="chromeos">
     // If Chrome OS has reached end of life, display a special icon and
     // ignore UpdateStatus.
