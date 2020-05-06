@@ -77,7 +77,7 @@ public class AndroidSyncSettings {
             if (sInstance == null) {
                 SyncContentResolverDelegate contentResolver =
                         new SystemSyncContentResolverDelegate();
-                sInstance = new AndroidSyncSettings(contentResolver);
+                sInstance = new BraveAndroidSyncSettings(contentResolver);
             }
             return sInstance;
         }
@@ -103,7 +103,7 @@ public class AndroidSyncSettings {
      * @param callback Callback that will be called after updating account is finished. Boolean
      *                 passed to the callback indicates whether syncability was changed.
      */
-    private AndroidSyncSettings(SyncContentResolverDelegate syncContentResolverDelegate,
+    public AndroidSyncSettings(SyncContentResolverDelegate syncContentResolverDelegate,
             @Nullable Callback<Boolean> callback) {
         mContractAuthority = ContextUtils.getApplicationContext().getPackageName();
         mSyncContentResolverDelegate = syncContentResolverDelegate;

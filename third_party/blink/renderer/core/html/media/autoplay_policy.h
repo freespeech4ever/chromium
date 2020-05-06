@@ -112,6 +112,7 @@ class CORE_EXPORT AutoplayPolicy final
   void EnsureAutoplayInitiatedSet();
 
   virtual void Trace(Visitor*);
+  BRAVE_AUTOPLAY_POLICY_H
 
  private:
   friend class AutoplayUmaHelper;

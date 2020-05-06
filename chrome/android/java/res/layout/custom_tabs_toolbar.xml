@@ -96,6 +96,7 @@
         android:layout_gravity="center_vertical|end"
         android:gravity="center_vertical"
         android:orientation="horizontal" />
+    <include layout="@layout/brave_custom_tabs_toolbar" android:layout_height="wrap_content" android:layout_width="match_parent" />
     <org.chromium.ui.widget.ChromeImageButton
         android:id="@+id/menu_button"
         style="@style/ToolbarButton"

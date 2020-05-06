@@ -724,7 +724,7 @@ bool ProfileShortcutManager::IsFeatureEnabled() {
 // static
 std::unique_ptr<ProfileShortcutManager> ProfileShortcutManager::Create(
     ProfileManager* manager) {
-  return std::make_unique<ProfileShortcutManagerWin>(manager);
+  return std::make_unique<BraveProfileShortcutManagerWin>(manager);
 }
 
 ProfileShortcutManagerWin::ProfileShortcutManagerWin(ProfileManager* manager)

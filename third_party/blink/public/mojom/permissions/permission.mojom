@@ -25,6 +25,7 @@ enum PermissionName {
   PERIODIC_BACKGROUND_SYNC,
   WAKE_LOCK,
   NFC,
+  AUTOPLAY,
 };
 
 // This is similar to WakeLockType in modules/wake_lock/wake_lock.idl.

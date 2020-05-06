@@ -68,7 +68,12 @@ AutocompleteClassifierFactory::~AutocompleteClassifierFactory() {
 
 content::BrowserContext* AutocompleteClassifierFactory::GetBrowserContextToUse(
     content::BrowserContext* context) const {
+#if defined(BRAVE_CHROMIUM_BUILD)
+  // See BraveAutocompleteProviderClient about why separate services are used.
+  return chrome::GetBrowserContextOwnInstanceInIncognito(context);
+#else
   return chrome::GetBrowserContextRedirectedInIncognito(context);
+#endif
 }
 
 bool AutocompleteClassifierFactory::ServiceIsNULLWhileTesting() const {

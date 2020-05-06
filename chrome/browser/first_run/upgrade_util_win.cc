@@ -41,7 +41,7 @@
 #include "components/prefs/pref_service.h"
 #include "ui/base/ui_base_switches.h"
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
+#if BUILDFLAG(GOOGLE_CHROME_BRANDING) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
 #include "google_update/google_update_idl.h"
 #endif
 
@@ -55,7 +55,7 @@ bool GetNewerChromeFile(base::FilePath* path) {
 }
 
 bool InvokeGoogleUpdateForRename() {
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
+#if BUILDFLAG(GOOGLE_CHROME_BRANDING) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
   Microsoft::WRL::ComPtr<IProcessLauncher> ipl;
   HRESULT hr = ::CoCreateInstance(__uuidof(ProcessLauncherClass), nullptr,
                                   CLSCTX_ALL, IID_PPV_ARGS(&ipl));

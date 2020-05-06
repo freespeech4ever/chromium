@@ -32,6 +32,7 @@ android_library("sync_java") {
     "java/src/org/chromium/components/sync/notifier/InvalidationPreferences.java",
     "java/src/org/chromium/components/sync/notifier/RandomizedInvalidationClientNameGenerator.java",
   ]
+  sources += brave_sync_java_sources
 }
 
 android_library("sync_javatests") {

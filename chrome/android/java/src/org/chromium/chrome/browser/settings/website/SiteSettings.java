@@ -27,7 +27,7 @@ import java.util.List;
  * browser-wide.
  */
 public class SiteSettings
-        extends PreferenceFragmentCompat implements Preference.OnPreferenceClickListener {
+        extends BraveSiteSettingsPreferencesBase implements Preference.OnPreferenceClickListener {
     // The keys for each category shown on the Site Settings page
     // are defined in the SiteSettingsCategory.
 

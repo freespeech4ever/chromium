@@ -47,6 +47,7 @@ class AlertIndicator : public views::ImageView {
   View* GetTooltipHandlerForPoint(const gfx::Point& point) override;
 
  private:
+  friend class BraveAlertIndicator;
   friend class AlertIndicatorTest;
   friend class TabTest;
   class FadeAnimationDelegate;

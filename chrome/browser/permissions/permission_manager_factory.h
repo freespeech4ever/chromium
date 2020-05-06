@@ -23,6 +23,7 @@ class PermissionManagerFactory : public BrowserContextKeyedServiceFactory {
 
  private:
   friend struct base::DefaultSingletonTraits<PermissionManagerFactory>;
+  friend class BravePermissionManagerFactory;
 
   PermissionManagerFactory();
   ~PermissionManagerFactory() override;

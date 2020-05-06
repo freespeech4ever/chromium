@@ -85,7 +85,7 @@ public abstract class AppHooks {
 
     @CalledByNative
     public static AppHooks get() {
-        if (sInstance == null) sInstance = new AppHooksImpl();
+        if (sInstance == null) sInstance = new BraveAppHooks();
         return sInstance;
     }
 

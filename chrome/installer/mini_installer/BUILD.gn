@@ -12,6 +12,10 @@ import("//tools/v8_context_snapshot/v8_context_snapshot.gni")
 import("//ui/base/ui_features.gni")
 import("//v8/gni/v8.gni")
 
+if (brave_chromium_build) {
+  import("//brave/build/config.gni")
+}
+
 declare_args() {
   # The Chrome archive is compressed in official builds to reduce the size of
   # the installer. By default: non-official or component builds, a build mode
@@ -183,6 +187,22 @@ template("generate_mini_installer") {
       "//third_party/icu:icudata",
       chrome_dll_target,
     ]
+    if (brave_chromium_build) {
+      if (skip_signing) { args += [ "--skip_signing" ] }
+      inputs -= [
+        "$root_out_dir/chrome.exe",
+      ]
+      inputs += [
+        "$root_out_dir/brave.exe",
+        "$root_out_dir/brave_resources.pak",
+        "$root_out_dir/brave_100_percent.pak",
+        "$root_out_dir/brave_200_percent.pak",
+      ]
+      deps += [
+        "//brave:packed_resources",
+        "//brave/build/win:copy_exe",
+      ]
+    }
 
     if (enable_hidpi) {
       args += [ "--enable_hidpi=1" ]

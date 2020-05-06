@@ -32,6 +32,7 @@
 #if defined(OS_ANDROID)
 #include "chrome/browser/android/android_theme_resources.h"
 #else
+#include "brave/app/vector_icons/vector_icons.h"
 #include "chrome/app/vector_icons/vector_icons.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/common/pref_names.h"
@@ -617,6 +618,9 @@ const gfx::ImageSkia PageInfoUI::GetPermissionIcon(const PermissionInfo& info,
       break;
     case ContentSettingsType::USB_GUARD:
       icon = &vector_icons::kUsbIcon;
+      break;
+    case ContentSettingsType::AUTOPLAY:
+      icon = &kAutoplayStatusIcon;
       break;
     case ContentSettingsType::SERIAL_GUARD:
       icon = &vector_icons::kSerialPortIcon;

@@ -35,6 +35,7 @@ namespace blink {
 
 AnalyserHandler::AnalyserHandler(AudioNode& node, float sample_rate)
     : AudioBasicInspectorHandler(kNodeTypeAnalyser, node, sample_rate) {
+  BRAVE_ANALYSERHANDLER_CONSTRUCTOR
   channel_count_ = 2;
   AddOutput(1);
 

@@ -646,6 +646,7 @@ void StartupBrowserCreatorImpl::DetermineURLsAndLaunch(
   welcome_enabled =
       welcome::IsEnabled(profile_) && welcome::HasModulesToShow(profile_);
 #endif  // !defined(OS_CHROMEOS)
+  BRAVE_STARTUPBROWSERCREATORIMPL_DETERMINEURLSANDLAUNCH
 
   bool serve_extensions_page =
       extensions::ShouldShowExtensionsCheckupOnStartup(profile_);

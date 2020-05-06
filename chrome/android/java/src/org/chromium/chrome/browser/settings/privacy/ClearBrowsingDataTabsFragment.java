@@ -132,7 +132,7 @@ public class ClearBrowsingDataTabsFragment extends Fragment {
                     fragment = new ClearBrowsingDataFragmentBasic();
                     break;
                 case 1:
-                    fragment = new ClearBrowsingDataFragmentAdvanced();
+                    fragment = new BraveClearBrowsingDataPreferencesAdvanced();
                     break;
                 default:
                     throw new RuntimeException("invalid position: " + position);

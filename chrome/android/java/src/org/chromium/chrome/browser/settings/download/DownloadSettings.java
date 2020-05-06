@@ -21,7 +21,7 @@ import org.chromium.chrome.browser.settings.SettingsUtils;
  * Fragment containing Download settings.
  */
 public class DownloadSettings
-        extends PreferenceFragmentCompat implements Preference.OnPreferenceChangeListener {
+        extends org.chromium.chrome.browser.settings.BravePreferenceFragment implements Preference.OnPreferenceChangeListener {
     public static final String PREF_LOCATION_CHANGE = "location_change";
     private static final String PREF_LOCATION_PROMPT_ENABLED = "location_prompt_enabled";
     private static final String PREF_PREFETCHING_ENABLED = "prefetching_enabled";

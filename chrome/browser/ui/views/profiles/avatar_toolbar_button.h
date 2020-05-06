@@ -63,6 +63,7 @@ class AvatarToolbarButton : public ToolbarButton,
   static const char kAvatarToolbarButtonClassName[];
 
  private:
+  friend class BraveAvatarToolbarButton;
   FRIEND_TEST_ALL_PREFIXES(AvatarToolbarButtonTest,
                            HighlightMeetsMinimumContrast);
 

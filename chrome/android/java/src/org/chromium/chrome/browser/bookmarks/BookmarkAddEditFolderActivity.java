@@ -212,6 +212,7 @@ public class BookmarkAddEditFolderActivity extends SynchronousInitializationActi
             }
 
             BookmarkId newFolder = mModel.addFolder(mParentId, 0, mFolderTitle.getTrimmedText());
+            BraveBookmarkWorker.CreateUpdateBookmark(mIsAddMode, mModel.getBookmarkById(newFolder));
             Intent intent = new Intent();
             intent.putExtra(INTENT_CREATED_BOOKMARK, newFolder.toString());
             setResult(RESULT_OK, intent);

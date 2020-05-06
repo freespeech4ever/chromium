@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
   <!-- Clear Browsing Data counters-->
   <message name="IDS_CLEAR_BROWSING_DATA_CALCULATING" desc="A text that is shown while the data volume is being counted.">
@@ -130,8 +131,8 @@
   <message name="IDS_DEL_COOKIES_COUNTER_ADVANCED_WITH_EXCEPTION" desc="A counter showing the number of sites that use cookies, followed by an exception message.">
     {COUNT, plural,
       =0 {None}
-      =1 {From 1 site (you won't be signed out of your Google Account)}
-      other {From # sites (you won't be signed out of your Google Account)}}
+      =1 {From 1 site (you won't be signed out of your Brave Account)}
+      other {From # sites (you won't be signed out of your Brave Account)}}
   </message>
   <message name="IDS_DEL_DOWNLOADS_COUNTER" desc="A counter showing how many items of downloads history the user has.">
     {COUNT, plural,

@@ -137,6 +137,8 @@ base::FilePath PlatformCrashpadInitialization(
       // Only allow the possibility of report upload in official builds. This
       // crash server won't have symbols for any other build types.
       std::string url = "https://clients2.google.com/cr/report";
+#elif defined(BRAVE_CHROMIUM_BUILD)
+      std::string url = "https://cr.brave.com";
 #else
       std::string url;
 #endif

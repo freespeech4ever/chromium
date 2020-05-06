@@ -3,6 +3,7 @@
 # found in the LICENSE file.
 
 # This file contains common system config stuff for the Android build.
+import("//brave/build/android/config.gni")
 
 # NOTE: Because Chrome OS builds may depend on targets built with the Android
 # toolchain, this GNI file may be read and processed from within Chrome OS

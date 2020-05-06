@@ -68,7 +68,7 @@ namespace {
 
 const int kPriorCountCap = 10;
 
-std::string GetPermissionRequestString(
+std::string GetPermissionRequestString_ChromiumImpl(
     permissions::PermissionRequestType type) {
   switch (type) {
     case permissions::PermissionRequestType::MULTIPLE:
@@ -574,6 +574,7 @@ void PermissionUmaUtil::RecordPermissionAction(
       base::UmaHistogramEnumeration("Permissions.Action.AR", action,
                                     permissions::PermissionAction::NUM);
       break;
+    BRAVE_PERMISSIONUMAUTIL_RECORDPERMISSIONACTION
     // The user is not prompted for these permissions, thus there is no
     // permission action recorded for them.
     default:

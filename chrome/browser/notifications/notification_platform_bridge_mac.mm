@@ -178,6 +178,7 @@ base::string16 CreateNotificationContext(
 // an expensive call. Instead use NotificationPlatformBridgeMac::SupportsAlerts
 // which caches this value.
 bool SupportsAlertsImpl() {
+  BRAVE_SUPPORTSALERTSIMPL_
   int32_t major, minor, bugfix;
   base::SysInfo::OperatingSystemVersionNumbers(&major, &minor, &bugfix);
   // Allow alerts on all versions except 10.15.0, 10.15.1 & 10.15.2.
@@ -313,6 +314,7 @@ void NotificationPlatformBridgeMac::Display(
   } else {
     NSUserNotification* toast = [builder buildUserNotification];
     [notification_center_ deliverNotification:toast];
+    BRAVE_DISPLAY_
   }
 }
 

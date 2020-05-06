@@ -106,7 +106,9 @@ Polymer({
     // elements residing in this element's Shadow DOM.
     const R = settings.routes;
     const pairs = [
+      // <if expr="_google_chrome">
       [R.SITE_SETTINGS_ADS, 'ads'],
+      // </if>
       [R.SITE_SETTINGS_ALL, 'all-sites'],
       [R.SITE_SETTINGS_AUTOMATIC_DOWNLOADS, 'automatic-downloads'],
       [R.SITE_SETTINGS_BACKGROUND_SYNC, 'background-sync'],

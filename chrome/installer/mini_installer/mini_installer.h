@@ -50,6 +50,16 @@ void AppendCommandLineFlags(const wchar_t* command_line, CommandString* buffer);
 // of differential updates.
 ProcessExitResult WMain(HMODULE module);
 
+#if defined(BRAVE_CHROMIUM_BUILD)
+typedef StackString<128> ReferralCodeString;
+
+// Populates |referral_code| with a Brave referral code if one is
+// present in the installer filename. This may be a standard or an
+// extended referral code.
+bool ParseReferralCode(const wchar_t* installer_filename,
+                       ReferralCodeString& referral_code);
+#endif
+
 }  // namespace mini_installer
 
 #endif  // CHROME_INSTALLER_MINI_INSTALLER_MINI_INSTALLER_H_

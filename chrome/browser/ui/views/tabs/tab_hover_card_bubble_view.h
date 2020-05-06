@@ -60,6 +60,7 @@ class TabHoverCardBubbleView : public views::BubbleDialogDelegateView {
     last_mouse_exit_timestamp_ = last_mouse_exit_timestamp;
   }
 
+  BRAVE_TAB_HOVER_CARD_BUBBLE_VIEW_H_
  private:
   friend class TabHoverCardBubbleViewBrowserTest;
   friend class TabHoverCardBubbleViewInteractiveUiTest;

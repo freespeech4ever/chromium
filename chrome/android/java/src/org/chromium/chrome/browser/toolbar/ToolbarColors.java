@@ -62,6 +62,7 @@ public class ToolbarColors {
             Resources res, int color, boolean isIncognito) {
         // Text box color on default toolbar background in incognito mode is a pre-defined
         // color. We calculate the equivalent opaque color from the pre-defined translucent color.
+        if (isIncognito) {return ApiCompatibilityUtils.getColor(res, R.color.toolbar_text_box_background_incognito);}
         if (isIncognito) {
             final int overlayColor = ApiCompatibilityUtils.getColor(
                     res, R.color.toolbar_text_box_background_incognito);

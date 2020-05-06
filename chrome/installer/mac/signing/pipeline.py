@@ -536,5 +536,8 @@ def sign_all(orig_paths,
                         uuids_to_package_path.keys(), config):
                     package_path = uuids_to_package_path[result]
                     notarize.staple(package_path)
+        else:
+            # Copy the notarized app to the orig_paths.output dir where the user expects it.
+            commands.copy_files(dest_dir, orig_paths.output)
 
     _package_installer_tools(orig_paths, config)

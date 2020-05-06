@@ -36,16 +36,20 @@ class NET_EXPORT HostPortPair {
 
   // TODO(willchan): Define a functor instead.
   // Comparator function so this can be placed in a std::map.
+#if !defined(BRAVE_CHROMIUM_BUILD)
   bool operator<(const HostPortPair& other) const {
     return std::tie(port_, host_) < std::tie(other.port_, other.host_);
   }
+#endif
 
   bool operator==(const HostPortPair& other) const { return Equals(other); }
 
   // Equality test of contents. (Probably another violation of style guide).
+#if !defined(BRAVE_CHROMIUM_BUILD)
   bool Equals(const HostPortPair& other) const {
     return host_ == other.host_ && port_ == other.port_;
   }
+#endif
 
   bool IsEmpty() const {
     return host_.empty() && port_ == 0;
@@ -72,6 +76,7 @@ class NET_EXPORT HostPortPair {
 
   // Returns the estimate of dynamically allocated memory in bytes.
   size_t EstimateMemoryUsage() const;
+  BRAVE_HOST_PORT_PAIR_H_
 
  private:
   // If |host_| represents an IPv6 address, this string will not contain

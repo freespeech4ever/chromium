@@ -113,6 +113,7 @@ class TranslateBubbleView : public LocationBarBubbleDelegateView,
 
   // Returns the current view state.
   TranslateBubbleModel::ViewState GetViewState() const;
+  BRAVE_TRANSLATE_BUBBLE_VIEW_H_
 
  protected:
   // LocationBarBubbleDelegateView:

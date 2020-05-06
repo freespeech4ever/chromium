@@ -15,6 +15,7 @@
 <if expr="not chromeos">
 <link rel="import" href="chrome://resources/cr_elements/cr_toast/cr_toast.html">
 </if>
+<link rel="import" href="../brave_privacy_page/brave_personalization_options.html">
 
 <!--
  * Note: If a synced pref is added/removed from this file, the method
@@ -35,6 +36,7 @@
         border-top: none;
       }
     </style>
+<if expr="_google_chrome">
 <if expr="not chromeos">
     <settings-toggle-button id="signinAllowedToggle"
         disabled="[[syncFirstSetupInProgress_]]"
@@ -45,18 +47,22 @@
         no-set-pref>
     </settings-toggle-button>
 </if><!-- not chromeos -->
+</if>
     <settings-toggle-button hidden="[[!pageVisibility.searchPrediction]]"
         pref="{{prefs.search.suggest_enabled}}"
         label="$i18n{searchSuggestPref}"
         sub-label="$i18n{searchSuggestPrefDesc}">
     </settings-toggle-button>
   <template is="dom-if" if="[[!privacySettingsRedesignEnabled_]]">
+<if expr="_google_chrome">
     <settings-toggle-button id="linkDoctor"
         pref="{{prefs.alternate_error_pages.enabled}}"
         label="$i18n{linkDoctorPref}"
         sub-label="$i18n{linkDoctorPrefDesc}">
     </settings-toggle-button>
+</if>
   </template>
+    <settings-brave-personalization-options prefs="{{prefs}}"></settings-brave-personalization-options>
 <if expr="_google_chrome">
 <if expr="chromeos">
     <settings-toggle-button pref="{{prefs.cros.metrics.reportingEnabled}}"
@@ -64,6 +70,8 @@
         sub-label="$i18n{enableLoggingDesc}">
     </settings-toggle-button>
 </if><!-- chromeos -->
+</if><!-- _google_chrome -->
+<if expr="_chromium">
 <if expr="not chromeos">
     <settings-toggle-button id="metricsReportingControl"
         pref="[[metricsReportingPref_]]" label="$i18n{enableLogging}"
@@ -77,12 +85,14 @@
       </template>
     </settings-toggle-button>
 </if><!-- not chromeos -->
-</if><!-- _google_chrome -->
+</if><!-- _chromium -->
+<if expr="_google_chrome">
     <settings-toggle-button
         pref="{{prefs.url_keyed_anonymized_data_collection.enabled}}"
         label="$i18n{urlKeyedAnonymizedDataCollection}"
         sub-label="$i18n{urlKeyedAnonymizedDataCollectionDesc}">
     </settings-toggle-button>
+</if>
 <if expr="_google_chrome">
     <settings-toggle-button id="spellCheckControl"
         pref="{{prefs.spellcheck.use_spelling_service}}"
@@ -101,6 +111,7 @@
       </settings-toggle-button>
     </template>
 
+<if expr="_google_chrome">
     <template is="dom-if" if="[[showSignoutDialog_]]" restamp>
       <settings-signout-dialog sync-status="[[syncStatus]]"
           on-close="onSignoutDialogClosed_">
@@ -112,6 +123,7 @@
       <div>$i18n{restartToApplyChanges}</div>
       <cr-button on-click="onRestartTap_">$i18n{restart}</cr-button>
     </cr-toast>
+</if>
 </if>
   </template>
   <script src="personalization_options.js"></script>

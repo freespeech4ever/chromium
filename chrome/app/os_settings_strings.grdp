@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!-- Settings-specific strings (included from generated_resources.grd). -->
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
 <if expr="chromeos">
   <!-- About (OS Settings) -->
@@ -19,9 +20,9 @@
     Developer Mode
   </message>
 
-  <!-- People (OS settings) -->
-  <message name="IDS_OS_SETTINGS_PEOPLE" desc="Name of a section in the OS settings page." meaning="People and their accounts.">
-    People
+  <!-- Profiles (OS settings) -->
+  <message name="IDS_OS_SETTINGS_PEOPLE" desc="Name of a section in the OS settings page." meaning="Profiles and their accounts.">
+    Profiles
   </message>
   <message name="IDS_OS_SETTINGS_PROFILE_LABEL" desc="Label underneath the profile's real name, listing the email address and optionally the number of additional accounts">
     {COUNT, plural,
@@ -84,8 +85,8 @@
   <message name="IDS_OS_SETTINGS_SEARCH_ENGINE_LABEL" desc="Label in OS settings describing search engine behavior.">
     Preferred search engine
   </message>
-  <message name="IDS_OS_SETTINGS_SEARCH_ENGINE_TOOLTIP" desc="Tooltip in OS settings explaining that search engine is used in both the Chrome browser and the Chrome OS app launcher.">
-    Used by Chrome browser and <ph name="DEVICE_TYPE">$1<ex>Chromebook</ex></ph> Launcher
+  <message name="IDS_OS_SETTINGS_SEARCH_ENGINE_TOOLTIP" desc="Tooltip in OS settings explaining that search engine is used in both the Brave browser and the Chrome OS app launcher.">
+    Used by Brave browser and <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph> Launcher
   </message>
 
   <!-- Files Page (OS settings) -->

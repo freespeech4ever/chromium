@@ -6,6 +6,7 @@
 
 #include "base/base64.h"
 #include "base/bind.h"
+#include "base/command_line.h"
 #include "base/rand_util.h"
 #include "base/single_thread_task_runner.h"
 #include "base/strings/string_number_conversions.h"
@@ -17,7 +18,7 @@ namespace {
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 const char kApplicationName[] = "chrome";
 #else
-const char kApplicationName[] = "chromium";
+const char kApplicationName[] = "brave";
 #endif
 
 const GnomeKeyringPasswordSchema kSchema = {
@@ -46,9 +47,19 @@ std::string KeyStorageKeyring::GetKeyImpl() {
 
   std::string password;
   gchar* password_c = nullptr;
+  const char* application_name;
+  base::CommandLine* command_line = base::CommandLine::ForCurrentProcess();
+  if (command_line->HasSwitch("import-chrome")) {
+    application_name = "chrome";
+  } else if (command_line->HasSwitch("import-chromium") ||
+             command_line->HasSwitch("import-brave")) {
+    application_name = "chromium";
+  } else {
+    application_name = kApplicationName;
+  }
   GnomeKeyringResult result =
       GnomeKeyringLoader::gnome_keyring_find_password_sync_ptr(
-          &kSchema, &password_c, "application", kApplicationName, nullptr);
+          &kSchema, &password_c, "application", application_name, nullptr);
   if (result == GNOME_KEYRING_RESULT_OK) {
     password = password_c;
     GnomeKeyringLoader::gnome_keyring_free_password_ptr(password_c);

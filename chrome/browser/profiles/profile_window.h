@@ -87,6 +87,7 @@ void SwitchToProfile(const base::FilePath& path,
 
 // Opens a Browser for the guest profile and runs |callback| if it isn't null.
 void SwitchToGuestProfile(ProfileManager::CreateCallback callback);
+void SwitchToTorProfile(ProfileManager::CreateCallback callback);
 
 // Returns true if |profile| has potential profile switch targets, ie there's at
 // least one other profile available to switch to, not counting guest. This is
@@ -103,6 +104,7 @@ void CreateAndSwitchToNewProfile(ProfileManager::CreateCallback callback,
 // Closes all browser windows that belong to the guest profile and opens the
 // user manager.
 void CloseGuestProfileWindows();
+void CloseTorProfileWindows();
 
 // Closes and locks all the browser windows for |profile| and opens the user
 // manager.

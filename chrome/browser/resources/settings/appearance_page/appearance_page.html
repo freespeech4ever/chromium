@@ -18,6 +18,12 @@
 <link rel="import" href="../settings_vars_css.html">
 <link rel="import" href="home_url_input.html">
 
+<if expr="not _google_chrome">
+<link rel="import" href="../brave_appearance_page/brave_appearance_page.html">
+<link rel="import" href="../default_brave_shields_page/default_brave_shields_page.html">
+<link rel="import" href="../social_blocking_page/social_blocking_page.html">
+</if>
+
 <dom-module id="settings-appearance-page">
   <template>
     <style include="settings-shared md-select iron-flex">
@@ -44,6 +50,9 @@
     <settings-animated-pages id="pages" section="appearance"
         focus-config="[[focusConfig_]]">
       <div route-path="default">
+<if expr="not _google_chrome">
+        <settings-brave-appearance-theme prefs="{{prefs}}"></settings-brave-appearance-theme>
+</if>
         <div class="settings-row continuation" id="themeRow"
             hidden="[[!pageVisibility.setTheme]]">
           <cr-link-row class="first" hidden="[[!pageVisibility.setTheme]]"
@@ -116,6 +125,9 @@
             </settings-radio-group>
           </div>
         </template>
+<if expr="not _google_chrome">
+            <settings-brave-appearance-toolbar prefs="{{prefs}}"></settings-brave-appearance-toolbar>
+</if>
         <settings-toggle-button hidden="[[!pageVisibility.bookmarksBar]]"
             pref="{{prefs.bookmark_bar.show_on_all_tabs}}"
             label="$i18n{showBookmarksBar}">

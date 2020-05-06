@@ -58,7 +58,7 @@ ChromeMetadataSource::Request::Request(
 void ChromeMetadataSource::Download(const std::string& key,
                                     const Callback& downloaded) {
   GURL resource(validation_data_url_ + key);
-  if (!resource.SchemeIsCryptographic()) {
+  if (1) { // feature disabled in Brave
     downloaded(false, key, NULL);
     return;
   }

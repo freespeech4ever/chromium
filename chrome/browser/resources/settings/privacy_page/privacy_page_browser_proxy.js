@@ -10,7 +10,7 @@ let MetricsReporting;
 cr.define('settings', function() {
   /** @interface */
   class PrivacyPageBrowserProxy {
-    // <if expr="_google_chrome and not chromeos">
+    // <if expr="_chromium and not chromeos">
     /** @return {!Promise<!MetricsReporting>} */
     getMetricsReporting() {}
 
@@ -33,7 +33,7 @@ cr.define('settings', function() {
    * @implements {settings.PrivacyPageBrowserProxy}
    */
   class PrivacyPageBrowserProxyImpl {
-    // <if expr="_google_chrome and not chromeos">
+    // <if expr="_chromium and not chromeos">
     /** @override */
     getMetricsReporting() {
       return cr.sendWithPromise('getMetricsReporting');

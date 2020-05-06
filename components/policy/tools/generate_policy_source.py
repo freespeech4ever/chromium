@@ -30,6 +30,7 @@ else:
 CHROME_POLICY_KEY = 'SOFTWARE\\\\Policies\\\\Google\\\\Chrome'
 CHROMIUM_POLICY_KEY = 'SOFTWARE\\\\Policies\\\\Chromium'
 
+from policy_source_helper import AddBravePolicies, CHROMIUM_POLICY_KEY
 
 class PolicyDetails:
   """Parses a policy template and caches all its details."""
@@ -350,6 +351,7 @@ def main():
     chrome_major_version = ParseVersionFile(version_path)
 
   template_file_contents = _LoadJSONFile(template_file_name)
+  AddBravePolicies(template_file_contents)
   risk_tags = RiskTags(template_file_contents)
   policy_details = [
       PolicyDetails(policy, chrome_major_version, target_platform,

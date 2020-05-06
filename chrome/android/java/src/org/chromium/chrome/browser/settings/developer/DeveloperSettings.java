@@ -18,7 +18,7 @@ import org.chromium.components.version_info.VersionConstants;
 /**
  * Settings fragment containing preferences aimed at Chrome and web developers.
  */
-public class DeveloperSettings extends PreferenceFragmentCompat {
+public class DeveloperSettings extends org.chromium.chrome.browser.settings.BravePreferenceFragment {
     private static final String UI_PREF_BETA_STABLE_HINT = "beta_stable_hint";
 
     // Non-translated strings:

@@ -19,6 +19,7 @@ class ThemeHelperWin : public ThemeHelper {
 
   ThemeHelperWin(const ThemeHelperWin&) = delete;
   ThemeHelperWin& operator=(const ThemeHelperWin&) = delete;
+  BRAVE_THEME_HELPER_WIN_H_
 
  private:
   // ThemeService:

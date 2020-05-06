@@ -169,6 +169,7 @@ class ProfileImpl : public Profile {
   void OnLogin() override;
   void InitChromeOSPreferences() override;
 #endif  // defined(OS_CHROMEOS)
+  BRAVE_PROFILE_IMPL_H_
 
   void SetCreationTimeForTesting(base::Time creation_time) override;
 

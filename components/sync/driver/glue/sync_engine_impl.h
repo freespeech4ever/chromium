@@ -222,6 +222,7 @@ class SyncEngineImpl : public SyncEngine, public InvalidationHandler {
 
   base::WeakPtrFactory<SyncEngineImpl> weak_ptr_factory_{this};
 
+  BRAVE_SYNC_ENGINE_IMPL_H
   DISALLOW_COPY_AND_ASSIGN(SyncEngineImpl);
 };
 

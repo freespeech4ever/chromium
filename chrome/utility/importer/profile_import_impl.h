@@ -34,6 +34,7 @@ class ProfileImportImpl : public chrome::mojom::ProfileImport {
       mojo::PendingReceiver<chrome::mojom::ProfileImport> receiver);
   ~ProfileImportImpl() override;
 
+  BRAVE_PROFILE_IMPORT_IMPL_H
  private:
   // chrome::mojom::ProfileImport:
   void StartImport(

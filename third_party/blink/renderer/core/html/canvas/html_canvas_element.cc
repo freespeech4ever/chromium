@@ -879,6 +879,7 @@ String HTMLCanvasElement::ToDataURLInternal(
   scoped_refptr<StaticBitmapImage> image_bitmap =
       Snapshot(source_buffer, kPreferNoAcceleration);
   if (image_bitmap) {
+    BRAVE_TO_DATA_URL_INTERNAL
     std::unique_ptr<ImageDataBuffer> data_buffer =
         ImageDataBuffer::Create(image_bitmap);
     if (!data_buffer)

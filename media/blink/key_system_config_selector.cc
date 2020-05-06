@@ -911,6 +911,7 @@ void KeySystemConfigSelector::SelectConfig(
 
   key_systems_->UpdateIfNeeded();
 
+  KeySystems::GetInstance();
   std::string key_system_ascii = key_system.Ascii();
   if (!key_systems_->IsSupportedKeySystem(key_system_ascii)) {
     not_supported_cb.Run();

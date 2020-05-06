@@ -75,6 +75,7 @@ struct RendererContentSettingRules {
   ContentSettingsForOneType client_hints_rules;
   ContentSettingsForOneType popup_redirect_rules;
   ContentSettingsForOneType mixed_content_rules;
+  BRAVE_CONTENT_SETTINGS_H
 };
 
 namespace content_settings {

@@ -245,6 +245,9 @@ function editBookmark(nodes, action) {
 function moveBookmark(nodes, action) {
   const nodeModifications = {};
   const id = action.id;
+  // Skip when new/old parent is invisible (Pending Bookmarks)
+  if (!nodes[action.oldParentId] || !nodes[action.parentId])
+    return nodes;
 
   // Change node's parent.
   nodeModifications[id] =
@@ -415,7 +418,7 @@ export function updateFolderOpenState(folderOpenState, action, nodes) {
       return openFolderAndAncestors(
           folderOpenState, nodes[action.id].parentId, nodes);
     case 'move-bookmark':
-      if (!nodes[action.id].children) {
+      if (!nodes[action.id] || !nodes[action.id].children) {
         return folderOpenState;
       }
 

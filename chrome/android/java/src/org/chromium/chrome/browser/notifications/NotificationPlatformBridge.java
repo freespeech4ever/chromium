@@ -74,7 +74,7 @@ public class NotificationPlatformBridge {
 
     private static final int[] EMPTY_VIBRATION_PATTERN = new int[0];
 
-    private static NotificationPlatformBridge sInstance;
+    protected static NotificationPlatformBridge sInstance;
 
     private static NotificationManagerProxy sNotificationManagerOverride;
 
@@ -127,7 +127,7 @@ public class NotificationPlatformBridge {
         sNotificationManagerOverride = notificationManager;
     }
 
-    private NotificationPlatformBridge(long nativeNotificationPlatformBridge) {
+    protected NotificationPlatformBridge(long nativeNotificationPlatformBridge) {
         mNativeNotificationPlatformBridge = nativeNotificationPlatformBridge;
         Context context = ContextUtils.getApplicationContext();
         if (sNotificationManagerOverride != null) {
@@ -557,7 +557,7 @@ public class NotificationPlatformBridge {
         });
     }
 
-    private NotificationBuilderBase prepareNotificationBuilder(String notificationId,
+    protected NotificationBuilderBase prepareNotificationBuilder(String notificationId,
             @NotificationType int notificationType, String origin, String scopeUrl,
             String profileId, boolean incognito, String title, String body, Bitmap image,
             Bitmap icon, Bitmap badge, int[] vibrationPattern, long timestamp, boolean renotify,
@@ -665,7 +665,7 @@ public class NotificationPlatformBridge {
                         notificationId /* notificationTag */, PLATFORM_ID /* notificationId */));
     }
 
-    private NotificationBuilderBase createNotificationBuilder(Context context, boolean hasImage) {
+    protected NotificationBuilderBase createNotificationBuilder(Context context, boolean hasImage) {
         return useCustomLayouts(hasImage) ? new CustomNotificationBuilder(context)
                                           : new StandardNotificationBuilder(context);
     }

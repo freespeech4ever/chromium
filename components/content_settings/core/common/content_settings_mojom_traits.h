@@ -148,6 +148,7 @@ struct StructTraits<
   static bool Read(
       content_settings::mojom::RendererContentSettingRulesDataView data,
       RendererContentSettingRules* out);
+  BRAVE_CONTENT_SETTINGS_MOJOM_TRAITS_H
 };
 
 }  // namespace mojo

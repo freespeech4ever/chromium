@@ -99,6 +99,9 @@ class CONTENT_EXPORT BrowserMainParts {
   // Called as the very last part of shutdown, after threads have been
   // stopped and destroyed.
   virtual void PostDestroyThreads() {}
+
+  // Called when shutdown is about to begin.
+  virtual void PreShutdown() {}
 };
 
 }  // namespace content

@@ -63,7 +63,7 @@ import java.util.List;
  *
  * Note: This can be triggered from a web page, e.g. a GAIA sign-in page.
  */
-public class AccountManagementFragment extends PreferenceFragmentCompat
+public class AccountManagementFragment extends org.chromium.chrome.browser.settings.BravePreferenceFragment
         implements SignOutDialogListener, SignInStateObserver, ProfileDataCache.Observer {
     private static final String TAG = "AcctManagementPref";
 

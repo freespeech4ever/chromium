@@ -89,6 +89,9 @@ class DevToolsUIBindings : public DevToolsEmbedderMessageDispatcher::Delegate,
   bool IsAttachedTo(content::DevToolsAgentHost* agent_host);
 
  private:
+  friend class BraveDevToolsUIBindings;
+  FRIEND_TEST_ALL_PREFIXES(BraveDevToolsUIBindingsBrowserTest, ThemeTest);
+
   void HandleMessageFromDevToolsFrontend(const std::string& message);
 
   // content::DevToolsAgentHostClient implementation.

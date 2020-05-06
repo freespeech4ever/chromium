@@ -56,6 +56,7 @@ class WriteTransaction : public BaseTransaction {
       SyncChangeProcessor::ContextRefreshStatus refresh_status,
       const std::string& context);
 
+ BRAVE_WRITE_TRANSACTION_H_
  protected:
   WriteTransaction() {}
 

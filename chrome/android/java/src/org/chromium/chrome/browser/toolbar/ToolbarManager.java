@@ -846,6 +846,7 @@ public class ToolbarManager implements ScrimObserver, ToolbarTabController, UrlF
     // TODO(crbug.com/1026020): Move this logic to BottomToolbar class.
     private void onShareDelegateAvailable(ShareDelegate shareDelegate) {
         final OnClickListener shareButtonListener = v -> {
+/*
             if (BottomToolbarVariationManager.isShareButtonOnBottom()) {
                 recordBottomToolbarUseForIPH();
                 RecordUserAction.record("MobileBottomToolbarShareButton");
@@ -859,7 +860,8 @@ public class ToolbarManager implements ScrimObserver, ToolbarTabController, UrlF
                 activity = ((TabImpl) tab).getActivity();
                 isIncognito = tab.isIncognito();
             }
-            shareDelegate.share(tab, /*shareDirectly=*/false);
+*///        shareDelegate.share(tab, /*shareDirectly=*/false);
+            mActivity.addOrEditBookmark(mActivity.getActivityTab());
         };
         mShareButtonListenerSupplier.set(shareButtonListener);
     }
@@ -1819,6 +1821,7 @@ public class ToolbarManager implements ScrimObserver, ToolbarTabController, UrlF
         boolean editingAllowed = currentTab == null || mBookmarkBridge == null
                 || mBookmarkBridge.isEditBookmarksEnabled();
         mToolbar.updateBookmarkButton(isBookmarked, editingAllowed);
+        if (mBottomControlsCoordinator != null) {mBottomControlsCoordinator.updateBookmarkButton(isBookmarked, editingAllowed);}
     }
 
     private void updateReloadState(boolean tabCrashed) {

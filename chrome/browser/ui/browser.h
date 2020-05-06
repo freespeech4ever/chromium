@@ -638,6 +638,7 @@ class Browser : public TabStripModelObserver,
   // dragging.
   void SetIsInTabDragging(bool is_in_tab_dragging);
 
+  BRAVE_BROWSER_H
  private:
   friend class BrowserTest;
   friend class FullscreenControllerInteractiveTest;

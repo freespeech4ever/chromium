@@ -63,14 +63,14 @@ class InProcessImporterBridge : public ImporterBridge {
   class SearchEnginesParser;
   friend class SearchEnginesParser;
 
-  ~InProcessImporterBridge() override;
-
   // Called by the SearchEnginesParser when all the search engines have been
   // parsed. The |template_urls| vector is in the same sort order that was
   // passed to SetFirefoxSearchEnginesXMLData().
   void WriteSearchEngines(TemplateURL::OwnedTemplateURLVector template_urls);
 
   ProfileWriter* const writer_;  // weak
+ protected:
+  ~InProcessImporterBridge() override;
   const base::WeakPtr<ExternalProcessImporterHost> host_;
   std::unique_ptr<SearchEnginesParser> search_engines_;
 

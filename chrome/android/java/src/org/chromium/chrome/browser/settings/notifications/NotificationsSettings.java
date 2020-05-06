@@ -27,7 +27,7 @@ import org.chromium.components.content_settings.ContentSettingsType;
  * notification channels at the top level and links to website specific notifications. This is only
  * used on pre-O devices, devices on Android O+ will link to the Android notification settings.
  */
-public class NotificationsSettings extends PreferenceFragmentCompat {
+public class NotificationsSettings extends org.chromium.chrome.browser.settings.BravePreferenceFragment {
     // These are package-private to be used in tests.
     static final String PREF_FROM_WEBSITES = "from_websites";
     static final String PREF_SUGGESTIONS = "content_suggestions";

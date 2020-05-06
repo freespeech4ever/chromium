@@ -55,7 +55,7 @@ import java.util.Collection;
  * The Toolbar object for Tablet screens.
  */
 @SuppressLint("Instantiatable")
-public class ToolbarTablet extends ToolbarLayout
+public class ToolbarTablet extends BraveToolbarLayout
         implements OnClickListener, View.OnLongClickListener, TabCountObserver {
     // The number of toolbar buttons that can be hidden at small widths (reload, back, forward).
     public static final int HIDEABLE_BUTTON_COUNT = 3;
@@ -330,10 +330,12 @@ public class ToolbarTablet extends ToolbarLayout
             DownloadUtils.downloadOfflinePage(getContext(), getToolbarDataProvider().getTab());
             RecordUserAction.record("MobileToolbarDownloadPage");
         }
+        super.onClick(v);
     }
 
     @Override
     public boolean onLongClick(View v) {
+        if (super.onLongClick(v)) return true;
         String description = null;
         Context context = getContext();
         Resources resources = context.getResources();
@@ -394,6 +396,7 @@ public class ToolbarTablet extends ToolbarLayout
         mLocationBar.getBackground().setColorFilter(textBoxColor, PorterDuff.Mode.SRC_IN);
 
         mLocationBar.updateVisualsForState();
+        super.onThemeColorChanged(color, shouldAnimate);
     }
 
     /**

@@ -858,6 +858,7 @@ sandbox::ResultCode SandboxWin::StartSandboxedProcess(
           service_manager::switches::kNoSandbox)) {
     base::LaunchOptions options;
     options.handles_to_inherit = handles_to_inherit;
+    BraveLaunchOption(cmd_line, &options);
     BOOL in_job = true;
     // Prior to Windows 8 nested jobs aren't possible.
     if (sandbox_type == SandboxType::kNetwork &&

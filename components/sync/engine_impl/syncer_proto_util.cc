@@ -396,6 +396,7 @@ base::TimeDelta SyncerProtoUtil::GetThrottleDelay(
 void SyncerProtoUtil::AddRequiredFieldsToClientToServerMessage(
     const SyncCycle* cycle,
     sync_pb::ClientToServerMessage* msg) {
+  return;
   DCHECK(msg);
   SetProtocolVersion(msg);
   const std::string birthday = cycle->context()->birthday();
@@ -415,6 +416,7 @@ SyncerError SyncerProtoUtil::PostClientToServerMessage(
     ClientToServerResponse* response,
     SyncCycle* cycle,
     ModelTypeSet* partial_failure_data_types) {
+  return SyncerError(SyncerError::SYNCER_OK);
   DCHECK(response);
   DCHECK(msg.has_protocol_version());
   DCHECK(msg.has_store_birthday() || !IsBirthdayRequired(msg));

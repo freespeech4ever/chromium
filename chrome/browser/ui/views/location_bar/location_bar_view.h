@@ -107,6 +107,7 @@ class LocationBarView : public LocationBar,
   int GetBorderRadius() const;
 
   // Initializes the LocationBarView.
+  virtual
   void Init();
 
   // True if this instance has been initialized by calling Init, which can only
@@ -159,6 +160,7 @@ class LocationBarView : public LocationBar,
 
   // Updates the controller, and, if |contents| is non-null, restores saved
   // state that the tab holds.
+  virtual
   void Update(const content::WebContents* contents);
 
   // Clears the location bar's state for |contents|.
@@ -178,6 +180,7 @@ class LocationBarView : public LocationBar,
   void GetAccessibleNodeData(ui::AXNodeData* node_data) override;
   gfx::Size GetMinimumSize() const override;
   gfx::Size CalculatePreferredSize() const override;
+  void Layout(views::View* trailing_view);
   void Layout() override;
   void OnThemeChanged() override;
   void ChildPreferredSizeChanged(views::View* child) override;
@@ -228,6 +231,7 @@ class LocationBarView : public LocationBar,
                                      on_icon_fetched) const override;
 
  private:
+  friend class BraveLocationBarView;
   FRIEND_TEST_ALL_PREFIXES(SecurityIndicatorTest, CheckIndicatorText);
   FRIEND_TEST_ALL_PREFIXES(TouchLocationBarViewBrowserTest,
                            OmniboxViewViewsSize);

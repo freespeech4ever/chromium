@@ -74,7 +74,7 @@ import org.chromium.ui.widget.ButtonCompat;
 /**
  * Settings fragment to enable Sync and other services that communicate with Google.
  */
-public class SyncAndServicesSettings extends PreferenceFragmentCompat
+public class SyncAndServicesSettings extends org.chromium.chrome.browser.settings.BravePreferenceFragment
         implements PassphraseDialogFragment.Listener, Preference.OnPreferenceChangeListener,
                    ProfileSyncService.SyncStateChangedListener,
                    SettingsActivity.OnBackPressedListener {

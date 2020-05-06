@@ -546,6 +546,7 @@ cr.define('local_discovery', function() {
     $('cloud-devices-retry-link')
         .addEventListener('click', retryLoadCloudDevices);
 
+    // <if expr="_google_chrome">
     $('cloud-devices-login-link')
         .addEventListener('click', cloudDevicesLoginButtonClicked);
 
@@ -554,6 +555,7 @@ cr.define('local_discovery', function() {
 
     $('register-overlay-login-button')
         .addEventListener('click', registerOverlayLoginButtonClicked);
+    // </if>
 
     focusManager = new LocalDiscoveryFocusManager();
     focusManager.initialize();

@@ -59,6 +59,9 @@ void LogImporterUseToMetrics(const std::string& metric_postfix,
     case TYPE_BOOKMARKS_FILE:
       metrics_type = IMPORTER_METRICS_BOOKMARKS_FILE;
       break;
+    case TYPE_CHROME:
+      // TODO: Wire this up if we want to record metrics on users who import from Chrome
+      break;
   }
 
   // Note: This leaks memory, which is the expected behavior as the factory

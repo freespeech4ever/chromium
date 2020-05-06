@@ -135,6 +135,7 @@ class CONTENT_EXPORT BrowserMainLoop {
   void PreMainMessageLoopStart();
   void MainMessageLoopStart();
   void PostMainMessageLoopStart();
+  virtual
   void PreShutdown();
 
   // Create and start running the tasks we need to complete startup. Note that

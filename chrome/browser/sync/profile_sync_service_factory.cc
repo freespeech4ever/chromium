@@ -283,7 +283,7 @@ KeyedService* ProfileSyncServiceFactory::BuildServiceInstanceFor(
   }
 
   auto pss =
-      std::make_unique<syncer::ProfileSyncService>(std::move(init_params));
+      BraveBuildServiceInstanceFor(profile, std::move(init_params));
 
 #if defined(OS_WIN)
   if (!local_sync_backend_enabled)

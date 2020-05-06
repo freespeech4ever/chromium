@@ -253,6 +253,7 @@ template("chrome_public_common_apk_or_module_tmpl") {
       if (!defined(proguard_configs)) {
         proguard_configs = []
       }
+      proguard_configs += ["//brave/android/java/proguard.flags",]
       proguard_configs += [
         "//chrome/android/java/proguard.flags",
         "//base/android/proguard/chromium_apk.flags",

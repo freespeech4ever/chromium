@@ -114,6 +114,7 @@ base::Optional<CanonicalCookie> CanonicalCookie::Create(
     const WebString& cookie_line,
     base::Time creation_time) {
   std::unique_ptr<net::CanonicalCookie> cookie = net::CanonicalCookie::Create(
+      BRAVE_CANONICALCOOKIE_CREATE
       ToGURL(url), cookie_line.Utf8(), creation_time,
       base::nullopt /* server_time */);
   if (!cookie)

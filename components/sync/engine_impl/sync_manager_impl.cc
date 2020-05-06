@@ -388,8 +388,9 @@ void SyncManagerImpl::Init(InitArgs* args) {
       args->poll_interval);
   scheduler_ = args->engine_components_factory->BuildScheduler(
       name_, cycle_context_.get(), args->cancelation_signal,
-      args->enable_local_sync_backend);
+      true);
 
+  BRAVE_SYNC_MANAGER_IMPL_INIT
   scheduler_->Start(SyncScheduler::CONFIGURATION_MODE, base::Time());
 
   initialized_ = true;

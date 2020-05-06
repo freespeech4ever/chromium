@@ -280,6 +280,7 @@ public class TabSwitcherModeTTPhone extends OptimizedFrameLayout
         if (BottomToolbarVariationManager.isTabSwitcherOnBottom() && !shouldShowIncognitoToggle()) {
             mToggleTabStackButton.setVisibility(isVisible ? GONE : VISIBLE);
         }
+        setMenuButtonVisibility(!isVisible || (FeatureUtilities.isBottomToolbarEnabled() && !BottomToolbarVariationManager.isMenuButtonOnBottom()));
     }
 
     private void setNewTabButtonVisibility(boolean isButtonVisible) {

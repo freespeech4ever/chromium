@@ -80,6 +80,7 @@ class NET_EXPORT CanonicalCookie {
   //
   // If a cookie is returned, |cookie->IsCanonical()| will be true.
   static std::unique_ptr<CanonicalCookie> Create(
+      BRAVE_CANONICAL_COOKIE_H_CREATE_EXTRA_PARAMS
       const GURL& url,
       const std::string& cookie_line,
       const base::Time& creation_time,

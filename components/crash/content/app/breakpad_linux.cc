@@ -103,7 +103,11 @@ namespace {
 // while we do have functions to deal with uint64_t's.
 uint64_t g_crash_loop_before_time = 0;
 #else
+#if defined(BRAVE_CHROMIUM_BUILD)
+const char kUploadURL[] = "https://cr.brave.com";
+#else
 const char kUploadURL[] = "https://clients2.google.com/cr/report";
+#endif
 #endif
 
 bool g_is_crash_reporter_enabled = false;

@@ -376,6 +376,7 @@ void SyncEngineBackend::DoInitialize(SyncEngine::InitParams params) {
   args.cache_guid = params.cache_guid;
   args.birthday = params.birthday;
   args.bag_of_chips = params.bag_of_chips;
+  BRAVE_SYNC_ENGINE_BACKEND_DO_INITIALIZE
   sync_manager_->Init(&args);
   base::trace_event::MemoryDumpManager::GetInstance()
       ->RegisterDumpProviderWithSequencedTaskRunner(

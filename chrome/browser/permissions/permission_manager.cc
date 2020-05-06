@@ -109,7 +109,7 @@ ContentSetting PermissionStatusToContentSetting(PermissionStatus status) {
 // Helper method to convert PermissionType to ContentSettingType.
 // If PermissionType is not supported or found, returns
 // ContentSettingsType::DEFAULT.
-ContentSettingsType PermissionTypeToContentSettingSafe(
+ContentSettingsType PermissionTypeToContentSettingSafe_ChromiumImpl(
     PermissionType permission) {
   switch (permission) {
     case PermissionType::MIDI:
@@ -163,6 +163,7 @@ ContentSettingsType PermissionTypeToContentSettingSafe(
     case PermissionType::AR:
       return ContentSettingsType::AR;
     case PermissionType::NUM:
+    default:
       break;
   }
 

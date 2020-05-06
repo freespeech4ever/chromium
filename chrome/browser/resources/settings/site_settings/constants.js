@@ -34,6 +34,7 @@ cr.define('settings', function() {
     ADS: 'ads',
     CLIPBOARD: 'clipboard',
     SENSORS: 'sensors',
+    AUTOPLAY: 'autoplay',
     PAYMENT_HANDLER: 'payment-handler',
     MIXEDSCRIPT: 'mixed-script',
     BLUETOOTH_SCANNING: 'bluetooth-scanning',

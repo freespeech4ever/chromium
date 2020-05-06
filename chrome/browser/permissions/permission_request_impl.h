@@ -32,6 +32,7 @@ class PermissionRequestImpl : public permissions::PermissionRequest {
  private:
   // permissions::PermissionRequest:
   IconId GetIconId() const override;
+  IconId GetIconId_ChromiumImpl() const;
 #if defined(OS_ANDROID)
   base::string16 GetTitleText() const override;
   base::string16 GetMessageText() const override;
@@ -39,6 +40,7 @@ class PermissionRequestImpl : public permissions::PermissionRequest {
   base::string16 GetQuietMessageText() const override;
 #endif
   base::string16 GetMessageTextFragment() const override;
+  base::string16 GetMessageTextFragment_ChromiumImpl() const;
   GURL GetOrigin() const override;
   void PermissionGranted() override;
   void PermissionDenied() override;

@@ -50,7 +50,7 @@ class ProfileContentSettingObserver : public content_settings::Observer {
     PluginService::GetInstance()->PurgePluginListCache(profile_, false);
 
     const GURL primary(primary_pattern.ToString());
-    if (primary.is_valid()) {
+    if (primary.is_valid() && resource_identifier.length() == 0) {
       DCHECK_EQ(ContentSettingsPattern::Relation::IDENTITY,
                 ContentSettingsPattern::Wildcard().Compare(secondary_pattern));
       PluginUtils::RememberFlashChangedForSite(map, primary);

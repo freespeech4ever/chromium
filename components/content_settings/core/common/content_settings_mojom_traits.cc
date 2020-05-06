@@ -101,6 +101,7 @@ bool StructTraits<content_settings::mojom::RendererContentSettingRulesDataView,
          data.ReadScriptRules(&out->script_rules) &&
          data.ReadClientHintsRules(&out->client_hints_rules) &&
          data.ReadPopupRedirectRules(&out->popup_redirect_rules) &&
+         BRAVE_READ_RENDERER_CONTENT_SETTING_RULES_DATA_VIEW
          data.ReadMixedContentRules(&out->mixed_content_rules);
 }
 

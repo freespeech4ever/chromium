@@ -35,7 +35,7 @@ import("java_sources.gni")
 import("static_initializers.gni")
 import("trichrome.gni")
 
-chrome_public_manifest_package = "org.chromium.chrome"
+declare_args() { chrome_public_manifest_package = "org.chromium.chrome" }
 chrome_public_test_manifest_package = "org.chromium.chrome.tests"
 
 chrome_public_jinja_variables =
@@ -162,6 +162,7 @@ android_resources("chrome_app_java_resources") {
     "//third_party/android_deps:com_android_support_preference_v7_java",
     "//third_party/android_deps:com_android_support_recyclerview_v7_java",
   ]
+  deps += ["//brave/build/android:android_brave_strings_grd"]
   custom_package = "org.chromium.chrome"
 }
 
@@ -377,6 +378,7 @@ android_library("chrome_java") {
   ]
 
   deps += feed_deps
+  deps += brave_chrome_java_deps
 
   srcjar_deps = [
     ":chrome_android_java_enums_srcjar",
@@ -427,6 +429,7 @@ android_library("chrome_java") {
     "//content/public/browser:contacts_picker_properties_requested_javagen",
     "//net:effective_connection_type_java",
   ]
+  srcjar_deps += brave_chrome_java_srcjar_deps
 
   android_manifest_for_lint = chrome_public_android_manifest
 
@@ -532,6 +535,7 @@ group("jni_headers") {
     "//chrome/browser/touch_to_fill/android:jni_headers",
     "//chrome/browser/util:jni_headers",
   ]
+  public_deps += ["//brave/build/android:jni_headers"]
 }
 
 action("chrome_android_java_google_api_keys_srcjar") {
@@ -1392,6 +1396,7 @@ if (current_toolchain == default_toolchain) {
         ":${_variant}_locale_pak_assets",
         ":${_variant}_paks",
       ]
+      deps += [ "//brave:brave_pak_assets" ]
       if (_is_monochrome) {
         deps += [ "//android_webview:locale_pak_assets" ]
         if (webview_includes_weblayer && !_is_bundle_module) {

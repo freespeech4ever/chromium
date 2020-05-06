@@ -114,13 +114,9 @@ void ZygoteHostImpl::Init(const base::CommandLine& command_line) {
     use_suid_sandbox_for_adj_oom_score_ = use_suid_sandbox_;
   } else {
     LOG(FATAL)
-        << "No usable sandbox! Update your kernel or see "
-           "https://chromium.googlesource.com/chromium/src/+/master/"
-           "docs/linux/suid_sandbox_development.md for more information on "
-           "developing with the SUID sandbox. "
-           "If you want to live dangerously and need an immediate workaround, "
-           "you can try using --"
-        << service_manager::switches::kNoSandbox << ".";
+        << "No usable sandbox! You probably need to enable user namespaces "
+           "in your kernel. See https://brave-browser.readthedocs.io/en/"
+           "latest/installing-brave.html#linux for more information.";
   }
 }
 

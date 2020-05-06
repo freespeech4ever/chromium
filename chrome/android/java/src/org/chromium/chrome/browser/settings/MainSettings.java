@@ -42,7 +42,7 @@ import java.util.Map;
 /**
  * The main settings screen, shown when the user first opens Settings.
  */
-public class MainSettings extends PreferenceFragmentCompat
+public class MainSettings extends BraveMainPreferencesBase
         implements TemplateUrlService.LoadListener, ProfileSyncService.SyncStateChangedListener,
                    SigninManager.SignInStateObserver {
     public static final String PREF_ACCOUNT_SECTION = "account_section";

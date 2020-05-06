@@ -47,7 +47,7 @@ import java.util.Locale;
  * to view saved passwords (just the username and URL), and to delete saved passwords.
  */
 public class PasswordSettings
-        extends PreferenceFragmentCompat implements PasswordManagerHandler.PasswordListObserver,
+        extends org.chromium.chrome.browser.settings.BravePreferenceFragment implements PasswordManagerHandler.PasswordListObserver,
                                                     Preference.OnPreferenceClickListener {
     // Keys for name/password dictionaries.
     public static final String PASSWORD_LIST_URL = "url";

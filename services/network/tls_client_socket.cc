@@ -23,7 +23,14 @@ TLSClientSocket::TLSClientSocket(
     const net::NetworkTrafficAnnotationTag& traffic_annotation)
     : observer_(std::move(observer)), traffic_annotation_(traffic_annotation) {}
 
-TLSClientSocket::~TLSClientSocket() {}
+TLSClientSocket::~TLSClientSocket() {
+  if (connect_callback_) {
+    std::move(connect_callback_)
+        .Run(net::ERR_ABORTED, mojo::ScopedDataPipeConsumerHandle(),
+             mojo::ScopedDataPipeProducerHandle(), base::nullopt);
+  }
+}
+
 
 void TLSClientSocket::Connect(
     const net::HostPortPair& host_port_pair,

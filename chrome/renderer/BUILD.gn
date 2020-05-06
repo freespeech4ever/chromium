@@ -129,6 +129,7 @@ jumbo_static_library("renderer") {
   defines = []
 
   deps = [
+    "//brave/renderer",
     "//chrome:resources",
     "//chrome:strings",
     "//chrome/common",

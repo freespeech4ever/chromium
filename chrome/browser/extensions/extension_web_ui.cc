@@ -361,8 +361,8 @@ bool ExtensionWebUI::HandleChromeURLOverride(
     return false;
 
   Profile* profile = Profile::FromBrowserContext(browser_context);
-  const base::DictionaryValue* overrides =
-      profile->GetPrefs()->GetDictionary(kExtensionURLOverrides);
+  const base::DictionaryValue* overrides = NULL;
+      //profile->GetPrefs()->GetDictionary(kExtensionURLOverrides);
 
   std::string url_host = url->host();
   const base::ListValue* url_list = NULL;

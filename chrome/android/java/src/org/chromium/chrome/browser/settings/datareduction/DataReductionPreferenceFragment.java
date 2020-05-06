@@ -33,7 +33,7 @@ import java.util.Locale;
 /**
  * Settings fragment that allows the user to configure Data Saver.
  */
-public class DataReductionPreferenceFragment extends PreferenceFragmentCompat {
+public class DataReductionPreferenceFragment extends org.chromium.chrome.browser.settings.BravePreferenceFragment {
     public static final String FROM_MAIN_MENU = "FromMainMenu";
 
     public static final String PREF_DATA_REDUCTION_SWITCH = "data_reduction_switch";

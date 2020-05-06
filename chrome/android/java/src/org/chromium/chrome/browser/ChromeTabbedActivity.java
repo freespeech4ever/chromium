@@ -169,7 +169,7 @@ import java.util.Locale;
  * This is the main activity for ChromeMobile when not running in document mode.  All the tabs
  * are accessible via a chrome specific tab switching UI.
  */
-public class ChromeTabbedActivity extends ChromeActivity {
+public class ChromeTabbedActivity extends BraveActivity {
     private static final String TAG = "ChromeTabbedActivity";
 
     private static final String HELP_URL_PREFIX = "https://support.google.com/chrome/";
@@ -1612,7 +1612,7 @@ public class ChromeTabbedActivity extends ChromeActivity {
 
     @Override
     public AppMenuPropertiesDelegate createAppMenuPropertiesDelegate() {
-        return new TabbedAppMenuPropertiesDelegate(this, getActivityTabProvider(),
+        return new org.chromium.chrome.browser.appmenu.BraveTabbedAppMenuPropertiesDelegate(this, getActivityTabProvider(),
                 getMultiWindowModeStateDispatcher(), getTabModelSelector(), getToolbarManager(),
                 getWindow().getDecorView(), this,
                 mOverviewModeController.mOverviewModeBehaviorSupplier,
@@ -1625,9 +1625,9 @@ public class ChromeTabbedActivity extends ChromeActivity {
             return new TabbedModeTabDelegateFactory(
                     this, getAppBrowserControlsVisibilityDelegate(), getShareDelegateSupplier());
         };
-        return Pair.create(new ChromeTabCreator(this, getWindowAndroid(), getStartupTabPreloader(),
+        return Pair.create(new org.chromium.chrome.browser.tabmodel.BraveTabCreator(this, getWindowAndroid(), getStartupTabPreloader(),
                                    tabDelegateFactorySupplier, false),
-                new ChromeTabCreator(this, getWindowAndroid(), getStartupTabPreloader(),
+                new org.chromium.chrome.browser.tabmodel.BraveTabCreator(this, getWindowAndroid(), getStartupTabPreloader(),
                         tabDelegateFactorySupplier, true));
     }
 
@@ -2012,7 +2012,7 @@ public class ChromeTabbedActivity extends ChromeActivity {
         }
     }
 
-    private void hideOverview() {
+    public void hideOverview() {
         assert (mOverviewModeController.overviewVisible());
         Layout activeLayout = mLayoutManager.getActiveLayout();
         if (activeLayout instanceof StackLayout) {

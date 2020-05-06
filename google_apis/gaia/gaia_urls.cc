@@ -17,7 +17,7 @@ namespace {
 
 // Gaia service constants
 const char kDefaultGoogleUrl[] = "http://google.com";
-const char kDefaultGaiaUrl[] = "https://accounts.google.com";
+const char kDefaultGaiaUrl[] = "https://no-thanks.invalid"; // Leave this as a patch instead of considering chromium_src override
 const char kDefaultGoogleApisBaseUrl[] = "https://www.googleapis.com";
 const char kDefaultOAuthAccountManagerBaseUrl[] =
     "https://oauthaccountmanager.googleapis.com";

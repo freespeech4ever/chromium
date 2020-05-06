@@ -136,6 +136,7 @@ class ByteCodeProcessor {
             chain = new CustomResourcesClassAdapter(
                     chain, reader.getClassName(), reader.getSuperName(), sFullClassPathClassLoader);
         }
+        chain = org.brave.bytecode.BraveClassAdapter.createAdapter(chain);
         reader.accept(chain, 0);
         byte[] patchedByteCode = writer.toByteArray();
         return EntryDataPair.create(entry.getName(), patchedByteCode);

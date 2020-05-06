@@ -72,7 +72,7 @@ import org.chromium.ui.vr.VrModeObserver;
  * Layout for the new tab page. This positions the page elements in the correct vertical positions.
  * There are no separate phone and tablet UIs; this layout adapts based on the available space.
  */
-public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer, VrModeObserver {
+public class NewTabPageLayout extends android.widget.FrameLayout implements TileGroup.Observer, VrModeObserver {
     private static final String TAG = "NewTabPageLayout";
     // Used to signify the cached resource value is unset.
     private static final int UNSET_RESOURCE_FLAG = -1;
@@ -84,7 +84,7 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
 
     private LogoView mSearchProviderLogoView;
     private SearchBoxContainerView mSearchBoxContainerView;
-    private ViewGroup mSiteSectionView;
+    protected ViewGroup mSiteSectionView;
     private SiteSectionViewHolder mSiteSectionViewHolder;
     private ImageView mVoiceSearchButton;
     private View mTileGridPlaceholder;
@@ -423,7 +423,7 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
                 1f);
     }
 
-    private void insertSiteSectionView() {
+    protected void insertSiteSectionView() {
         mSiteSectionView = SiteSection.inflateSiteSection(this);
         ViewGroup.LayoutParams layoutParams = mSiteSectionView.getLayoutParams();
         layoutParams.width = ViewGroup.LayoutParams.WRAP_CONTENT;
@@ -788,7 +788,7 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
         }
     }
 
-    private static int getMaxTileRows() {
+    protected int getMaxTileRows() {
         return 2;
     }
 

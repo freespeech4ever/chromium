@@ -148,6 +148,7 @@ void GetRendererContentSettingRules(const HostContentSettingsMap* map,
                              &(rules->client_hints_rules));
   map->GetSettingsForOneType(ContentSettingsType::POPUPS, ResourceIdentifier(),
                              &(rules->popup_redirect_rules));
+  BRAVE_GET_RENDER_CONTENT_SETTING_RULES
 }
 
 bool IsMorePermissive(ContentSetting a, ContentSetting b) {

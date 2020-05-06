@@ -30,7 +30,7 @@ import java.util.Set;
  * Settings fragment that shows options for recording a performance trace.
  */
 public class TracingSettings
-        extends PreferenceFragmentCompat implements TracingController.Observer {
+        extends org.chromium.chrome.browser.settings.BravePreferenceFragment implements TracingController.Observer {
     static final String NON_DEFAULT_CATEGORY_PREFIX = "disabled-by-default-";
 
     @VisibleForTesting

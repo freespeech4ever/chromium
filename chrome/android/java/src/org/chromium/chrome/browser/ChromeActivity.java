@@ -327,7 +327,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
     NightModeReparentingController mNightModeReparentingController;
 
     protected ChromeActivity() {
-        mIntentHandler = new IntentHandler(this, createIntentHandlerDelegate());
+        mIntentHandler = new BraveIntentHandler(this, createIntentHandlerDelegate());
     }
 
     @Override

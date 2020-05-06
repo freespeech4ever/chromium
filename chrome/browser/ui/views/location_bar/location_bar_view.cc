@@ -446,7 +446,7 @@ void LocationBarView::OnKeywordFaviconFetched(const gfx::Image& icon) {
   selected_keyword_view_->SetCustomImage(icon);
 }
 
-void LocationBarView::Layout() {
+void LocationBarView::Layout(views::View* right_most) {
   if (!IsInitialized())
     return;
 
@@ -548,6 +548,7 @@ void LocationBarView::Layout() {
     }
   };
 
+  BRAVE_LAYOUT_TRAILING_DECORATIONS
   add_trailing_decoration(page_action_icon_container_);
   for (ContentSettingViews::const_reverse_iterator i(
            content_setting_views_.rbegin());

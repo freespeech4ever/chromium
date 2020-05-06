@@ -92,6 +92,7 @@ class Syncer {
   // Whether the syncer is in the middle of a sync attempt.
   bool is_syncing_;
 
+  BRAVE_SYNCER_H
   DISALLOW_COPY_AND_ASSIGN(Syncer);
 };
 

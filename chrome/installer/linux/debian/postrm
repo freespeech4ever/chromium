@@ -30,4 +30,3 @@ if [ -s "$DEFAULTS_FILE" ]; then
   rm "$DEFAULTS_FILE" || exit 1
 fi
 # Remove any Google repository added by the package.
-clean_sources_lists

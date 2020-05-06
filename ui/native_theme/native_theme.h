@@ -481,6 +481,7 @@ class NATIVE_THEME_EXPORT NativeTheme {
 
   // Returns the system's caption style.
   virtual base::Optional<CaptionStyle> GetSystemCaptionStyle() const;
+  BRAVE_UI_NATIVE_THEME_NATIVE_THEME_H_
 
   virtual ColorScheme GetDefaultSystemColorScheme() const;
 

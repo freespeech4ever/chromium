@@ -151,20 +151,30 @@ std::vector<importer::SourceProfile> DetectSourceProfilesWorker(
   if (shell_integration::IsFirefoxDefaultBrowser()) {
     DetectFirefoxProfiles(locale, &profiles);
     DetectBuiltinWindowsProfiles(&profiles);
+    DetectChromeProfiles(&profiles);
   } else {
     DetectBuiltinWindowsProfiles(&profiles);
     DetectFirefoxProfiles(locale, &profiles);
+    DetectChromeProfiles(&profiles);
   }
 #elif defined(OS_MACOSX)
   if (shell_integration::IsFirefoxDefaultBrowser()) {
     DetectFirefoxProfiles(locale, &profiles);
     DetectSafariProfiles(&profiles);
+    DetectChromeProfiles(&profiles);
   } else {
     DetectSafariProfiles(&profiles);
     DetectFirefoxProfiles(locale, &profiles);
+    DetectChromeProfiles(&profiles);
   }
 #else
-  DetectFirefoxProfiles(locale, &profiles);
+  if (shell_integration::IsFirefoxDefaultBrowser()) {
+    DetectFirefoxProfiles(locale, &profiles);
+    DetectChromeProfiles(&profiles);
+  } else {
+    DetectChromeProfiles(&profiles);
+    DetectFirefoxProfiles(locale, &profiles);
+  }
 #endif
   if (include_interactive_profiles) {
     importer::SourceProfile bookmarks_profile;

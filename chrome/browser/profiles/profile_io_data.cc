@@ -299,6 +299,9 @@ bool ProfileIOData::IsHandledProtocol(const std::string& scheme) {
 #endif
     content::kChromeUIScheme,
     content::kChromeUIUntrustedScheme,
+#if defined(BRAVE_CHROMIUM_BUILD)
+    kBraveUIScheme,
+#endif
     url::kDataScheme,
 #if defined(OS_CHROMEOS)
     content::kExternalFileScheme,

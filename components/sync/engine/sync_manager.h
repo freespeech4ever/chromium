@@ -255,6 +255,7 @@ class SyncManager {
     std::string cache_guid;
     std::string birthday;
     std::string bag_of_chips;
+    BRAVE_SYNC_MANAGER_INIT_ARGS_H
   };
 
   // The state of sync the feature. If the user turned on sync explicitly, it

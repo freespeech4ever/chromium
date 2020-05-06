@@ -34,7 +34,7 @@ class NativeExtensionBindingsSystem {
  public:
   explicit NativeExtensionBindingsSystem(
       std::unique_ptr<IPCMessageSender> ipc_message_sender);
-  ~NativeExtensionBindingsSystem();
+  virtual ~NativeExtensionBindingsSystem();
 
   // Called when a new ScriptContext is created.
   // Initializes the bindings for a newly created |context|.

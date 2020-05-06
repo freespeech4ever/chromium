@@ -288,14 +288,14 @@ const FeatureEntry::Choice kTouchTextSelectionStrategyChoices[] = {
 const FeatureEntry::Choice kTraceUploadURL[] = {
     {flags_ui::kGenericExperimentChoiceDisabled, "", ""},
     {flag_descriptions::kTraceUploadUrlChoiceOther, switches::kTraceUploadURL,
-     "https://performance-insights.appspot.com/upload?tags=flags,Other"},
+     "https://no-thanks.invalid"},
     {flag_descriptions::kTraceUploadUrlChoiceEmloading,
      switches::kTraceUploadURL,
-     "https://performance-insights.appspot.com/upload?tags=flags,emloading"},
+     "https://no-thanks.invalid"},
     {flag_descriptions::kTraceUploadUrlChoiceQa, switches::kTraceUploadURL,
-     "https://performance-insights.appspot.com/upload?tags=flags,QA"},
+     "https://no-thanks.invalid"},
     {flag_descriptions::kTraceUploadUrlChoiceTesting, switches::kTraceUploadURL,
-     "https://performance-insights.appspot.com/upload?tags=flags,TestingTeam"}};
+     "https://no-thanks.invalid"}};
 
 const FeatureEntry::Choice kPassiveListenersChoices[] = {
     {flags_ui::kGenericExperimentChoiceDefault, "", ""},
@@ -4937,6 +4937,7 @@ const FeatureEntry kFeatureEntries[] = {
     // Histograms" in tools/metrics/histograms/README.md (run the
     // AboutFlagsHistogramTest unit test to verify this process).
 
+    BRAVE_FEATURE_ENTRIES
 };
 
 class FlagsStateSingleton : public flags_ui::FlagsState::Delegate {

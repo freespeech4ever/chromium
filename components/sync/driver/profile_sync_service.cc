@@ -520,6 +520,7 @@ void ProfileSyncService::StartUpSlowEngineComponents() {
       url_loader_factory_->Clone(), network_time_update_callback_);
   params.authenticated_account_id = GetAuthenticatedAccountInfo().account_id;
   DCHECK(!params.authenticated_account_id.empty() || IsLocalSyncEnabled());
+  BRAVE_PROFILE_SYNC_SERVICE_START_UP_SLOW_ENGINE_COMPONENTS
   if (!base::FeatureList::IsEnabled(switches::kSyncE2ELatencyMeasurement)) {
     invalidation::InvalidationService* invalidator =
         sync_client_->GetInvalidationService();

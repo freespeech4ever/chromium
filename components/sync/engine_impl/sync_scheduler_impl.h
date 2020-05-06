@@ -88,6 +88,7 @@ class SyncSchedulerImpl : public SyncScheduler {
   // tests.
   void ForceShortNudgeDelayForTest();
 
+  BRAVE_SYNC_SCHEDULER_IMPL_H_
  private:
   enum JobPriority {
     // Non-canary jobs respect exponential backoff.

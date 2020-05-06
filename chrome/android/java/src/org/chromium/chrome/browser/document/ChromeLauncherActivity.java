@@ -17,7 +17,7 @@ import org.chromium.chrome.browser.vr.VrModuleProvider;
  * Dispatches incoming intents to the appropriate activity based on the current configuration and
  * Intent fired.
  */
-public class ChromeLauncherActivity extends Activity {
+public class ChromeLauncherActivity extends BraveLauncherActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         // Third-party code adds disk access to Activity.onCreate. http://crbug.com/619824

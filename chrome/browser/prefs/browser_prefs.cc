@@ -789,6 +789,7 @@ void RegisterLocalState(PrefRegistrySimple* registry) {
 #if defined(TOOLKIT_VIEWS)
   RegisterBrowserViewLocalPrefs(registry);
 #endif
+  brave::RegisterLocalStatePrefs(registry);
 
   // Obsolete. See MigrateObsoleteBrowserPrefs().
   registry->RegisterBooleanPref(kGCMChannelStatus, true);
@@ -1040,6 +1041,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry,
 #endif
 
   RegisterProfilePrefsForMigration(registry);
+  brave::RegisterProfilePrefs(registry);
 }
 
 void RegisterUserProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {

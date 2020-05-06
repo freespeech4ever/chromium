@@ -384,6 +384,7 @@ void OmniboxEditModel::AdjustTextForCopy(int sel_min,
       (*text == display_text_ || *text == url_for_editing_)) {
     *url_from_text = controller()->GetLocationBarModel()->GetURL();
     *write_url = true;
+    BRAVE_ADJUST_TEXT_FOR_COPY
 
     // If the omnibox is displaying a URL, set the hyperlink text to the URL's
     // spec. This undoes any URL elisions.

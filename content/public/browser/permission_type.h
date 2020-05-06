@@ -47,6 +47,7 @@ enum class PermissionType {
   VR = 25,
   AR = 26,
 
+  AUTOPLAY,
   // Always keep this at the end.
   NUM,
 };

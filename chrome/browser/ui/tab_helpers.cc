@@ -421,4 +421,5 @@ void TabHelpers::AttachTabHelpers(WebContents* web_contents) {
   //     See https://crbug.com/910288.
   resource_coordinator::ResourceCoordinatorTabHelper::CreateForWebContents(
       web_contents);
+  brave::AttachTabHelpers(web_contents);
 }

@@ -108,6 +108,7 @@ ExtensionAction* ExtensionActionManager::GetExtensionAction(
         ExtensionAction::ActionIconSize(),
         ExtensionAction::FallbackIcon().AsImageSkia(), nullptr));
   }
+  BRAVE_GET_EXTENSION_ACTION
 
   ExtensionAction* raw_action = action.get();
   actions_[extension.id()] = std::move(action);

@@ -359,6 +359,7 @@ bool SaveCardBubbleControllerImpl::ShouldRequestExpirationDateFromUser() const {
 }
 
 bool SaveCardBubbleControllerImpl::ShouldShowSignInPromo() const {
+  BRAVE_SHOULD_SHOW_SIGNIN_PROMO_SHORT_CIRCUIT_TO_FALSE;
   if (is_upload_save_)
     return false;
 

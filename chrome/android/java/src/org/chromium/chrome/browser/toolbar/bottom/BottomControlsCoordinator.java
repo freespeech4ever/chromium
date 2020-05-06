@@ -107,7 +107,7 @@ public class BottomControlsCoordinator {
             mTabGroupUi = TabManagementModuleProvider.getDelegate().createTabGroupUi(
                     root.findViewById(R.id.bottom_container_slot), themeColorProvider);
         } else {
-            mBottomToolbarCoordinator = new BottomToolbarCoordinator(
+            mBottomToolbarCoordinator = new BraveBottomToolbarCoordinator(
                     root.findViewById(R.id.bottom_toolbar_stub), tabProvider, homeButtonListener,
                     searchAcceleratorListener, shareButtonListenerSupplier,
                     tabSwitcherLongclickListener, themeColorProvider);
@@ -200,4 +200,5 @@ public class BottomControlsCoordinator {
         if (mTabGroupUi != null) mTabGroupUi.destroy();
         mMediator.destroy();
     }
+    public void updateBookmarkButton(boolean isBookmarked, boolean editingAllowed) {if (mBottomToolbarCoordinator != null) { mBottomToolbarCoordinator.updateBookmarkButton(isBookmarked, editingAllowed);}}
 }

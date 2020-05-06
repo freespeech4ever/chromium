@@ -61,6 +61,7 @@ jumbo_static_library("browser") {
     "//services/preferences/public/cpp",
     "//url",
   ]
+  deps += [ "//brave/components/content_settings/core/browser" ]
 
   if (is_android) {
     deps += [ "//media" ]

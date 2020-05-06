@@ -24,7 +24,7 @@ import java.util.Calendar;
  * Settings fragment that displays information about Chrome.
  */
 public class AboutChromeSettings
-        extends PreferenceFragmentCompat implements Preference.OnPreferenceClickListener {
+        extends org.chromium.chrome.browser.settings.BravePreferenceFragment implements Preference.OnPreferenceClickListener {
     private static final int TAPS_FOR_DEVELOPER_SETTINGS = 7;
 
     private static final String PREF_APPLICATION_VERSION = "application_version";

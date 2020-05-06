@@ -14,7 +14,7 @@ const base::FilePath::CharType ChromeContentClient::kNaClPluginFileName[] =
     FILE_PATH_LITERAL("internal-nacl-plugin");
 #endif
 
-#if defined(GOOGLE_CHROME_BUILD)
+#if defined(GOOGLE_CHROME_BUILD) || defined(BRAVE_CHROMIUM_BUILD)
 const char ChromeContentClient::kPDFExtensionPluginName[] = "Chrome PDF Viewer";
 const char ChromeContentClient::kPDFInternalPluginName[] = "Chrome PDF Plugin";
 #else

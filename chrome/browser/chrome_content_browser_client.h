@@ -670,6 +670,7 @@ class ChromeContentBrowserClient : public content::ContentBrowserClient {
   }
 
  private:
+  friend class BraveContentBrowserClient;
   friend class DisableWebRtcEncryptionFlagTest;
   friend class InProcessBrowserTest;
 

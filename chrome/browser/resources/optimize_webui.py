@@ -56,6 +56,8 @@ _POLYMER_PATH = os.path.join(
     '').replace('\\', '/')
 
 
+_BR_RESOURCES_PATH = os.path.join(_SRC_PATH, 'brave', 'ui', 'webui', 'resources','').replace('\\', '/')
+
 # These files are already combined and minified.
 _BASE_EXCLUDES = [
   # Common excludes for both Polymer 2 and 3.
@@ -65,6 +67,8 @@ _BASE_EXCLUDES = [
   'chrome://resources/css/text_defaults.css',
   'chrome://resources/css/text_defaults_md.css',
   'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.html',
+  'chrome://brave-resources/fonts/muli.css',
+  'chrome://brave-resources/fonts/poppins.css'
 
   # Excludes applying only to Polymer 2.
   'chrome://resources/html/polymer.html',
@@ -92,7 +96,8 @@ _URL_MAPPINGS = [
     ('chrome://resources/html/', _HTML_RESOURCES_PATH),
     ('chrome://resources/js/', _JS_RESOURCES_PATH),
     ('chrome://resources/polymer/v1_0/', _POLYMER_PATH),
-    ('chrome://resources/images/', _IMAGES_RESOURCES_PATH)
+    ('chrome://resources/images/', _IMAGES_RESOURCES_PATH),
+    ('chrome://brave-resources/', _BR_RESOURCES_PATH)
 ]
 
 

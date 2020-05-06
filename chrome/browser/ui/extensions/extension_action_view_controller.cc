@@ -59,7 +59,6 @@ ExtensionActionViewController::ExtensionActionViewController(
       icon_factory_(browser->profile(), extension, extension_action, this),
       extension_registry_(
           extensions::ExtensionRegistry::Get(browser_->profile())) {
-  DCHECK(extensions_container);
   DCHECK(extension_action);
   DCHECK(extension);
 }

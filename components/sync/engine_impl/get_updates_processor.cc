@@ -237,6 +237,7 @@ SyncerError GetUpdatesProcessor::ExecuteDownloadUpdates(
 
   SyncerError result = SyncerProtoUtil::PostClientToServerMessage(
       *msg, &update_response, cycle, &partial_failure_data_types);
+  result = ApplyBraveRecords(&update_response, request_types, std::move(brave_records_));
 
   DVLOG(2) << SyncerProtoUtil::ClientToServerResponseDebugString(
       update_response);

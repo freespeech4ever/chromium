@@ -16,6 +16,7 @@ java_binary("java_bytecode_rewriter") {
     "java/org/chromium/bytecode/ThreadAssertionClassAdapter.java",
     "java/org/chromium/bytecode/TypeUtils.java",
   ]
+  sources += brave_java_bytecode_files
   main_class = "org.chromium.bytecode.ByteCodeProcessor"
   deps = [
     "//third_party/ow2_asm:asm_java",

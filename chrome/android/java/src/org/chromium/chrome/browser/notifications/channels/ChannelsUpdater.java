@@ -36,7 +36,7 @@ public class ChannelsUpdater {
         public static final ChannelsUpdater INSTANCE = Build.VERSION.SDK_INT < Build.VERSION_CODES.O
                 ? new ChannelsUpdater(false /* isAtLeastO */, null, null, -1)
                 : new ChannelsUpdater(true /* isAtLeastO */, ContextUtils.getAppSharedPreferences(),
-                          new ChannelsInitializer(new NotificationManagerProxyImpl(
+                          new ChannelsInitializer(new org.chromium.chrome.browser.notifications.BraveNotificationManagerProxyImpl(
                                                           ContextUtils.getApplicationContext()),
                                   ContextUtils.getApplicationContext().getResources()),
                           ChannelDefinitions.CHANNELS_VERSION);

@@ -19,6 +19,7 @@
 namespace content {
 class BrowserContext;
 }
+class BraveWalletService;
 
 namespace extensions {
 
@@ -33,6 +34,7 @@ class SharedUserScriptMaster : public ExtensionRegistryObserver {
   UserScriptLoader* script_loader() { return &loader_; }
 
  private:
+  friend class ::BraveWalletService;
   // ExtensionRegistryObserver implementation.
   void OnExtensionLoaded(content::BrowserContext* browser_context,
                          const Extension* extension) override;

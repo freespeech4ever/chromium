@@ -107,6 +107,7 @@ class ThemeHelper {
       bool incognito,
       const CustomThemeSupplier* theme_supplier) const;
 
+  BRAVE_THEME_HELPER_H_
  private:
   friend class theme_service_internal::ThemeServiceTest;
 

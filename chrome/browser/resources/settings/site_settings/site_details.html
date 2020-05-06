@@ -230,6 +230,11 @@
           icon="cr:extension" id="unsandboxedPlugins"
           label="$i18n{siteSettingsUnsandboxedPlugins}">
       </site-details-permission>
+      <site-details-permission
+          category="{{ContentSettingsTypes.AUTOPLAY}}"
+          icon="cr:extension" id="autoplay"
+          label="$i18n{siteSettingsAutoplay}">
+      </site-details-permission>
 <if expr="chromeos">
       <site-details-permission
           category="{{ContentSettingsTypes.PROTECTED_CONTENT}}"

@@ -27,7 +27,7 @@ import org.chromium.chrome.browser.settings.ManagedPreferenceDelegate;
  * Autofill credit cards fragment, which allows the user to edit credit cards and control
  * payment apps.
  */
-public class AutofillPaymentMethodsFragment extends PreferenceFragmentCompat
+public class AutofillPaymentMethodsFragment extends org.chromium.chrome.browser.settings.BravePreferenceFragment
         implements PersonalDataManager.PersonalDataManagerObserver {
     private static final String PREF_PAYMENT_APPS = "payment_apps";
 

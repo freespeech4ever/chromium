@@ -51,7 +51,7 @@ import java.util.Set;
  * Settings fragment to customize Sync options (data types, encryption). Can be accessed from
  * {@link SyncAndServicesSettings}.
  */
-public class ManageSyncSettings extends PreferenceFragmentCompat
+public class ManageSyncSettings extends org.chromium.chrome.browser.settings.BravePreferenceFragment
         implements PassphraseDialogFragment.Listener, PassphraseCreationDialogFragment.Listener,
                    PassphraseTypeDialogFragment.Listener, Preference.OnPreferenceChangeListener,
                    ProfileSyncService.SyncStateChangedListener {

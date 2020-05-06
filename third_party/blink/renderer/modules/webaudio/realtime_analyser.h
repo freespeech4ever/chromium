@@ -75,6 +75,7 @@ class RealtimeAnalyser final {
   static const unsigned kMaxFFTSize;
   static const unsigned kInputBufferSize;
 
+  BRAVE_REALTIMEANALYSER_H
  private:
   // The audio thread writes the input audio here.
   AudioFloatArray input_buffer_;

@@ -252,6 +252,7 @@ const base::Feature* kFeaturesExposedToJava[] = {
 };
 
 const base::Feature* FindFeatureExposedToJava(const std::string& feature_name) {
+  BRAVE_FIND_FEATURE_EXPOSED_TO_JAVA
   for (size_t i = 0; i < base::size(kFeaturesExposedToJava); ++i) {
     if (kFeaturesExposedToJava[i]->name == feature_name)
       return kFeaturesExposedToJava[i];

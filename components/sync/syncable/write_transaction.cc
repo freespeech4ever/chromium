@@ -28,6 +28,7 @@ WriteTransaction::WriteTransaction(const base::Location& from_here,
 }
 
 WriteTransaction::~WriteTransaction() {
+  BRAVE_WRITE_TRANSACTION
   delete transaction_;
 }
 

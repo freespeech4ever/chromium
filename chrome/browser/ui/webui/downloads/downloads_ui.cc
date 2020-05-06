@@ -61,6 +61,7 @@ content::WebUIDataSource* CreateDownloadsUIHTMLSource(Profile* profile) {
   content::WebUIDataSource* source =
       content::WebUIDataSource::Create(chrome::kChromeUIDownloadsHost);
 
+  BraveCustomizeDownloadsDataSource(source);
 #if BUILDFLAG(OPTIMIZE_WEBUI)
   webui::SetupBundledWebUIDataSource(source, "downloads.js",
                                      IDR_DOWNLOADS_DOWNLOADS_ROLLUP_JS,

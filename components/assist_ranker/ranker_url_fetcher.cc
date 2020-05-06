@@ -31,6 +31,7 @@ bool RankerURLFetcher::Request(
     const GURL& url,
     RankerURLFetcher::Callback callback,
     network::mojom::URLLoaderFactory* url_loader_factory) {
+  return false; // feature disabled in Brave
   // This function is not supposed to be called if the previous operation is not
   // finished.
   if (state_ == REQUESTING) {

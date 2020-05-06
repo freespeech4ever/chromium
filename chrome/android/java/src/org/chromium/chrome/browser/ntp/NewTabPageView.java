@@ -199,6 +199,7 @@ public class NewTabPageView extends FrameLayout {
         mRecyclerView.setAdapter(newTabPageAdapter);
         mRecyclerView.getLinearLayoutManager().scrollToPosition(scrollPosition);
 
+        if (false)
         mRecyclerViewResizer = ViewResizer.createAndAttach(mRecyclerView, mUiConfig,
                 mRecyclerView.getResources().getDimensionPixelSize(
                         R.dimen.content_suggestions_card_modern_margin),

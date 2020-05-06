@@ -92,7 +92,7 @@ import java.util.List;
 /**
  * Phone specific toolbar implementation.
  */
-public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, OnClickListener,
+public class ToolbarPhone extends BraveToolbarLayout implements Invalidator.Client, OnClickListener,
                                                            NewTabPage.OnSearchBoxScrollListener,
                                                            TabCountObserver {
     /** The amount of time transitioning from one theme color to another should take in ms. */
@@ -377,9 +377,11 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
 
             setLayoutTransition(null);
 
+/*
             if (getMenuButtonWrapper() != null) {
                 getMenuButtonWrapper().setVisibility(View.VISIBLE);
             }
+*/
 
             inflateTabSwitchingResources();
 
@@ -425,10 +427,12 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
     /**
      * Set the background color of the location bar to appropriately match the theme color.
      */
-    private void updateModernLocationBarColor(int color) {
+    @Override
+    protected void updateModernLocationBarColor(int color) {
         if (mCurrentLocationBarColor == color) return;
         mCurrentLocationBarColor = color;
         mLocationBarBackground.setColorFilter(color, PorterDuff.Mode.SRC_IN);
+        super.updateModernLocationBarColor(color);
     }
 
     /**
@@ -545,6 +549,7 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
                         .notifyEvent(EventConstants.PARTNER_HOME_PAGE_BUTTON_PRESSED);
             }
         }
+        super.onClick(v);
     }
 
     @Override
@@ -711,7 +716,7 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
      * @return The right bounds of the location bar after accounting for any visible left buttons.
      */
     private int getBoundsAfterAccountingForRightButtons() {
-        return Math.max(mToolbarSidePadding, mToolbarButtonsContainer.getMeasuredWidth());
+        return Math.max(mToolbarSidePadding, super.getBoundsAfterAccountingForRightButtons(mToolbarButtonsContainer));
     }
 
     private void updateToolbarBackground(int color) {
@@ -2165,6 +2170,7 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
         } else {
             populateUrlClearFocusingAnimatorSet(animators);
         }
+        populateUrlAnimatorSet(hasFocus, URL_FOCUS_TOOLBAR_BUTTONS_DURATION_MS, URL_CLEAR_FOCUS_TABSTACK_DELAY_MS, URL_FOCUS_TOOLBAR_BUTTONS_TRANSLATION_X_DP, animators);
         mUrlFocusLayoutAnimator = new AnimatorSet();
         mUrlFocusLayoutAnimator.playTogether(animators);
 
@@ -2839,6 +2845,7 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
 
     @Override
     public void onBottomToolbarVisibilityChanged(boolean isVisible) {
+        super.onBottomToolbarVisibilityChanged(isVisible);
         mIsBottomToolbarVisible = isVisible;
 
         mToggleTabStackButton.setVisibility(isTabSwitcherOnBottom() ? GONE : VISIBLE);

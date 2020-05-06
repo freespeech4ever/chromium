@@ -132,6 +132,7 @@ SyncerError Commit::PostAndProcessResponse(
   sync_pb::ClientToServerResponse response;
   const SyncerError post_result = SyncerProtoUtil::PostClientToServerMessage(
       message_, &response, cycle, nullptr);
+  BRAVE_COMMIT_POST_AND_PROCESS_RESPONSE
   TRACE_EVENT_END0("sync", "PostCommit");
 
   // TODO(rlarocque): Use result that includes errors captured later?

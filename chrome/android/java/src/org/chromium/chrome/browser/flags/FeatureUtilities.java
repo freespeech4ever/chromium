@@ -297,7 +297,7 @@ public class FeatureUtilities {
      */
     public static boolean isBottomToolbarEnabled() {
         // TODO(crbug.com/944228): TabGroupsAndroid and ChromeDuet are incompatible for now.
-        return isEnabled(ChromeFeatureList.CHROME_DUET)
+        return BraveFeatureUtilities.isBottomToolbarEnabled()
                 && !DeviceFormFactor.isNonMultiDisplayContextOnTablet(
                         ContextUtils.getApplicationContext())
                 && (isDuetTabStripIntegrationAndroidEnabled() || !isTabGroupsAndroidEnabled());

@@ -1618,6 +1618,7 @@ void NativeThemeWin::UpdateDarkModeStatus() {
                                     &apps_use_light_theme);
     dark_mode_enabled = (apps_use_light_theme == 0);
   }
+  BRAVE_NATIVETHEMEWIN_UPDATEDARKMODESTATUS
   set_use_dark_colors(dark_mode_enabled);
   set_preferred_color_scheme(CalculatePreferredColorScheme());
   NotifyObservers();

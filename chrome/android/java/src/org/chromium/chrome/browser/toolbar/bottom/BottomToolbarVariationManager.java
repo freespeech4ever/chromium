@@ -52,6 +52,7 @@ public class BottomToolbarVariationManager {
      *         in the current variation.
      */
     public static boolean isShareButtonOnBottom() {
+        if (BraveBottomToolbarVariationManager.isBraveVariation()) return false;
         return FeatureUtilities.isBottomToolbarEnabled()
                 && !getVariation().equals(Variations.HOME_SEARCH_TAB_SWITCHER);
     }
@@ -61,6 +62,7 @@ public class BottomToolbarVariationManager {
      *         in portrait mode in the current variation.
      */
     public static boolean isNewTabButtonOnBottom() {
+        if (BraveBottomToolbarVariationManager.isBraveVariation()) return true;
         return FeatureUtilities.isBottomToolbarEnabled()
                 && getVariation().equals(Variations.NEW_TAB_SEARCH_SHARE);
     }
@@ -70,6 +72,7 @@ public class BottomToolbarVariationManager {
      *         in portrait mode in the current variation.
      */
     public static boolean isMenuButtonOnBottom() {
+        if (BraveBottomToolbarVariationManager.isBraveVariation()) return true;
         // If we don't have variations that put menu on bottom in the future,
         // then this method can be removed.
         return false;
@@ -80,6 +83,7 @@ public class BottomToolbarVariationManager {
      *         in the current variation.
      */
     public static boolean shouldBottomToolbarBeVisibleInOverviewMode() {
+        if (BraveBottomToolbarVariationManager.isBraveVariation()) return true;
         return (getVariation().equals(Variations.NEW_TAB_SEARCH_SHARE)
                        && !FeatureUtilities.isStartSurfaceEnabled())
                 || ((!FeatureUtilities.isGridTabSwitcherEnabled()
@@ -101,6 +105,7 @@ public class BottomToolbarVariationManager {
      *         of portrait mode in current variation.
      */
     public static boolean isTabSwitcherOnBottom() {
+        if (BraveBottomToolbarVariationManager.isBraveVariation()) return true;
         return FeatureUtilities.isBottomToolbarEnabled()
                 && getVariation().equals(Variations.HOME_SEARCH_TAB_SWITCHER);
     }

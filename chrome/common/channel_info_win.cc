@@ -13,7 +13,7 @@
 namespace chrome {
 
 std::string GetChannelName() {
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
+#if BUILDFLAG(GOOGLE_CHROME_BRANDING) || (defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD))
   base::string16 channel(install_static::GetChromeChannelName());
 #if defined(DCHECK_IS_CONFIGURABLE)
   // Adorn the channel when DCHECKs are baked into the build, as there will be

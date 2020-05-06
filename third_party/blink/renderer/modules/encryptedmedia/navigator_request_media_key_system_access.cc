@@ -176,6 +176,9 @@ ScriptPromise NavigatorRequestMediaKeySystemAccess::requestMediaKeySystemAccess(
   media_client->RequestMediaKeySystemAccess(
       WebEncryptedMediaRequest(initializer));
 
+  // Notify Brave about the widevine availability request.
+  MaybeOnWidevineRequest(initializer, document->GetFrame());
+
   // 7. Return promise.
   return promise;
 }

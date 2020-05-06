@@ -120,6 +120,7 @@ bool Settings::Initialize(const base::FilePath& file_path) {
   if (!OpenForWritingAndReadSettings(&settings).is_valid())
     return false;
 
+  settings.client_id.InitializeToZero();
   initialized_.set_valid();
   return true;
 }

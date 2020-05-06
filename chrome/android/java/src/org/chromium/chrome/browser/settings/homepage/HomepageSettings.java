@@ -21,7 +21,7 @@ import org.chromium.chrome.browser.settings.SettingsUtils;
 /**
  * Fragment that allows the user to configure homepage related preferences.
  */
-public class HomepageSettings extends PreferenceFragmentCompat {
+public class HomepageSettings extends org.chromium.chrome.browser.settings.BravePreferenceFragment {
     @VisibleForTesting
     public static final String PREF_HOMEPAGE_SWITCH = "homepage_switch";
     @VisibleForTesting

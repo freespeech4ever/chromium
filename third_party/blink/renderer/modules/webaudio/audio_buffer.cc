@@ -191,6 +191,7 @@ AudioBuffer::AudioBuffer(AudioBus* bus)
 }
 
 NotShared<DOMFloat32Array> AudioBuffer::getChannelData(
+    ScriptState* script_state,
     unsigned channel_index,
     ExceptionState& exception_state) {
   if (channel_index >= channels_.size()) {
@@ -202,6 +203,7 @@ NotShared<DOMFloat32Array> AudioBuffer::getChannelData(
     return NotShared<DOMFloat32Array>(nullptr);
   }
 
+  BRAVE_AUDIOBUFFER_GETCHANNELDATA
   return getChannelData(channel_index);
 }
 
@@ -212,13 +214,15 @@ NotShared<DOMFloat32Array> AudioBuffer::getChannelData(unsigned channel_index) {
   return NotShared<DOMFloat32Array>(channels_[channel_index].Get());
 }
 
-void AudioBuffer::copyFromChannel(NotShared<DOMFloat32Array> destination,
+void AudioBuffer::copyFromChannel(ScriptState* script_state,
+                                  NotShared<DOMFloat32Array> destination,
                                   int32_t channel_number,
                                   ExceptionState& exception_state) {
-  return copyFromChannel(destination, channel_number, 0, exception_state);
+  return copyFromChannel(script_state, destination, channel_number, 0, exception_state);
 }
 
-void AudioBuffer::copyFromChannel(NotShared<DOMFloat32Array> destination,
+void AudioBuffer::copyFromChannel(ScriptState* script_state,
+                                  NotShared<DOMFloat32Array> destination,
                                   int32_t channel_number,
                                   size_t buffer_offset,
                                   ExceptionState& exception_state) {
@@ -257,6 +261,7 @@ void AudioBuffer::copyFromChannel(NotShared<DOMFloat32Array> destination,
   DCHECK_LE(buffer_offset + count, data_length);
 
   memcpy(dst, src + buffer_offset, count * sizeof(*src));
+  BRAVE_AUDIOBUFFER_COPYFROMCHANNEL
 }
 
 void AudioBuffer::copyToChannel(NotShared<DOMFloat32Array> source,

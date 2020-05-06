@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!--
-Copyright 2019 The Chromium Authors. All rights reserved.
+Copyright 2019 The Brave Authors. All rights reserved.
 Use of this source code is governed by a BSD-style license that can be
 found in the LICENSE file.
 -->
 <!-- XR specific strings (included from generated_resources.grd and android_chrome_strings.grd). -->
 <!-- These strings are used in the consent flow dialog. -->
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
   <!-- XR consent dialog. -->
   <message name="IDS_XR_CONSENT_DIALOG_TITLE" desc="Title of the user consent dialog displayed before allowing a website to start a VR presentation">

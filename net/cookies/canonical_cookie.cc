@@ -248,6 +248,7 @@ Time CanonicalCookie::CanonExpiration(const ParsedCookie& pc,
 
 // static
 std::unique_ptr<CanonicalCookie> CanonicalCookie::Create(
+    BRAVE_CANONICALCOOKIE_CREATE_EXTRA_PARAMS
     const GURL& url,
     const std::string& cookie_line,
     const base::Time& creation_time,
@@ -288,8 +289,7 @@ std::unique_ptr<CanonicalCookie> CanonicalCookie::Create(
     cookie_server_time = server_time.value();
 
   DCHECK(!creation_time.is_null());
-  Time cookie_expires = CanonicalCookie::CanonExpiration(
-      parsed_cookie, creation_time, cookie_server_time);
+  BRAVE_CANONICALCOOKIE_CREATE_BRAVECANONEXPIRATION
 
   CookiePrefix prefix = GetCookiePrefix(parsed_cookie.Name());
   bool is_cookie_prefix_valid = IsCookiePrefixValid(prefix, url, parsed_cookie);

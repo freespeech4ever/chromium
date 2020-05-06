@@ -73,7 +73,7 @@ import java.util.Set;
  * the websites with microphone permissions. When the user selects a site, SingleWebsiteSettings
  * is launched to allow the user to see or modify the settings for that particular website.
  */
-public class SingleCategorySettings extends PreferenceFragmentCompat
+public class SingleCategorySettings extends org.chromium.chrome.browser.settings.BravePreferenceFragment
         implements Preference.OnPreferenceChangeListener, Preference.OnPreferenceClickListener,
                    AddExceptionPreference.SiteAddedCallback, View.OnClickListener,
                    PreferenceManager.OnPreferenceTreeClickListener {
@@ -401,7 +401,7 @@ public class SingleCategorySettings extends PreferenceFragmentCompat
             if (queryHasChanged) getInfoForOrigins();
             return true;
         }
-        return false;
+        return super.onOptionsItemSelected(item);
     }
 
     @Override

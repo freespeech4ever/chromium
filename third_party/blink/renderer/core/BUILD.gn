@@ -143,6 +143,7 @@ component("core") {
 
   visibility = []  # Allow re-assignment of list.
   visibility = [ "//third_party/blink/*" ]
+  visibility += brave_blink_renderer_core_visibility
 
   # If you create a new subdirectory, make a new BUILD file for that directory
   # and reference it in the deps below rather than adding the sources here.
@@ -214,6 +215,7 @@ component("core") {
     "//url",
     "//v8",
   ]
+  public_deps += brave_blink_renderer_core_public_deps
   deps = [
     "//third_party/blink/public/common",
     "//third_party/blink/renderer/platform",

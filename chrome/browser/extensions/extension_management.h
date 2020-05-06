@@ -185,6 +185,7 @@ class ExtensionManagement : public KeyedService {
   bool is_child() const { return is_child_; }
 
  private:
+  friend class BraveExtensionManagement;
   using SettingsIdMap =
       std::unordered_map<ExtensionId,
                          std::unique_ptr<internal::IndividualSettings>>;

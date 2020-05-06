@@ -15,6 +15,7 @@
 #include "base/metrics/user_metrics.h"
 #include "base/stl_util.h"
 #include "base/strings/utf_string_conversions.h"
+#include "brave/browser/ui/content_settings/brave_content_setting_bubble_model.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/content_settings/chrome_content_settings_utils.h"
 #include "chrome/browser/content_settings/cookie_settings_factory.h"
@@ -1693,7 +1694,7 @@ ContentSettingBubbleModel::CreateContentSettingBubbleModel(
         delegate, web_contents, content_type);
   }
   if (content_type == ContentSettingsType::PLUGINS) {
-    return std::make_unique<ContentSettingPluginBubbleModel>(delegate,
+    return std::make_unique<BraveContentSettingPluginBubbleModel>(delegate,
                                                              web_contents);
   }
   if (content_type == ContentSettingsType::MIXEDSCRIPT) {

@@ -11,6 +11,13 @@ cr.define('settings', function() {
     // Triggers a browser relaunch.
     relaunch() {}
 
+    // <if expr="is_macosx">
+    // Use separate api for relaunch after update on Mac.
+    // Chromium's relaunch api isn't compatible with sparkle framework.
+    // So, sparkle framework's relaunch api is used on Mac.
+    relaunchOnMac() {}
+    // </if>
+
     // <if expr="chromeos">
     // First signs out current user and then performs a restart.
     signOutAndRestart() {}
@@ -38,6 +45,13 @@ cr.define('settings', function() {
     relaunch() {
       chrome.send('relaunch');
     }
+
+    // <if expr="is_macosx">
+    /** @override */
+    relaunchOnMac() {
+      chrome.send('relaunchOnMac');
+    }
+    // </if>
 
     // <if expr="chromeos">
     /** @override */

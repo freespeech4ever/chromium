@@ -242,6 +242,7 @@ class ChromeContentRendererClient
 #endif
 
  private:
+  friend class BraveContentRendererClient;
   FRIEND_TEST_ALL_PREFIXES(ChromeContentRendererClientTest, NaClRestriction);
   FRIEND_TEST_ALL_PREFIXES(ChromeContentRendererClientTest,
                            ShouldSuppressErrorPage);

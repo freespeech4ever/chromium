@@ -36,7 +36,7 @@ import java.util.Locale;
  * Shows a particular chosen object (e.g. a USB device) and the list of sites that have been
  * granted access to it by the user.
  */
-public class ChosenObjectSettings extends PreferenceFragmentCompat {
+public class ChosenObjectSettings extends org.chromium.chrome.browser.settings.BravePreferenceFragment {
     public static final String EXTRA_OBJECT_INFOS = "org.chromium.chrome.preferences.object_infos";
     public static final String EXTRA_SITES = "org.chromium.chrome.preferences.site_set";
     public static final String EXTRA_CATEGORY =
@@ -134,7 +134,7 @@ public class ChosenObjectSettings extends PreferenceFragmentCompat {
                     getString(R.string.help_context_settings), Profile.getLastUsedProfile(), null);
             return true;
         }
-        return false;
+        return super.onOptionsItemSelected(item);
     }
 
     @Override

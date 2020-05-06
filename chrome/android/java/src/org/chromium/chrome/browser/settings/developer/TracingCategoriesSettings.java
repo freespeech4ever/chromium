@@ -26,7 +26,7 @@ import java.util.Set;
  * passed to the fragment via an extra (EXTRA_CATEGORY_TYPE).
  */
 public class TracingCategoriesSettings
-        extends PreferenceFragmentCompat implements Preference.OnPreferenceChangeListener {
+        extends org.chromium.chrome.browser.settings.BravePreferenceFragment implements Preference.OnPreferenceChangeListener {
     public static final String EXTRA_CATEGORY_TYPE = "type";
 
     // Non-translated strings:

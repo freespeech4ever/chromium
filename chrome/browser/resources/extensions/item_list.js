@@ -13,6 +13,7 @@ import {IronA11yAnnouncer} from 'chrome://resources/polymer/v3_0/iron-a11y-annou
 import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {ItemDelegate} from './item.js';
+import './brave_item_list_more_items.js'
 
 Polymer({
   is: 'extensions-item-list',

@@ -354,7 +354,7 @@ std::unique_ptr<Profile> Profile::CreateProfile(const base::FilePath& path,
     NOTREACHED();
   }
 
-  std::unique_ptr<Profile> profile = base::WrapUnique(new ProfileImpl(
+  std::unique_ptr<Profile> profile = base::WrapUnique(new BraveProfileImpl(
       path, delegate, create_mode, creation_time, io_task_runner));
 #if BUILDFLAG(ENABLE_SUPERVISED_USERS) && !defined(OS_ANDROID) && \
     !defined(OS_CHROMEOS)

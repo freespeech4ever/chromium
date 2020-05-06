@@ -260,6 +260,7 @@ class BrowserActionsContainer : public views::View,
   static views::FlexRule GetFlexRule();
 
  protected:
+  friend class BraveToolbarView;
   // Overridden from views::View:
   void ViewHierarchyChanged(
       const views::ViewHierarchyChangedDetails& details) override;

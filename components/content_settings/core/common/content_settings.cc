@@ -164,6 +164,7 @@ bool RendererContentSettingRules::IsRendererContentSetting(
          content_type == ContentSettingsType::JAVASCRIPT ||
          content_type == ContentSettingsType::CLIENT_HINTS ||
          content_type == ContentSettingsType::POPUPS ||
+         BRAVE_IS_RENDERER_CONTENT_SETTING
          content_type == ContentSettingsType::MIXEDSCRIPT;
 }
 

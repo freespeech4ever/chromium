@@ -1003,6 +1003,7 @@ base::Optional<base::Value> SandboxedUnpacker::RewriteManifestFile(
   DCHECK(!public_key_.empty());
   base::Value final_manifest = manifest.Clone();
   final_manifest.SetStringKey(manifest_keys::kPublicKey, public_key_);
+  BRAVE_SANDBOXEDUNPACKER_REWRITEMANIFESTFILE
 
   {
     std::string differential_fingerprint;

@@ -78,6 +78,7 @@ ThemeServiceFactory::~ThemeServiceFactory() {}
 
 KeyedService* ThemeServiceFactory::BuildServiceInstanceFor(
     content::BrowserContext* profile) const {
+  BRAVE_THEMESERVICEFACTORY_BUILDSERVICEINSTANCEFOR
 #if defined(OS_LINUX) && !defined(OS_CHROMEOS)
   using ThemeService = ThemeServiceAuraLinux;
 #endif

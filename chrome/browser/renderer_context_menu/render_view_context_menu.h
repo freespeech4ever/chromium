@@ -116,6 +116,7 @@ class RenderViewContextMenu : public RenderViewContextMenuBase {
   // Returns true if keyboard lock is active and requires the user to press and
   // hold escape to exit exclusive access mode.
   bool IsPressAndHoldEscRequiredToExitFullscreen() const;
+  BRAVE_RENDER_VIEW_CONTEXT_MENU_H_
 
  private:
   friend class RenderViewContextMenuTest;

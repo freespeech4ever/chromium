@@ -38,6 +38,7 @@ class ProfileMenuView : public ProfileMenuViewBase {
   void BuildMenu() override;
 
  private:
+  BRAVE_PROFILE_MENU_VIEW_H
   friend class ProfileMenuViewExtensionsTest;
 
   // views::BubbleDialogDelegateView:

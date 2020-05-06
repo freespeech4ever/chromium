@@ -26,7 +26,7 @@ import java.util.Map;
 /**
  * Preference fragment to allow users to control use of the Android payment apps on device.
  */
-public class AndroidPaymentAppsFragment extends PreferenceFragmentCompat {
+public class AndroidPaymentAppsFragment extends org.chromium.chrome.browser.settings.BravePreferenceFragment {
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         getActivity().setTitle(R.string.payment_apps_title);

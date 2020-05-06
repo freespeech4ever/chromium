@@ -223,6 +223,7 @@ void AvatarToolbarButton::OnHighlightChanged() {
 }
 
 base::string16 AvatarToolbarButton::GetAvatarTooltipText() const {
+  GET_AVATAR_TOOLTIP_TEXT_
   switch (delegate_->GetState()) {
     case State::kIncognitoProfile:
       return l10n_util::GetStringUTF16(IDS_AVATAR_BUTTON_INCOGNITO_TOOLTIP);

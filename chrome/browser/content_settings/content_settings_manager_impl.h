@@ -38,6 +38,7 @@ class ContentSettingsManagerImpl : public mojom::ContentSettingsManager {
   void OnContentBlocked(int32_t render_frame_id,
                         ContentSettingsType type) override;
 
+  CONTENT_SETTINGS_MANAGER_IMPL_H_
  private:
   explicit ContentSettingsManagerImpl(
       content::RenderProcessHost* render_process_host);

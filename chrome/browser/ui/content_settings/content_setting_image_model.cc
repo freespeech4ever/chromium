@@ -11,6 +11,7 @@
 #include "base/macros.h"
 #include "base/metrics/field_trial_params.h"
 #include "base/metrics/histogram_macros.h"
+#include "brave/browser/ui/content_settings/brave_content_setting_image_models.h"
 #include "build/build_config.h"
 #include "chrome/app/vector_icons/vector_icons.h"
 #include "chrome/browser/browser_process.h"
@@ -968,6 +969,9 @@ ContentSettingImageModel::GenerateContentSettingImageModels() {
   std::vector<std::unique_ptr<ContentSettingImageModel>> result;
   for (auto type : kContentSettingImageOrder)
     result.push_back(CreateForContentType(type));
+#if defined(BRAVE_CHROMIUM_BUILD)
+  BraveGenerateContentSettingImageModels(result);
+#endif
 
   return result;
 }

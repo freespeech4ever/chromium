@@ -102,5 +102,5 @@ ChromeBrowsingDataRemoverDelegateFactory::GetBrowserContextToUse(
 
 KeyedService* ChromeBrowsingDataRemoverDelegateFactory::BuildServiceInstanceFor(
     content::BrowserContext* context) const {
-  return new ChromeBrowsingDataRemoverDelegate(context);
+  return new BraveBrowsingDataRemoverDelegate(context);
 }

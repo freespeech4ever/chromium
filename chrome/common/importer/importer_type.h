@@ -19,6 +19,8 @@ enum ImporterType {
   TYPE_IE              = 0,
 #endif
   // Value 1 was the (now deleted) Firefox 2 profile importer.
+  // We use it for the Chrome profile importer now.
+  TYPE_CHROME		   = 1,
   TYPE_FIREFOX         = 2,
 #if defined(OS_MACOSX)
   TYPE_SAFARI          = 3,

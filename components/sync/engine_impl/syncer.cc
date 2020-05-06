@@ -109,6 +109,7 @@ bool Syncer::DownloadAndApplyUpdates(ModelTypeSet* request_types,
       Difference(*request_types, requested_commit_only_types);
   GetUpdatesProcessor get_updates_processor(
       cycle->context()->model_type_registry()->update_handler_map(), delegate);
+  get_updates_processor.AddBraveRecords(std::move(brave_records_));
   SyncerError download_result;
   do {
     download_result =

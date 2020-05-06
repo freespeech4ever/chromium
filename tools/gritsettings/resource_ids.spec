@@ -47,6 +47,9 @@
   "chrome/app/chromium_strings.grd": {
     "messages": [400],
   },
+  "chrome/app/brave_strings.grd": {
+    "messages": [400],
+  },
   "chrome/app/google_chrome_strings.grd": {
     "messages": [400],
   },
@@ -313,6 +316,9 @@
   "components/components_chromium_strings.grd": {
     # Big alignment at start of section.
     "META": {"align": 100},
+    "messages": [2700],
+  },
+  "components/components_brave_strings.grd": {
     "messages": [2700],
   },
   "components/components_google_chrome_strings.grd": {

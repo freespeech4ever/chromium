@@ -202,6 +202,7 @@ class APIKeyCache {
 #if defined(OS_IOS)
   void set_api_key(const std::string& api_key) { api_key_ = api_key; }
 #endif
+  void set_api_key_for_testing(const std::string& api_key) { api_key_ = api_key; }
   std::string api_key_non_stable() const { return api_key_non_stable_; }
   std::string api_key_remoting() const { return api_key_remoting_; }
   std::string api_key_sharing() const { return api_key_sharing_; }

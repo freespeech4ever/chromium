@@ -1545,6 +1545,7 @@ ImageData* BaseRenderingContext2D::createImageData(
 }
 
 ImageData* BaseRenderingContext2D::getImageData(
+    ScriptState* script_state,
     int sx,
     int sy,
     int sw,
@@ -1624,6 +1625,7 @@ ImageData* BaseRenderingContext2D::getImageData(
     return nullptr;
   }
 
+  BRAVE_GET_IMAGE_DATA
   bool may_have_stray_area =
       IsAccelerated()  // GPU readback may fail silently.
       || StaticBitmapImage::MayHaveStrayArea(snapshot, image_data_rect);

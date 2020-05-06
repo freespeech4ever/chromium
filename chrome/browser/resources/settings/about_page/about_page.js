@@ -173,7 +173,14 @@ Polymer({
 
   /** @private */
   onRelaunchTap_() {
+    // <if expr="is_macosx">
+    // Sparkle framework's relaunch api is used.
+    this.lifetimeBrowserProxy_.relaunchOnMac();
+    // </if>
+
+    // <if expr="not is_macosx">
     this.lifetimeBrowserProxy_.relaunch();
+    // </if>
   },
 
   // <if expr="not chromeos">

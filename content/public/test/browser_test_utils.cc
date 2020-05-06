@@ -1887,6 +1887,7 @@ bool SetCookie(BrowserContext* browser_context,
       ->GetNetworkContext()
       ->GetCookieManager(cookie_manager.BindNewPipeAndPassReceiver());
   std::unique_ptr<net::CanonicalCookie> cc(net::CanonicalCookie::Create(
+      BRAVE_SETCOOKIE
       url, value, base::Time::Now(), base::nullopt /* server_time */));
   DCHECK(cc.get());
 

@@ -141,6 +141,7 @@ NotificationDisplayServiceImpl::NotificationDisplayServiceImpl(Profile* profile)
     AddNotificationHandler(NotificationHandler::Type::ANNOUNCEMENT,
                            std::make_unique<AnnouncementNotificationHandler>());
 #endif
+    BRAVE_ADD_BRAVE_ADS_NOTIFICATION_HANDLER;
   }
 
   // Initialize the bridge if native notifications are available, otherwise

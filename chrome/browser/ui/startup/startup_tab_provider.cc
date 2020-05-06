@@ -143,7 +143,11 @@ StartupTabs StartupTabProviderImpl::GetExtensionCheckupTabs(
 bool StartupTabProviderImpl::CanShowWelcome(bool is_signin_allowed,
                                             bool is_supervised_user,
                                             bool is_force_signin_enabled) {
+#if defined(BRAVE_CHROMIUM_BUILD)
+  return true;
+#else
   return is_signin_allowed && !is_supervised_user && !is_force_signin_enabled;
+#endif
 }
 
 // static

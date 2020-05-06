@@ -67,7 +67,7 @@ public class NotificationBuilderFactory {
         }
 
         NotificationManagerProxyImpl notificationManagerProxy =
-                new NotificationManagerProxyImpl(context);
+                new BraveNotificationManagerProxyImpl(context);
 
         ChannelsInitializer channelsInitializer =
                 new ChannelsInitializer(notificationManagerProxy, context.getResources());

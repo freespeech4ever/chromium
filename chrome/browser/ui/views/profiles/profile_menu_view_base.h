@@ -141,6 +141,7 @@ class ProfileMenuViewBase : public content::WebContentsDelegate,
 
   views::Button* anchor_button() const { return anchor_button_; }
 
+  BRAVE_PROFILE_MENU_VIEW_BASE_H_
  private:
   friend class ProfileMenuViewExtensionsTest;
 

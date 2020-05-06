@@ -157,6 +157,7 @@ class OnDemandUpdater {
   enum class Priority { BACKGROUND = 0, FOREGROUND = 1 };
 
   virtual ~OnDemandUpdater() {}
+  BRAVE_COMPONENT_UPDATER_SERVICE_H_
 
  private:
   friend class OnDemandTester;

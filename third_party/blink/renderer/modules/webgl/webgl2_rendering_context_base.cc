@@ -9,6 +9,7 @@
 #include "base/numerics/checked_math.h"
 #include "base/numerics/safe_conversions.h"
 #include "base/stl_util.h"
+#include "brave/renderer/brave_content_settings_agent_impl_helper.h"
 #include "gpu/command_buffer/client/gles2_interface.h"
 #include "third_party/blink/public/platform/web_graphics_context_3d_provider.h"
 #include "third_party/blink/renderer/bindings/modules/v8/webgl_any.h"
@@ -5108,6 +5109,8 @@ ScriptValue WebGL2RenderingContextBase::getParameter(ScriptState* script_state,
                                                      GLenum pname) {
   if (isContextLost())
     return ScriptValue::CreateNull(script_state->GetIsolate());
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
+    return ScriptValue::CreateNull(script_state->GetIsolate());
   switch (pname) {
     case GL_SHADING_LANGUAGE_VERSION: {
       return WebGLAny(
@@ -5649,6 +5652,8 @@ ScriptValue WebGL2RenderingContextBase::getFramebufferAttachmentParameter(
   if (isContextLost() || !ValidateGetFramebufferAttachmentParameterFunc(
                              kFunctionName, target, attachment))
     return ScriptValue::CreateNull(script_state->GetIsolate());
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
+    return ScriptValue::CreateNull(script_state->GetIsolate());
 
   WebGLFramebuffer* framebuffer_binding = GetFramebufferBinding(target);
   DCHECK(!framebuffer_binding || framebuffer_binding->Object());
@@ -5860,6 +5865,8 @@ ScriptValue WebGL2RenderingContextBase::getTexParameter(
     GLenum target,
     GLenum pname) {
   if (isContextLost() || !ValidateTextureBinding("getTexParameter", target))
+    return ScriptValue::CreateNull(script_state->GetIsolate());
+  if (canvas() && !AllowFingerprinting(canvas()->GetDocument().GetFrame()))
     return ScriptValue::CreateNull(script_state->GetIsolate());
 
   switch (pname) {

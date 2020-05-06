@@ -61,6 +61,7 @@ PermissionToSchedulingFeature(PermissionType permission_name) {
     case PermissionType::SENSORS:
     case PermissionType::AR:
     case PermissionType::VR:
+    BRAVE_PERMISSION_TYPES
       return base::nullopt;
   }
 }

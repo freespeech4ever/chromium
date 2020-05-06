@@ -44,6 +44,7 @@ bool DoesViewHaveAccessibleNameOrLabelError(ui::AXNodeData* data) {
   // 2) Explicitly setting the name to "" is allowed if the view uses
   // AXNodedata.SetNameExplicitlyEmpty().
 
+  data->SetNameExplicitlyEmpty();
   // It has a name, we're done.
   if (!data->GetStringAttribute(StringAttribute::kName).empty())
     return false;

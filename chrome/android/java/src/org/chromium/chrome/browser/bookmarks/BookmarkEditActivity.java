@@ -140,6 +140,7 @@ public class BookmarkEditActivity extends SynchronousInitializationActivity {
                     mModel.getBookmarkById(mBookmarkId).getUrl();
             final String title = mTitleEditText.getTrimmedText();
             final String url = mUrlEditText.getTrimmedText();
+            final String originalTitle = mModel.getBookmarkById(mBookmarkId).getTitle(); boolean sendToSyncWorker = !mTitleEditText.isEmpty() && !title.equals(originalTitle);
 
             if (!mTitleEditText.isEmpty()) {
                 mModel.setBookmarkTitle(mBookmarkId, title);
@@ -150,8 +151,10 @@ public class BookmarkEditActivity extends SynchronousInitializationActivity {
                 String fixedUrl = UrlFormatter.fixupUrl(url);
                 if (fixedUrl != null && !fixedUrl.equals(originalUrl)) {
                     mModel.setBookmarkUrl(mBookmarkId, fixedUrl);
+                    sendToSyncWorker = true;
                 }
             }
+            if (sendToSyncWorker) BraveBookmarkWorker.CreateUpdateBookmark(false, mModel.getBookmarkById(mBookmarkId));
         }
 
         super.onStop();

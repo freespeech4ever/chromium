@@ -6,6 +6,7 @@
 
 #include <utility>
 
+#include "brave/renderer/brave_content_settings_agent_impl_helper.h"
 #include "mojo/public/cpp/bindings/remote.h"
 #include "third_party/blink/public/common/browser_interface_broker_proxy.h"
 #include "third_party/blink/public/platform/task_type.h"
@@ -73,6 +74,9 @@ ScriptPromise MediaDevices::enumerateDevices(ScriptState* script_state,
     exception_state.ThrowDOMException(DOMExceptionCode::kNotSupportedError,
                                       "Current frame is detached.");
     return ScriptPromise();
+  }
+  if (!AllowFingerprinting(frame)) {
+    return ScriptPromise::CastUndefined(script_state);
   }
 
   auto* resolver = MakeGarbageCollected<ScriptPromiseResolver>(script_state);

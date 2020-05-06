@@ -171,6 +171,7 @@ Polymer({
                                    settings.ContentSetting.BLOCK);
         break;
       case settings.ContentSettingsTypes.AUTOMATIC_DOWNLOADS:
+      case settings.ContentSettingsTypes.AUTOPLAY:
       case settings.ContentSettingsTypes.CAMERA:
       case settings.ContentSettingsTypes.CLIPBOARD:
       case settings.ContentSettingsTypes.GEOLOCATION:

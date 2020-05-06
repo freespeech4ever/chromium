@@ -117,6 +117,7 @@ class ContentSettingsAgentImpl
       mojo::Remote<chrome::mojom::ContentSettingsManager>* manager);
 
  private:
+  friend class BraveContentSettingsAgentImpl;
   FRIEND_TEST_ALL_PREFIXES(ContentSettingsAgentImplTest, WhitelistedSchemes);
   FRIEND_TEST_ALL_PREFIXES(ContentSettingsAgentImplBrowserTest,
                            ContentSettingsInterstitialPages);

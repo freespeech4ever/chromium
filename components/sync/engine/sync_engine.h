@@ -79,6 +79,7 @@ class SyncEngine : public ModelTypeConfigurer {
 
     // Define the polling interval. Must not be zero.
     base::TimeDelta poll_interval;
+    BRAVE_SYNC_ENGINE_INIT_PARAMS_H
 
    private:
     DISALLOW_COPY_AND_ASSIGN(InitParams);

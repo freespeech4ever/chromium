@@ -448,7 +448,7 @@ export const CommandManager = Polymer({
         chrome.bookmarks.export();
         break;
       case Command.HELP_CENTER:
-        window.open('https://support.google.com/chrome/?p=bookmarks');
+        window.open('https://community.brave.com');
         break;
       default:
         assert(false);

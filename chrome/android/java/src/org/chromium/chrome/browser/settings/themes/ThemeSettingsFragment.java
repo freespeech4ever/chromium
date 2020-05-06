@@ -23,7 +23,7 @@ import org.chromium.ui.UiUtils;
 /**
  * Fragment to manage the theme user settings.
  */
-public class ThemeSettingsFragment extends PreferenceFragmentCompat {
+public class ThemeSettingsFragment extends org.chromium.chrome.browser.settings.BravePreferenceFragment {
     static final String PREF_UI_THEME_PREF = "ui_theme_pref";
 
     @Override

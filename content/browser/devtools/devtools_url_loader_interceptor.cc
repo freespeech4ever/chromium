@@ -1073,6 +1073,7 @@ void InterceptionJob::ProcessSetCookies(const net::HttpResponseHeaders& headers,
   size_t iter = 0;
   while (headers.EnumerateHeader(&iter, name, &cookie_line)) {
     std::unique_ptr<net::CanonicalCookie> cookie = net::CanonicalCookie::Create(
+      BRAVE_PROCESSSETCOOKIES
         create_loader_params_->request.url, cookie_line, now, server_time);
     if (cookie)
       cookies.emplace_back(std::move(cookie));

@@ -52,7 +52,7 @@ if (is_android) {
 }
 
 grit("components_chromium_strings") {
-  source = "../components_chromium_strings.grd"
+  source = "../components_${branding_path_component}_strings.grd"
   outputs = [ "grit/components_chromium_strings.h" ]
   foreach(locale, locales_with_fake_bidi) {
     outputs += [ "components_chromium_strings_$locale.pak" ]

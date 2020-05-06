@@ -30,7 +30,7 @@ import org.chromium.chrome.browser.settings.ManagedPreferenceDelegate;
 /**
  * Autofill profiles fragment, which allows the user to edit autofill profiles.
  */
-public class AutofillProfilesFragment extends PreferenceFragmentCompat
+public class AutofillProfilesFragment extends org.chromium.chrome.browser.settings.BravePreferenceFragment
         implements PersonalDataManager.PersonalDataManagerObserver {
     private static EditorObserverForTest sObserverForTest;
     static final String PREF_NEW_PROFILE = "new_profile";

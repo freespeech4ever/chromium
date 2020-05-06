@@ -5,6 +5,7 @@
 #include "components/os_crypt/key_storage_libsecret.h"
 
 #include "base/base64.h"
+#include "base/command_line.h"
 #include "base/rand_util.h"
 #include "base/strings/string_number_conversions.h"
 #include "base/time/time.h"
@@ -16,7 +17,7 @@ namespace {
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 const char kApplicationName[] = "chrome";
 #else
-const char kApplicationName[] = "chromium";
+const char kApplicationName[] = "brave";
 #endif
 
 // Deprecated in M55 (crbug.com/639298)
@@ -94,7 +95,17 @@ std::string KeyStorageLibsecret::AddRandomPasswordInLibsecret() {
 
 std::string KeyStorageLibsecret::GetKeyImpl() {
   LibsecretAttributesBuilder attrs;
-  attrs.Append("application", kApplicationName);
+  const char* application_name;
+  base::CommandLine* command_line = base::CommandLine::ForCurrentProcess();
+  if (command_line->HasSwitch("import-chrome")) {
+    application_name = "chrome";
+  } else if (command_line->HasSwitch("import-chromium") ||
+             command_line->HasSwitch("import-brave")) {
+    application_name = "chromium";
+  } else {
+    application_name = kApplicationName;
+  }
+  attrs.Append("application", application_name);
 
   LibsecretLoader::SearchHelper helper;
   helper.Search(&kKeystoreSchemaV2, attrs.Get(),

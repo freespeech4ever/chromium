@@ -338,6 +338,7 @@ int AwPermissionManager::RequestPermissions(
       case PermissionType::NFC:
       case PermissionType::VR:
       case PermissionType::AR:
+      BRAVE_PERMISSION_TYPES
         NOTIMPLEMENTED() << "RequestPermissions is not implemented for "
                          << static_cast<int>(permissions[i]);
         pending_request_raw->SetPermissionStatus(permissions[i],
@@ -542,6 +543,7 @@ void AwPermissionManager::CancelPermissionRequest(int request_id) {
       case PermissionType::NFC:
       case PermissionType::VR:
       case PermissionType::AR:
+      BRAVE_PERMISSION_TYPES
         NOTIMPLEMENTED() << "CancelPermission not implemented for "
                          << static_cast<int>(permission);
         break;

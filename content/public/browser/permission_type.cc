@@ -99,6 +99,7 @@ base::Optional<PermissionType> PermissionDescriptorToPermissionType(
       break;
     case PermissionName::NFC:
       return PermissionType::NFC;
+    BRAVE_PERMISSIONDESCRIPTORTOPERMISSIONTYPE
   }
 
   NOTREACHED();

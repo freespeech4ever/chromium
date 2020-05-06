@@ -177,7 +177,13 @@ namespace env_vars {
 // The presence of this environment variable with a value of 1 implies that
 // setup.exe should run as a system installation regardless of what is on the
 // command line.
+#if defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
+// Reflect brave branded-omaha variable name.
+// Company name(BraveSoftware) + Product name(Update).
+const char kGoogleUpdateIsMachineEnvVar[] = "BraveSoftwareUpdateIsMachine";
+#else
 const char kGoogleUpdateIsMachineEnvVar[] = "GoogleUpdateIsMachine";
+#endif
 
 }  // namespace env_vars
 
@@ -193,7 +199,11 @@ const char kGoogleUpdateIsMachineEnvVar[] = "GoogleUpdateIsMachine";
 const wchar_t kActiveSetupExe[] = L"chrmstp.exe";
 const wchar_t kChromeDll[] = L"chrome.dll";
 const wchar_t kChromeChildDll[] = L"chrome_child.dll";
+#if defined(BRAVE_CHROMIUM_BUILD)
+const wchar_t kChromeExe[] = L"brave.exe";
+#else
 const wchar_t kChromeExe[] = L"chrome.exe";
+#endif
 const wchar_t kChromeNewExe[] = L"new_chrome.exe";
 const wchar_t kChromeOldExe[] = L"old_chrome.exe";
 const wchar_t kChromeProxyExe[] = L"chrome_proxy.exe";

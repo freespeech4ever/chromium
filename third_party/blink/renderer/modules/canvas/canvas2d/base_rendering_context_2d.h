@@ -195,7 +195,7 @@ class MODULES_EXPORT BaseRenderingContext2D : public GarbageCollectedMixin,
 
   // For deferred canvases this will have the side effect of drawing recorded
   // commands in order to finalize the frame
-  ImageData* getImageData(int sx, int sy, int sw, int sh, ExceptionState&);
+  ImageData* getImageData(ScriptState*, int sx, int sy, int sw, int sh, ExceptionState&);
   void putImageData(ImageData*, int dx, int dy, ExceptionState&);
   void putImageData(ImageData*,
                     int dx,

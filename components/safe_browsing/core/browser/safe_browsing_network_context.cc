@@ -77,7 +77,7 @@ class SafeBrowsingNetworkContext::SharedURLLoaderFactory
       override {
     DCHECK(CurrentlyOnThread(ThreadID::UI));
     GetURLLoaderFactory()->CreateLoaderAndStart(
-        std::move(loader), routing_id, request_id, options, request,
+        std::move(loader), routing_id, request_id, options, network::SystemRequestHandler::GetInstance()->OnBeforeSystemRequest(request),
         std::move(client), traffic_annotation);
   }
 

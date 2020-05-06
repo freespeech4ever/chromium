@@ -62,6 +62,11 @@ class WebContentSettingsClient {
     return enabled_per_settings;
   }
 
+  // Controls whether fingerprinting is allowed for this frame.
+  virtual bool AllowFingerprinting(bool enabled_per_settings) {
+    return enabled_per_settings;
+  }
+
   // Retrieves the client hints that should be attached to the request for the
   // given URL.
   virtual void GetAllowedClientHintsFromSource(const blink::WebURL& url,
@@ -124,6 +129,7 @@ class WebContentSettingsClient {
   virtual bool ShouldAutoupgradeMixedContent() { return true; }
 
   virtual ~WebContentSettingsClient() = default;
+  BRAVE_WEB_CONTENT_SETTINGS_CLIENT_H
 };
 
 }  // namespace blink

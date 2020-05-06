@@ -71,6 +71,8 @@ export default function plugin(srcPath, genPath, rootPath, host, excludes) {
         return joinPaths(polymerSrcPath, pathFromPolymer);
       }
 
+      const resolvedByBrave = require(path.join(__dirname, '..', '..', 'brave_rollup_overrides')).braveResolveId({srcPath, genPath, rootPath, host, excludes}, source, origin, relativePath, joinPaths, combinePaths, chromeResourcesUrl, nonGeneratedFiles); if (resolvedByBrave) { return resolvedByBrave; }
+
       // Get path from ui/webui/resources
       let pathFromResources = '';
       if (source.startsWith(chromeResourcesUrl)) {

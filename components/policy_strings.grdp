@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
 
   <message name="IDS_POLICY_DM_STATUS_SUCCESS" desc="Message indicating a successful device management server call.">
@@ -205,8 +206,8 @@
   <message name="IDS_POLICY_INVALID_UPDATE_URL_ERROR" desc="The text displayed in the status column when the update URL for given extension is invalid.">
     Invalid update URL for extension with ID "<ph name="EXTENSION_ID">$1<ex>abcdefghijklmnopabcdefghijklmnop</ex></ph>".
   </message>
-  <message name="IDS_POLICY_OFF_CWS_URL_ERROR" desc="The text displayed in the status column when the update URL points to a location other than the Chrome Webstore and the machine is not enterprise managed.">
-    This computer is not detected as enterprise managed so policy can only automatically install extensions hosted on the Chrome Webstore. The Chrome Webstore update URL is "<ph name="CWS_UPDATE_URL">$1<ex>https://clients2.google.com/service/update2/crx</ex></ph>".
+  <message name="IDS_POLICY_OFF_CWS_URL_ERROR" desc="The text displayed in the status column when the update URL points to a location other than the Brave Webstore and the machine is not enterprise managed.">
+    This computer is not detected as enterprise managed so policy can only automatically install extensions hosted on the Brave Webstore. The Brave Webstore update URL is "<ph name="CWS_UPDATE_URL">$1<ex>https://clients2.google.com/service/update2/crx</ex></ph>".
   </message>
   <message name="IDS_POLICY_HOMEPAGE_LOCATION_ERROR" desc="The text displayed in the status column when the homepage URL given by the HomepageLocation policy is invalid.">
     Invalid URL. Must be a URL with a standard scheme, e.g http://example.com or https://example.com.
@@ -460,8 +461,8 @@ Additional details:
   <message name="IDS_POLICY_RISK_TAG_LOCAL_DATA_ACCESS" desc="Title of a group/tag whose policies might allow storage of user data to local drives where others might access them.">
     Local Data Access
   </message>
-  <message name="IDS_POLICY_RISK_TAG_GOOGLE_SHARING" desc="Title of a group/tag whose policies enable functionality that might share user data with trusted Google services.">
-    Sharing with Google
+  <message name="IDS_POLICY_RISK_TAG_GOOGLE_SHARING" desc="Title of a group/tag whose policies enable functionality that might share user data with trusted Brave services.">
+    Sharing with Brave
   </message>
   <message name="IDS_POLICY_SHOW_EXPANDED_STATUS" desc="Text for the link that shows the policy status. Used when the policy status is too long to be always visible.">
     Show status
@@ -496,7 +497,7 @@ Additional details:
   <message name="IDS_POLICY_IGNORED_BY_GROUP_MERGING" desc="Text explaining that a policy is ignored because another policy of the same group has a higher priority">
     This policy is ignored because another policy from the same policy group has a higher priority.
   </message>
-  <message name="IDS_POLICY_INVALID_VALUE"  desc="Text explaining that the policy value is invalid">
+  <message name="IDS_POLICY_INVALID_VALUE" desc="Text explaining that the policy value is invalid">
     Policy value is not valid.
   </message>
   <if expr="not is_macosx">

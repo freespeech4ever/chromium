@@ -62,6 +62,7 @@ content::WebUIDataSource* CreateHistoryUIHTMLSource(Profile* profile) {
   content::WebUIDataSource* source =
       content::WebUIDataSource::Create(chrome::kChromeUIHistoryHost);
 
+  BraveCustomizeHistoryDataSource(source);
   static constexpr webui::LocalizedString kStrings[] = {
       // Localized strings (alphabetical order).
       {"actionMenuDescription", IDS_HISTORY_ACTION_MENU_DESCRIPTION},

@@ -1173,6 +1173,7 @@ component("net") {
         "reporting/reporting_uploader.h",
       ]
     }
+    sources += brave_net_sources
 
     if (is_android) {
       sources += [

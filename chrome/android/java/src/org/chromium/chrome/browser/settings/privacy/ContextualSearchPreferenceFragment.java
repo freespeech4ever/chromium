@@ -19,7 +19,7 @@ import org.chromium.chrome.browser.settings.SettingsUtils;
 /**
  * Fragment to manage the Contextual Search preference and to explain to the user what it does.
  */
-public class ContextualSearchPreferenceFragment extends PreferenceFragmentCompat {
+public class ContextualSearchPreferenceFragment extends org.chromium.chrome.browser.settings.BravePreferenceFragment {
     private static final String PREF_CONTEXTUAL_SEARCH_SWITCH = "contextual_search_switch";
 
     @Override

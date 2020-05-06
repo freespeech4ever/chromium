@@ -45,6 +45,7 @@ template("optimize_webui") {
     }
 
     deps = invoker.deps
+    deps += [ "//brave/ui/webui/resources:modulize", ]
 
     # Note that we have to manually pass the sources to our script if the
     # script needs them as inputs.

@@ -156,12 +156,14 @@
           </div>
         </template> <!-- if="[[!shouldShowSyncAccountControl_()]]" -->
 
+<!--
         <cr-link-row id="sync-setup"
             label="$i18n{syncAndNonPersonalizedServices}"
             sub-label="[[getSyncAndGoogleServicesSubtext_(syncStatus)]]"
             on-click="onSyncTap_"
             role-description="$i18n{subpageArrowRoleDescription}">
         </cr-link-row>
+-->
 
 <if expr="not chromeos">
         <cr-link-row id="manage-google-account"

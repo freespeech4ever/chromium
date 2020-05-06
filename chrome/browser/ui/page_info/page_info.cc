@@ -173,6 +173,7 @@ bool ShouldShowPermission(
     HostContentSettingsMap* content_settings,
     content::WebContents* web_contents,
     TabSpecificContentSettings* tab_specific_content_settings) {
+  if (!BraveShouldShowPermission(info, web_contents)) return false;
   // Note |ContentSettingsType::ADS| will show up regardless of its default
   // value when it has been activated on the current origin.
   if (info.type == ContentSettingsType::ADS) {

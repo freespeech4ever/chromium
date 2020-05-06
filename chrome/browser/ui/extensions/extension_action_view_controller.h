@@ -15,6 +15,7 @@
 #include "extensions/browser/extension_host_observer.h"
 #include "ui/gfx/image/image.h"
 
+class BraveActionViewController;
 class Browser;
 class ExtensionAction;
 class ExtensionActionPlatformDelegate;
@@ -40,6 +41,7 @@ class ExtensionActionViewController
       public extensions::ExtensionContextMenuModel::PopupDelegate,
       public extensions::ExtensionHostObserver {
  public:
+  friend class BraveActionViewController;
   // The different options for showing a popup.
   enum PopupShowAction { SHOW_POPUP, SHOW_POPUP_AND_INSPECT };
 
@@ -114,6 +116,7 @@ class ExtensionActionViewController
   // In some cases (such as when an action is shown in a menu), a substitute
   // ToolbarActionViewController should be used for showing popups. This
   // returns the preferred controller.
+  virtual
   ExtensionActionViewController* GetPreferredPopupViewController();
 
   // Executes the extension action with |show_action|. If
@@ -129,6 +132,7 @@ class ExtensionActionViewController
   // The popup may not be shown synchronously if the extension is hidden and
   // first needs to slide itself out.
   // Returns true if a popup will be shown.
+  virtual
   bool TriggerPopupWithUrl(PopupShowAction show_action,
                            const GURL& popup_url,
                            bool grant_tab_permissions);
@@ -139,6 +143,7 @@ class ExtensionActionViewController
                  PopupShowAction show_action);
 
   // Handles cleanup after the popup closes.
+  virtual
   void OnPopupClosed();
 
   // Returns the image source for the icon.

@@ -12,6 +12,21 @@ std::wstring GetUnregisteredKeyPathForProduct(const wchar_t* product) {
   return std::wstring(L"Software\\").append(product);
 }
 
+#if defined(BRAVE_CHROMIUM_BUILD)
+std::wstring GetClientsKeyPathForApp(const wchar_t* app_guid) {
+  return std::wstring(L"Software\\BraveSoftware\\Update\\Clients\\").append(app_guid);
+}
+
+std::wstring GetClientStateKeyPathForApp(const wchar_t* app_guid) {
+  return std::wstring(L"Software\\BraveSoftware\\Update\\ClientState\\")
+      .append(app_guid);
+}
+
+std::wstring GetClientStateMediumKeyPathForApp(const wchar_t* app_guid) {
+  return std::wstring(L"Software\\BraveSoftware\\Update\\ClientStateMedium\\")
+      .append(app_guid);
+}
+#else
 std::wstring GetClientsKeyPathForApp(const wchar_t* app_guid) {
   return std::wstring(L"Software\\Google\\Update\\Clients\\").append(app_guid);
 }
@@ -25,6 +40,7 @@ std::wstring GetClientStateMediumKeyPathForApp(const wchar_t* app_guid) {
   return std::wstring(L"Software\\Google\\Update\\ClientStateMedium\\")
       .append(app_guid);
 }
+#endif
 
 }  // namespace
 

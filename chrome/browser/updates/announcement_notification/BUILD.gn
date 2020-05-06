@@ -20,6 +20,7 @@ source_set("announcement_notification") {
 
   deps = [
     "//base",
+    "//chrome/app:generated_resources",
     "//components/keyed_service/content",
     "//skia",
   ]

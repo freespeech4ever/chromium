@@ -22,7 +22,7 @@ import org.chromium.chrome.browser.settings.SettingsUtils;
  * seamlessly find and manage their languages preferences across platforms.
  */
 public class LanguageSettings
-        extends PreferenceFragmentCompat implements AddLanguageFragment.Launcher {
+        extends org.chromium.chrome.browser.settings.BravePreferenceFragment implements AddLanguageFragment.Launcher {
     private static final int REQUEST_CODE_ADD_LANGUAGES = 1;
 
     // The keys for each preference shown on the languages page.

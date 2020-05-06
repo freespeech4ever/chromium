@@ -53,6 +53,7 @@ PermissionPromptBubbleView::PermissionPromptBubbleView(
 
   for (permissions::PermissionRequest* request : delegate_->Requests())
     AddPermissionRequestLine(request);
+  AddAdditionalWidevineViewControlsIfNeeded(this, delegate_->Requests());
 
   Show();
 

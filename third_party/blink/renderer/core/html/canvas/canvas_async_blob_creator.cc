@@ -183,6 +183,7 @@ CanvasAsyncBlobCreator::CanvasAsyncBlobCreator(
   // We use pixmap to access the image pixels. Make the image unaccelerated if
   // necessary.
   image_ = image_->MakeUnaccelerated();
+  BRAVE_CANVAS_ASYNC_BLOB_CREATOR
 
   sk_sp<SkImage> skia_image = image_->PaintImageForCurrentFrame().GetSkImage();
   DCHECK(skia_image);

@@ -352,6 +352,8 @@ content::WebUIDataSource* CreateMdExtensionsSource(Profile* profile,
   }
   source->AddString(kLoadTimeClassesKey, GetLoadTimeClasses(in_dev_mode));
 
+  BraveAddExtensionsResources(source);
+
   return source;
 }
 

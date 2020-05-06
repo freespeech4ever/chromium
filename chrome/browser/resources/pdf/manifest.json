@@ -8,6 +8,7 @@
   "offline_enabled": true,
   "incognito": "split",
   "permissions": [
+    "chrome://brave-resources/",
     "chrome://resources/",
     "contentSettings",
     "metricsPrivate",
@@ -17,6 +18,6 @@
   "mime_types": [
     "application/pdf"
   ],
-  "content_security_policy": "script-src 'self' 'wasm-eval' blob: filesystem: chrome://resources; object-src * blob: externalfile: file: filesystem: data:; plugin-types application/x-google-chrome-pdf",
+  "content_security_policy": "script-src 'self' 'wasm-eval' blob: filesystem: chrome://brave-resources chrome://resources; object-src * blob: externalfile: file: filesystem: data:; plugin-types application/x-google-chrome-pdf",
   "mime_types_handler": "index.html"
 }

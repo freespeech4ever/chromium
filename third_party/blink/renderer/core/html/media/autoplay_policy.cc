@@ -306,10 +306,12 @@ bool AutoplayPolicy::IsGestureNeededForPlayback() const {
   if (!IsLockedPendingUserGesture())
     return false;
 
+  BRAVE_AUTOPLAY_POLICY_IS_GESTURE_NEEDED_FOR_PLAYBACK
   // We want to allow muted video to autoplay if the element is allowed to
   // autoplay muted.
   return !IsEligibleForAutoplayMuted();
 }
+BRAVE_AUTOPLAY_POLICY_IS_AUTOPLAY_ALLOWED_PER_SETTINGS
 
 String AutoplayPolicy::GetPlayErrorMessage() const {
   return IsUsingDocumentUserActivationRequiredPolicy()
