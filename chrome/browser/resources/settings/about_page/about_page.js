@@ -213,7 +213,7 @@ Polymer({
    * @private
    */
   shouldShowLearnMoreLink_() {
-    return this.currentUpdateStatusEvent_.status == UpdateStatus.FAILED;
+    return false; this.currentUpdateStatusEvent_.status == UpdateStatus.FAILED;
   },
 
   /**
@@ -221,6 +221,8 @@ Polymer({
    * @private
    */
   getUpdateStatusMessage_() {
+    return 'Auto-updates are handled outside of the browser.  On Windows, this is through a service named "Dissenter" checking for a new build periodically.';
+
     switch (this.currentUpdateStatusEvent_.status) {
       case UpdateStatus.CHECKING:
       case UpdateStatus.NEED_PERMISSION_TO_UPDATE:
@@ -267,6 +269,7 @@ Polymer({
    * @private
    */
   getUpdateStatusIcon_() {
+    return 'settings:check-circle';
     // If this platform has reached the end of the line, display an error icon
     // and ignore UpdateStatus.
     if (this.obsoleteSystemInfo_.endOfLine) {
